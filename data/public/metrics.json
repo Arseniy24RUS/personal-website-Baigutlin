@@ -1,0 +1,99 @@
+{
+  "scopus": {
+    "publications": 25,
+    "citations": 176,
+    "h_index": 7,
+    "id": "57211062810"
+  },
+  "wos": {
+    "publications": 26,
+    "citations": 203,
+    "h_index": 8,
+    "id": "AAN-4717-2020"
+  },
+  "risc": {
+    "publications": 59,
+    "citations": 202,
+    "h_index": 7,
+    "core_publications": 33,
+    "core_citations": 148,
+    "core_h_index": 6,
+    "author_id": "1170779",
+    "spin": "6676-3700"
+  },
+  "annual": {
+    "years": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+    ],
+    "risc_publications": [
+      9,
+      14,
+      13,
+      7,
+      8,
+      2,
+      4,
+      1
+    ],
+    "core_publications": [
+      3,
+      8,
+      3,
+      5,
+      8,
+      2,
+      2,
+      1
+    ],
+    "risc_citations": [
+      32,
+      49,
+      42,
+      38,
+      16,
+      7,
+      2,
+      1
+    ],
+    "core_citations": [
+      29,
+      44,
+      32,
+      24,
+      9,
+      0,
+      0,
+      0
+    ],
+    "h_index_risc": [
+      7,
+      7,
+      5,
+      4,
+      2,
+      1,
+      1,
+      0
+    ],
+    "h_index_core": [
+      6,
+      6,
+      4,
+      3,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "metadata": {
+    "elibrary_updated": "03.05.2025"
+  }
+}

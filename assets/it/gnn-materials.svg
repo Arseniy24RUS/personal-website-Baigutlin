@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Graph neural network materials illustration">
+  <rect width="900" height="360" fill="#f8f9fb"/>
+  <g stroke="#d8c0c0" stroke-width="5">
+    <path d="M176 180l112-76 120 64 116-96 112 100 100-62"/>
+    <path d="M176 180l132 86 100-98 128 80 100-76"/>
+    <path d="M288 104l20 162M408 168l128 80M524 72l112 100"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="176" cy="180" r="24"/><circle cx="288" cy="104" r="24"/><circle cx="408" cy="168" r="24"/>
+    <circle cx="524" cy="72" r="24"/><circle cx="636" cy="172" r="24"/><circle cx="736" cy="110" r="24"/>
+  </g>
+  <g fill="#2f6f78">
+    <circle cx="308" cy="266" r="20"/><circle cx="536" cy="248" r="20"/><circle cx="636" cy="172" r="12" fill="#fff"/>
+  </g>
+  <g fill="#5f1518" font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="96" y="312" font-size="36">GNN materials screening</text>
+  </g>
+</svg>

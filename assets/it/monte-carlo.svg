@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Monte Carlo lattice illustration">
+  <rect width="900" height="360" fill="#f7f8fa"/>
+  <g stroke="#d8c0c0" stroke-width="2">
+    <path d="M146 64v232M246 64v232M346 64v232M446 64v232M546 64v232M646 64v232M746 64v232"/>
+    <path d="M106 92h700M106 172h700M106 252h700"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="146" cy="92" r="20"/><circle cx="346" cy="92" r="20"/><circle cx="546" cy="92" r="20"/><circle cx="746" cy="92" r="20"/>
+    <circle cx="246" cy="172" r="20"/><circle cx="446" cy="172" r="20"/><circle cx="646" cy="172" r="20"/>
+    <circle cx="146" cy="252" r="20"/><circle cx="346" cy="252" r="20"/><circle cx="546" cy="252" r="20"/><circle cx="746" cy="252" r="20"/>
+  </g>
+  <g fill="#2f6f78">
+    <circle cx="246" cy="92" r="14"/><circle cx="446" cy="92" r="14"/><circle cx="646" cy="92" r="14"/>
+    <circle cx="146" cy="172" r="14"/><circle cx="346" cy="172" r="14"/><circle cx="546" cy="172" r="14"/><circle cx="746" cy="172" r="14"/>
+    <circle cx="246" cy="252" r="14"/><circle cx="446" cy="252" r="14"/><circle cx="646" cy="252" r="14"/>
+  </g>
+  <path d="M698 152l64 20-64 20M238 232l-64 20 64 20" fill="none" stroke="#5f1518" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

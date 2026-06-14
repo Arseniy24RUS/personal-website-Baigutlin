@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Thermoelectric dataset illustration">
+  <rect width="900" height="360" fill="#f7f8fa"/>
+  <defs>
+    <linearGradient id="heat" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f6f78"/><stop offset=".55" stop-color="#fff"/><stop offset="1" stop-color="#8c2222"/>
+    </linearGradient>
+  </defs>
+  <rect x="110" y="72" width="680" height="70" rx="16" fill="url(#heat)" opacity=".9"/>
+  <g stroke="#d8c0c0" stroke-width="2">
+    <path d="M140 204h620M140 254h620M140 304h620"/>
+    <path d="M210 184v132M330 184v132M450 184v132M570 184v132M690 184v132"/>
+  </g>
+  <g fill="#8c2222"><circle cx="210" cy="204" r="12"/><circle cx="330" cy="254" r="12"/><circle cx="450" cy="204" r="12"/><circle cx="570" cy="304" r="12"/><circle cx="690" cy="254" r="12"/></g>
+  <g fill="#2f6f78"><circle cx="270" cy="304" r="10"/><circle cx="390" cy="254" r="10"/><circle cx="510" cy="304" r="10"/><circle cx="630" cy="204" r="10"/></g>
+  <text x="124" y="118" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="900">CHGNet dataset</text>
+</svg>

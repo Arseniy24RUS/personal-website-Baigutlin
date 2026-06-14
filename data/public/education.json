@@ -1,0 +1,29 @@
+[
+  {
+    "years": "2020-2024",
+    "degree_ru": "Кандидат физико-математических наук",
+    "degree_en": "Candidate of Physical and Mathematical Sciences",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "details_ru": "Диссертация: «Обмено-корреляционные эффекты в сильно коррелированных сплавах Гейслера».",
+    "details_en": "Dissertation: Exchange-correlation effects in strongly correlated Heusler alloys."
+  },
+  {
+    "years": "2018-2020",
+    "degree_ru": "Магистр физики",
+    "degree_en": "Master of Physics",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "details_ru": "Средний балл 5.00/5.00; магистерская диссертация по эффектам обмена-корреляции в сильно коррелированных системах.",
+    "details_en": "GPA 5.00/5.00; master thesis on exchange-correlation effects in strongly correlated systems."
+  },
+  {
+    "years": "2014-2018",
+    "degree_ru": "Бакалавр физики",
+    "degree_en": "Bachelor of Physics",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "details_ru": "Средний балл 5.00/5.00; выпускная работа по упругим свойствам многокомпонентных сплавов Гейслера.",
+    "details_en": "GPA 5.00/5.00; bachelor thesis on elastic properties of multicomponent Heusler alloys."
+  }
+]

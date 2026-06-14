@@ -1,0 +1,114 @@
+[
+  {
+    "id": "rsf-24-12-20016",
+    "years": "2023-н.в.",
+    "years_en": "2023-present",
+    "title_ru": "РНФ 24-12-20016: AI-ориентированное открытие калорических и термоэлектрических материалов",
+    "title_en": "RSF 24-12-20016: AI-guided discovery of caloric and thermoelectric materials",
+    "logo": "assets/logos/rsf.png",
+    "logo_alt_ru": "Российский научный фонд",
+    "logo_alt_en": "Russian Science Foundation",
+    "image": "assets/projects/ai-materials.svg",
+    "role_ru": "исполнитель",
+    "role_en": "research team member",
+    "tools": [
+      "Python",
+      "PyTorch",
+      "VASP",
+      "SPR-KKR",
+      "DFT",
+      "high-throughput screening"
+    ],
+    "description_ru": "Разработка AI-моделей и высокопроизводительного DFT-скрининга для поиска новых калорических и термоэлектрических материалов, включая перспективные сплавы Гейслера с высоким магнитокалорическим эффектом.",
+    "description_en": "Development of AI models and high-throughput DFT screening workflows for discovery of caloric and thermoelectric materials, including promising Heusler alloys with enhanced magnetocaloric response.",
+    "links": [
+      {
+        "label_ru": "Карточка проекта РНФ",
+        "label_en": "RSF project card",
+        "url": "https://rscf.ru/project/24-12-20016/"
+      },
+      {
+        "label_ru": "Данные и модели на GitHub",
+        "label_en": "Data and models on GitHub",
+        "url": "https://github.com/Danil-phy-cmp-120/rsf-24-12-20016-thermoelectric-heuslers"
+      }
+    ]
+  },
+  {
+    "id": "rsf-22-12-20032",
+    "years": "2022-2024",
+    "years_en": "2022-2024",
+    "title_ru": "РНФ 22-12-20032: Сплавы Гейслера для спинтроники и термоэлектрики",
+    "title_en": "RSF 22-12-20032: Heusler alloys for spintronics and thermoelectrics",
+    "logo": "assets/logos/rsf.png",
+    "logo_alt_ru": "Российский научный фонд",
+    "logo_alt_en": "Russian Science Foundation",
+    "image": "assets/projects/heusler-spintronics.svg",
+    "role_ru": "исполнитель",
+    "role_en": "research team member",
+    "tools": [
+      "DFT",
+      "ELK",
+      "VASP",
+      "Monte Carlo",
+      "thermoelectric modelling"
+    ],
+    "description_ru": "Расчёты электронных и магнитных свойств, термоэлектрической эффективности, степени спиновой поляризации, химической и механической стабильности сплавов Гейслера.",
+    "description_en": "Calculations of electronic and magnetic properties, thermoelectric performance, spin polarization, chemical and mechanical stability of Heusler alloys.",
+    "links": [
+      {
+        "label_ru": "Карточка проекта РНФ",
+        "label_en": "RSF project card",
+        "url": "https://rscf.ru/project/22-12-20032/"
+      }
+    ]
+  },
+  {
+    "id": "minobrnauki-075-00992-21-00",
+    "years": "2022-2024",
+    "years_en": "2022-2024",
+    "title_ru": "Минобрнауки России 075-00992-21-00: атомистическое моделирование",
+    "title_en": "Ministry of Science and Higher Education 075-00992-21-00: atomistic modelling",
+    "logo": "assets/logos/minobrnauki.png",
+    "logo_alt_ru": "Министерство науки и высшего образования Российской Федерации",
+    "logo_alt_en": "Ministry of Science and Higher Education of the Russian Federation",
+    "image": "assets/projects/atomistic-modelling.svg",
+    "role_ru": "исполнитель",
+    "role_en": "research team member",
+    "tools": [
+      "Monte Carlo",
+      "DFT",
+      "atomistic modelling"
+    ],
+    "description_ru": "Моделирование фазовых переходов и термической стабильности сложных сплавов методами атомистического и первопринципного моделирования.",
+    "description_en": "Modelling of phase transitions and thermal stability of complex alloys using atomistic and first-principles methods.",
+    "links": [
+      {
+        "label_ru": "Профиль ЧелГУ",
+        "label_en": "Chelyabinsk State University",
+        "url": "https://www.csu.ru/"
+      }
+    ]
+  },
+  {
+    "id": "rsf-17-72-20022",
+    "years": "2020-2021",
+    "years_en": "2020-2021",
+    "title_ru": "РНФ 17-72-20022: исследование многофункциональных сплавов",
+    "title_en": "RSF 17-72-20022: multifunctional alloys research",
+    "logo": "assets/logos/rsf.png",
+    "logo_alt_ru": "Российский научный фонд",
+    "logo_alt_en": "Russian Science Foundation",
+    "image": "assets/projects/multifunctional-alloys.svg",
+    "role_ru": "исполнитель",
+    "role_en": "research team member",
+    "tools": [
+      "DFT",
+      "Monte Carlo",
+      "thermodynamic modelling"
+    ],
+    "description_ru": "Исследование связи структура-свойства в многофункциональных сплавах и термодинамические расчёты свойств материалов.",
+    "description_en": "Study of structure-property relationships in multifunctional alloys and thermodynamic calculations of materials properties.",
+    "links": []
+  }
+]

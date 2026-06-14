@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-label="Multifunctional alloys">
+  <rect width="960" height="420" fill="#f8f9fb"/>
+  <g transform="translate(92 48)" fill="none" stroke="#8c2222" stroke-width="5" stroke-opacity=".24">
+    <polygon points="0,72 124,0 248,72 248,216 124,288 0,216"/>
+    <polygon points="248,72 372,0 496,72 496,216 372,288 248,216"/>
+    <polygon points="496,72 620,0 744,72 744,216 620,288 496,216"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="216" cy="48" r="20"/><circle cx="340" cy="120" r="24"/><circle cx="216" cy="264" r="20"/>
+    <circle cx="464" cy="48" r="20"/><circle cx="588" cy="120" r="24"/><circle cx="464" cy="264" r="20"/>
+    <circle cx="712" cy="48" r="20"/><circle cx="836" cy="120" r="24"/><circle cx="712" cy="264" r="20"/>
+  </g>
+  <g fill="#2f6f78" opacity=".82">
+    <circle cx="92" cy="120" r="18"/><circle cx="340" cy="264" r="18"/><circle cx="588" cy="264" r="18"/><circle cx="836" cy="264" r="18"/>
+  </g>
+</svg>

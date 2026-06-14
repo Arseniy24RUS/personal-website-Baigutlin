@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-label="Atomistic modelling">
+  <rect width="960" height="420" fill="#ffffff"/>
+  <g fill="none" stroke="#8c2222" stroke-width="4" stroke-opacity=".18">
+    <path d="M120 118c128-74 246-74 354 0s226 74 354 0"/>
+    <path d="M120 210c128-74 246-74 354 0s226 74 354 0"/>
+    <path d="M120 302c128-74 246-74 354 0s226 74 354 0"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="170" cy="116" r="22"/><circle cx="300" cy="84" r="18"/><circle cx="430" cy="116" r="22"/>
+    <circle cx="560" cy="148" r="18"/><circle cx="690" cy="116" r="22"/><circle cx="820" cy="84" r="18"/>
+    <circle cx="236" cy="210" r="20"/><circle cx="366" cy="242" r="17"/><circle cx="496" cy="210" r="20"/>
+    <circle cx="626" cy="178" r="17"/><circle cx="756" cy="210" r="20"/>
+  </g>
+  <g fill="#2f6f78" opacity=".8">
+    <circle cx="170" cy="302" r="18"/><circle cx="300" cy="270" r="22"/><circle cx="430" cy="302" r="18"/>
+    <circle cx="560" cy="334" r="22"/><circle cx="690" cy="302" r="18"/><circle cx="820" cy="270" r="22"/>
+  </g>
+</svg>

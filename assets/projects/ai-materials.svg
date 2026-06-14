@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-label="AI materials lattice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7eeee"/>
+      <stop offset=".55" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e8f1f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="420" fill="url(#g)"/>
+  <g fill="none" stroke="#8c2222" stroke-opacity=".25" stroke-width="4">
+    <path d="M74 306 216 166l176 62 128-116 176 62 158-88"/>
+    <path d="M104 108 282 238l164-82 182 134 226-76"/>
+    <path d="M184 352 392 228l154 116 214-176"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="74" cy="306" r="18"/><circle cx="216" cy="166" r="22"/><circle cx="392" cy="228" r="18"/>
+    <circle cx="520" cy="112" r="20"/><circle cx="696" cy="174" r="21"/><circle cx="854" cy="86" r="18"/>
+    <circle cx="282" cy="238" r="16"/><circle cx="628" cy="290" r="17"/><circle cx="760" cy="168" r="19"/>
+  </g>
+  <g fill="#1d2026" opacity=".58">
+    <rect x="628" y="268" width="184" height="18" rx="9"/>
+    <rect x="628" y="300" width="122" height="18" rx="9"/>
+    <rect x="628" y="332" width="158" height="18" rx="9"/>
+  </g>
+</svg>

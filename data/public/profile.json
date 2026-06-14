@@ -1,0 +1,170 @@
+{
+  "name_ru": "Байгутлин Данил Расулович",
+  "name_en": "Danil Rasulovich Baigutlin",
+  "short_ru": "Байгутлин Д. Р.",
+  "short_en": "Danil R. Baigutlin",
+  "email": "d0nik1996@mail.ru",
+  "city_ru": "Челябинск, Россия",
+  "city_en": "Chelyabinsk, Russia",
+  "affiliation_ru": "Челябинский государственный университет, кафедра физики конденсированного состояния",
+  "affiliation_en": "Chelyabinsk State University, Department of Condensed Matter Physics",
+  "degree_ru": "кандидат физико-математических наук",
+  "degree_en": "Candidate of Physical and Mathematical Sciences",
+  "links": {
+    "github": "https://github.com/Danil-phy-cmp-120",
+    "orcid": "https://orcid.org/0000-0002-4130-3812",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=57211062810",
+    "wos": "https://www.webofscience.com/wos/author/record/AAN-4717-2020",
+    "elibrary": "https://www.elibrary.ru/author_profile.asp?id=1170779",
+    "researchgate": "https://www.researchgate.net/scientific-contributions/D-R-Baigutlin-2297208336",
+    "cyberleninka": "https://cyberleninka.ru/search?q=Baigutlin%20D.R.",
+    "google_scholar": "https://scholar.google.com/scholar?q=%22Danil%20Baigutlin%22",
+    "academia": "https://www.academia.edu/search?q=%22Danil%20Baigutlin%22",
+    "vk": "https://vk.com/id118103320",
+    "telegram": "https://t.me/danil_baigutlin"
+  },
+  "awards_ru": [
+    {
+      "year": "2022–2023",
+      "title": "Президентская стипендия Российской Федерации",
+      "description": "Правительство Российской Федерации. Федеральная стипендия, присуждённая за выдающиеся успехи в исследованиях по физике конденсированного состояния.",
+      "logo": "assets/logos/award-president-rf.png",
+      "logo_alt_ru": "Президент Российской Федерации",
+      "logo_alt_en": "President of the Russian Federation"
+    },
+    {
+      "year": "2022–2023",
+      "title": "Стипендия Законодательного собрания Челябинской области",
+      "description": "Правительство Челябинской области. Именная стипендия за вклад в развитие вычислительной физики и науки о материалах.",
+      "logo": "assets/logos/award-zso-chelyabinsk.png",
+      "logo_alt_ru": "Законодательное собрание Челябинской области",
+      "logo_alt_en": "Legislative Assembly of the Chelyabinsk Region"
+    },
+    {
+      "year": "2020–2022",
+      "title": "Грант Академии Финляндии №343309",
+      "description": "Университет LUT, Лаппеэнранта, Финляндия. Конкурсный грант на постдокторские исследования квантовых материалов; присуждён, не реализован, проект отменён из-за ограничений COVID-19.",
+      "logo": "assets/logos/award-lut-university.png",
+      "logo_alt_ru": "LUT University",
+      "logo_alt_en": "LUT University"
+    }
+  ],
+  "awards_en": [
+    {
+      "year": "2022–2023",
+      "title": "Presidential Scholarship of the Russian Federation",
+      "description": "Government of the Russian Federation. Federal scholarship awarded for outstanding research achievements in condensed matter physics.",
+      "logo": "assets/logos/award-president-rf.png",
+      "logo_alt_ru": "Президент Российской Федерации",
+      "logo_alt_en": "President of the Russian Federation"
+    },
+    {
+      "year": "2022–2023",
+      "title": "Scholarship of the Legislative Assembly of the Chelyabinsk Region",
+      "description": "Government of the Chelyabinsk Region. Named scholarship for contributions to computational physics and materials science.",
+      "logo": "assets/logos/award-zso-chelyabinsk.png",
+      "logo_alt_ru": "Законодательное собрание Челябинской области",
+      "logo_alt_en": "Legislative Assembly of the Chelyabinsk Region"
+    },
+    {
+      "year": "2020–2022",
+      "title": "Academy of Finland Grant No. 343309",
+      "description": "LUT University, Lappeenranta, Finland. Competitive grant for postdoctoral research on quantum materials; awarded but not implemented, the project was cancelled due to COVID-19 restrictions.",
+      "logo": "assets/logos/award-lut-university.png",
+      "logo_alt_ru": "LUT University",
+      "logo_alt_en": "LUT University"
+    }
+  ],
+  "scientific_activity_ru": [
+    {
+      "year": "2024–2025",
+      "title": "Рецензент журнала Physical Review B",
+      "description": "Рецензирование статей по теории конденсированного состояния."
+    },
+    {
+      "year": "27–31 августа 2024",
+      "title": "Учёный секретарь",
+      "description": "Всероссийская школа-семинар «От атомистики к макро»: AtoM."
+    },
+    {
+      "year": "16–20 августа 2018",
+      "title": "Технический ассистент",
+      "description": "Международная конференция Shape Memory Alloys: SMA 2018."
+    }
+  ],
+  "scientific_activity_en": [
+    {
+      "year": "2024–2025",
+      "title": "Reviewer for Physical Review B",
+      "description": "Peer review of articles on condensed matter theory."
+    },
+    {
+      "year": "27–31 August 2024",
+      "title": "Scientific secretary",
+      "description": "All-Russian school-seminar From Atomistic to Macro: AtoM."
+    },
+    {
+      "year": "16–20 August 2018",
+      "title": "Technical assistant",
+      "description": "International conference Shape Memory Alloys: SMA 2018."
+    }
+  ],
+  "expertise_ru": [
+    "теория конденсированного состояния",
+    "машинное обучение в материаловедении",
+    "сильно коррелированные системы",
+    "сплавы Гейслера",
+    "спинтроника",
+    "магнитокалорические и термоэлектрические материалы"
+  ],
+  "expertise_en": [
+    "condensed matter theory",
+    "machine learning for materials science",
+    "strongly correlated systems",
+    "Heusler alloys",
+    "spintronics",
+    "magnetocaloric and thermoelectric materials"
+  ],
+  "skills_ru": {
+    "Вычислительные и теоретические методы": [
+      "DFT: VASP, ELK, SPR-KKR, Quantum Espresso",
+      "DFT+U, модели Хаббарда, функции Грина",
+      "методы Монте-Карло",
+      "функции Ваннье и Wannier90",
+      "мета-GGA и обмено-корреляционные функционалы"
+    ],
+    "Машинное обучение и программирование": [
+      "PyTorch, scikit-learn, Random Forest, активное обучение",
+      "высокопроизводительный DFT-скрининг",
+      "Python, Bash, MPI, OpenMP",
+      "предобработка датасетов и deployment моделей на NVIDIA Jetson / TensorRT"
+    ],
+    "Научная коммуникация": [
+      "написание статей",
+      "конференционные доклады",
+      "подготовка грантовых заявок",
+      "визуализация расчётных данных"
+    ]
+  },
+  "skills_en": {
+    "Computational and theoretical methods": [
+      "DFT: VASP, ELK, SPR-KKR, Quantum Espresso",
+      "DFT+U, Hubbard models and Green functions",
+      "Monte Carlo methods",
+      "Wannier functions and Wannier90",
+      "meta-GGA and exchange-correlation functionals"
+    ],
+    "Machine learning and programming": [
+      "PyTorch, scikit-learn, Random Forest and active learning",
+      "high-throughput DFT screening",
+      "Python, Bash, MPI and OpenMP",
+      "dataset preprocessing and model deployment on NVIDIA Jetson / TensorRT"
+    ],
+    "Research communication": [
+      "scientific writing",
+      "conference presentations",
+      "grant proposal preparation",
+      "visualization of computational results"
+    ]
+  }
+}

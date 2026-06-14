@@ -1,0 +1,44 @@
+[
+  {
+    "type": "oral",
+    "year": "2024",
+    "title": "THERMAG X - 10th IIR Conference on Caloric Cooling and Applications of Caloric Materials",
+    "topic": "Machine learning and high-throughput screening algorithms for optimization of magnetocaloric effect in all-d-metal Heusler alloys",
+    "place": "Baotou, China"
+  },
+  {
+    "type": "oral",
+    "year": "2024",
+    "title": "ISAMMA - 5th International Symposium on Advanced Magnetic Materials and Applications",
+    "topic": "Machine Learning algorithms for optimization of magnetocaloric effect in all-d Heusler alloys",
+    "place": "Dong Hoi, Vietnam"
+  },
+  {
+    "type": "oral",
+    "year": "2022",
+    "title": "MSM22 - 12th International Conference on Magnetic and Superconducting Materials",
+    "topic": "Ab initio study of the 4d Heusler alloy Rh2FeZ",
+    "place": "Duisburg, Germany"
+  },
+  {
+    "type": "oral",
+    "year": "2022",
+    "title": "ESOMAT22 - 12th European Symposium on Martensitic Transformations",
+    "topic": "Martensitic transition in 4d Heusler alloys Rh2FeZ",
+    "place": "Ankara, Turkey"
+  },
+  {
+    "type": "poster",
+    "year": "2023",
+    "title": "Foresight Session - 1st Russian Conference on Computational Materials Science",
+    "topic": "Electronic structure and half-metallicity in Fe2- and Rh2-based Heusler alloys",
+    "place": "Moscow, Russia"
+  },
+  {
+    "type": "poster",
+    "year": "2022",
+    "title": "EASTMAG-2022",
+    "topic": "Half-metallic properties of the Rh2FeZ alloys",
+    "place": "Yekaterinburg, Russia"
+  }
+]

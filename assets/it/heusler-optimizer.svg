@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Evolutionary optimizer illustration">
+  <rect width="900" height="360" fill="#f8f9fb"/>
+  <g stroke="#d9b6b6" stroke-width="3">
+    <path d="M68 280C162 108 284 108 380 238S608 300 820 88"/>
+    <path d="M94 86h712M94 164h712M94 242h712"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="118" cy="250" r="18"/><circle cx="214" cy="138" r="18"/><circle cx="326" cy="178" r="18"/>
+    <circle cx="452" cy="258" r="18"/><circle cx="590" cy="244" r="18"/><circle cx="746" cy="126" r="18"/>
+  </g>
+  <g fill="#2f6f78">
+    <rect x="130" y="68" width="84" height="42" rx="8"/><rect x="344" y="90" width="84" height="42" rx="8"/>
+    <rect x="558" y="78" width="84" height="42" rx="8"/><rect x="678" y="216" width="84" height="42" rx="8"/>
+  </g>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900">
+    <text x="151" y="97">GA</text><text x="368" y="119">RF</text><text x="584" y="107">DFT</text><text x="700" y="245">ML</text>
+  </g>
+</svg>

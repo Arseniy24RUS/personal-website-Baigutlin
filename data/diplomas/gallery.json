@@ -1,0 +1,79 @@
+[
+  {
+    "title_ru": "Удостоверение кандидата физико-математических наук",
+    "title_en": "Certificate of Candidate of Physical and Mathematical Sciences",
+    "year": "2025",
+    "type_ru": "учёная степень",
+    "type_en": "academic degree",
+    "file": "content/diplomas/candidate-degree-baigutlin.pdf",
+    "thumb": "assets/diplomas/candidate-degree-baigutlin.jpg",
+    "description_ru": "Документ о присуждении учёной степени кандидата физико-математических наук по решению диссертационного совета Челябинского государственного университета.",
+    "description_en": "Certificate confirming the academic degree of Candidate of Physical and Mathematical Sciences awarded by the dissertation council of Chelyabinsk State University."
+  },
+  {
+    "title_ru": "Сертификат участника Байгутлина Д. Р.",
+    "title_en": "Participant certificate for Danil Baigutlin",
+    "year": "2023",
+    "type_ru": "сертификат / участие",
+    "type_en": "certificate / participation",
+    "file": "content/diplomas/sertifikat-baygutlin-d-r.png",
+    "thumb": "assets/diplomas/sertifikat-baygutlin-d-r.jpg",
+    "description_ru": "Сертификат участника, выданный на имя Байгутлина Д. Р.; документ включён в публичную галерею подтверждающих материалов.",
+    "description_en": "Participant certificate issued to Danil R. Baigutlin; included in the public gallery of supporting documents."
+  },
+  {
+    "title_ru": "THERMAG X: приглашение / участие",
+    "title_en": "THERMAG X invitation / participation",
+    "year": "2024",
+    "type_ru": "сертификат / участие",
+    "type_en": "certificate / participation",
+    "file": "content/diplomas/thermag-priglashenie-1.pdf",
+    "thumb": "assets/diplomas/thermag-priglashenie-1.jpg",
+    "description_ru": "Документ об участии / приглашении на THERMAG X, связанный с научной тематикой магнитных и термомагнитных материалов.",
+    "description_en": "Invitation / participation document for THERMAG X, related to magnetic and thermomagnetic materials research."
+  },
+  {
+    "title_ru": "EASTMAG-2022: сертификат участника",
+    "title_en": "EASTMAG-2022 certificate of participation",
+    "year": "2022",
+    "type_ru": "сертификат / участие",
+    "type_en": "certificate / participation",
+    "file": "content/diplomas/eastmag-2022-certificate-02-57.pdf",
+    "thumb": "assets/diplomas/eastmag-2022-certificate-02-57.jpg",
+    "description_ru": "Сертификат участника конференции EASTMAG-2022.",
+    "description_en": "Certificate of participation for EASTMAG-2022."
+  },
+  {
+    "title_ru": "Сколтех: Форсайт-сессия, участие",
+    "title_en": "Skoltech: Foresight Session participation",
+    "year": "2023",
+    "type_ru": "сертификат / участие",
+    "type_en": "certificate / participation",
+    "file": "content/diplomas/skoltech-certificate-forsayt-sessiya-uchastie-danil-baygutlin.pdf",
+    "thumb": "assets/diplomas/skoltech-certificate-forsayt-sessiya-uchastie-danil-baygutlin.jpg",
+    "description_ru": "Сертификат участия Данила Байгутлина в форсайт-сессии Сколтеха.",
+    "description_en": "Certificate confirming Danil Baigutlin's participation in a Skoltech foresight session."
+  },
+  {
+    "title_ru": "ICOMAT 2022: Certificate of Attendance",
+    "title_en": "ICOMAT 2022: Certificate of Attendance",
+    "year": "2022",
+    "type_ru": "сертификат / участие",
+    "type_en": "certificate / participation",
+    "file": "content/diplomas/icomat-2022-certificate-of-attendance-r20220125-1173-1.pdf",
+    "thumb": "assets/diplomas/icomat-2022-certificate-of-attendance-r20220125-1173-1.jpg",
+    "description_ru": "Certificate of Attendance международной конференции ICOMAT 2022.",
+    "description_en": "Certificate of Attendance for the ICOMAT 2022 international conference."
+  },
+  {
+    "title_ru": "ESOMAT: European Symposium on Martensitic Transformations",
+    "title_en": "ESOMAT: European Symposium on Martensitic Transformations",
+    "year": "2022",
+    "type_ru": "сертификат / участие",
+    "type_en": "certificate / participation",
+    "file": "content/diplomas/esomat.pdf",
+    "thumb": "assets/diplomas/esomat.jpg",
+    "description_ru": "Документ, связанный с European Symposium on Martensitic Transformations (ESOMAT).",
+    "description_en": "Document related to the European Symposium on Martensitic Transformations (ESOMAT)."
+  }
+]

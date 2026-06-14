@@ -1,0 +1,118 @@
+[
+  {
+    "name": "rsf-24-12-20016-thermoelectric-heuslers",
+    "url": "https://github.com/Danil-phy-cmp-120/rsf-24-12-20016-thermoelectric-heuslers",
+    "kind_ru": "Данные и модели для термоэлектрических double half-Heuslers",
+    "kind_en": "Data and models for thermoelectric double half-Heuslers",
+    "description_ru": "Наборы данных CHGNet, train/validation/test split, checkpoint модели, ноутбуки fine-tuning и оценки, а также данные электронного показателя добротности.",
+    "description_en": "CHGNet datasets, train/validation/test split, fine-tuned checkpoint, fine-tuning/evaluation notebooks and electronic figure-of-merit data.",
+    "image": "assets/it/thermoelectric-dataset.svg",
+    "image_alt_ru": "Тепловая шкала и точки датасета CHGNet",
+    "image_alt_en": "Thermal scale and CHGNet dataset points",
+    "tags": [
+      "CHGNet",
+      "dataset",
+      "thermoelectrics",
+      "Jupyter"
+    ],
+    "language": "Jupyter Notebook",
+    "updated_at": "2026-03-23T06:33:39Z"
+  },
+  {
+    "name": "all-d_heusler-evolutionary-optimizer",
+    "url": "https://github.com/Danil-phy-cmp-120/all-d_heusler-evolutionary-optimizer",
+    "kind_ru": "Генетический алгоритм и Random Forest для all-d-metal сплавов Гейслера",
+    "kind_en": "Genetic algorithm and Random Forest for all-d-metal Heusler alloys",
+    "description_ru": "Оптимизация конфигураций материалов с помощью GA и surrogate-моделей Random Forest, обученных на DFT-данных; код связан со статьёй в Journal of Applied Physics, 2024.",
+    "description_en": "Optimization of material configurations using a GA and Random Forest surrogate models trained on DFT data; the code is associated with a 2024 Journal of Applied Physics article.",
+    "image": "assets/it/heusler-optimizer.svg",
+    "image_alt_ru": "Оптимизационная кривая и узлы моделей GA, RF, DFT и ML",
+    "image_alt_en": "Optimization curve with GA, RF, DFT and ML model nodes",
+    "tags": [
+      "Python",
+      "Random Forest",
+      "DFT",
+      "Genetic Algorithm",
+      "Heusler"
+    ],
+    "language": "Python",
+    "updated_at": "2025-12-09T13:06:19Z"
+  },
+  {
+    "name": "Monte_Carlo",
+    "url": "https://github.com/Danil-phy-cmp-120/Monte_Carlo",
+    "kind_ru": "Python + C++ Monte Carlo framework",
+    "kind_en": "Python + C++ Monte Carlo framework",
+    "description_ru": "Гибридная среда для исследования конфигурационного пространства материалов: C++ ядро симуляции, Python-интерфейс, чтение/запись структур и сценарий запуска.",
+    "description_en": "A hybrid environment for exploring configurational space in materials: C++ simulation engine, Python interface, structure input/output and a launch script.",
+    "image": "assets/it/monte-carlo.svg",
+    "image_alt_ru": "Решётка атомов для моделирования Монте-Карло",
+    "image_alt_en": "Atomic lattice for Monte Carlo modelling",
+    "tags": [
+      "C++",
+      "Python",
+      "Monte Carlo",
+      "materials"
+    ],
+    "language": "C++",
+    "updated_at": "2025-04-09T13:28:57Z"
+  },
+  {
+    "name": "Elast",
+    "url": "https://github.com/Danil-phy-cmp-120/Elast",
+    "kind_ru": "Workflow для расчёта упругого тензора в VASP",
+    "kind_en": "VASP elastic tensor workflow",
+    "description_ru": "Генерация деформированных структур, запуск VASP-задач на кластере и парсер выходных файлов для извлечения упругих постоянных.",
+    "description_en": "Generation of strained structures, VASP cluster job submission and output parsing for extracting elastic constants.",
+    "image": "assets/it/elastic-tensor.svg",
+    "image_alt_ru": "Кристаллическая ячейка и строки упругого тензора",
+    "image_alt_en": "Crystal cell and elastic tensor rows",
+    "tags": [
+      "VASP",
+      "elasticity",
+      "Python",
+      "HPC"
+    ],
+    "language": "Python",
+    "updated_at": "2025-04-09T13:19:22Z"
+  },
+  {
+    "name": "VASP_scripts",
+    "url": "https://github.com/Danil-phy-cmp-120/VASP_scripts",
+    "kind_ru": "Коллекция Python-скриптов для VASP",
+    "kind_en": "Python scripts collection for VASP",
+    "description_ru": "Инструменты для генерации структур, анализа зонной структуры и DOS, термодинамических расчётов, магнитных моментов, BoltzTraP, Wannier90 и шаблонов SLURM/qsub.",
+    "description_en": "Tools for structure generation, band structure and DOS analysis, thermodynamic calculations, magnetic moments, BoltzTraP workflows, Wannier90 post-processing and SLURM/qsub templates.",
+    "image": "assets/it/vasp-workflows.svg",
+    "image_alt_ru": "Схема вычислительного workflow VASP и HPC",
+    "image_alt_en": "VASP and HPC workflow diagram",
+    "tags": [
+      "Python",
+      "VASP",
+      "Wannier90",
+      "BoltzTraP",
+      "SLURM"
+    ],
+    "language": "Python",
+    "updated_at": "2025-04-09T13:14:25Z"
+  },
+  {
+    "name": "double_half_heusler_optimization",
+    "url": "https://github.com/Danil-phy-cmp-120/double_half_heusler_optimization",
+    "kind_ru": "GNN для прогнозирования термоэлектрических свойств",
+    "kind_en": "GNN for thermoelectric property prediction",
+    "description_ru": "Модель графовой нейронной сети для прогнозирования свойств по кристаллическим структурам и составам; цель — ускорение поиска эффективных термоэлектриков.",
+    "description_en": "A graph neural network model for predicting properties from crystal structures and compositions, aimed at accelerating the discovery of efficient thermoelectric materials.",
+    "image": "assets/it/gnn-materials.svg",
+    "image_alt_ru": "Графовая нейронная сеть для скрининга материалов",
+    "image_alt_en": "Graph neural network for materials screening",
+    "tags": [
+      "GNN",
+      "PyTorch",
+      "CGCNN",
+      "thermoelectrics"
+    ],
+    "language": "Jupyter Notebook",
+    "updated_at": "2025-04-09T12:55:12Z"
+  }
+]

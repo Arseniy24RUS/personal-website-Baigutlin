@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arseniy24rus.github.io/personal-website-Baigutlin/sitemap.xml

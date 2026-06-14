@@ -1,0 +1,67 @@
+[
+  {
+    "years": "2025-н.в.",
+    "years_en": "2025-present",
+    "title_ru": "Программист",
+    "title_en": "Software developer",
+    "org_ru": "3DiVi Inc., Челябинск",
+    "org_en": "3DiVi Inc., Chelyabinsk",
+    "logo": "assets/logos/3divi.svg",
+    "logo_alt_ru": "3DiVi",
+    "logo_alt_en": "3DiVi",
+    "description_ru": "Разработка и оптимизация детектора на базе YOLOv11 для волонтёрского проекта Liza Alert; подготовка датасетов, TensorRT-бенчмарки и deployment на NVIDIA Jetson Orin NX.",
+    "description_en": "Development and optimization of a YOLOv11-based detector for the Liza Alert volunteer project; dataset preprocessing, TensorRT benchmarking and deployment on NVIDIA Jetson Orin NX."
+  },
+  {
+    "years": "2020-н.в.",
+    "years_en": "2020-present",
+    "title_ru": "Младший научный сотрудник, кафедра физики конденсированного состояния",
+    "title_en": "Junior Research Fellow, Department of Condensed Matter Physics",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "logo": "assets/images/chelgu-logo.jpg",
+    "logo_alt_ru": "Челябинский государственный университет",
+    "logo_alt_en": "Chelyabinsk State University",
+    "description_ru": "Первопринципное моделирование структурных, электронных и магнитных свойств сплавов Гейслера и интерметаллидов; DFT, SPR-KKR, ELK, VASP, ML-модели и генетические алгоритмы.",
+    "description_en": "First-principles modelling of structural, electronic and magnetic properties of Heusler alloys and intermetallics; DFT, SPR-KKR, ELK, VASP, ML models and genetic algorithms."
+  },
+  {
+    "years": "2017-2021",
+    "years_en": "2017-2021",
+    "title_ru": "Ассистент-исследователь / лаборант-исследователь",
+    "title_en": "Research assistant / laboratory research assistant",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "logo": "assets/images/chelgu-logo.jpg",
+    "logo_alt_ru": "Челябинский государственный университет",
+    "logo_alt_en": "Chelyabinsk State University",
+    "description_ru": "Исследовательская работа на кафедре физики конденсированного состояния, расчётные проекты по магнитным материалам и сплавам Гейслера.",
+    "description_en": "Research work at the Department of Condensed Matter Physics, computational projects on magnetic materials and Heusler alloys."
+  },
+  {
+    "years": "2024-2025",
+    "years_en": "2024-2025",
+    "title_ru": "Преподаватель физики и информатики",
+    "title_en": "Physics and computer science teacher",
+    "org_ru": "Онлайн-школа «Фоксфорд»",
+    "org_en": "Foxford online school",
+    "logo": "assets/logos/foxford.svg",
+    "logo_alt_ru": "Фоксфорд",
+    "logo_alt_en": "Foxford",
+    "description_ru": "Онлайн-занятия по вычислительным методам, физике, информатике и алгоритмическому решению задач.",
+    "description_en": "Online teaching in computational methods, physics, computer science and algorithmic problem solving."
+  },
+  {
+    "years": "2020-2025",
+    "years_en": "2020-2025",
+    "title_ru": "Лектор подготовительных курсов к ЕГЭ/вступительным экзаменам",
+    "title_en": "Lecturer, preparatory courses for exams",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "logo": "assets/images/chelgu-logo.jpg",
+    "logo_alt_ru": "Челябинский государственный университет",
+    "logo_alt_en": "Chelyabinsk State University",
+    "description_ru": "Преподавание физики и информатики для подготовки к вступительным испытаниям.",
+    "description_en": "Teaching physics and computer science for entrance examination preparation."
+  }
+]

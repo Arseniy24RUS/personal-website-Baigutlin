@@ -1,0 +1,38 @@
+[
+  {
+    "years": "2024-2025",
+    "title_ru": "Физика и информатика",
+    "title_en": "Physics and computer science",
+    "org_ru": "Онлайн-школа «Фоксфорд»",
+    "org_en": "Foxford online school",
+    "logo": "assets/logos/foxford.svg",
+    "logo_alt_ru": "Фоксфорд",
+    "logo_alt_en": "Foxford",
+    "description_ru": "Онлайн-курсы и занятия по вычислительным методам, алгоритмам и подготовке к экзаменам.",
+    "description_en": "Online courses and classes in computational methods, algorithms and exam preparation."
+  },
+  {
+    "years": "2020-2025",
+    "title_ru": "Подготовительные курсы к ЕГЭ и вступительным экзаменам",
+    "title_en": "Preparatory courses for national and entrance exams",
+    "org_ru": "Челябинский государственный университет",
+    "org_en": "Chelyabinsk State University",
+    "logo": "assets/images/chelgu-logo.jpg",
+    "logo_alt_ru": "Челябинский государственный университет",
+    "logo_alt_en": "Chelyabinsk State University",
+    "description_ru": "Лекции и практические занятия по физике и информатике.",
+    "description_en": "Lectures and practical classes in physics and computer science."
+  },
+  {
+    "years": "2020-2021",
+    "title_ru": "Физика для иностранных студентов",
+    "title_en": "Physics for international students",
+    "org_ru": "Факультет лингвистики и перевода, ЧелГУ",
+    "org_en": "Faculty of Linguistics and Translation, Chelyabinsk State University",
+    "logo": "assets/images/chelgu-logo.jpg",
+    "logo_alt_ru": "Челябинский государственный университет",
+    "logo_alt_en": "Chelyabinsk State University",
+    "description_ru": "Вводные курсы по физике для иностранных студентов профессиональных программ.",
+    "description_en": "Introductory physics courses for international students in professional programmes."
+  }
+]

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-label="Heusler spintronics">
+  <rect width="960" height="420" fill="#f8f9fb"/>
+  <g stroke="#8c2222" stroke-opacity=".22" stroke-width="3">
+    <path d="M70 80h820M70 190h820M70 300h820M170 30v360M330 30v360M490 30v360M650 30v360M810 30v360"/>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="170" cy="80" r="24"/><circle cx="330" cy="190" r="24"/><circle cx="490" cy="80" r="24"/><circle cx="650" cy="190" r="24"/><circle cx="810" cy="80" r="24"/>
+    <circle cx="170" cy="300" r="24"/><circle cx="490" cy="300" r="24"/><circle cx="810" cy="300" r="24"/>
+  </g>
+  <g fill="#2f6f78" opacity=".82">
+    <circle cx="330" cy="80" r="17"/><circle cx="170" cy="190" r="17"/><circle cx="490" cy="190" r="17"/><circle cx="650" cy="80" r="17"/><circle cx="810" cy="190" r="17"/>
+    <circle cx="330" cy="300" r="17"/><circle cx="650" cy="300" r="17"/>
+  </g>
+  <g stroke="#1d2026" stroke-width="5" stroke-linecap="round" opacity=".5">
+    <path d="M210 80h84m0 0-20-18m20 18-20 18"/>
+    <path d="M530 190h84m0 0-20-18m20 18-20 18"/>
+    <path d="M690 300h84m0 0-20-18m20 18-20 18"/>
+  </g>
+</svg>
