@@ -247,8 +247,8 @@ img { max-width: 100%; height: auto; }
 }
 
 .hero-id-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 9px;
 }
 
@@ -265,6 +265,7 @@ img { max-width: 100%; height: auto; }
   color: var(--ink);
   padding: 7px 12px;
   box-shadow: 0 8px 22px rgba(31, 38, 52, .06);
+  min-width: 0;
 }
 
 .hero-id-chip:hover { text-decoration: none; border-color: var(--accent-line); }
@@ -280,12 +281,15 @@ img { max-width: 100%; height: auto; }
   color: var(--accent-dark);
   font-size: 13px;
   line-height: 1.1;
+  min-width: 0;
 }
 
 .hero-id-chip span {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.15;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .source-metrics {
@@ -974,6 +978,14 @@ th {
   color: #3e4651;
 }
 
+.project-intro {
+  max-width: 960px;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.projects-list-section { padding-top: 0; }
+
 .hidden { display: none !important; }
 .small { font-size: 14px; }
 
@@ -1102,6 +1114,10 @@ th {
   .metric-strip,
   .stats,
   .source-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-id-list {
     grid-template-columns: 1fr;
   }
 
