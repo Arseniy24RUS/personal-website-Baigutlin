@@ -19,6 +19,24 @@
     });
   });
 
+  const identifierLinkTargets = {
+    ResearchGate: 'https://www.researchgate.net/scientific-contributions/D-R-Baigutlin-2297208336?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbH19',
+    CyberLeninka: 'https://cyberleninka.ru/search?q=Байгутлин%20Даниил%20Расулович&page=1'
+  };
+
+  document.querySelectorAll('.hero-id-chip').forEach(link => {
+    const title = link.querySelector('strong');
+    const label = title ? title.textContent.trim() : '';
+    if(label === 'Academia.edu') {
+      link.hidden = true;
+      link.setAttribute('aria-hidden', 'true');
+      return;
+    }
+    if(Object.prototype.hasOwnProperty.call(identifierLinkTargets, label)) {
+      link.setAttribute('href', identifierLinkTargets[label]);
+    }
+  });
+
   function applyFilter(target){
     const group = document.querySelector(`[data-filter-group="${target}"]`);
     if(!group) return;
