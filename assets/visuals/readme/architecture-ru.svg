@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+  <title id="title">Сайт Данила Байгутлина: от данных к двуязычным страницам</title>
+  <desc id="desc">Структурированные публичные материалы и статические страницы образуют двуязычное академическое портфолио с фильтрами, копированием цитат, просмотром дипломов и метаданными.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#5b1d1d"/>
+    </marker>
+    <style>
+      .bg{fill:#fbf7f5}
+      .box{fill:#fff;stroke:#5b1d1d;stroke-width:2.4}
+      .soft{fill:#f3e7e1}
+      .badge{fill:#e7c46a;stroke:#5b1d1d;stroke-width:1.8}
+      .text{font-family:Arial, sans-serif;fill:#2b2422;font-size:22px;letter-spacing:0}
+      .title{font-weight:700;font-size:28px}
+      .boxhead{font-weight:700;font-size:25px}
+      .small{font-size:22px}
+      .muted{fill:#665c58;font-size:20px}
+      .badgeText{font-size:20px}
+      .line{stroke:#5b1d1d;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="850"/>
+  <text class="text title" x="52" y="58">Сайт Данила Байгутлина: от данных к двуязычным страницам</text>
+  <rect class="box soft" x="70" y="90" width="860" height="240" rx="10"/>
+<text class="text boxhead" x="98" y="132">Научные материалы</text>
+<text class="text small" x="98" y="172">профиль, место работы и научные идентификаторы</text>
+<text class="text small" x="98" y="200">публикации и наукометрические показатели</text>
+<text class="text small" x="98" y="228">проекты, репозитории с кодом, СМИ и документы</text>
+<text class="text small muted" x="98" y="260">Научный профиль — Данил Байгутлин;</text>
+<text class="text small muted" x="98" y="286">репозиторий размещен у Arseniy24RUS.</text>
+  <line class="line" x1="500" y1="342" x2="500" y2="366"/>
+  <rect class="box" x="70" y="370" width="860" height="220" rx="10"/>
+<text class="text boxhead" x="98" y="412">Статические страницы</text>
+<text class="text small" x="98" y="452">русская версия в корне и английская в /en/</text>
+<text class="text small" x="98" y="480">общие CSS, JavaScript, изображения и логотипы</text>
+<text class="text small" x="98" y="508">CNAME baigutlin.ru и метаданные Schema.org</text>
+<rect class="badge" x="564" y="524" width="332" height="44" rx="8"/>
+<text class="text small badgeText" x="582" y="552">Сборка не требуется</text>
+  <line class="line" x1="500" y1="602" x2="500" y2="628"/>
+  <rect class="box" x="70" y="630" width="860" height="165" rx="10"/>
+<text class="text boxhead" x="98" y="672">Функции в браузере</text>
+<text class="text small" x="98" y="712">переключение RU/EN и фильтры публикаций</text>
+<text class="text small" x="98" y="740">копирование цитат и просмотр дипломов</text>
+<text class="text small" x="98" y="768">мобильное меню; только клиентский JavaScript</text>
+  <rect class="box" x="105" y="810" width="790" height="34" rx="8"/>
+  <text class="text small" x="125" y="834">Сценарий: профиль -&gt; фильтр публикаций -&gt; ИТ-ресурсы -&gt; документы</text>
+</svg>

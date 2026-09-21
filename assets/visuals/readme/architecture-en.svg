@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+  <title id="title">Danil Baigutlin website: academic content to bilingual pages</title>
+  <desc id="desc">Structured public content and static pages form a bilingual academic portfolio with filters, citation copy buttons, a diploma viewer and metadata.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#5b1d1d"/>
+    </marker>
+    <style>
+      .bg{fill:#fbf7f5}
+      .box{fill:#fff;stroke:#5b1d1d;stroke-width:2.4}
+      .soft{fill:#f3e7e1}
+      .badge{fill:#e7c46a;stroke:#5b1d1d;stroke-width:1.8}
+      .text{font-family:Arial, sans-serif;fill:#2b2422;font-size:22px;letter-spacing:0}
+      .title{font-weight:700;font-size:28px}
+      .boxhead{font-weight:700;font-size:25px}
+      .small{font-size:22px}
+      .muted{fill:#665c58;font-size:20px}
+      .badgeText{font-size:20px}
+      .line{stroke:#5b1d1d;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="850"/>
+  <text class="text title" x="52" y="58">Danil Baigutlin website: academic content to bilingual pages</text>
+  <rect class="box soft" x="70" y="90" width="860" height="240" rx="10"/>
+<text class="text boxhead" x="98" y="132">Academic content</text>
+<text class="text small" x="98" y="172">profile, affiliations and research identifiers</text>
+<text class="text small" x="98" y="200">publications and bibliometric indicators</text>
+<text class="text small" x="98" y="228">projects, code repositories, media and documents</text>
+<text class="text small muted" x="98" y="286">Academic profile: Danil Baigutlin; repository host: Arseniy24RUS.</text>
+  <line class="line" x1="500" y1="342" x2="500" y2="366"/>
+  <rect class="box" x="70" y="370" width="860" height="220" rx="10"/>
+<text class="text boxhead" x="98" y="412">Static pages</text>
+<text class="text small" x="98" y="452">Russian root pages and English /en/ pages</text>
+<text class="text small" x="98" y="480">shared CSS, JavaScript, images and logos</text>
+<text class="text small" x="98" y="508">CNAME baigutlin.ru and Schema.org metadata</text>
+<rect class="badge" x="564" y="524" width="332" height="44" rx="8"/>
+<text class="text small badgeText" x="582" y="552">No build step required</text>
+  <line class="line" x1="500" y1="602" x2="500" y2="628"/>
+  <rect class="box" x="70" y="630" width="860" height="165" rx="10"/>
+<text class="text boxhead" x="98" y="672">Browser behavior</text>
+<text class="text small" x="98" y="712">language links and publication filters</text>
+<text class="text small" x="98" y="740">citation copy buttons and diploma viewer</text>
+<text class="text small" x="98" y="768">mobile menu; client-side JavaScript only</text>
+  <rect class="box" x="105" y="810" width="790" height="34" rx="8"/>
+  <text class="text small" x="125" y="834">Scenario: profile -&gt; publication filter -&gt; IT resources -&gt; documents</text>
+</svg>
