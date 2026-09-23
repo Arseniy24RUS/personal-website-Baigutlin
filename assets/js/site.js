@@ -51,7 +51,21 @@
     const payload = await loadJSON(['data/public/publications.json'], validRecords);
     if(!payload) return;
     const rows = records(payload);
-    const sourcesFor = row => Array.isArray(row.sources) ? row.sources : [row.provider || row.source || ''].filter(Boolean);
+    const sourceLabel = value => {
+      const source = String(value).trim();
+      const key = source.toLowerCase();
+      if(/^orcid(?:_|$)/.test(key)) return 'ORCID';
+      if(/^crossref(?:_|$)/.test(key)) return 'Crossref';
+      if(/^openalex(?:_|$)/.test(key)) return 'OpenAlex';
+      if(/^scopus(?:_|$)/.test(key)) return 'Scopus';
+      if(/^(?:wos(?:_|$)|web[ _]of[ _]science)/.test(key)) return 'Web of Science';
+      if(/^(?:elibrary(?:[\/_]|$)|rinc$|risc$|rsci$|ринц$)/.test(key)) return 'eLibrary';
+      if(key === 'doi') return 'DOI';
+      if(key === 'arxiv') return 'arXiv';
+      if(/^open_api(?:_|$)/.test(key)) return language === 'en' ? 'Open sources' : 'Открытые источники';
+      return source.replace(/_/g, ' ');
+    };
+    const sourcesFor = row => [...new Set((Array.isArray(row.sources) ? row.sources : [row.provider || row.source || '']).filter(Boolean).map(sourceLabel))];
     container.innerHTML = rows.map(row => {
       const sources = sourcesFor(row);
       const title = localized(row, 'title_display') || localized(row, 'title');
@@ -62,7 +76,7 @@
       const typeBadge = row.publication_type === 'preprint' ? `<span class="badge light publication-type">${language === 'en' ? 'Preprint' : 'Препринт'}</span>` : '';
       const badges = typeBadge + sources.map(source => `<span class="badge">${escape(source)}</span>`).join('') + (Number.isFinite(citations) && citations > 0 ? `<span class="badge light">${language === 'en' ? 'RSCI citations' : 'РИНЦ цит.'}: ${citations}</span>` : '');
       const search = [title, row.title, authors, row.venue, row.journal, row.metadata_raw, row.source, row.doi, row.year, row.gost_ru, row.apa_en].filter(Boolean).join(' ');
-      return `<article class="pub-row" data-publication-id="${escape(row.id || row.doi || row.elibrary_item_id || '')}" data-search="${escape(search)}" data-year="${escape(row.year || '')}" data-source="${escape(sources.join(' '))}"><div class="pub-year">${escape(row.year || '')}</div><div class="pub-main"><div class="pub-citation">${url ? `<a href="${escape(url)}" target="_blank" rel="noopener">${escape(citation)}</a>` : escape(citation)}</div><div class="meta">${escape(sources.join(' · '))}</div></div><aside class="pub-quality"><div class="metric-badges">${badges}</div><button class="copy-citation" type="button" data-copy="${escape(citation)}" data-done="${language === 'en' ? 'Copied' : 'Скопировано'}">${language === 'en' ? 'Copy APA' : 'Копировать ГОСТ'}</button></aside></article>`;
+      return `<article class="pub-row" data-publication-id="${escape(row.id || row.doi || row.elibrary_item_id || '')}" data-search="${escape(search)}" data-year="${escape(row.year || '')}" data-source="${escape(sources.join(' '))}"><div class="pub-year">${escape(row.year || '')}</div><div class="pub-main"><div class="pub-citation">${url ? `<a href="${escape(url)}" target="_blank" rel="noopener">${escape(citation)}</a>` : escape(citation)}</div></div><aside class="pub-quality"><div class="metric-badges">${badges}</div><button class="copy-citation" type="button" data-copy="${escape(citation)}" data-done="${language === 'en' ? 'Copied' : 'Скопировано'}">${language === 'en' ? 'Copy APA' : 'Копировать ГОСТ'}</button></aside></article>`;
     }).join('');
     const options = (selector, values, label) => {
       const select = document.querySelector(selector);
