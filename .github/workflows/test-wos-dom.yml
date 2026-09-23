@@ -1,0 +1,14 @@
+name: Test authenticated WoS collection
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  actions: read
+jobs:
+  test:
+    uses: ./.github/workflows/refresh-data.yml
+    secrets: inherit
+    with:
+      dry_run: true
+      sources: wos

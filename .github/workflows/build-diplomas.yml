@@ -1,0 +1,51 @@
+name: Build diplomas gallery
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-data-writer
+  cancel-in-progress: false
+
+jobs:
+  build-diplomas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow==12.3.0 PyMuPDF==1.28.2
+      - name: Build diplomas gallery from uploaded ZIP archives
+        run: |
+          python scripts/build_diplomas_gallery.py
+      - name: Build DPO gallery when files are uploaded
+        run: |
+          if test -d content/dpo && find content/dpo -type f \( -iname '*.zip' -o -iname '*.pdf' -o -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' \) | grep -q .; then
+            python scripts/build_dpo_gallery.py
+          else
+            echo "No DPO source files found."
+          fi
+      - name: Commit diplomas gallery
+        run: |
+          python scripts/validate_retention.py --baseline-ref HEAD
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || { echo "Main changed; rerun from the latest content."; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/diplomas/ data/diplomas/gallery.json
+          if test -f data/dpo/gallery.json; then git add assets/dpo/ data/dpo/gallery.json; fi
+          if git diff --cached --quiet; then
+            echo "No diplomas gallery changes."
+          else
+            git commit -m "chore: build diplomas gallery"
+            git push
+          fi

@@ -1,0 +1,26 @@
+{
+  "schema": "it-config/v1",
+  "owner": "Danil-phy-cmp-120",
+  "excluded_repo_ids": [],
+  "featured_ids": [],
+  "repositories": {
+    "1110489357": {
+      "resource_id": "github-1110489357"
+    },
+    "837022580": {
+      "resource_id": "github-837022580"
+    },
+    "313268817": {
+      "resource_id": "github-313268817"
+    },
+    "311010792": {
+      "resource_id": "github-311010792"
+    },
+    "336227953": {
+      "resource_id": "github-336227953"
+    },
+    "901160368": {
+      "resource_id": "github-901160368"
+    }
+  }
+}

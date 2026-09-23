@@ -22,7 +22,7 @@ The audience is mixed: scientific collaborators, students, conference organizers
 
 ### Real Capabilities
 
-The site is a static bilingual portfolio. It has Russian pages at the repository root and English pages under [`en/`](en/). Shared styling lives in [`assets/css/site.css`](assets/css/site.css), and the only client-side behavior is implemented in [`assets/js/site.js`](assets/js/site.js): mobile navigation toggling, publication/media-style filters, citation-copy buttons and a diploma preview modal. There is no hidden backend, build service, analytics pipeline or automatic publication harvester in the shipped site.
+The site is a static bilingual portfolio. It has Russian pages at the repository root and English pages under [`en/`](en/). Shared styling lives in [`assets/css/site.css`](assets/css/site.css), and the client-side behavior is implemented in [`assets/js/site.js`](assets/js/site.js): mobile navigation toggling, publication/media-style filters, citation-copy buttons and a diploma preview modal. GitHub Actions now collects publications, metrics, media mentions and GitHub resources; validated JSON is rendered by the existing static pages with HTML fallback. See [refresh operations](docs/REFRESH_OPERATIONS.md).
 
 The content model is file-based. [`data/public/profile.json`](data/public/profile.json) contains the bilingual profile, affiliation, degree, awards, research activity, expertise and skills. [`data/public/metrics.json`](data/public/metrics.json) records public bibliometric counts for Scopus, Web of Science and RSCI/eLibrary, including the eLibrary update date. [`data/public/publications.json`](data/public/publications.json) powers the publication pages with GOST and APA-style references, URLs and source tags. [`data/public/projects.json`](data/public/projects.json) describes research projects, while [`data/it/repositories.json`](data/it/repositories.json) lists public GitHub repositories such as thermoelectric Heusler datasets, VASP workflows, Monte Carlo code and optimization notebooks. Media and supporting documents are declared in [`data/media/published.json`](data/media/published.json) and [`data/diplomas/gallery.json`](data/diplomas/gallery.json).
 
@@ -32,7 +32,7 @@ The content model is file-based. [`data/public/profile.json`](data/public/profil
 
 The site uses public and manually curated profile data. It links out to external scholarly identifiers and source pages rather than republishing third-party profiles wholesale. Some links are search links, not claimed verified profiles: for example, Google Scholar, CyberLeninka and Academia.edu are presented as name searches in the page copy. Media entries carry fields such as `verified`, `confidence` and `discovery_sources`, which helps distinguish direct mentions from broader contextual pages.
 
-Academic and bibliometric numbers can become stale because they live in JSON/HTML rather than being queried live. The README therefore describes the repository as a static snapshot, not as an automated live CV. The diploma gallery contains public thumbnails and source document links present in this repository; it should not be extended with private credentials or non-public documents without explicit approval.
+Academic and bibliometric numbers can become stale because they live in retained JSON snapshots between scheduled collections. Scheduled collection retains previous values when a provider is unavailable and records availability separately from the publication result. The diploma gallery contains public thumbnails and source document links present in this repository; it should not be extended with private credentials or non-public documents without explicit approval.
 
 ### Run Locally And Check
 
@@ -77,7 +77,7 @@ No top-level `LICENSE` file is present, so the repository does not grant a broad
 
 ### Реальные возможности
 
-Сайт является статическим двуязычным портфолио. Русские страницы находятся в корне, английские — в [`en/`](en/). Общие стили лежат в [`assets/css/site.css`](assets/css/site.css), а вся клиентская логика — в [`assets/js/site.js`](assets/js/site.js). Этот скрипт отвечает только за видимые функции: мобильное меню, фильтры списков, кнопки копирования цитат и просмотр дипломов в модальном окне. В поставке нет скрытой серверной части, аналитики в реальном времени, сборочного сервиса или автоматического сбора публикаций.
+Сайт является статическим двуязычным портфолио. Русские страницы находятся в корне, английские — в [`en/`](en/). Общие стили лежат в [`assets/css/site.css`](assets/css/site.css), а вся клиентская логика — в [`assets/js/site.js`](assets/js/site.js). Этот скрипт отображает JSON-данные и обслуживает видимые функции: мобильное меню, фильтры списков, кнопки копирования цитат и просмотр дипломов в модальном окне. GitHub Actions собирает публикации, метрики, упоминания СМИ и GitHub-проекты; страницы отображают проверенные JSON-данные, сохраняя HTML как резерв. См. [порядок обновления](docs/REFRESH_OPERATIONS.md).
 
 Контент хранится в структурированных файлах. [`data/public/profile.json`](data/public/profile.json) содержит двуязычный профиль, место работы, ученую степень, награды, научную активность, экспертизу и навыки. [`data/public/metrics.json`](data/public/metrics.json) фиксирует публичные наукометрические показатели Scopus, Web of Science и РИНЦ/eLibrary, включая дату обновления eLibrary. [`data/public/publications.json`](data/public/publications.json) наполняет страницы публикаций ссылками по ГОСТ и APA, URL и метками источников. [`data/public/projects.json`](data/public/projects.json) описывает исследовательские проекты, а [`data/it/repositories.json`](data/it/repositories.json) перечисляет публичные GitHub-репозитории: наборы данных по сплавам Гейслера, сценарии расчетов VASP, код Монте-Карло, вычислительные блокноты для оптимизации и другие материалы по вычислительному материаловедению. СМИ и подтверждающие документы описаны в [`data/media/published.json`](data/media/published.json) и [`data/diplomas/gallery.json`](data/diplomas/gallery.json).
 
@@ -113,3 +113,19 @@ python -m http.server 8000
 - `content/diplomas/` содержит связанные подтверждающие документы.
 
 </details>
+
+
+## Automated updates / Автоматическое обновление
+
+Weekly collection runs on Monday at 05:47 UTC (08:47 Moscow); other days maintain encrypted academic sessions. GitHub discovery is independent, additive and scoped to `Danil-phy-cmp-120`. Scientific identifiers and login accounts are configured separately.
+
+Еженедельное обновление запускается в понедельник в 08:47 по Москве; в остальные дни поддерживаются зашифрованные сессии научных источников. Сбор GitHub-проектов работает отдельно и добавляет новые карточки пользователя `Danil-phy-cmp-120`, сохраняя опубликованные. При сбоях источников сохраняются прежние записи, тексты, изображения и метрики.
+
+- [Pipeline and migration baseline](docs/PIPELINE_SPEC.md)
+- [Credentials](docs/GITHUB_SECRETS_SETUP.md)
+- [Browser sessions](docs/BROWSER_SESSIONS.md)
+- [GitHub resources](docs/IT_RESOURCES.md)
+
+Validation: `npm ci`, `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests/unit -v`, `npm run seo:check`, `npx playwright install`, `npm run test:e2e`.
+
+Automation code was adapted from [personal-website](https://github.com/Arseniy24RUS/personal-website) at `d5a18a6`; its [upstream MIT license](docs/UPSTREAM_LICENSE.txt) is retained without relicensing this site's personal content.

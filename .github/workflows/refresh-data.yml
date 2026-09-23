@@ -1,0 +1,288 @@
+name: Refresh scientist portfolio data
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Validate collection without publishing
+        type: boolean
+        default: false
+      sources:
+        description: Comma-separated sources, empty for all
+        type: string
+        default: ''
+      maintain_session:
+        description: Verify and checkpoint browser sessions without publishing
+        type: boolean
+        default: false
+      session_bootstrap:
+        description: Optional encrypted browser-session bootstrap package
+        type: string
+        default: ''
+      wos_auth_mode:
+        description: Restore a saved WoS session or test a new ordinary ORCID login
+        type: choice
+        options:
+          - restore
+          - fresh_orcid
+        default: restore
+  workflow_call:
+    inputs:
+      dry_run:
+        type: boolean
+        default: false
+      sources:
+        type: string
+        default: ''
+      maintain_session:
+        type: boolean
+        default: false
+      session_bootstrap:
+        type: string
+        default: ''
+      wos_auth_mode:
+        type: string
+        default: restore
+  schedule:
+    - cron: '47 5 * * 1'
+    - cron: '47 5 * * 0,2-6'
+concurrency:
+  group: portfolio-data-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+  actions: read
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  PYTHONUNBUFFERED: '1'
+  PLAYWRIGHT_BROWSERS_PATH: /opt/portfolio-browsers
+  PORTFOLIO_RUN_DIR: /opt/portfolio-runner
+  PORTFOLIO_TRANSLATION_HOME: /opt/portfolio-runner/translation
+  BROWSER_SESSION_MAINTENANCE: ${{ (github.event.schedule == '47 5 * * 0,2-6' || inputs.maintain_session) && '1' || '0' }}
+  BROWSER_SESSION_INPUT_ELIBRARY: /opt/portfolio-runner/portfolio-runtime/sessions/elibrary.json
+  BROWSER_SESSION_INPUT_WOS: /opt/portfolio-runner/portfolio-runtime/sessions/wos.json
+  BROWSER_SESSION_OUTBOX: /opt/portfolio-runner/session-outbox
+  BROWSER_SESSION_REPORT_DIR: /opt/portfolio-runner/session-reports
+jobs:
+  refresh:
+    if: ${{ github.repository == 'Arseniy24RUS/personal-website-Baigutlin' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - uses: actions/setup-node@v4
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install pinned dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y openvpn curl iproute2 xvfb iptables
+          if test "$BROWSER_SESSION_MAINTENANCE" = 1; then
+            python -m pip install requests==2.34.2 beautifulsoup4==4.15.0 PyYAML==6.0.3 playwright==1.63.0 cryptography==49.0.0
+          else
+            python -m pip install -r requirements.txt
+            npm ci
+          fi
+          sudo mkdir -p "$PLAYWRIGHT_BROWSERS_PATH"
+          sudo chown "$USER" "$PLAYWRIGHT_BROWSERS_PATH"
+          sudo install -d -o "$USER" -g "$(id -gn)" -m 755 "$PORTFOLIO_RUN_DIR"
+          python -m playwright install --with-deps chromium
+          if test "$BROWSER_SESSION_MAINTENANCE" != 1; then npx playwright install --with-deps; fi
+      - name: Unit and baseline checks
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        run: |
+          python -m unittest discover -s tests/unit -v
+          python scripts/check_seo.py
+          echo "REFRESH_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Load profile identifiers
+        run: python scripts/export_profile_env.py
+      - name: Prepare isolated candidate
+        run: python scripts/refresh_pipeline.py prepare --stage "$PORTFOLIO_RUN_DIR/portfolio-stage"
+      - name: Restore encrypted provider sessions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BROWSER_SESSION_KEY: ${{ secrets.BROWSER_SESSION_KEY }}
+          BROWSER_SESSION_PREVIOUS_KEY: ${{ secrets.BROWSER_SESSION_PREVIOUS_KEY }}
+          BROWSER_SESSION_BOOTSTRAP: ${{ inputs.session_bootstrap }}
+        run: |
+          install -d -m 700 "$PORTFOLIO_RUN_DIR/portfolio-runtime" "$BROWSER_SESSION_REPORT_DIR" "$BROWSER_SESSION_OUTBOX"
+          python scripts/browser_sessions.py restore --destination "$PORTFOLIO_RUN_DIR/portfolio-runtime/sessions" --report "$BROWSER_SESSION_REPORT_DIR/restore.json"
+      - name: Restore offline translation models
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        id: translation-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/portfolio-runner/translation
+          key: argos-ru-en-1.11.0-minisbd-v1
+      - name: Prepare and verify offline RU-EN translation
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        id: translation-setup
+        run: |
+          mkdir -p "$PORTFOLIO_TRANSLATION_HOME"
+          sudo chown -R "$(id -u):$(id -g)" "$PORTFOLIO_TRANSLATION_HOME"
+          if python scripts/translation_runtime.py provision --root "$PORTFOLIO_TRANSLATION_HOME" --timeout 240 --report "$PORTFOLIO_RUN_DIR/portfolio-stage/data/audit/translation_model_setup.json"; then
+            echo 'Offline RU-EN translation verified.'
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+          else
+            result=$?
+            if test "$result" -ne 2; then exit "$result"; fi
+            echo 'Translation unavailable; collection will retain Russian text and retry later.'
+          fi
+      - name: Cache verified translation model
+        if: ${{ steps.translation-setup.outputs.ready == 'true' && steps.translation-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/portfolio-runner/translation
+          key: argos-ru-en-1.11.0-minisbd-v1
+      - name: Establish verified home route
+        env:
+          ELIBRARY_OPENVPN_CONFIG_B64: ${{ secrets.ELIBRARY_OPENVPN_CONFIG_B64 }}
+        run: |
+          chmod +x scripts/home_vpn_dns.sh
+          bash scripts/home_vpn.sh start
+          bash scripts/home_vpn.sh test-isolation
+          sudo chown -R portfolio:portfolio "$PORTFOLIO_RUN_DIR/portfolio-stage"
+          if test -d "$PORTFOLIO_TRANSLATION_HOME"; then sudo chown -R portfolio:portfolio "$PORTFOLIO_TRANSLATION_HOME"; fi
+          sudo install -d -o portfolio -g portfolio -m 700 "$PORTFOLIO_RUN_DIR/portfolio-runtime"
+          sudo chown -R portfolio:portfolio "$PORTFOLIO_RUN_DIR/portfolio-runtime" "$BROWSER_SESSION_OUTBOX" "$BROWSER_SESSION_REPORT_DIR"
+      - name: Collect and build candidate through home route
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        env:
+          WOS_AUTH_MODE: ${{ inputs.wos_auth_mode || 'restore' }}
+          HOME_VPN_REQUIRED: '1'
+          HOME_VPN_EXPECTED_IP_FILE: /opt/portfolio-runner/portfolio-private/expected-ip
+          ELIBRARY_USERNAME: ${{ secrets.ELIBRARY_USERNAME }}
+          ELIBRARY_PASSWORD: ${{ secrets.ELIBRARY_PASSWORD }}
+          WOS_ORCID_USERNAME: ${{ secrets.WOS_ORCID_USERNAME }}
+          WOS_ORCID_PASSWORD: ${{ secrets.WOS_ORCID_PASSWORD }}
+          WOS_STARTER_API_KEY: ${{ secrets.WOS_STARTER_API_KEY }}
+          WOS_RESEARCHER_API_KEY: ${{ secrets.WOS_RESEARCHER_API_KEY }}
+          BROWSER_SESSION_KEY: ${{ secrets.BROWSER_SESSION_KEY }}
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_INST_TOKEN: ${{ secrets.SCOPUS_INST_TOKEN }}
+          OPENALEX_MAILTO: d0nik1996@mail.ru
+          CROSSREF_MAILTO: d0nik1996@mail.ru
+          ELIBRARY_BROWSER_HEADLESS: 'false'
+          WOS_BROWSER_HEADLESS: 'false'
+          REFRESH_SOURCES: ${{ inputs.sources }}
+        run: |
+          bash scripts/home_vpn.sh check
+          stage="$PORTFOLIO_RUN_DIR/portfolio-stage"
+          export RUNNER_TEMP="$PORTFOLIO_RUN_DIR/portfolio-runtime"
+          sudo --preserve-env=PATH,RUNNER_TEMP,WOS_AUTH_MODE,PLAYWRIGHT_BROWSERS_PATH,PYTHONUNBUFFERED,PORTFOLIO_TRANSLATION_HOME,HOME_VPN_REQUIRED,HOME_VPN_EXPECTED_IP_FILE,ELIBRARY_USERNAME,ELIBRARY_PASSWORD,WOS_ORCID_USERNAME,WOS_ORCID_PASSWORD,WOS_STARTER_API_KEY,WOS_RESEARCHER_API_KEY,SCOPUS_API_KEY,SCOPUS_INST_TOKEN,OPENALEX_MAILTO,CROSSREF_MAILTO,ELIBRARY_AUTHOR_ID,ELIBRARY_PROFILE_URL,ELIBRARY_ITEMS_URL,ELIBRARY_SPIN,ORCID_ID,SCOPUS_AUTHOR_ID,WOS_RESEARCHER_ID,WOS_PROFILE_URL,ELIBRARY_BROWSER_HEADLESS,WOS_BROWSER_HEADLESS,BROWSER_SESSION_KEY,BROWSER_SESSION_INPUT_ELIBRARY,BROWSER_SESSION_INPUT_WOS,BROWSER_SESSION_OUTBOX,BROWSER_SESSION_REPORT_DIR \
+            -H -u portfolio /bin/bash "$stage/scripts/run_collection.sh" "$stage" "$(command -v python)" "$REFRESH_SOURCES"
+      - name: Maintain browser sessions through home route
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE == '1' }}
+        env:
+          WOS_AUTH_MODE: ${{ inputs.wos_auth_mode || 'restore' }}
+          HOME_VPN_REQUIRED: '1'
+          HOME_VPN_EXPECTED_IP_FILE: /opt/portfolio-runner/portfolio-private/expected-ip
+          ELIBRARY_USERNAME: ${{ secrets.ELIBRARY_USERNAME }}
+          ELIBRARY_PASSWORD: ${{ secrets.ELIBRARY_PASSWORD }}
+          WOS_ORCID_USERNAME: ${{ secrets.WOS_ORCID_USERNAME }}
+          WOS_ORCID_PASSWORD: ${{ secrets.WOS_ORCID_PASSWORD }}
+          BROWSER_SESSION_KEY: ${{ secrets.BROWSER_SESSION_KEY }}
+          ELIBRARY_BROWSER_HEADLESS: 'false'
+          WOS_BROWSER_HEADLESS: 'false'
+        run: |
+          bash scripts/home_vpn.sh check
+          export RUNNER_TEMP="$PORTFOLIO_RUN_DIR/portfolio-runtime"
+          stage="$PORTFOLIO_RUN_DIR/portfolio-stage"
+          sudo --preserve-env=PATH,RUNNER_TEMP,WOS_AUTH_MODE,PLAYWRIGHT_BROWSERS_PATH,PYTHONUNBUFFERED,HOME_VPN_REQUIRED,HOME_VPN_EXPECTED_IP_FILE,ELIBRARY_USERNAME,ELIBRARY_PASSWORD,WOS_ORCID_USERNAME,WOS_ORCID_PASSWORD,ELIBRARY_AUTHOR_ID,ELIBRARY_PROFILE_URL,ELIBRARY_ITEMS_URL,ELIBRARY_SPIN,ORCID_ID,WOS_RESEARCHER_ID,WOS_PROFILE_URL,ELIBRARY_BROWSER_HEADLESS,WOS_BROWSER_HEADLESS,BROWSER_SESSION_KEY,BROWSER_SESSION_INPUT_ELIBRARY,BROWSER_SESSION_INPUT_WOS,BROWSER_SESSION_OUTBOX,BROWSER_SESSION_REPORT_DIR,BROWSER_SESSION_MAINTENANCE \
+            -H -u portfolio /bin/bash "$stage/scripts/run_session_maintenance.sh" "$stage" "$(command -v python)"
+      - name: Return candidate ownership to runner
+        id: session-checkpoints
+        if: always()
+        run: |
+          if test -d "$PORTFOLIO_RUN_DIR/portfolio-stage"; then
+            sudo chown -R "$(id -u):$(id -g)" "$PORTFOLIO_RUN_DIR/portfolio-stage"
+          fi
+          for directory in "$BROWSER_SESSION_OUTBOX" "$BROWSER_SESSION_REPORT_DIR"; do
+            if test -d "$directory"; then sudo chown -R "$(id -u):$(id -g)" "$directory"; fi
+          done
+          for provider in elibrary wos; do
+            if test -s "$BROWSER_SESSION_OUTBOX/$provider.enc.json"; then echo "$provider=true" >> "$GITHUB_OUTPUT"; fi
+          done
+      - name: Save confirmed eLibrary session
+        if: ${{ always() && steps.session-checkpoints.outputs.elibrary == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-session-v1-elibrary
+          path: /opt/portfolio-runner/session-outbox/elibrary.enc.json
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: error
+      - name: Save confirmed WoS session
+        if: ${{ always() && steps.session-checkpoints.outputs.wos == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-session-v1-wos
+          path: /opt/portfolio-runner/session-outbox/wos.enc.json
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: error
+      - name: Export safe session diagnostics
+        if: always()
+        run: python scripts/browser_sessions.py diagnostics --source "$BROWSER_SESSION_REPORT_DIR" --destination "$RUNNER_TEMP/session-diagnostics"
+      - name: Save session diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-session-diagnostics-${{ github.run_id }}
+          path: ${{ runner.temp }}/session-diagnostics/*.json
+          retention-days: 7
+          overwrite: true
+      - name: Stop tunnel and remove private state
+        if: always()
+        run: bash scripts/home_vpn.sh stop
+      - name: Promote and validate safe candidate
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        run: |
+          python scripts/refresh_pipeline.py promote --stage "$PORTFOLIO_RUN_DIR/portfolio-stage"
+          python scripts/validate_retention.py --baseline-ref "$REFRESH_BASE_SHA" --report "$PORTFOLIO_RUN_DIR/portfolio-stage/data/audit/retention_report.json"
+          cp "$PORTFOLIO_RUN_DIR/portfolio-stage/data/audit/retention_report.json" data/audit/retention_report.json
+          python scripts/check_seo.py
+          git diff --check
+      - name: Browser checks on refreshed data
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        run: npm run test:e2e
+      - name: Export safe collection diagnostics
+        if: ${{ always() && env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        run: python scripts/refresh_pipeline.py diagnostics --stage "$PORTFOLIO_RUN_DIR/portfolio-stage" --output "$RUNNER_TEMP/refresh-diagnostics"
+      - name: Save sanitized diagnostics
+        if: ${{ always() && env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: refresh-diagnostics-${{ github.run_id }}
+          path: ${{ runner.temp }}/refresh-diagnostics/data/
+          retention-days: 7
+      - name: Commit validated data
+        if: ${{ env.BROWSER_SESSION_MAINTENANCE != '1' && !inputs.dry_run && github.ref == 'refs/heads/main' }}
+        id: publish
+        run: python scripts/publish_refresh.py --baseline-ref "$REFRESH_BASE_SHA"
+      - name: Request Pages build
+        if: ${{ steps.publish.outputs.changed == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+      - name: Verify published data
+        if: ${{ steps.publish.outputs.changed == 'true' }}
+        run: python scripts/verify_published.py --wait 600
+      - name: Report source availability separately
+        if: ${{ always() && !cancelled() && env.BROWSER_SESSION_MAINTENANCE != '1' }}
+        env:
+          PUBLICATION_OUTCOME: ${{ steps.publish.outcome }}
+        run: |
+          if test "$PUBLICATION_OUTCOME" = success; then
+            python scripts/refresh_pipeline.py health
+          else
+            python scripts/refresh_pipeline.py health --stage "$PORTFOLIO_RUN_DIR/portfolio-stage"
+          fi

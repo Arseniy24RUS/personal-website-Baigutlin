@@ -1,0 +1,53 @@
+{
+  "schema": "it-discovery/v1",
+  "repositories": {
+    "1110489357": {
+      "resource_id": "github-1110489357",
+      "aliases": [
+        "Danil-phy-cmp-120/rsf-24-12-20016-thermoelectric-heuslers"
+      ],
+      "status": "published",
+      "image_origin": "editorial"
+    },
+    "837022580": {
+      "resource_id": "github-837022580",
+      "aliases": [
+        "Danil-phy-cmp-120/all-d_heusler-evolutionary-optimizer"
+      ],
+      "status": "published",
+      "image_origin": "editorial"
+    },
+    "313268817": {
+      "resource_id": "github-313268817",
+      "aliases": [
+        "Danil-phy-cmp-120/Monte_Carlo"
+      ],
+      "status": "published",
+      "image_origin": "editorial"
+    },
+    "311010792": {
+      "resource_id": "github-311010792",
+      "aliases": [
+        "Danil-phy-cmp-120/Elast"
+      ],
+      "status": "published",
+      "image_origin": "editorial"
+    },
+    "336227953": {
+      "resource_id": "github-336227953",
+      "aliases": [
+        "Danil-phy-cmp-120/VASP_scripts"
+      ],
+      "status": "published",
+      "image_origin": "editorial"
+    },
+    "901160368": {
+      "resource_id": "github-901160368",
+      "aliases": [
+        "Danil-phy-cmp-120/double_half_heusler_optimization"
+      ],
+      "status": "published",
+      "image_origin": "editorial"
+    }
+  }
+}

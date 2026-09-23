@@ -1,0 +1,9 @@
+requests==2.34.2
+beautifulsoup4==4.15.0
+PyYAML==6.0.3
+rapidfuzz==3.14.6
+playwright==1.63.0
+argostranslate==1.11.0
+Pillow==12.3.0
+PyMuPDF==1.28.2
+cryptography==49.0.0

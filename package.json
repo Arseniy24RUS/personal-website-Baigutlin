@@ -1,0 +1,16 @@
+{
+  "name": "personal-website-baigutlin",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "python scripts/serve_static.py --port 4173",
+    "seo:check": "python scripts/check_seo.py",
+    "seo": "npm run seo:check",
+    "test:unit": "python -m unittest discover -s tests/unit -v",
+    "test:e2e": "playwright test",
+    "test:e2e:mobile": "playwright test --project=mobile-chrome"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}

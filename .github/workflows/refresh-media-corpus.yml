@@ -1,0 +1,13 @@
+name: Refresh confirmed media corpus
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  actions: read
+jobs:
+  refresh:
+    uses: ./.github/workflows/refresh-data.yml
+    secrets: inherit
+    with:
+      sources: media
