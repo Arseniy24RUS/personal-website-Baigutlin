@@ -7,7 +7,7 @@ from pathlib import Path
 import time
 import urllib.request
 
-FILES = ('data/public/profile.json', 'data/public/publications.json', 'data/media/published.json', 'data/media/published-fallback.json')
+FILES = ('data/public/profile.json', 'data/public/metrics.json', 'data/public/publications.json', 'data/media/published.json', 'data/media/published-fallback.json')
 
 
 def verification_files(scope='portfolio', root=Path('.')):
