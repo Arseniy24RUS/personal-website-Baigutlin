@@ -1,0 +1,128 @@
+name: Add new IT resources
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Validate discovery without publishing
+        type: boolean
+        default: false
+  schedule:
+    - cron: '47 5 * * 1'
+concurrency:
+  group: portfolio-data-writer
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  PYTHONUNBUFFERED: '1'
+jobs:
+  discover:
+    if: ${{ github.repository == 'Arseniy24RUS/personal-website-Baigutlin' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install IT discovery dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y iptables
+          python -m pip install requests==2.34.2 beautifulsoup4==4.15.0 PyYAML==6.0.3 playwright==1.63.0 argostranslate==1.11.0 Pillow==12.3.0
+          npm ci
+          python -m playwright install --with-deps chromium
+          npx playwright install --with-deps chromium
+      - name: Unit and baseline checks
+        run: |
+          python -m unittest discover -s tests/unit -p 'test_it*.py' -v
+          python scripts/check_seo.py
+          echo "REFRESH_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          echo "PORTFOLIO_TRANSLATION_HOME=$RUNNER_TEMP/it-translation" >> "$GITHUB_ENV"
+      - name: Prepare isolated IT candidate
+        run: python scripts/refresh_pipeline.py prepare --scope it --stage "$RUNNER_TEMP/it-stage"
+      - name: Restore offline translation models
+        id: translation-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/it-translation
+          key: argos-ru-en-en-ru-1.11.0-minisbd-v1
+      - name: Verify both offline translation directions
+        id: translation-setup
+        run: |
+          ready=true
+          for pair in ru_en en_ru; do
+            if python scripts/translation_runtime.py provision --pair "$pair" --root "$PORTFOLIO_TRANSLATION_HOME" --timeout 240 --report "$RUNNER_TEMP/it-stage/data/it/audit/translation_model_setup_$pair.json"; then
+              echo "Offline $pair translation verified."
+            else
+              result=$?
+              if test "$result" -ne 2; then exit "$result"; fi
+              ready=false
+              echo "Translation unavailable; incomplete new cards will remain pending."
+            fi
+          done
+          echo "ready=$ready" >> "$GITHUB_OUTPUT"
+      - name: Cache verified translation models
+        if: ${{ steps.translation-setup.outputs.ready == 'true' && steps.translation-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/it-translation
+          key: argos-ru-en-en-ru-1.11.0-minisbd-v1
+      - name: Restrict collector egress to public destinations
+        run: bash scripts/it_public_network.sh start
+      - name: Exercise new-card discovery in a disposable catalog
+        if: ${{ inputs.dry_run }}
+        env:
+          IT_GITHUB_TOKEN: ${{ github.token }}
+          IT_PUBLIC_NETWORK_REQUIRED: '1'
+        run: python scripts/probe_it_discovery.py --repository Danil-phy-cmp-120/rsf-24-12-20016-thermoelectric-heuslers --report "$RUNNER_TEMP/it-stage/data/it/audit/live_probe.json"
+      - name: Discover public GitHub projects
+        env:
+          IT_GITHUB_TOKEN: ${{ github.token }}
+          IT_PUBLIC_NETWORK_REQUIRED: '1'
+        run: python scripts/refresh_pipeline.py collect --scope it --stage "$RUNNER_TEMP/it-stage"
+      - name: Remove collector network guard before local browser checks
+        if: always()
+        run: bash scripts/it_public_network.sh stop
+      - name: Promote and validate IT additions
+        run: |
+          python scripts/refresh_pipeline.py promote --scope it --stage "$RUNNER_TEMP/it-stage"
+          python scripts/validate_retention.py --scope it --baseline-ref "$REFRESH_BASE_SHA" --report "$RUNNER_TEMP/it-stage/data/it/audit/retention_report.json"
+          python scripts/check_seo.py
+          git diff --check
+      - name: Browser checks for both languages and screen sizes
+        run: npx playwright test tests/e2e/it.spec.ts --project=desktop-chrome --project=mobile-chrome
+      - name: Publish validated IT additions
+        if: ${{ !inputs.dry_run && github.ref == 'refs/heads/main' }}
+        id: publish
+        run: python scripts/publish_refresh.py --scope it --baseline-ref "$REFRESH_BASE_SHA"
+      - name: Request Pages build
+        if: ${{ steps.publish.outputs.changed == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+      - name: Verify published IT cards and images
+        if: ${{ steps.publish.outcome == 'success' }}
+        run: python scripts/verify_published.py --scope it --wait 600
+      - name: Report discovery availability separately
+        if: ${{ always() && !cancelled() }}
+        run: python scripts/refresh_pipeline.py health --scope it --stage "$RUNNER_TEMP/it-stage"
+      - name: Export safe IT diagnostics
+        if: always()
+        run: python scripts/refresh_pipeline.py diagnostics --scope it --stage "$RUNNER_TEMP/it-stage" --output "$RUNNER_TEMP/it-diagnostics"
+      - name: Save sanitized IT diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: it-discovery-diagnostics-${{ github.run_id }}
+          path: ${{ runner.temp }}/it-diagnostics/data/it/audit/
+          retention-days: 7

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="VASP workflow illustration">
+  <rect width="900" height="360" fill="#f7f8fa"/>
+  <path d="M0 282 C150 236 238 318 372 268 C522 212 646 210 900 246 L900 360 L0 360 Z" fill="#f1e7e7"/>
+  <g stroke="#8c2222" stroke-width="5" fill="none" opacity=".38">
+    <path d="M88 90h160v86H88zM370 64h160v86H370zM652 94h160v86H652z"/>
+    <path d="M248 133h92M530 107h92"/>
+    <path d="M324 118l18 15-18 15M606 92l18 15-18 15"/>
+  </g>
+  <g fill="#2f6f78" opacity=".9">
+    <circle cx="144" cy="124" r="13"/><circle cx="190" cy="124" r="13"/><circle cx="166" cy="152" r="13"/>
+    <circle cx="428" cy="98" r="13"/><circle cx="474" cy="98" r="13"/><circle cx="452" cy="126" r="13"/>
+    <circle cx="710" cy="128" r="13"/><circle cx="756" cy="128" r="13"/><circle cx="734" cy="156" r="13"/>
+  </g>
+  <g fill="#5f1518" font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="92" y="230" font-size="40">DFT</text>
+    <text x="372" y="216" font-size="40">VASP</text>
+    <text x="650" y="234" font-size="40">HPC</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+name: Import data into portfolio
+
+description: Add a DOI, media URL, video URL, grant/project link, book, diploma or photo request.
+
+title: "Import: "
+labels: ["import-request", "portfolio-data"]
+
+body:
+  - type: dropdown
+    id: entity_type
+    attributes:
+      label: Entity type
+      description: What should be added to the portfolio?
+      options:
+        - publication_doi
+        - media_url
+        - video_url
+        - grant_or_project_url
+        - book_or_chapter
+        - diploma_or_certificate
+        - photo
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: url_or_doi
+    attributes:
+      label: DOI or URL
+      description: Paste DOI, media URL, video URL, grant URL, or any source link.
+      placeholder: "10.xxxx/xxxxx or https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: description_ru
+    attributes:
+      label: Russian description
+      description: Optional Russian description or note.
+      placeholder: "Краткое описание на русском языке"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description_en
+    attributes:
+      label: English description
+      description: Optional English description or note.
+      placeholder: "Short English description"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional information, preferred title, date, source, tags, or publication status.
+    validations:
+      required: false

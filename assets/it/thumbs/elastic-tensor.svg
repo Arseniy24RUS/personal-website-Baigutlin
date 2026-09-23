@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Elastic tensor workflow illustration">
+  <rect width="900" height="360" fill="#f8f9fb"/>
+  <g transform="translate(110 62)" fill="none" stroke="#8c2222" stroke-width="5" opacity=".72">
+    <path d="M0 0h170v170H0zM34 34h170v170H34z"/>
+    <path d="M0 0l34 34M170 0l34 34M170 170l34 34M0 170l34 34"/>
+  </g>
+  <g stroke="#2f6f78" stroke-width="5" fill="none">
+    <path d="M406 70h296M406 130h226M406 190h296M406 250h176"/>
+    <path d="M702 70l44 60-44 60 44 60" opacity=".8"/>
+  </g>
+  <g fill="#5f1518" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900">
+    <text x="410" y="316">Cij tensor</text>
+  </g>
+  <g fill="#8c2222">
+    <circle cx="402" cy="70" r="10"/><circle cx="402" cy="130" r="10"/><circle cx="402" cy="190" r="10"/><circle cx="402" cy="250" r="10"/>
+  </g>
+</svg>

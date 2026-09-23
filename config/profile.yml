@@ -1,0 +1,25 @@
+profile:
+  slug: danil-baigutlin
+  display_name_ru: "Байгутлин Данил Расулович"
+  display_name_en: "Danil Rasulovich Baigutlin"
+  aliases:
+    - "Danil Baigutlin"
+    - "Danil R. Baigutlin"
+    - "Байгутлин Д. Р."
+  contact_email: "d0nik1996@mail.ru"
+  authentication:
+    wos:
+      # The authorized login belongs to the maintainer; the research target below
+      # remains Danil. Native "Download my profile" must not export this account.
+      researcher_id: "AAG-1530-2021"
+      account_names:
+        - "Arseniy Sitkovskiy"
+        - "Arseniy M. Sitkovskiy"
+        - "Ситковский Арсений Михайлович"
+  identifiers:
+    elibrary_authorid: "1170779"
+    elibrary_spin: "6676-3700"
+    orcid: "0000-0002-4130-3812"
+    scopus_author_id: "57211062810"
+    wos_researcher_id: "AAN-4717-2020"
+    github_username: "Danil-phy-cmp-120"
