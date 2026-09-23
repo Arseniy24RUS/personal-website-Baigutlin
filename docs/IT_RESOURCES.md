@@ -73,8 +73,8 @@ public pages. An unavailable provider must retain the catalog and pending
 queue instead of reporting an empty successful refresh.
 
 Before rollout, run the Python tests, SEO checks and IT browser tests. Validate
-the initial ten cards against the recorded baseline and all published cards
+the initial six cards against the recorded baseline and all published cards
 against the current Git commit. After publication, verify both language pages,
-the featured links, all local preview files, desktop/mobile layout and the
+the repository links, all local preview files, desktop/mobile layout and the
 corresponding Pages build. Repeating the collection must add no duplicates or
 change any published card. A manual dry run must not commit or deploy.
