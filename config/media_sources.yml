@@ -1,7 +1,10 @@
 media_monitoring:
   auto_publish_threshold: 0.75
   low_confidence_policy: persistent_review_queue
-  initial_lookback_days: 90
+  # The preserved corpus ends in July 2024. Bootstrap must cover the gap since
+  # that snapshot; 900 days includes an overlap before its latest publication.
+  # Later runs keep the initial cutoff and resume the persisted discovery queue.
+  initial_lookback_days: 900
   max_articles_per_run: 60
   max_runtime_seconds: 600
   # Reviewed historical mentions live in data/media/seed.json. Keep their
@@ -54,7 +57,8 @@ media_monitoring:
       name_en: "CSU"
       start_urls:
         - "https://www.csu.ru/search/?q=%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD"
+        - "https://www.csu.ru/search/?q=%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD&PAGEN_1=2"
       url_allow_regex: '/press/news/[^/?#]+/?$'
-      max_pages: 1
+      max_pages: 2
       max_depth: 0
   telegram_channels: []

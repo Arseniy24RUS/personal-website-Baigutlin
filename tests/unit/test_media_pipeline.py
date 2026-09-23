@@ -113,6 +113,17 @@ class MediaTests(unittest.TestCase):
         self.assertEqual([r['url'] for r in records], ['https://www.csu.ru/press/news/materials-research/'])
         self.assertEqual(records[0]['published_at'], '2026-09-23')
 
+    def test_csu_search_tracking_does_not_hide_mentions_or_duplicate_identity(self):
+        cfg = {'site_scan_sources': [{'name': 'CSU', 'start_urls': ['https://www.csu.ru/search/?q=name'],
+                                     'url_allow_regex': '/press/news/[^/?#]+/?$'}]}
+        raw = '<a href="/press/news/research/?sphrase_id=100077">Данил Байгутлин: физика</a>'
+        with patch.object(media, 'fetch_text', return_value=(raw, {'status': 'ok'})):
+            found = media.discover_sites(cfg, [], {})
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0]['url'], 'https://www.csu.ru/press/news/research/')
+        self.assertIn('Байгутлин', found[0]['title'])
+        self.assertEqual(media.canonical(found[0]['url'] + '?sphrase_id=100078'), media.canonical(found[0]['url']))
+
     def test_original_target_array_and_seeds_survive_source_failure(self):
         # seed.json is the original target corpus, unchanged by this migration.
         seed_path = Path(__file__).resolve().parents[2] / 'data/media/seed.json'

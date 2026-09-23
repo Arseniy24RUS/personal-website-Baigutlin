@@ -21,6 +21,8 @@ from pathlib import Path
 from datetime import datetime, timezone
 from urllib.parse import urlencode, quote
 import json
+import html
+import copy
 import os
 import re
 import time
@@ -75,7 +77,60 @@ def save(path, payload):
 
 
 def normalize_title(s):
-    return re.sub(r'\s+', ' ', (s or '').strip())
+    text = html.unescape(str(s or ''))
+    text = re.sub(r'<[^>]+>|-=/?SUB=-', '', text, flags=re.I)
+    for command, symbol in [('alpha', 'α'), ('beta', 'β'), ('gamma', 'γ'), ('delta', 'δ')]:
+        text = re.sub(r'\\+' + command + r'\b', symbol, text)
+        text = re.sub(r'\$' + command + r'\$', symbol, text)
+    text = re.sub(r'\\+(?:mathrm|textrm|text|mathbf|mathit)\s*', '', text)
+    text = re.sub(r'[$_{}]', '', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def work_title_key(value):
+    """Equivalent math markup/chemical spacing must not create another work."""
+    return re.sub(r'[^a-zа-яёα-ω0-9]', '', normalize_title(value).casefold())
+
+
+def publication_type(record):
+    kind = record.get('publication_type') or record.get('type') or ''
+    doi = doi_norm(record.get('doi')) or ''
+    venue = record.get('venue') or (record.get('journal-title') or {}).get('value') or (((record.get('primary_location') or {}).get('source') or {}).get('display_name')) or ''
+    if doi.startswith('10.48550/arxiv.') or kind in {'preprint', 'posted-content'} or str(venue).strip().casefold() == 'arxiv':
+        return 'preprint'
+    return {'article': 'journal-article', 'proceedings-article': 'conference-paper'}.get(kind, kind) or None
+
+
+def work_url_key(value):
+    from urllib.parse import urlsplit, urlunsplit
+    parsed = urlsplit(str(value or ''))
+    return urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path.rstrip('/'), parsed.query, '')) if parsed.netloc else ''
+
+
+def compatible_work_versions(first, second):
+    """A title match cannot collapse two distinct DOI versions or a preprint."""
+    a, b = doi_norm(first.get('doi')), doi_norm(second.get('doi'))
+    if a and b and a != b:
+        return False
+    first_type, second_type = publication_type(first), publication_type(second)
+    if (first_type == 'preprint') != (second_type == 'preprint'):
+        return False
+    return True
+
+
+def same_open_work(first, second):
+    a, b = doi_norm(first.get('doi')), doi_norm(second.get('doi'))
+    if a and b:
+        return a == b
+    if not compatible_work_versions(first, second):
+        return False
+    urls_a = {work_url_key(first.get(key)) for key in ('url', 'landing_page_url')} - {''}
+    urls_b = {work_url_key(second.get(key)) for key in ('url', 'landing_page_url')} - {''}
+    if urls_a & urls_b:
+        return True
+    return bool(work_title_key(first.get('title'))) and (
+        work_title_key(first.get('title')), str(first.get('year') or '')
+    ) == (work_title_key(second.get('title')), str(second.get('year') or ''))
 
 
 def doi_norm(doi):
@@ -107,6 +162,8 @@ def normalize_orcid_works(payload, orcid):
                 'year': int(year) if str(year or '').isdigit() else None,
                 'doi': doi_norm(doi),
                 'type': w.get('type'),
+                'publication_type': publication_type({'type': w.get('type'), 'doi': doi, 'journal-title': w.get('journal-title')}),
+                'venue': (w.get('journal-title') or {}).get('value'),
                 'url': (w.get('url') or {}).get('value'),
                 'put_code': w.get('put-code'),
                 'raw': w,
@@ -114,17 +171,30 @@ def normalize_orcid_works(payload, orcid):
     return out
 
 
-def normalize_openalex_works(payload):
+def normalize_openalex_works(payload, author_id=None, orcid=None):
     out = []
     for w in (payload or {}).get('results', []) or []:
+        authorships = w.get('authorships') or []
+        if (author_id or orcid) and not any(
+            (author_id and (item.get('author') or {}).get('id') == author_id)
+            or (orcid and str((item.get('author') or {}).get('orcid') or '').rstrip('/').endswith('/' + orcid))
+            for item in authorships
+        ):
+            continue
         loc = w.get('primary_location') or {}
         source = loc.get('source') or {}
+        bibliography = w.get('biblio') or {}
+        pages = '-'.join(str(bibliography[key]) for key in ('first_page', 'last_page') if bibliography.get(key))
         out.append({
             'source': 'openalex_api',
             'openalex_id': w.get('id'),
             'title': normalize_title(w.get('display_name')),
             'year': w.get('publication_year'),
             'doi': doi_norm(w.get('doi')),
+            'authors_raw': ', '.join(normalize_title(item.get('raw_author_name') or (item.get('author') or {}).get('display_name')) for item in authorships if item.get('raw_author_name') or (item.get('author') or {}).get('display_name')),
+            'type': w.get('type'),
+            'publication_type': publication_type(w),
+            'volume': bibliography.get('volume'), 'issue': bibliography.get('issue'), 'pages': pages or None,
             'url': w.get('id'),
             'landing_page_url': loc.get('landing_page_url'),
             'pdf_url': ((loc.get('pdf_url') or '') or None),
@@ -156,11 +226,50 @@ def normalize_crossref_works(payload):
             'url': w.get('URL'),
             'venue': pub,
             'type': w.get('type'),
+            'publication_type': publication_type(w),
+            'authors_raw': ', '.join(normalize_title(' '.join(filter(None, (author.get('given'), author.get('family')))) or author.get('name')) for author in w.get('author') or [] if author.get('given') or author.get('family') or author.get('name')),
+            'volume': w.get('volume'), 'issue': w.get('issue'), 'pages': w.get('page'),
             'publisher': w.get('publisher'),
             'is_referenced_by_count': w.get('is-referenced-by-count'),
             'raw': w,
         })
     return out
+
+
+def enrich_orcid_contributors(records, *, max_requests=12, budget_seconds=90):
+    """Fill omitted summary contributors from bounded public work-detail reads."""
+    cache_path = OUT / 'orcid_work_details.json'
+    cache = read_json(cache_path, {}) or {}
+    items = cache.setdefault('items', {})
+    attempted = 0
+    deadline = time.monotonic() + budget_seconds
+    for record in records:
+        if record.get('authors_raw'):
+            continue
+        provider = (record.get('provider_records') or {}).get('orcid_public_api') or record
+        orcid, put_code = provider.get('orcid'), provider.get('put_code')
+        if not re.fullmatch(r'\d{4}-\d{4}-\d{4}-[\dX]{4}', str(orcid or '')) or not str(put_code or '').isdigit():
+            continue
+        key = f'{orcid}/{put_code}'
+        known = items.get(key) or {}
+        if not known.get('authors_raw') and attempted < max_requests and time.monotonic() < deadline:
+            attempted += 1
+            payload, diagnostic = get_json(f'https://pub.orcid.org/v3.0/{orcid}/work/{put_code}',
+                                           timeout=max(1, min(10, deadline - time.monotonic())))
+            if isinstance(payload, dict):
+                contributors = (payload.get('contributors') or {}).get('contributor') or []
+                authors = [normalize_title((item.get('credit-name') or {}).get('value')) for item in contributors
+                           if (item.get('credit-name') or {}).get('value')
+                           and (item.get('contributor-attributes') or {}).get('contributor-role') in (None, 'author')]
+                known = {'authors_raw': ', '.join(authors), 'observed_at': now(),
+                         'status': 'success' if authors else 'contributors_not_provided'}
+                items[key] = known
+        if known.get('authors_raw'):
+            record['authors_raw'] = known['authors_raw']
+            record['authors_source'] = 'orcid_public_work_detail'
+    cache.update(schema='orcid-work-contributors/v1')
+    save(cache_path, cache)
+    return records
 
 
 def fetch_cursor_pages(base_url, params, provider):
@@ -216,18 +325,28 @@ def fetch_cursor_pages(base_url, params, provider):
 
 
 def dedupe_records(records):
-    merged = {}
-    for record in records:
-        key = ('doi', doi_norm(record.get('doi'))) if record.get('doi') else ('title_year', normalize_title(record.get('title')).lower(), record.get('year'))
-        previous = merged.get(key, {})
+    merged = []
+    # Prefer an identified journal version when an untyped/DOI-less duplicate
+    # also appears. A preprint's distinct DOI always remains a separate work.
+    for original in sorted(records, key=lambda row: (publication_type(row) == 'preprint', not bool(row.get('doi')))):
+        record = copy.deepcopy(original)
+        previous = next((row for row in merged if same_open_work(row, record)), None)
+        if previous is None:
+            previous = {}
+            merged.append(previous)
         sources = set(previous.get('sources') or []) | set(record.get('sources') or [])
         if record.get('source'):
             sources.add(record['source'])
         # Retain each provider's observations rather than discard later DOI matches.
         observations = dict(previous.get('provider_records') or {})
-        observations[record['source']] = record
-        merged[key] = {**record, **previous, 'sources': sorted(sources), 'provider_records': observations}
-    return list(merged.values())
+        for provider, observation in (record.get('provider_records') or {}).items():
+            observations.setdefault(provider, {key: value for key, value in observation.items() if key != 'provider_records'})
+        observations.setdefault(record['source'], {key: value for key, value in record.items() if key != 'provider_records'})
+        for field, value in record.items():
+            if previous.get(field) in (None, '', [], {}) and value not in (None, '', [], {}):
+                previous[field] = value
+        previous.update(sources=sorted(sources), provider_records=observations)
+    return merged
 
 
 def main():
@@ -263,12 +382,13 @@ def main():
 
         author_url = 'https://api.openalex.org/authors/' + quote('https://orcid.org/' + orcid, safe='') + '?' + urlencode({'mailto': CONTACT})
         author, rep = get_json(author_url)
-        if author is not None and not author.get('id'):
+        if author is not None and (not author.get('id') or (author.get('orcid') and not str(author['orcid']).rstrip('/').endswith('/' + orcid))):
             author, rep = None, {'reason': 'unexpected_schema'}
         author = store_provider('openalex_author', 'openalex_author.json', author, rep)
         filt = 'authorships.author.id:' + author['id'] if author and author.get('id') else 'authorships.author.orcid:' + orcid
         works, rep = fetch_cursor_pages('https://api.openalex.org/works', {'filter': filt, 'per-page': 200, 'sort': 'publication_date:desc', 'mailto': CONTACT}, 'openalex')
-        store_provider('openalex_works', 'openalex_works.json', works, rep, normalize_openalex_works)
+        store_provider('openalex_works', 'openalex_works.json', works, rep,
+                       lambda payload: normalize_openalex_works(payload, (author or {}).get('id'), orcid))
 
         works, rep = fetch_cursor_pages('https://api.crossref.org/works', {'filter': 'orcid:' + orcid, 'rows': 1000, 'sort': 'published', 'order': 'desc', 'mailto': CONTACT}, 'crossref')
         store_provider('crossref', 'crossref_works.json', works, rep, normalize_crossref_works)
@@ -277,12 +397,8 @@ def main():
 
     # Preserve records even if a provider has withdrawn a DOI from its response.
     previous_records = (read_json(OUT / 'open_publications.json', {}) or {}).get('records', [])
-    current = dedupe_records(all_records)
-    identities = {(doi_norm(r.get('doi')) or (normalize_title(r.get('title')).lower(), r.get('year'))) for r in current}
-    for row in previous_records:
-        identity = doi_norm(row.get('doi')) or (normalize_title(row.get('title')).lower(), row.get('year'))
-        if identity not in identities:
-            current.append(row)
+    current = dedupe_records([*all_records, *previous_records])
+    enrich_orcid_contributors(current)
     save(OUT / 'open_publications.json', {'generated_at': now(), 'records': current})
     complete = bool(report['providers']) and all(p['complete'] for p in report['providers'].values())
     report.update(source_result(old_report, status='success' if complete else 'partial', count=len(current), reason=None if complete else 'one_or_more_providers_unavailable'))

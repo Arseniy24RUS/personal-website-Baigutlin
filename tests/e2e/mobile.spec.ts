@@ -43,6 +43,26 @@ test('new publications become searchable without rebuilding HTML', async ({page,
   await expect(page.locator('[data-filter-year="pubs"] option[value="2026"]')).toHaveCount(1);
 });
 
+for (const language of ['ru', 'en'] as const) {
+  test(`explicit preprint type and collected authors render in ${language}`, async ({page}) => {
+    const rows = [
+      {id: 'typed-preprint', title: 'Thermoelectric screening', year: 2026, publication_type: 'preprint', authors_raw: 'Danil Baigutlin, Maria Matyunina', sources: ['OpenAlex'], url: 'https://arxiv.org/abs/2601.00001'},
+      {id: 'journal-paper', title: 'Heusler alloys', year: 2026, publication_type: 'journal-article', authors: ['D. Baigutlin', 'V. Sokolovskiy'], sources: ['Crossref']},
+      {id: 'untyped-paper', title: 'Untyped repository record', year: 2026, sources: ['arXiv'], url: 'https://arxiv.org/abs/2601.00002'},
+    ];
+    await page.route('**/data/public/publications.json', route => route.fulfill({contentType: 'application/json', body: JSON.stringify(rows)}));
+    await page.goto(language === 'en' ? '/en/publications.html' : '/publications.html');
+    await expect(page.locator('[data-filter-group="pubs"]')).toHaveAttribute('data-loaded', 'true');
+    await expect(page.locator('.publication-type')).toHaveCount(1);
+    await expect(page.locator('[data-publication-id="typed-preprint"] .publication-type')).toHaveText(language === 'en' ? 'Preprint' : 'Препринт');
+    await expect(page.locator('[data-publication-id="typed-preprint"] .pub-citation')).toContainText(rows[0].authors_raw!);
+    await expect(page.locator('[data-publication-id="journal-paper"] .pub-citation')).toContainText('D. Baigutlin, V. Sokolovskiy');
+    await page.locator('[data-filter-input="pubs"]').fill('Maria Matyunina');
+    await expect(page.locator('.pub-row:not(.hidden)')).toHaveCount(1);
+    await expect(page.locator('.pub-row:not(.hidden) .publication-type')).toBeVisible();
+  });
+}
+
 for (const language of ['ru','en'] as const) {
   test(`media preserves editorial content and fallback in ${language}`, async ({page, request}) => {
     const payload = await (await request.get('/data/media/published.json')).json();

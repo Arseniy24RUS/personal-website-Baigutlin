@@ -33,7 +33,7 @@ CONFIG = Path(os.environ.get('MEDIA_SOURCES_YAML', 'config/media_sources.yml'))
 FETCH_DEADLINE = None
 HOST_FAILURES = {}
 HOST_FAILURE_LIMIT = 3
-TRACKING = re.compile(r'^(utm_|fbclid$|gclid$|yclid$)', re.I)
+TRACKING = re.compile(r'^(utm_|fbclid$|gclid$|yclid$|sphrase_id$)', re.I)
 STATIC = re.compile(r'\.(?:css|js|png|jpe?g|gif|svg|webp|pdf|docx?|xlsx?|zip)(?:$|\?)', re.I)
 SURNAME = r'(?:байгутлин(?:а|у|ым|е)?|baigutlin|baygutlin)'
 GIVEN = r'(?:дани{1,2}л(?:а|у|ом|е)?|dani{1,2}l)'
@@ -445,11 +445,17 @@ def discover_sites(cfg, reports, state):
             soup = BeautifulSoup(raw, 'html.parser')
             for anchor in soup.select('a[href]'):
                 link = urljoin(url, anchor['href'])
+                # Bitrix search appends a per-search highlighting token. It is
+                # not article identity and must not defeat source path filters.
+                parts = urlparse(link)
+                link = urlunparse(parts._replace(query=urlencode([(key, value) for key, value in
+                                      parse_qsl(parts.query, keep_blank_values=True) if not TRACKING.search(key)]), fragment=''))
                 if urlparse(link).netloc != urlparse(url).netloc or not allowed.search(link) or STATIC.search(link):
                     continue
                 if is_blocked_record({'url': link}):
                     continue
-                items.append({'url': link, 'source': 'institutional_site_scan', 'source_name': source['name'],
+                items.append({'url': link, 'title': clean(anchor.get_text(' ')),
+                              'source': 'institutional_site_scan', 'source_name': source['name'],
                               'source_name_en': source.get('name_en')})
                 if depth < int(source.get('max_depth', 0)):
                     pending.append((link, depth + 1))

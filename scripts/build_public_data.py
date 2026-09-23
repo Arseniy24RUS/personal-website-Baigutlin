@@ -5,12 +5,14 @@ from pathlib import Path
 from datetime import datetime, timezone
 import csv
 import copy
+import difflib
 import json
 import re
 from source_health import component_state, is_verified, observation_time, load_checkpoint, materialize_checkpoint
 from report_safety import clean_url
 from parse_wos_author_profile import normalized_summary as normalized_wos_summary
 from export_profile_env import public_profile_identifiers
+from harvest_open_sources import work_title_key, same_open_work, publication_type
 
 try:
     import yaml  # type: ignore
@@ -586,7 +588,8 @@ def merge_open(canon, records):
     curated = read_json(DATA / 'curation/open_elibrary_map.json', {})
     by_item, by_title, by_ty, by_doi = indexes(canon)
     enriched = added = 0
-    for r in records or []:
+    pending = []
+    for r in sorted(records or [], key=lambda row: (publication_type(row) == 'preprint', not bool(row.get('doi')))):
         doi = nd(r.get('doi'))
         title = nt(r.get('title'))
         target = None
@@ -597,7 +600,20 @@ def merge_open(canon, records):
         if target is None and doi:
             target = by_doi.get(doi)
         if target is None:
-            target = by_ty.get((title, str(r.get('year') or ''))) or by_title.get(title)
+            candidates = [row for row in canon if same_open_work(row, r)]
+            # Never guess between already-published duplicate records.
+            if len(candidates) == 1:
+                target = candidates[0]
+            elif len(candidates) > 1:
+                pending.append({'reason': 'ambiguous_existing_identity', 'record': r})
+                continue
+        if target is None and not doi and publication_type(r) == 'preprint':
+            possible = [row for row in canon if publication_type(row) == 'preprint' and row.get('doi')
+                        and difflib.SequenceMatcher(None, work_title_key(row.get('title')), work_title_key(r.get('title'))).ratio() >= .90]
+            if possible:
+                pending.append({'reason': 'possible_preprint_title_variant', 'record': r,
+                                'candidate_dois': [row['doi'] for row in possible]})
+                continue
         src = r.get('source') or 'open_api'
         if target:
             for provider in list(r.get('sources') or []) + [src]:
@@ -607,11 +623,17 @@ def merge_open(canon, records):
                 target['doi'] = doi
             if r.get('venue') and not target.get('venue'):
                 target['venue'] = r.get('venue')
+            for field in ('authors_raw', 'volume', 'issue', 'pages', 'publisher'):
+                set_missing(target, field, r.get(field))
+            set_missing(target, 'publication_type', publication_type(r))
             set_lang_field(target, 'title', r.get('title'))
             set_lang_field(target, 'venue', r.get('venue'))
             enriched += 1
         else:
-            rec = {'source': src + '_auto', 'number': None, 'elibrary_item_id': None, 'year': int(r.get('year')) if str(r.get('year') or '').isdigit() else None, 'rinc_citations': None, 'title': r.get('title'), 'authors_raw': '', 'venue': r.get('venue'), 'pages': None, 'doi': doi, 'url': r.get('url') or r.get('landing_page_url'), 'sources': [src], 'open_sources': [r], 'auto_accept_reason': 'author-scoped ORCID/OpenAlex/Crossref record'}
+            if not r.get('authors_raw'):
+                pending.append({'reason': 'authors_not_provided_by_sources', 'record': r})
+                continue
+            rec = {'source': src + '_auto', 'number': None, 'elibrary_item_id': None, 'year': int(r.get('year')) if str(r.get('year') or '').isdigit() else None, 'rinc_citations': None, 'title': r.get('title'), 'authors_raw': r.get('authors_raw') or '', 'venue': r.get('venue'), 'pages': r.get('pages'), 'volume': r.get('volume'), 'issue': r.get('issue'), 'publisher': r.get('publisher'), 'publication_type': publication_type(r), 'doi': doi, 'url': r.get('url') or r.get('landing_page_url'), 'sources': [src], 'open_sources': [r], 'auto_accept_reason': 'author-scoped ORCID/OpenAlex/Crossref record'}
             for provider in r.get('sources') or []:
                 addsrc(rec, provider)
             enrich_localized_fields(rec)
@@ -622,6 +644,9 @@ def merge_open(canon, records):
             if title:
                 by_title[title] = rec
                 by_ty[(title, str(rec.get('year') or ''))] = rec
+    pending_path = DATA / 'open/pending_publications.json'
+    if pending or pending_path.exists():
+        write_json(pending_path, {'schema': 'open-publication-review/v1', 'records': pending})
     return enriched, added
 
 

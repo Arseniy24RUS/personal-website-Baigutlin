@@ -1,0 +1,32 @@
+{
+  "10.47475/2500-0101-2025-10-2-286-296": {
+    "elibrary_item_id": "82741704",
+    "reason": "English metadata title of the same Russian article; journal, 2025, volume 10, issue 2, pages 286-296 and all four authors match the retained eLibrary reference.",
+    "evidence_url": "https://api.crossref.org/works/10.47475/2500-0101-2025-10-2-286-296",
+    "verified_at": "2026-09-23"
+  },
+  "10.14529/mmph230207": {
+    "elibrary_item_id": "53327663",
+    "reason": "English metadata title of the same Russian article; journal, 2023, volume 15, issue 2, pages 48-58 and Erager/Baigutlin/Sokolovskiy/Buchelnikov author order match.",
+    "evidence_url": "https://api.crossref.org/works/10.14529/mmph230207",
+    "verified_at": "2026-09-23"
+  },
+  "10.47475/2500-0101-2020-15407": {
+    "elibrary_item_id": "44368971",
+    "reason": "English metadata title of the same Russian Fe-Ga kinetics article; Chelyabinsk Physical and Mathematical Journal, 2020, volume 5, issue 4-1, pages 471-479 and all seven authors match.",
+    "evidence_url": "https://api.crossref.org/works/10.47475/2500-0101-2020-15407",
+    "verified_at": "2026-09-23"
+  },
+  "10.31857/s0033849423040010": {
+    "elibrary_item_id": "50773463",
+    "reason": "Russian edition, not its separate translated DOI: Radio Engineering and Electronics, 2023, volume 68, issue 4, pages 326-337, same four authors and Fe2RhZ title.",
+    "evidence_url": "https://openalex.org/W4394951611",
+    "verified_at": "2026-09-23"
+  },
+  "10.31857/s0015323022601301": {
+    "elibrary_item_id": "50403417",
+    "reason": "Russian edition, not its separate translated DOI: Physics of Metals and Metallography, 2023, volume 124, issue 2, pages 126-133, same four authors and Mn2VAl/Mn2VSi title.",
+    "evidence_url": "https://openalex.org/W4395001890",
+    "verified_at": "2026-09-23"
+  }
+}
