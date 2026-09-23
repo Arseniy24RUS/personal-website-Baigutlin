@@ -1,0 +1,1087 @@
+{
+  "items": {
+    "84675898": {
+      "fetched_at": "2026-09-23T18:11:16+00:00",
+      "observed_at": "2026-09-23T18:11:16+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=84675898",
+      "parsed": {
+        "doi": "10.1016/j.jmmm.2025.173268",
+        "issn": "0304-8853",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2025",
+        "volume": "629",
+        "issue": "а",
+        "pages": "173268"
+      }
+    },
+    "80734559": {
+      "fetched_at": "2026-09-23T18:11:19+00:00",
+      "observed_at": "2026-09-23T18:11:19+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=80734559",
+      "parsed": {
+        "doi": "10.1016/j.physb.2024.416701",
+        "issn": "0921-4526",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2025",
+        "volume": "697",
+        "issue": "а",
+        "pages": "416701"
+      }
+    },
+    "82741704": {
+      "fetched_at": "2026-09-23T18:11:21+00:00",
+      "observed_at": "2026-09-23T18:11:21+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=82741704",
+      "parsed": {
+        "doi": "10.47475/2500-0101-2025-10-2-286-296",
+        "issn": "2500-0101",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2025",
+        "volume": "10",
+        "issue": "2",
+        "pages": "286-296"
+      }
+    },
+    "74044821": {
+      "fetched_at": "2026-09-23T18:11:24+00:00",
+      "observed_at": "2026-09-23T18:11:24+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "pages",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=74044821",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2024",
+        "volume": ", что полученные результаты могут быть использованы для дальнейшего улучшения предсказательной силы функционала SCAN и для разработки новых функционалов. Кроме того, результаты расчетов могут быть также применены для создания новых функциональных материалов, в частности для устройств спинтроники и магнитных актуаторов. Результаты работы могут служить основой для экспериментального синтеза новых материалов и дальнейших теоретических исследований в области теории функционала плотности. Научная новизна работы заключается в том, что впервые было получено полуметаллическое состояние и оценена ширина запрещенной зоны в рамках полу-локального функционала без использования параметрического подхода DFT+U для полных сплавов Гейслера...",
+        "issue": "государственной регистрации:"
+      }
+    },
+    "74520945": {
+      "fetched_at": "2026-09-23T18:11:26+00:00",
+      "observed_at": "2026-09-23T18:11:26+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=74520945",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2024",
+        "pages": "128-129",
+        "volume": "107",
+        "issue": "24-12-20016)"
+      }
+    },
+    "74520946": {
+      "fetched_at": "2026-09-23T18:11:29+00:00",
+      "observed_at": "2026-09-23T18:11:29+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=74520946",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2024",
+        "volume": "обменно-корреляционных взаимодействий в приближении обобщенного градиента в формулировке PBE [3]...",
+        "pages": "130-132",
+        "issue": "22-1220032"
+      }
+    },
+    "72567426": {
+      "fetched_at": "2026-09-23T18:11:31+00:00",
+      "observed_at": "2026-09-23T18:11:31+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "issue",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=72567426",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "МИРЭА - Российский технологический университет",
+        "year": "2024",
+        "pages": "160-162"
+      }
+    },
+    "65441032": {
+      "fetched_at": "2026-09-23T18:11:34+00:00",
+      "observed_at": "2026-09-23T18:11:34+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=65441032",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2024",
+        "pages": "45-46",
+        "volume": "122",
+        "issue": "12"
+      }
+    },
+    "68641010": {
+      "fetched_at": "2026-09-23T18:11:38+00:00",
+      "observed_at": "2026-09-23T18:11:38+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=68641010",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2024",
+        "volume": "FROM ATOMISTIC TO MACRO",
+        "pages": "5-6",
+        "issue": "22-12-20032"
+      }
+    },
+    "80407909": {
+      "fetched_at": "2026-09-23T18:11:40+00:00",
+      "observed_at": "2026-09-23T18:11:40+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=80407909",
+      "parsed": {
+        "doi": "10.1134/s0031918x24602622",
+        "issn": "0031-918X",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2024",
+        "volume": "125",
+        "issue": "14",
+        "pages": "1885-1893"
+      }
+    },
+    "78881723": {
+      "fetched_at": "2026-09-23T18:11:43+00:00",
+      "observed_at": "2026-09-23T18:11:43+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=78881723",
+      "parsed": {
+        "doi": "10.1063/5.0236335",
+        "issn": "0021-8979",
+        "venue": "Ы",
+        "publisher": "American Institute of Physics",
+        "year": "2024",
+        "volume": "136",
+        "issue": "18",
+        "pages": "2021"
+      }
+    },
+    "79743680": {
+      "fetched_at": "2026-09-23T18:11:45+00:00",
+      "observed_at": "2026-09-23T18:11:45+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "pages",
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=79743680",
+      "parsed": {
+        "doi": "10.1063/5.0236017",
+        "issn": "0021-8979",
+        "venue": "Ы",
+        "publisher": "American Institute of Physics",
+        "year": "2024",
+        "volume": "136",
+        "issue": "21"
+      }
+    },
+    "54314144": {
+      "fetched_at": "2026-09-23T18:11:48+00:00",
+      "observed_at": "2026-09-23T18:11:48+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=54314144",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2023",
+        "pages": "101-103",
+        "issue": "22-12-20032"
+      }
+    },
+    "54314104": {
+      "fetched_at": "2026-09-23T18:11:50+00:00",
+      "observed_at": "2026-09-23T18:11:50+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=54314104",
+      "parsed": {
+        "doi": "10.3390/met13040728",
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2023",
+        "pages": "15-17",
+        "volume": "13",
+        "issue": "075-01493-23-00"
+      }
+    },
+    "54254106": {
+      "fetched_at": "2026-09-23T18:11:52+00:00",
+      "observed_at": "2026-09-23T18:11:52+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=54254106",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "ИП Колмогоров Игорь Александрович",
+        "year": "2023",
+        "pages": "30",
+        "issue": "22-12-20032"
+      }
+    },
+    "54314112": {
+      "fetched_at": "2026-09-23T18:11:55+00:00",
+      "observed_at": "2026-09-23T18:11:55+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=54314112",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2023",
+        "pages": "31-33",
+        "issue": "22-12-20032"
+      }
+    },
+    "54314121": {
+      "fetched_at": "2026-09-23T18:11:57+00:00",
+      "observed_at": "2026-09-23T18:11:57+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=54314121",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2023",
+        "pages": "51-52",
+        "issue": "075-01493-23-00"
+      }
+    },
+    "54592981": {
+      "fetched_at": "2026-09-23T18:12:02+00:00",
+      "observed_at": "2026-09-23T18:12:02+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=54592981",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Иркутский государственный университет",
+        "year": "2023",
+        "volume": "ов переходных металлов (ПМ) X,Y и sp-элемента Z. В работе [3] была предложена идея заменить один из переходных металлов в структуре в половинных сплавах Гейслера (например, Ni, Ti, Fe, Со, Мп) на атом dd щелочного металла (К, Rb, Cs)...",
+        "pages": "59-60",
+        "issue": "22-12-20032"
+      }
+    },
+    "62505646": {
+      "fetched_at": "2026-09-23T18:12:05+00:00",
+      "observed_at": "2026-09-23T18:12:05+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=62505646",
+      "parsed": {
+        "doi": "10.1016/j.commatsci.2023.112365",
+        "issn": "0927-0256",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2023",
+        "volume": "228",
+        "issue": "а",
+        "pages": "112365"
+      }
+    },
+    "50773463": {
+      "fetched_at": "2026-09-23T18:12:09+00:00",
+      "observed_at": "2026-09-23T18:12:09+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=50773463",
+      "parsed": {
+        "doi": "10.31857/s0033849423040010",
+        "issn": "0033-8494",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2023",
+        "volume": "68",
+        "issue": "4",
+        "pages": "326-337"
+      }
+    },
+    "50403417": {
+      "fetched_at": "2026-09-23T18:12:12+00:00",
+      "observed_at": "2026-09-23T18:12:12+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=50403417",
+      "parsed": {
+        "doi": "10.31857/s0015323022601301",
+        "issn": "0015-3230",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2023",
+        "volume": "124",
+        "issue": "2",
+        "pages": "126-133"
+      }
+    },
+    "53327663": {
+      "fetched_at": "2026-09-23T18:12:15+00:00",
+      "observed_at": "2026-09-23T18:12:15+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=53327663",
+      "parsed": {
+        "doi": "10.14529/mmph230207",
+        "issn": "2075-809X",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2023",
+        "volume": "15",
+        "issue": "2",
+        "pages": "48-58"
+      }
+    },
+    "61298820": {
+      "fetched_at": "2026-09-23T18:12:17+00:00",
+      "observed_at": "2026-09-23T18:12:17+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=61298820",
+      "parsed": {
+        "doi": "10.3390/met13040728",
+        "issn": "2075-4701",
+        "venue": "Ы",
+        "publisher": "MDPI AG",
+        "year": "2023",
+        "volume": "13",
+        "issue": "4",
+        "pages": "728"
+      }
+    },
+    "61730931": {
+      "fetched_at": "2026-09-23T18:12:19+00:00",
+      "observed_at": "2026-09-23T18:12:19+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=61730931",
+      "parsed": {
+        "doi": "10.1103/physrevb.107.245130",
+        "issn": "2469-9950",
+        "venue": "Ы",
+        "publisher": "American Physical Society",
+        "year": "2023",
+        "volume": "107",
+        "issue": "24",
+        "pages": "245130"
+      }
+    },
+    "49304148": {
+      "fetched_at": "2026-09-23T18:12:22+00:00",
+      "observed_at": "2026-09-23T18:12:22+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=49304148",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2022",
+        "pages": "11-14",
+        "issue": "22-12-20032"
+      }
+    },
+    "49615132": {
+      "fetched_at": "2026-09-23T18:12:25+00:00",
+      "observed_at": "2026-09-23T18:12:25+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=49615132",
+      "parsed": {
+        "doi": "10.33184/fmpve2022-2022-10-19.117",
+        "venue": "Ы",
+        "publisher": "Башкирский государственный университет",
+        "year": "2022",
+        "volume": "ов Mn рассчитывалось в программном пакете ATAT. По данным проведенных исследований, структуры, сгенерированные с помощью программного пакета АТАТ,...",
+        "pages": "157",
+        "issue": "075-01391-22-00"
+      }
+    },
+    "49304233": {
+      "fetched_at": "2026-09-23T18:12:27+00:00",
+      "observed_at": "2026-09-23T18:12:27+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=49304233",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2022",
+        "pages": "29-30",
+        "issue": "22-12-20032"
+      }
+    },
+    "49304157": {
+      "fetched_at": "2026-09-23T18:12:30+00:00",
+      "observed_at": "2026-09-23T18:12:30+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=49304157",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2022",
+        "volume": "ным упорядочением атомов Fe и Ni в качестве основного состояния...",
+        "pages": "33-35",
+        "issue": "075-01391-22-00"
+      }
+    },
+    "50111880": {
+      "fetched_at": "2026-09-23T18:12:32+00:00",
+      "observed_at": "2026-09-23T18:12:32+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=50111880",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Федеральное государственное автономное образовательное учреждение высшего образования \"Севастопольский государственный университет\"",
+        "year": "2022",
+        "volume": ", достаточно высокой степенью поляризации и энергетической щелью для спин-вверх электронов.",
+        "pages": "34-38",
+        "issue": "22-12-20032"
+      }
+    },
+    "50077923": {
+      "fetched_at": "2026-09-23T18:12:35+00:00",
+      "observed_at": "2026-09-23T18:12:35+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=50077923",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Башкирский государственный педагогический университет им. М. Акмуллы",
+        "year": "2022",
+        "pages": "41-42",
+        "issue": "22-12-20032"
+      }
+    },
+    "50078080": {
+      "fetched_at": "2026-09-23T18:12:37+00:00",
+      "observed_at": "2026-09-23T18:12:37+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=50078080",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Башкирский государственный педагогический университет им. М. Акмуллы",
+        "year": "2022",
+        "pages": "72-73",
+        "issue": "22-12-20032"
+      }
+    },
+    "49304146": {
+      "fetched_at": "2026-09-23T18:12:40+00:00",
+      "observed_at": "2026-09-23T18:12:40+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=49304146",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2022",
+        "volume": "составляет примерно 340 °K, что характерно для сплавов Гейслера на основе Rh2 [6]...",
+        "pages": "7-9",
+        "issue": "22-12-20032"
+      }
+    },
+    "56173251": {
+      "fetched_at": "2026-09-23T18:12:42+00:00",
+      "observed_at": "2026-09-23T18:12:42+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=56173251",
+      "parsed": {
+        "doi": "10.1016/j.jallcom.2022.165532",
+        "issn": "0925-8388",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2022",
+        "volume": "917",
+        "issue": "а",
+        "pages": "165532"
+      }
+    },
+    "47534946": {
+      "fetched_at": "2026-09-23T18:13:14+00:00",
+      "observed_at": "2026-09-23T18:13:14+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=47534946",
+      "parsed": {
+        "doi": "10.1016/j.jmmm.2021.168728",
+        "issn": "0304-8853",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2022",
+        "volume": "546",
+        "issue": "а",
+        "pages": "168728"
+      }
+    },
+    "57222846": {
+      "fetched_at": "2026-09-23T18:15:26+00:00",
+      "observed_at": "2026-09-23T18:15:26+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=57222846",
+      "parsed": {
+        "doi": "10.21883/pss.2022.13.52300.18s",
+        "issn": "1063-7834",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2022",
+        "volume": "63",
+        "issue": "13",
+        "pages": "1618"
+      }
+    },
+    "59139914": {
+      "fetched_at": "2026-09-23T18:15:29+00:00",
+      "observed_at": "2026-09-23T18:15:29+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=59139914",
+      "parsed": {
+        "doi": "10.21883/pss.2022.13.53975.18s",
+        "issn": "1063-7834",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2022",
+        "volume": "63",
+        "issue": "13",
+        "pages": "2082"
+      }
+    },
+    "47299674": {
+      "fetched_at": "2026-09-23T18:15:32+00:00",
+      "observed_at": "2026-09-23T18:15:32+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=47299674",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2021",
+        "pages": "54-56",
+        "issue": "17-72-20022"
+      }
+    },
+    "47299611": {
+      "fetched_at": "2026-09-23T18:15:35+00:00",
+      "observed_at": "2026-09-23T18:15:35+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=47299611",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2021",
+        "pages": "7-9",
+        "issue": "20-42-740006"
+      }
+    },
+    "46955967": {
+      "fetched_at": "2026-09-23T18:15:38+00:00",
+      "observed_at": "2026-09-23T18:15:38+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=46955967",
+      "parsed": {
+        "doi": "10.1016/j.jallcom.2021.160917",
+        "issn": "0925-8388",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2021",
+        "volume": "885",
+        "issue": "а",
+        "pages": "160917"
+      }
+    },
+    "46636883": {
+      "fetched_at": "2026-09-23T18:15:45+00:00",
+      "observed_at": "2026-09-23T18:15:45+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=46636883",
+      "parsed": {
+        "doi": "10.21883/ftt.2021.11.51572.18s",
+        "issn": "0367-3294",
+        "venue": "Ы",
+        "publisher": "Физико-технический институт им. А.Ф. Иоффе Российской академии наук",
+        "year": "2021",
+        "volume": "63",
+        "issue": "11",
+        "pages": "1751-1757"
+      }
+    },
+    "46820682": {
+      "fetched_at": "2026-09-23T18:15:48+00:00",
+      "observed_at": "2026-09-23T18:15:48+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "pages",
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=46820682",
+      "parsed": {
+        "doi": "10.3390/met11060973",
+        "issn": "2075-4701",
+        "venue": "Ы",
+        "publisher": "MDPI AG",
+        "year": "2021",
+        "volume": "11",
+        "issue": "6"
+      }
+    },
+    "46744881": {
+      "fetched_at": "2026-09-23T18:15:50+00:00",
+      "observed_at": "2026-09-23T18:15:50+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=46744881",
+      "parsed": {
+        "doi": "10.1103/physrevb.103.054414",
+        "issn": "2469-9950",
+        "venue": "Ы",
+        "publisher": "American Physical Society",
+        "year": "2021",
+        "volume": "103",
+        "issue": "5",
+        "pages": "054414"
+      }
+    },
+    "47508871": {
+      "fetched_at": "2026-09-23T18:15:52+00:00",
+      "observed_at": "2026-09-23T18:15:52+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=47508871",
+      "parsed": {
+        "doi": "10.1002/adts.202100311",
+        "issn": "2513-0390",
+        "venue": "Ы",
+        "publisher": "WILEY-V C H VERLAG GMBH, POSTFACH 101161, WEINHEIM, GERMANY, 69451",
+        "year": "2021",
+        "volume": "4",
+        "issue": "11",
+        "pages": "2100311"
+      }
+    },
+    "43215030": {
+      "fetched_at": "2026-09-23T18:15:55+00:00",
+      "observed_at": "2026-09-23T18:15:55+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=43215030",
+      "parsed": {
+        "doi": "10.1016/j.physb.2019.411874",
+        "issn": "0921-4526",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2020",
+        "volume": "578",
+        "issue": "а",
+        "pages": "411874"
+      }
+    },
+    "42414178": {
+      "fetched_at": "2026-09-23T18:15:57+00:00",
+      "observed_at": "2026-09-23T18:15:57+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=42414178",
+      "parsed": {
+        "doi": "10.31857/s0015323020020035",
+        "issn": "0015-3230",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2020",
+        "volume": "121",
+        "issue": "3",
+        "pages": "235-242"
+      }
+    },
+    "45315947": {
+      "fetched_at": "2026-09-23T18:16:01+00:00",
+      "observed_at": "2026-09-23T18:16:01+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=45315947",
+      "parsed": {
+        "doi": "10.1063/5.0015535",
+        "issn": "0003-6951",
+        "venue": "Ы",
+        "publisher": "American Institute of Physics",
+        "year": "2020",
+        "volume": "117",
+        "issue": "6",
+        "pages": "062401"
+      }
+    },
+    "45096288": {
+      "fetched_at": "2026-09-23T18:16:07+00:00",
+      "observed_at": "2026-09-23T18:16:07+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=45096288",
+      "parsed": {
+        "doi": "10.1063/5.0006201",
+        "issn": "0021-8979",
+        "venue": "Ы",
+        "publisher": "American Institute of Physics",
+        "year": "2020",
+        "volume": "127",
+        "issue": "17",
+        "pages": "175108"
+      }
+    },
+    "42627649": {
+      "fetched_at": "2026-09-23T18:16:12+00:00",
+      "observed_at": "2026-09-23T18:16:12+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=42627649",
+      "parsed": {
+        "doi": "10.24411/2500-0101-2020-15110",
+        "issn": "2500-0101",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2020",
+        "volume": "5",
+        "issue": "1",
+        "pages": "120-130"
+      }
+    },
+    "44368971": {
+      "fetched_at": "2026-09-23T18:16:16+00:00",
+      "observed_at": "2026-09-23T18:16:16+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=44368971",
+      "parsed": {
+        "doi": "10.47475/2500-0101-2020-15407",
+        "issn": "2500-0101",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2020",
+        "volume": "5",
+        "issue": "4-1",
+        "pages": "471-479"
+      }
+    },
+    "43242809": {
+      "fetched_at": "2026-09-23T18:16:20+00:00",
+      "observed_at": "2026-09-23T18:16:20+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=43242809",
+      "parsed": {
+        "doi": "10.1103/physrevb.101.075115",
+        "issn": "2469-9950",
+        "venue": "Ы",
+        "publisher": "American Physical Society",
+        "year": "2020",
+        "volume": "101",
+        "issue": "7",
+        "pages": "075115"
+      }
+    },
+    "45235515": {
+      "fetched_at": "2026-09-23T18:16:23+00:00",
+      "observed_at": "2026-09-23T18:16:23+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=45235515",
+      "parsed": {
+        "doi": "10.1103/physrevb.102.045127",
+        "issn": "2469-9950",
+        "venue": "Ы",
+        "publisher": "American Physical Society",
+        "year": "2020",
+        "volume": "102",
+        "issue": "4",
+        "pages": "045127"
+      }
+    },
+    "37317635": {
+      "fetched_at": "2026-09-23T18:16:26+00:00",
+      "observed_at": "2026-09-23T18:16:26+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=37317635",
+      "parsed": {
+        "doi": "10.14529/mmph190208",
+        "issn": "2075-809X",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2019",
+        "volume": "11",
+        "issue": "2",
+        "pages": "58-64"
+      }
+    },
+    "41639822": {
+      "fetched_at": "2026-09-23T18:16:30+00:00",
+      "observed_at": "2026-09-23T18:16:30+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=41639822",
+      "parsed": {
+        "doi": "10.1103/physrevmaterials.3.084413",
+        "issn": "2476-0455",
+        "venue": "Ы",
+        "publisher": "ств:",
+        "year": "2019",
+        "volume": "3",
+        "issue": "8",
+        "pages": "084413"
+      }
+    },
+    "35377475": {
+      "fetched_at": "2026-09-23T18:16:34+00:00",
+      "observed_at": "2026-09-23T18:16:34+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=35377475",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Башкирский государственный университет",
+        "year": "2018",
+        "pages": "177",
+        "issue": "17-72-20022"
+      }
+    },
+    "35347291": {
+      "fetched_at": "2026-09-23T18:16:37+00:00",
+      "observed_at": "2026-09-23T18:16:37+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "doi",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=35347291",
+      "parsed": {
+        "venue": "Ы",
+        "publisher": "Челябинский государственный университет",
+        "year": "2018",
+        "volume": "ПАМЯТИ ФОРМЫ. ТРЕТЬЯ МЕЖДУНАРОДНАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ",
+        "pages": "61",
+        "issue": "17-72-20022"
+      }
+    },
+    "41774940": {
+      "fetched_at": "2026-09-23T18:16:39+00:00",
+      "observed_at": "2026-09-23T18:16:39+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "isbn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=41774940",
+      "parsed": {
+        "doi": "10.1016/j.physb.2017.10.066",
+        "issn": "0921-4526",
+        "venue": "Ы",
+        "publisher": "Elsevier Science Publishing Company, Inc.",
+        "year": "2018",
+        "volume": "549",
+        "issue": "а",
+        "pages": "94-97"
+      }
+    },
+    "31049682": {
+      "fetched_at": "2026-09-23T18:16:42+00:00",
+      "observed_at": "2026-09-23T18:16:42+00:00",
+      "status": "success",
+      "observed_absent_fields": [
+        "volume",
+        "issue",
+        "isbn",
+        "issn"
+      ],
+      "url": "https://elibrary.ru/item.asp?id=31049682",
+      "parsed": {
+        "doi": "10.1109/intmag.2017.8007735",
+        "venue": "Ы",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "year": "2017",
+        "pages": "8007735"
+      }
+    }
+  }
+}

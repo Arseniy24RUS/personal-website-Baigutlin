@@ -166,5 +166,671 @@
       "grant proposal preparation",
       "visualization of computational results"
     ]
+  },
+  "scientometrics": {
+    "generated_at": "2026-09-23T18:19:03+00:00",
+    "columns": [
+      "rinc",
+      "scopus",
+      "wos"
+    ],
+    "rows": [
+      {
+        "key": "publications",
+        "label_ru": "Количество публикаций",
+        "label_en": "Publications"
+      },
+      {
+        "key": "citations",
+        "label_ru": "Количество цитирований",
+        "label_en": "Citations"
+      },
+      {
+        "key": "h_index",
+        "label_ru": "H-индекс (Хирш)",
+        "label_en": "H-index"
+      }
+    ],
+    "sources": {
+      "rinc": {
+        "label_ru": "РИНЦ",
+        "label_en": "RSCI",
+        "source": "eLibrary/РИНЦ",
+        "publications": 58,
+        "citations": 253,
+        "h_index": 8,
+        "status": "success",
+        "attempted_at": "2026-09-23T18:11:13+00:00",
+        "last_success_at": "2026-09-23T18:11:13+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 1,
+        "reason": null,
+        "metric_observed_at": {
+          "publications": "2026-09-23T18:11:13+00:00",
+          "citations": "2026-09-23T18:11:13+00:00",
+          "h_index": "2026-09-23T18:11:13+00:00"
+        },
+        "retained_metrics": [],
+        "method": "provider_profile"
+      },
+      "scopus": {
+        "label_ru": "Scopus",
+        "label_en": "Scopus",
+        "source": "Scopus API",
+        "publications": 26,
+        "citations": 208,
+        "h_index": 8,
+        "status": "success",
+        "attempted_at": "2026-09-23T18:17:08+00:00",
+        "last_success_at": "2026-09-23T18:17:08+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 26,
+        "reason": null,
+        "metric_observed_at": {
+          "publications": "2026-09-23T18:17:08+00:00",
+          "citations": "2026-09-23T18:17:08+00:00",
+          "h_index": "2026-09-23T18:17:08+00:00"
+        },
+        "retained_metrics": [],
+        "method": {
+          "publications": "calculated_from_complete_search",
+          "citations": "calculated_from_complete_search",
+          "h_index": "calculated_from_complete_search"
+        }
+      },
+      "wos": {
+        "label_ru": "Web of Science",
+        "label_en": "Web of Science",
+        "source": "Web of Science Researcher Profile",
+        "publications": 26,
+        "citations": 203,
+        "h_index": 8,
+        "status": "blocked",
+        "attempted_at": "2026-09-23T18:17:01+00:00",
+        "last_success_at": null,
+        "origin": "snapshot",
+        "complete": false,
+        "record_count": 0,
+        "reason": "human_verification_required",
+        "metric_observed_at": {
+          "publications": null,
+          "citations": null,
+          "h_index": null
+        },
+        "retained_metrics": [
+          "publications",
+          "citations",
+          "h_index"
+        ],
+        "method": "provider_profile"
+      }
+    }
+  },
+  "generated_at": "2026-09-23T18:19:03+00:00",
+  "identifiers": {
+    "elibrary_authorid": "1170779",
+    "elibrary_spin": "6676-3700",
+    "orcid": "0000-0002-4130-3812",
+    "scopus_author_id": "57211062810",
+    "wos_researcher_id": "AAN-4717-2020",
+    "github_username": "Danil-phy-cmp-120"
+  },
+  "elibrary_metrics": {},
+  "elibrary_profile_metrics": {
+    "source": "elibrary_author_profile",
+    "source_url": "https://www.elibrary.ru/author_profile.asp?id=1170779",
+    "authorid": "1170779",
+    "spin": "6676-3700",
+    "author_name": "Байгутлин Данил Расулович",
+    "snapshot_generated_at": "2026-09-23T18:11:13+00:00",
+    "source_file_sha256": null,
+    "elibrary_updated_at": "25.07.2026",
+    "summary": {
+      "publications_elibrary": 58,
+      "publications_rinc": 58,
+      "publications_core_rinc": 32,
+      "citations_elibrary": 260,
+      "citations_rinc": 253,
+      "citations_core_rinc": 200,
+      "h_index_elibrary": 8,
+      "h_index_rinc": 8,
+      "h_index_core_rinc": 7,
+      "h_index_without_self_citations": 8,
+      "h_index_core_without_self_citations": 7,
+      "h_index_journal_articles": 7,
+      "first_publication_year": 2017,
+      "coauthors_count": 56,
+      "core_rinc_percentile": 15
+    },
+    "general_metrics": {
+      "Число публикаций на elibrary.ru": {
+        "raw": "58",
+        "value": 58
+      },
+      "Число публикаций в РИНЦ": {
+        "raw": "58",
+        "value": 58
+      },
+      "Число публикаций, входящих в ядро РИНЦ": {
+        "raw": "32",
+        "value": 32
+      },
+      "Число цитирований из публикаций на elibrary.ru": {
+        "raw": "260",
+        "value": 260
+      },
+      "Число цитирований из публикаций, входящих в РИНЦ": {
+        "raw": "253",
+        "value": 253
+      },
+      "Число цитирований из публикаций, входящих в ядро РИНЦ": {
+        "raw": "200",
+        "value": 200
+      },
+      "Индекс Хирша по всем публикациям на elibrary.ru": {
+        "raw": "8",
+        "value": 8
+      },
+      "Индекс Хирша по публикациям в РИНЦ": {
+        "raw": "8",
+        "value": 8
+      },
+      "Индекс Хирша по ядру РИНЦ": {
+        "raw": "7",
+        "value": 7
+      },
+      "Число публикаций, процитировавших работы автора": {
+        "raw": "179",
+        "value": 179
+      },
+      "Число ссылок на самую цитируемую публикацию": {
+        "raw": "35",
+        "value": 35
+      },
+      "Число публикаций автора, процитированных хотя бы один раз": {
+        "raw": "31 (53,4%)",
+        "value": 31
+      },
+      "Среднее число цитирований в расчете на одну публикацию": {
+        "raw": "4,07",
+        "value": 4.07
+      },
+      "Индекс Хирша без учета самоцитирований": {
+        "raw": "8",
+        "value": 8
+      },
+      "Индекс Хирша по ядру РИНЦ без учета самоцитирований": {
+        "raw": "7",
+        "value": 7
+      },
+      "Индекс Хирша с учетом только статей в журналах": {
+        "raw": "7",
+        "value": 7
+      },
+      "Год первой публикации": {
+        "raw": "2017",
+        "value": 2017
+      },
+      "Число самоцитирований": {
+        "raw": "33 (13,0%)",
+        "value": 33
+      },
+      "Число цитирований соавторами": {
+        "raw": "129 (51,0%)",
+        "value": 129
+      },
+      "Число соавторов": {
+        "raw": "56",
+        "value": 56
+      },
+      "Число статей в зарубежных журналах": {
+        "raw": "20 (34,5%)",
+        "value": 20
+      },
+      "Число статей в российских журналах": {
+        "raw": "13 (22,4%)",
+        "value": 13
+      },
+      "Число статей в российских журналах из перечня ВАК": {
+        "raw": "11 (19,0%)",
+        "value": 11
+      },
+      "Число статей в российских переводных журналах": {
+        "raw": "5 (8,6%)",
+        "value": 5
+      },
+      "Число статей в журналах с ненулевым импакт-фактором": {
+        "raw": "33 (56,9%)",
+        "value": 33
+      },
+      "Число цитирований из зарубежных журналов на публикации автор": {
+        "raw": "164 (64,8%)",
+        "value": 164
+      },
+      "Число цитирований из российских журналов": {
+        "raw": "37 (14,6%)",
+        "value": 37
+      },
+      "Число цитирований из российских журналов из перечня ВАК": {
+        "raw": "38 (15,0%)",
+        "value": 38
+      },
+      "Число цитирований из российских переводных журналов": {
+        "raw": "25 (9,9%)",
+        "value": 25
+      },
+      "Число цитирований из журналов с ненулевым импакт-фактором": {
+        "raw": "198 (78,3%)",
+        "value": 198
+      },
+      "Средневзвешенный импакт-фактор журналов, в которых были опубликованы статьи": {
+        "raw": "2,311",
+        "value": 2.311
+      },
+      "Средневзвешенный импакт-фактор журналов, в которых были процитированы статьи": {
+        "raw": "3,257 Число публикаций в РИНЦ за последние 5 лет (2021-2025) 44 (75,9%)",
+        "value": 3.257
+      },
+      "Число публикаций в ядре РИНЦ за последние 5 лет": {
+        "raw": "20 (45,5%)",
+        "value": 20
+      },
+      "Число ссылок из РИНЦ на работы, опубликованные за последние 5 лет": {
+        "raw": "120 (47,4%)",
+        "value": 120
+      },
+      "Число ссылок из ядра РИНЦ на работы, опубликованные за последние 5 лет": {
+        "raw": "90 (35,6%)",
+        "value": 90
+      },
+      "Число ссылок на работы автора из всех публикаций за последние 5 лет": {
+        "raw": "207 (81,8%)",
+        "value": 207
+      },
+      "Основная рубрика (ГРНТИ)": {
+        "raw": "290000. Физика",
+        "value": 290000
+      },
+      "Основная рубрика (OECD)": {
+        "raw": "103. Physical sciences and astronomy",
+        "value": 103
+      },
+      "Процентиль по ядру РИНЦ": {
+        "raw": "15",
+        "value": 15
+      },
+      "Участие в публикациях:": {
+        "raw": "66",
+        "value": 66
+      }
+    },
+    "yearly_metrics": {
+      "Число публикаций в РИНЦ": {
+        "2025": 3,
+        "2024": 9,
+        "2023": 12,
+        "2022": 13,
+        "2021": 7,
+        "2020": 8,
+        "2019": 2,
+        "2018": 3,
+        "2017": 1
+      },
+      "Число публикаций в ядре РИНЦ": {
+        "2025": 3,
+        "2024": 3,
+        "2023": 6,
+        "2022": 3,
+        "2021": 5,
+        "2020": 8,
+        "2019": 2,
+        "2018": 1,
+        "2017": 1
+      },
+      "Число цитирований в РИНЦ": {
+        "2025": 43,
+        "2024": 37,
+        "2023": 48,
+        "2022": 42,
+        "2021": 37,
+        "2020": 16,
+        "2019": 7,
+        "2018": 2,
+        "2017": 1
+      },
+      "Число цитирований из ядра РИНЦ": {
+        "2025": 40,
+        "2024": 34,
+        "2023": 43,
+        "2022": 32,
+        "2021": 23,
+        "2020": 9,
+        "2019": 0,
+        "2018": 0,
+        "2017": 0
+      },
+      "Число публикаций в РИНЦ за 5 лет": {
+        "2025": 44,
+        "2024": 49,
+        "2023": 42,
+        "2022": 33,
+        "2021": 21,
+        "2020": 14,
+        "2019": 6,
+        "2018": 4,
+        "2017": 1
+      },
+      "Число публикаций в ядре РИНЦ за 5 лет": {
+        "2025": 20,
+        "2024": 25,
+        "2023": 24,
+        "2022": 19,
+        "2021": 17,
+        "2020": 12,
+        "2019": 4,
+        "2018": 2,
+        "2017": 1
+      },
+      "Число цитирований в РИНЦ за 5 лет": {
+        "2025": 120,
+        "2024": 160,
+        "2023": 147,
+        "2022": 101,
+        "2021": 58,
+        "2020": 23,
+        "2019": 5,
+        "2018": 2,
+        "2017": 1
+      },
+      "Число цитирований из ядра РИНЦ за 5 лет": {
+        "2025": 90,
+        "2024": 123,
+        "2023": 104,
+        "2022": 63,
+        "2021": 31,
+        "2020": 9,
+        "2019": 0,
+        "2018": 0,
+        "2017": 0
+      },
+      "Индекс Хирша в РИНЦ": {
+        "2025": 7,
+        "2024": 7,
+        "2023": 6,
+        "2022": 5,
+        "2021": 4,
+        "2020": 2,
+        "2019": 1,
+        "2018": 0,
+        "2017": 0
+      },
+      "Индекс Хирша по ядру РИНЦ": {
+        "2025": 7,
+        "2024": 6,
+        "2023": 5,
+        "2022": 4,
+        "2021": 3,
+        "2020": 1,
+        "2019": 0,
+        "2018": 0,
+        "2017": 0
+      },
+      "Процентиль по ядру РИНЦ": {
+        "2025": 15,
+        "2024": 12,
+        "2023": 14,
+        "2022": 21,
+        "2021": 33,
+        "2020": 53,
+        "2019": 81,
+        "2018": 83,
+        "2017": 85
+      }
+    },
+    "affiliations": [
+      {
+        "organization": "Челябинский государственный университет (Челябинск)",
+        "period": "2017-2025",
+        "publications": 49
+      },
+      {
+        "organization": "Lappeenranta University of Technology (Лаппеэнранта)",
+        "period": "2020",
+        "publications": 1
+      }
+    ],
+    "metric_observed_at": {
+      "publications_elibrary": "2026-09-23T18:11:13+00:00",
+      "publications_rinc": "2026-09-23T18:11:13+00:00",
+      "publications_core_rinc": "2026-09-23T18:11:13+00:00",
+      "citations_elibrary": "2026-09-23T18:11:13+00:00",
+      "citations_rinc": "2026-09-23T18:11:13+00:00",
+      "citations_core_rinc": "2026-09-23T18:11:13+00:00",
+      "h_index_elibrary": "2026-09-23T18:11:13+00:00",
+      "h_index_rinc": "2026-09-23T18:11:13+00:00",
+      "h_index_core_rinc": "2026-09-23T18:11:13+00:00",
+      "h_index_without_self_citations": "2026-09-23T18:11:13+00:00",
+      "h_index_core_without_self_citations": "2026-09-23T18:11:13+00:00",
+      "h_index_journal_articles": "2026-09-23T18:11:13+00:00",
+      "first_publication_year": "2026-09-23T18:11:13+00:00",
+      "coauthors_count": "2026-09-23T18:11:13+00:00",
+      "core_rinc_percentile": "2026-09-23T18:11:13+00:00"
+    },
+    "retained_metric_fields": [],
+    "last_success_at": "2026-09-23T18:11:13+00:00"
+  },
+  "wos_profile_metrics": {
+    "records": [],
+    "records_count_on_page": 0
+  },
+  "scopus_metrics": {
+    "source": "scopus_api",
+    "generated_at": "2026-09-23T18:17:08+00:00",
+    "last_success_at": "2026-09-23T18:17:08+00:00",
+    "scopus_author_id": "57211062810",
+    "author_profile_status": 401,
+    "search_status": 200,
+    "profile": {},
+    "works_count_from_search": 26,
+    "citation_sum_from_search": 208,
+    "h_index_recomputed_from_retrieved_works": 8,
+    "method": "calculated_from_complete_search",
+    "note": "Search metrics are calculated from a complete Search response. Missing citation counts remain unknown."
+  },
+  "open_sources_report": {
+    "generated_at": "2026-09-23T18:09:46+00:00",
+    "providers": {
+      "orcid": {
+        "status": "success",
+        "attempted_at": "2026-09-23T18:09:47+00:00",
+        "last_success_at": "2026-09-23T18:09:47+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 65,
+        "reason": null,
+        "http_status": 200
+      },
+      "openalex_author": {
+        "status": "success",
+        "attempted_at": "2026-09-23T18:09:49+00:00",
+        "last_success_at": "2026-09-23T18:09:49+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 0,
+        "reason": null,
+        "http_status": 200
+      },
+      "openalex_works": {
+        "status": "success",
+        "attempted_at": "2026-09-23T18:09:51+00:00",
+        "last_success_at": "2026-09-23T18:09:51+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 37,
+        "reason": null,
+        "http_status": null
+      },
+      "crossref": {
+        "status": "success",
+        "attempted_at": "2026-09-23T18:09:55+00:00",
+        "last_success_at": "2026-09-23T18:09:55+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 13,
+        "reason": null,
+        "http_status": null
+      }
+    },
+    "status": "success",
+    "attempted_at": "2026-09-23T18:10:02+00:00",
+    "last_success_at": "2026-09-23T18:10:02+00:00",
+    "origin": "live",
+    "complete": true,
+    "record_count": 46,
+    "reason": null,
+    "records_total_before_dedupe": 115,
+    "records_total_after_dedupe": 46
+  },
+  "canonical_publications_count": 84,
+  "scopus_enriched_publications_count": 26,
+  "scopus_auto_added_publications_count": 0,
+  "open_sources_records_count": 46,
+  "open_sources_enriched_publications_count": 45,
+  "open_sources_auto_added_publications_count": 0,
+  "wos_records_count": 0,
+  "wos_enriched_publications_count": 0,
+  "wos_auto_added_publications_count": 0,
+  "admin_queue_size": 0,
+  "source_health": {
+    "elibrary": {
+      "status": "partial",
+      "attempted_at": "2026-09-23T18:11:13+00:00",
+      "last_success_at": null,
+      "origin": "snapshot",
+      "complete": false,
+      "record_count": 58,
+      "reason": "details_pending",
+      "components": {
+        "metrics": {
+          "status": "success",
+          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "last_success_at": "2026-09-23T18:11:13+00:00",
+          "origin": "live",
+          "complete": true,
+          "record_count": 1,
+          "reason": null
+        },
+        "details": {
+          "status": "partial",
+          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "last_success_at": null,
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 57,
+          "reason": "details_pending",
+          "last_observation_at": "2026-09-23T18:16:43+00:00",
+          "observed_count": 57,
+          "pending": 1,
+          "fetched": 57,
+          "failed": 1
+        },
+        "publications": {
+          "status": "success",
+          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "last_success_at": "2026-09-23T18:11:13+00:00",
+          "origin": "live",
+          "complete": true,
+          "record_count": 58,
+          "reason": null,
+          "last_observation_at": "2026-09-23T18:11:15+00:00",
+          "observed_count": 58
+        }
+      }
+    },
+    "wos": {
+      "status": "blocked",
+      "attempted_at": "2026-09-23T18:17:01+00:00",
+      "last_success_at": null,
+      "origin": "snapshot",
+      "complete": false,
+      "record_count": 0,
+      "reason": "human_verification_required",
+      "stage": "login",
+      "components": {
+        "metrics": {
+          "status": "blocked",
+          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "last_success_at": null,
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "human_verification_required"
+        },
+        "publications": {
+          "status": "blocked",
+          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "last_success_at": null,
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "human_verification_required"
+        }
+      }
+    },
+    "scopus": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:17:08+00:00",
+      "last_success_at": "2026-09-23T18:17:08+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 26,
+      "reason": null
+    },
+    "media": {
+      "status": "partial",
+      "attempted_at": "2026-09-23T18:11:06+00:00",
+      "last_success_at": "2026-09-23T18:11:06+00:00",
+      "origin": "live",
+      "complete": false,
+      "record_count": 9,
+      "reason": "source_failures_or_pending",
+      "pending": 0
+    },
+    "orcid": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:47+00:00",
+      "last_success_at": "2026-09-23T18:09:47+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 65,
+      "reason": null
+    },
+    "openalex": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:51+00:00",
+      "last_success_at": "2026-09-23T18:09:51+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 37,
+      "reason": null
+    },
+    "crossref": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:55+00:00",
+      "last_success_at": "2026-09-23T18:09:55+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 13,
+      "reason": null
+    }
+  },
+  "wos_public_merge_report": {
+    "generated_at": "2026-09-23T18:19:03+00:00",
+    "records_seen": 0,
+    "enriched": 0,
+    "added": 0,
+    "changed_fields": 0
   }
 }

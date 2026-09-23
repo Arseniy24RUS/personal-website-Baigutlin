@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-23T18:09:46+00:00",
+  "providers": {
+    "orcid": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:47+00:00",
+      "last_success_at": "2026-09-23T18:09:47+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 65,
+      "reason": null,
+      "http_status": 200
+    },
+    "openalex_author": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:49+00:00",
+      "last_success_at": "2026-09-23T18:09:49+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 0,
+      "reason": null,
+      "http_status": 200
+    },
+    "openalex_works": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:51+00:00",
+      "last_success_at": "2026-09-23T18:09:51+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 37,
+      "reason": null,
+      "http_status": null
+    },
+    "crossref": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:09:55+00:00",
+      "last_success_at": "2026-09-23T18:09:55+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 13,
+      "reason": null,
+      "http_status": null
+    }
+  },
+  "status": "success",
+  "attempted_at": "2026-09-23T18:10:02+00:00",
+  "last_success_at": "2026-09-23T18:10:02+00:00",
+  "origin": "live",
+  "complete": true,
+  "record_count": 46,
+  "reason": null,
+  "records_total_before_dedupe": 115,
+  "records_total_after_dedupe": 46
+}

@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "baseline_ref": "9ab201399a1a5768228c919fc265b2b7f2fdd8c8",
+  "baseline_commit": "9ab201399a1a5768228c919fc265b2b7f2fdd8c8",
+  "datasets": {
+    "data/public/publications.json": {
+      "before": 73,
+      "after": 84
+    },
+    "data/media/published.json": {
+      "before": 9,
+      "after": 9
+    },
+    "data/media/published-fallback.json": {
+      "before": 9,
+      "after": 9
+    },
+    "data/diplomas/gallery.json": {
+      "before": 7,
+      "after": 7
+    },
+    "data/it/resources.json": {
+      "before": 6,
+      "after": 6
+    }
+  },
+  "assets_checked": 65,
+  "assets_content_checked": 65,
+  "issues": []
+}

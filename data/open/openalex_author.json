@@ -1,0 +1,363 @@
+{
+  "id": "https://openalex.org/A5052917978",
+  "orcid": "https://orcid.org/0000-0002-4130-3812",
+  "observed_orcids": [
+    "https://orcid.org/0000-0002-4130-3812"
+  ],
+  "display_name": "Danil R. Baigutlin",
+  "raw_author_names": [
+    "Baigutlin D. R.",
+    "Baigutlin, D. R.",
+    "Baigutlin, Danil",
+    "Baigutlin, Danil R.",
+    "D. R BAIGUTLIN",
+    "D. R. Baigutlin",
+    "D.R. Baigutlin",
+    "Danil Baigutlin",
+    "Danil R. Baigutlin",
+    "Д. Р. Байгутлин",
+    "Д.Р. Байгутлин"
+  ],
+  "full_name": "Danil R. Baigutlin",
+  "works_count": 37,
+  "cited_by_count": 225,
+  "summary_stats": {
+    "2yr_mean_citedness": 2.25,
+    "h_index": 8,
+    "i10_index": 7
+  },
+  "ids": {
+    "openalex": "https://openalex.org/A5052917978",
+    "orcid": "https://orcid.org/0000-0002-4130-3812",
+    "observed_orcids": [
+      "https://orcid.org/0000-0002-4130-3812"
+    ]
+  },
+  "affiliations": [
+    {
+      "institution": {
+        "id": "https://openalex.org/I137211346",
+        "ror": "https://ror.org/04s36qm86",
+        "display_name": "Chelyabinsk State University",
+        "country_code": "RU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I137211346"
+        ]
+      },
+      "years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I63548447",
+        "ror": "https://ror.org/0208vgz68",
+        "display_name": "Lappeenranta-Lahti University of Technology",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I63548447"
+        ]
+      },
+      "years": [
+        2022,
+        2021,
+        2020
+      ]
+    }
+  ],
+  "last_known_institutions": [
+    {
+      "id": "https://openalex.org/I137211346",
+      "ror": "https://ror.org/04s36qm86",
+      "display_name": "Chelyabinsk State University",
+      "country_code": "RU",
+      "type": "education",
+      "lineage": [
+        "https://openalex.org/I137211346"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T12200",
+      "display_name": "Heusler alloys: electronic and magnetic properties",
+      "count": 28,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10865",
+      "display_name": "Shape Memory Alloy Transformations",
+      "count": 10,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11100",
+      "display_name": "Intermetallics and Advanced Alloy Properties",
+      "count": 9,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12046",
+      "display_name": "MXene and MAX Phase Materials",
+      "count": 7,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10607",
+      "display_name": "Magnetic and transport properties of perovskites and related materials",
+      "count": 6,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T12200",
+      "display_name": "Heusler alloys: electronic and magnetic properties",
+      "value": 0.0006705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10865",
+      "display_name": "Shape Memory Alloy Transformations",
+      "value": 0.0001582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11100",
+      "display_name": "Intermetallics and Advanced Alloy Properties",
+      "value": 5.2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12046",
+      "display_name": "MXene and MAX Phase Materials",
+      "value": 4.83e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10723",
+      "display_name": "Advanced Welding Techniques Analysis",
+      "value": 4.24e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "x_concepts": [
+    {
+      "id": "26873012",
+      "wikidata": "https://www.wikidata.org/wiki/Q214781",
+      "display_name": "Condensed matter physics",
+      "score": 0.884650468826294
+    },
+    {
+      "id": "192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "score": 0.7516629099845886
+    },
+    {
+      "id": "121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "score": 0.576366662979126
+    },
+    {
+      "id": "191897082",
+      "wikidata": "https://www.wikidata.org/wiki/Q11467",
+      "display_name": "Metallurgy",
+      "score": 0.4524874985218048
+    },
+    {
+      "id": "185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "score": 0.40087029337882996
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2018,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2020,
+      "works_count": 7,
+      "oa_works_count": 3,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2021,
+      "works_count": 6,
+      "oa_works_count": 4,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2022,
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2023,
+      "works_count": 8,
+      "oa_works_count": 3,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2024,
+      "works_count": 6,
+      "oa_works_count": 4,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2025,
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    }
+  ],
+  "display_name_alternatives": [
+    "Baigutlin D. R.",
+    "Baigutlin, D. R.",
+    "Baigutlin, Danil",
+    "Baigutlin, Danil R.",
+    "D. R BAIGUTLIN",
+    "D. R. Baigutlin",
+    "D.R. Baigutlin",
+    "Danil Baigutlin",
+    "Danil R. Baigutlin",
+    "Д. Р. Байгутлин",
+    "Д.Р. Байгутлин"
+  ],
+  "block_key": "d baigutlin",
+  "works_api_url": "https://api.openalex.org/works?filter=author.id:A5052917978",
+  "updated_date": "2026-09-22T04:05:08",
+  "created_date": "2019-01-25T00:00:00",
+  "last_success_at": "2026-09-23T18:09:49+00:00"
+}

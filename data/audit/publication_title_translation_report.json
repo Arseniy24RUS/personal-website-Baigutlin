@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-23T18:17:15+00:00",
+  "stats": {
+    "official": 0,
+    "preserved_existing": 53,
+    "cached_machine_translation": 0,
+    "new_machine_translation": 30,
+    "unresolved": 0,
+    "venue_enriched": 0
+  },
+  "argos_status": "argos_ru_en",
+  "source_priority": [
+    "existing_publication",
+    "scopus",
+    "openalex_api",
+    "crossref_api",
+    "orcid_public_api",
+    "existing_latin",
+    "cached_machine_translation",
+    "argos_translate_ru_en"
+  ]
+}

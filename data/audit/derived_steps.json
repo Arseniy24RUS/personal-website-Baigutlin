@@ -1,0 +1,49 @@
+{
+  "steps": [
+    {
+      "script": "build_public_data.py",
+      "optional": false,
+      "attempted_at": "2026-09-23T18:17:08+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "reason": "completed",
+      "completed_at": "2026-09-23T18:17:08+00:00"
+    },
+    {
+      "script": "merge_wos_records_into_public_data.py",
+      "optional": false,
+      "attempted_at": "2026-09-23T18:17:08+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "reason": "completed",
+      "completed_at": "2026-09-23T18:17:08+00:00"
+    },
+    {
+      "script": "translate_publication_titles.py",
+      "optional": true,
+      "attempted_at": "2026-09-23T18:17:08+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "reason": "completed",
+      "completed_at": "2026-09-23T18:17:15+00:00"
+    },
+    {
+      "script": "enrich_publication_metadata.py",
+      "optional": true,
+      "attempted_at": "2026-09-23T18:17:15+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "reason": "completed",
+      "completed_at": "2026-09-23T18:18:20+00:00"
+    },
+    {
+      "script": "sanitize_publication_references.py",
+      "optional": false,
+      "attempted_at": "2026-09-23T18:18:20+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "reason": "completed",
+      "completed_at": "2026-09-23T18:18:20+00:00"
+    }
+  ]
+}

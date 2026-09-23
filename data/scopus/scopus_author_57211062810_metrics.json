@@ -1,0 +1,14 @@
+{
+  "source": "scopus_api",
+  "generated_at": "2026-09-23T18:17:08+00:00",
+  "last_success_at": "2026-09-23T18:17:08+00:00",
+  "scopus_author_id": "57211062810",
+  "author_profile_status": 401,
+  "search_status": 200,
+  "profile": {},
+  "works_count_from_search": 26,
+  "citation_sum_from_search": 208,
+  "h_index_recomputed_from_retrieved_works": 8,
+  "method": "calculated_from_complete_search",
+  "note": "Search metrics are calculated from a complete Search response. Missing citation counts remain unknown."
+}

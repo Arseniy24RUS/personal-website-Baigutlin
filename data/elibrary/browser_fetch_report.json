@@ -1,0 +1,60 @@
+{
+  "status": "partial",
+  "attempted_at": "2026-09-23T18:11:13+00:00",
+  "last_success_at": null,
+  "origin": "snapshot",
+  "complete": false,
+  "record_count": 58,
+  "reason": "details_pending",
+  "components": {
+    "publications": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:11:13+00:00",
+      "last_success_at": "2026-09-23T18:11:13+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 58,
+      "reason": null,
+      "observed_count": 58,
+      "last_observation_at": "2026-09-23T18:11:15+00:00"
+    },
+    "metrics": {
+      "status": "success",
+      "attempted_at": "2026-09-23T18:11:13+00:00",
+      "last_success_at": "2026-09-23T18:11:13+00:00",
+      "origin": "live",
+      "complete": true,
+      "record_count": 1,
+      "reason": null
+    },
+    "details": {
+      "status": "partial",
+      "attempted_at": "2026-09-23T18:11:13+00:00",
+      "last_success_at": null,
+      "origin": "snapshot",
+      "complete": false,
+      "record_count": 57,
+      "reason": "details_pending",
+      "fetched": 57,
+      "failed": 1,
+      "pending": 1,
+      "observed_count": 57,
+      "last_observation_at": "2026-09-23T18:16:43+00:00"
+    }
+  },
+  "target_author_id": "1170779",
+  "generated_at": "2026-09-23T18:16:43+00:00",
+  "authentication": "existing_session_verified",
+  "session_checkpoint": {
+    "status": "checkpointed",
+    "validated_at": "2026-09-23T18:11:15+00:00",
+    "cookie_expires_at": "2027-09-23T17:49:37.215191+00:00",
+    "cookie_expiry_extended": false
+  },
+  "session_restore": {
+    "status": "restored",
+    "kind": "confirmed",
+    "validated_at": "2026-09-23T17:49:45+00:00",
+    "cookie_expires_at": "2027-09-23T17:49:37.215191+00:00"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "open-publication-review/v1",
+  "records": [
+    {
+      "reason": "possible_preprint_title_variant",
+      "record": {
+        "source": "orcid_public_api",
+        "orcid": "0000-0002-4130-3812",
+        "title": "Correlation in noncollinear antiferromagnetic α-Mn",
+        "year": 2020,
+        "type": "journal-article",
+        "publication_type": "preprint",
+        "venue": "ArXiv",
+        "url": "https://publons.com/wos-op/publon/57998478/",
+        "put_code": 161504521,
+        "raw": {
+          "put-code": 161504521,
+          "created-date": {
+            "value": 1718261116523
+          },
+          "last-modified-date": {
+            "value": 1718261116523
+          },
+          "source": {
+            "source-orcid": null,
+            "source-client-id": {
+              "uri": "https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X",
+              "path": "APP-1DSJAQCZ1PW1VN5X",
+              "host": "orcid.org"
+            },
+            "source-name": {
+              "value": "Web of Science Researcher Profile Sync"
+            },
+            "assertion-origin-orcid": null,
+            "assertion-origin-client-id": null,
+            "assertion-origin-name": null
+          },
+          "title": {
+            "title": {
+              "value": "Correlation in noncollinear antiferromagnetic $alpha$-Mn"
+            },
+            "subtitle": null,
+            "translated-title": null
+          },
+          "external-ids": {
+            "external-id": [
+              {
+                "external-id-type": "wosuid",
+                "external-id-value": "PPRN:50674821",
+                "external-id-normalized": {
+                  "value": "pprn:50674821",
+                  "transient": true
+                },
+                "external-id-normalized-error": null,
+                "external-id-url": {
+                  "value": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=PPRN:50674821&DestLinkType=FullRecord&DestApp=WOS_CPL"
+                },
+                "external-id-relationship": "self"
+              }
+            ]
+          },
+          "url": {
+            "value": "https://publons.com/wos-op/publon/57998478/"
+          },
+          "type": "journal-article",
+          "publication-date": {
+            "year": {
+              "value": "2020"
+            },
+            "month": null,
+            "day": null
+          },
+          "journal-title": {
+            "value": "ArXiv"
+          },
+          "visibility": "public",
+          "path": "/0000-0002-4130-3812/work/161504521",
+          "display-index": "0"
+        },
+        "sources": [
+          "orcid_public_api"
+        ],
+        "provider_records": {
+          "orcid_public_api": {
+            "source": "orcid_public_api",
+            "orcid": "0000-0002-4130-3812",
+            "title": "Correlation in noncollinear antiferromagnetic α-Mn",
+            "year": 2020,
+            "doi": null,
+            "type": "journal-article",
+            "publication_type": "preprint",
+            "venue": "ArXiv",
+            "url": "https://publons.com/wos-op/publon/57998478/",
+            "put_code": 161504521,
+            "raw": {
+              "put-code": 161504521,
+              "created-date": {
+                "value": 1718261116523
+              },
+              "last-modified-date": {
+                "value": 1718261116523
+              },
+              "source": {
+                "source-orcid": null,
+                "source-client-id": {
+                  "uri": "https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X",
+                  "path": "APP-1DSJAQCZ1PW1VN5X",
+                  "host": "orcid.org"
+                },
+                "source-name": {
+                  "value": "Web of Science Researcher Profile Sync"
+                },
+                "assertion-origin-orcid": null,
+                "assertion-origin-client-id": null,
+                "assertion-origin-name": null
+              },
+              "title": {
+                "title": {
+                  "value": "Correlation in noncollinear antiferromagnetic $alpha$-Mn"
+                },
+                "subtitle": null,
+                "translated-title": null
+              },
+              "external-ids": {
+                "external-id": [
+                  {
+                    "external-id-type": "wosuid",
+                    "external-id-value": "PPRN:50674821",
+                    "external-id-normalized": {
+                      "value": "pprn:50674821",
+                      "transient": true
+                    },
+                    "external-id-normalized-error": null,
+                    "external-id-url": {
+                      "value": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=PPRN:50674821&DestLinkType=FullRecord&DestApp=WOS_CPL"
+                    },
+                    "external-id-relationship": "self"
+                  }
+                ]
+              },
+              "url": {
+                "value": "https://publons.com/wos-op/publon/57998478/"
+              },
+              "type": "journal-article",
+              "publication-date": {
+                "year": {
+                  "value": "2020"
+                },
+                "month": null,
+                "day": null
+              },
+              "journal-title": {
+                "value": "ArXiv"
+              },
+              "visibility": "public",
+              "path": "/0000-0002-4130-3812/work/161504521",
+              "display-index": "0"
+            }
+          }
+        }
+      },
+      "candidate_dois": [
+        "10.48550/arxiv.1904.10291"
+      ]
+    }
+  ]
+}

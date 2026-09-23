@@ -1,0 +1,299 @@
+{
+  "schema": "provider_collection/v1",
+  "report": {
+    "status": "blocked",
+    "attempted_at": "2026-09-23T18:17:01+00:00",
+    "last_success_at": null,
+    "origin": "snapshot",
+    "complete": false,
+    "record_count": 0,
+    "reason": "human_verification_required",
+    "components": {
+      "publications": {
+        "status": "blocked",
+        "attempted_at": "2026-09-23T18:17:01+00:00",
+        "last_success_at": null,
+        "origin": "snapshot",
+        "complete": false,
+        "record_count": 0,
+        "reason": "human_verification_required"
+      },
+      "metrics": {
+        "status": "blocked",
+        "attempted_at": "2026-09-23T18:17:01+00:00",
+        "last_success_at": null,
+        "origin": "snapshot",
+        "complete": false,
+        "record_count": 0,
+        "reason": "human_verification_required"
+      }
+    },
+    "stage": "login",
+    "session_checkpoint": {},
+    "session_restore": {
+      "status": "missing"
+    },
+    "diagnostics": [
+      {
+        "host": "www.webofscience.com",
+        "path": "/wos/",
+        "controls": [
+          {
+            "tag": "div",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Clarivate"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "skip-nav",
+            "label": "expand_more\nSkip navigation menu\nskipToNav"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "English"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "apps\nProducts"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "headerLogo",
+            "label": "Web of Science™"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Sign In"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Register"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Learn More"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "MENU"
+          },
+          {
+            "tag": "button",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Researcher Profile"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Legal Center"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Privacy Statement"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Copyright Notice"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Training Portal"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Product Support"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Newsletter"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Cookie Policy"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "ot-sdk-btn",
+            "label": "Cookie Settings"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Data Correction"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Accessibility"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Help"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Terms of Use"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Click to visit Web of Science on Twitter."
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Click to visit Web of Science on Facebook."
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Contact Customer Support"
+          }
+        ]
+      }
+    ],
+    "verification_evidence": {
+      "trigger": "page_marker",
+      "marker_ids": [
+        "verify_you_are_human",
+        "unusual_activity"
+      ],
+      "elapsed_seconds": 0.002,
+      "observation_budget_seconds": 10.0,
+      "observation_timeline": [
+        {
+          "elapsed_seconds": 0.002,
+          "category": "marker",
+          "ready_state": "unavailable",
+          "frame_text_length": null,
+          "frame_tag_count": null,
+          "frame_button_count": null,
+          "frame_role_button_count": null,
+          "frame_input_count": null,
+          "frame_canvas_count": null,
+          "frame_dom_observed": null,
+          "checkbox_present": null,
+          "checkbox_visible": null,
+          "active_challenge_controls": null,
+          "observation_incomplete": null,
+          "hcaptcha_frame_count": null,
+          "recaptcha_frame_count": null,
+          "other_frame_count": null
+        }
+      ]
+    },
+    "authentication_evidence": {
+      "wos_session_confirmed": false,
+      "signin_clicked": false,
+      "initial_profile_requested": true,
+      "initial_profile_retry_attempted": true,
+      "orcid_consent_clicked": false,
+      "profile_requested": false,
+      "initial_profile_loaded": true,
+      "wos_return_observed": false,
+      "consent_accepted": false,
+      "clarivate_observed": false,
+      "username_format_valid": true,
+      "orcid_form_observed": false,
+      "profile_loaded": false,
+      "homepage_requested": false,
+      "orcid_page_observed": false,
+      "initial_profile_retry_loaded": true,
+      "orcid_selected": false,
+      "browser_error_page_observed": true,
+      "submit_clicked": false,
+      "homepage_loaded": false,
+      "input_matches_configured": false,
+      "returned_profile_reused": false,
+      "username_normalized": false,
+      "onboarding_acknowledged": false,
+      "stage": "initial_profile",
+      "navigation_failures": [
+        {
+          "kind": "request_failed",
+          "provider": "clarivate",
+          "stage": "initial_profile",
+          "network_error_code": "ERR_INVALID_REDIRECT"
+        },
+        {
+          "kind": "browser_error",
+          "provider": "browser",
+          "stage": "initial_profile",
+          "network_error_code": "ERR_INVALID_REDIRECT"
+        }
+      ],
+      "navigation_failure_count": 2
+    },
+    "authentication_mode": "restore",
+    "authentication": null
+  },
+  "payloads": {
+    "metrics": {},
+    "publications": [],
+    "details": {}
+  }
+}

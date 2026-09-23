@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:05:16+00:00",
+  "generated_at": "2026-09-23T18:11:06+00:00",
   "records": [
     {
       "id": "csu-dissertations-heusler-2024",
@@ -21,7 +21,14 @@
       "title": "Физики ЧелГУ посвятили свои диссертации углеродным алмазоподобным фазам и сплавам Гейслера",
       "description": "Новость ЧелГУ о защитах диссертаций физиков; Данил Байгутлин упомянут в связи с работой по сплавам Гейслера.",
       "source_name": "ЧелГУ",
-      "published_at": "2024-07-22"
+      "published_at": "2024-07-22",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-university-support-2024",
@@ -43,7 +50,14 @@
       "title": "Исследования, форумы, журналы: учёные ЧелГУ получили поддержку вуза",
       "description": "Новость ЧелГУ о поддержке научных исследований и активности учёных университета; страница найдена поиском ЧелГУ по фамилии Байгутлин.",
       "source_name": "ЧелГУ",
-      "published_at": "2024-03-25"
+      "published_at": "2024-03-25",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-caloric-days-2023",
@@ -65,7 +79,14 @@
       "title": "Физики ЧелГУ – соорганизаторы и активные участники «Дней калорики в Дагестане»",
       "description": "Новость ЧелГУ о научном событии по калорике и участии физиков университета; материал найден поиском ЧелГУ по фамилии Байгутлин.",
       "source_name": "ЧелГУ",
-      "published_at": "2023-06-13"
+      "published_at": "2023-06-13",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-scholarships-2022",
@@ -87,7 +108,14 @@
       "title": "Студенты ЧелГУ – обладатели правительственных и президентских стипендий",
       "description": "Новость ЧелГУ о стипендиатах; Данил Байгутлин найден на странице как один из упомянутых обладателей стипендии.",
       "source_name": "ЧелГУ",
-      "published_at": "2022-08-18"
+      "published_at": "2022-08-18",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-thermal-magnetic-recording-2022",
@@ -112,7 +140,14 @@
       "title": "Новые устройства тепловой магнитной записи станут результатом фундаментальных исследований физиков ЧелГУ",
       "description": "Новость ЧелГУ о фундаментальных исследованиях функциональных магнитных материалов и устройств тепловой магнитной записи; материал найден поиском ЧелГУ по фамилии Байгутлин.",
       "source_name": "ЧелГУ",
-      "published_at": "2022-05-20"
+      "published_at": "2022-05-20",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-zso-scholarship-2021",
@@ -137,7 +172,14 @@
       "title": "Бакалаврам, магистрантам и аспирантам ЧелГУ вручили стипендию Заксобрания",
       "description": "Новость ЧелГУ о стипендии Законодательного собрания; Данил Байгутлин упомянут как аспирант физического факультета.",
       "source_name": "ЧелГУ",
-      "published_at": "2021-12-21"
+      "published_at": "2021-12-21",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-international-forum-2021",
@@ -159,7 +201,14 @@
       "title": "Аспиранты физфака ЧелГУ рассказали о своих исследованиях на международном форуме",
       "description": "Новость ЧелГУ о выступлениях аспирантов физфака на международном форуме; материал найден поиском ЧелГУ по фамилии Байгутлин.",
       "source_name": "ЧелГУ",
-      "published_at": "2021-10-29"
+      "published_at": "2021-10-29",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-nsf-heusler-2020",
@@ -184,7 +233,14 @@
       "title": "Исследованиями физиков ЧелГУ заинтересовался Национальный научный фонд США",
       "description": "Новость ЧелГУ о коллективе физиков, в который вошёл магистрант Данил Байгутлин; материал связан с исследованиями сплавов Гейслера.",
       "source_name": "ЧелГУ",
-      "published_at": "2020-09-03"
+      "published_at": "2020-09-03",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     },
     {
       "id": "csu-lut-collaboration-2018",
@@ -206,7 +262,14 @@
       "title": "Учёные-физики ЧелГУ и Лаппеенратского технологического университета развивают сотрудничество",
       "description": "Новость ЧелГУ о международном научном сотрудничестве физиков ЧелГУ и LUT; страница найдена поиском ЧелГУ по фамилии Байгутлин.",
       "source_name": "ЧелГУ",
-      "published_at": "2018-11-15"
+      "published_at": "2018-11-15",
+      "source": "verified_media_mention",
+      "force_publish": true,
+      "seed_metadata_locked": true,
+      "status": "published",
+      "domain": "csu.ru",
+      "harvested_at": "2026-09-23T18:10:02+00:00",
+      "language": "ru"
     }
   ]
 }

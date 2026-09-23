@@ -1,0 +1,35 @@
+{
+  "attempted_at": "2026-09-23T18:17:08+00:00",
+  "steps": [
+    {
+      "source": "open",
+      "exit_code": 0,
+      "reason": "completed",
+      "attempted_at": "2026-09-23T18:09:46+00:00"
+    },
+    {
+      "source": "media",
+      "exit_code": 0,
+      "reason": "completed",
+      "attempted_at": "2026-09-23T18:10:02+00:00"
+    },
+    {
+      "source": "elibrary",
+      "exit_code": 2,
+      "reason": "nonzero_exit",
+      "attempted_at": "2026-09-23T18:11:07+00:00"
+    },
+    {
+      "source": "wos",
+      "exit_code": 2,
+      "reason": "nonzero_exit",
+      "attempted_at": "2026-09-23T18:16:43+00:00"
+    },
+    {
+      "source": "scopus",
+      "exit_code": 0,
+      "reason": "completed",
+      "attempted_at": "2026-09-23T18:17:01+00:00"
+    }
+  ]
+}

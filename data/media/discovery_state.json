@@ -1,0 +1,60 @@
+{
+  "processed": {
+    "https://csu.ru/press/news/studentki-i-vypusknitsa-zhurfaka-chelgu-pobediteli-konkursa-natsionalnaya-palitra": {
+      "processed_at": "2026-09-23T18:10:49+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/detskiy-universitet-chelgu-priglashaet-yunykh-khimikov-rasshirit-krugozor": {
+      "processed_at": "2026-09-23T18:10:52+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/fakultet-ekonomiki-i-upravleniya-chelgu-sozdayet-tselevoy-kapital-dlya-dolgosrochnogo-razvitiya": {
+      "processed_at": "2026-09-23T18:10:54+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/uchyenye-chelgu-stali-avtorami-posobiya-dlya-shkolnikov": {
+      "processed_at": "2026-09-23T18:10:56+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/metallurgi-urala-bronzovogo-veka-novye-otkrytiya-arkheologov-chelgu": {
+      "processed_at": "2026-09-23T18:10:59+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/prepodavateli-chelgu-izdali-russkie-skazki-v-vedushchikh-izdatelstvakh-knr": {
+      "processed_at": "2026-09-23T18:11:01+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/filologi-chelgu-obsudyat-na-seminare-kompleksnyy-podkhod-k-podgotovke-gia": {
+      "processed_at": "2026-09-23T18:11:03+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-prinyal-uchastie-v-iv-vserossiyskom-slyete-endaumentov-v-krasnoyarske": {
+      "processed_at": "2026-09-23T18:11:05+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/botanika-chelgu-novye-vozmozhnosti-studencheskogo-basketbola": {
+      "processed_at": "2026-09-23T18:11:06+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    }
+  },
+  "pending": {},
+  "sitemap_pending": {
+    "https://www.csu.ru/sitemap.xml": [
+      "https://www.csu.ru/sitemap.xml"
+    ]
+  },
+  "rss_cursor": {
+    "next_index": 1,
+    "attempted_at": "2026-09-23T18:10:41+00:00"
+  },
+  "initial_cutoff": "2024-04-06"
+}

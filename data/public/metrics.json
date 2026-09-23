@@ -1,8 +1,8 @@
 {
   "scopus": {
-    "publications": 25,
-    "citations": 176,
-    "h_index": 7,
+    "publications": 26,
+    "citations": 208,
+    "h_index": 8,
     "id": "57211062810"
   },
   "wos": {
@@ -12,12 +12,12 @@
     "id": "AAN-4717-2020"
   },
   "risc": {
-    "publications": 59,
-    "citations": 202,
-    "h_index": 7,
-    "core_publications": 33,
-    "core_citations": 148,
-    "core_h_index": 6,
+    "publications": 58,
+    "citations": 253,
+    "h_index": 8,
+    "core_publications": 32,
+    "core_citations": 200,
+    "core_h_index": 7,
     "author_id": "1170779",
     "spin": "6676-3700"
   },
@@ -94,6 +94,6 @@
     ]
   },
   "metadata": {
-    "elibrary_updated": "03.05.2025"
+    "elibrary_updated": "25.07.2026"
   }
 }

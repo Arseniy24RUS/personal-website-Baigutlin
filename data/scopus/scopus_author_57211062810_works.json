@@ -1,0 +1,1079 @@
+[
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-105008686251",
+    "scopus_id": "105008686251",
+    "title": "Insight into half-metallicity, electronic structure, and thermal transport properties of FeRhGa1−xAsx Heusler alloys",
+    "creator": "Pavlukhina O.",
+    "journal_or_source": "Journal of Magnetism and Magnetic Materials",
+    "cover_date": "2025-10-01",
+    "year": "2025",
+    "doi": "10.1016/j.jmmm.2025.173268",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105008686251",
+      "dc:identifier": "SCOPUS_ID:105008686251",
+      "eid": "2-s2.0-105008686251",
+      "dc:title": "Insight into half-metallicity, electronic structure, and thermal transport properties of FeRhGa1−xAsx Heusler alloys",
+      "dc:creator": "Pavlukhina O.",
+      "prism:publicationName": "Journal of Magnetism and Magnetic Materials",
+      "prism:coverDate": "2025-10-01",
+      "prism:doi": "10.1016/j.jmmm.2025.173268",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85208073780",
+    "scopus_id": "85208073780",
+    "title": "Systematic study of d0-d KYZ (Y = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Z = al, Ga, In, Si, Ge, Sn, Pb, P, As, Sb, Bi, S, Se, Te) Heusler alloys",
+    "creator": "Matyunina M.",
+    "journal_or_source": "Physica B Condensed Matter",
+    "cover_date": "2025-01-15",
+    "year": "2025",
+    "doi": "10.1016/j.physb.2024.416701",
+    "cited_by_count": 4,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85208073780",
+      "dc:identifier": "SCOPUS_ID:85208073780",
+      "eid": "2-s2.0-85208073780",
+      "dc:title": "Systematic study of d0-d KYZ (Y = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Z = al, Ga, In, Si, Ge, Sn, Pb, P, As, Sb, Bi, S, Se, Te) Heusler alloys",
+      "dc:creator": "Matyunina M.",
+      "prism:publicationName": "Physica B Condensed Matter",
+      "prism:coverDate": "2025-01-15",
+      "prism:doi": "10.1016/j.physb.2024.416701",
+      "citedby-count": "4",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-105025371113",
+    "scopus_id": "105025371113",
+    "title": "PREDICTION OF ELASTIC PROPERTIES OF THE CRYSTAL STRUCTURE OF HEUSLER ALLOYS USING MACHINE LEARNING",
+    "creator": "Moiseev D.M.",
+    "journal_or_source": "Chelyabinsk Physical and Mathematical Journal",
+    "cover_date": "2025-01-01",
+    "year": "2025",
+    "doi": "10.47475/2500-0101-2025-10-2-286-296",
+    "cited_by_count": 0,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105025371113",
+      "dc:identifier": "SCOPUS_ID:105025371113",
+      "eid": "2-s2.0-105025371113",
+      "dc:title": "PREDICTION OF ELASTIC PROPERTIES OF THE CRYSTAL STRUCTURE OF HEUSLER ALLOYS USING MACHINE LEARNING",
+      "dc:creator": "Moiseev D.M.",
+      "prism:publicationName": "Chelyabinsk Physical and Mathematical Journal",
+      "prism:coverDate": "2025-01-01",
+      "prism:doi": "10.47475/2500-0101-2025-10-2-286-296",
+      "citedby-count": "0",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85219755503",
+    "scopus_id": "85219755503",
+    "title": "Thermoelectric Properties of Double Half-Heusler Ti2MnNiSi2 Alloy",
+    "creator": "Matyunina M.V.",
+    "journal_or_source": "Physics of Metals and Metallography",
+    "cover_date": "2024-12-01",
+    "year": "2024",
+    "doi": "10.1134/S0031918X24602622",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85219755503",
+      "dc:identifier": "SCOPUS_ID:85219755503",
+      "eid": "2-s2.0-85219755503",
+      "dc:title": "Thermoelectric Properties of Double Half-Heusler Ti2MnNiSi2 Alloy",
+      "dc:creator": "Matyunina M.V.",
+      "prism:publicationName": "Physics of Metals and Metallography",
+      "prism:coverDate": "2024-12-01",
+      "prism:doi": "10.1134/S0031918X24602622",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85209656418",
+    "scopus_id": "85209656418",
+    "title": "Machine learning algorithms for optimization of magnetocaloric effect in all-d-metal Heusler alloys",
+    "creator": "Baigutlin D.R.",
+    "journal_or_source": "Journal of Applied Physics",
+    "cover_date": "2024-11-14",
+    "year": "2024",
+    "doi": "10.1063/5.0236335",
+    "cited_by_count": 6,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "1",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85209656418",
+      "dc:identifier": "SCOPUS_ID:85209656418",
+      "eid": "2-s2.0-85209656418",
+      "dc:title": "Machine learning algorithms for optimization of magnetocaloric effect in all-d-metal Heusler alloys",
+      "dc:creator": "Baigutlin D.R.",
+      "prism:publicationName": "Journal of Applied Physics",
+      "prism:coverDate": "2024-11-14",
+      "prism:doi": "10.1063/5.0236335",
+      "citedby-count": "6",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85165042235",
+    "scopus_id": "85165042235",
+    "title": "Ab initio prediction of coexistence of two magnetic states in Mn2YSn (Y=Sc, Ti, and V) Heusler alloys under applied pressure",
+    "creator": "Sokolovskiy V.",
+    "journal_or_source": "Computational Materials Science",
+    "cover_date": "2023-09-01",
+    "year": "2023",
+    "doi": "10.1016/j.commatsci.2023.112365",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85165042235",
+      "dc:identifier": "SCOPUS_ID:85165042235",
+      "eid": "2-s2.0-85165042235",
+      "dc:title": "Ab initio prediction of coexistence of two magnetic states in Mn2YSn (Y=Sc, Ti, and V) Heusler alloys under applied pressure",
+      "dc:creator": "Sokolovskiy V.",
+      "prism:publicationName": "Computational Materials Science",
+      "prism:coverDate": "2023-09-01",
+      "prism:doi": "10.1016/j.commatsci.2023.112365",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85163526797",
+    "scopus_id": "85163526797",
+    "title": "Interplay of electronic structure and magnetism in Fe2 - And Rh2 -based Heusler alloys",
+    "creator": "Baigutlin D.R.",
+    "journal_or_source": "Physical Review B",
+    "cover_date": "2023-06-15",
+    "year": "2023",
+    "doi": "10.1103/PhysRevB.107.245130",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85163526797",
+      "dc:identifier": "SCOPUS_ID:85163526797",
+      "eid": "2-s2.0-85163526797",
+      "dc:title": "Interplay of electronic structure and magnetism in Fe2 - And Rh2 -based Heusler alloys",
+      "dc:creator": "Baigutlin D.R.",
+      "prism:publicationName": "Physical Review B",
+      "prism:coverDate": "2023-06-15",
+      "prism:doi": "10.1103/PhysRevB.107.245130",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85162890949",
+    "scopus_id": "85162890949",
+    "title": "On the Possible Half-Metallic Properties of Fe2RhZ (Z = Al, Si, Ga, Ge, In, Sn) Ferromagnetic Heusler Alloys",
+    "creator": "Erager K.R.",
+    "journal_or_source": "Journal of Communications Technology and Electronics",
+    "cover_date": "2023-04-01",
+    "year": "2023",
+    "doi": "10.1134/S1064226923040010",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85162890949",
+      "dc:identifier": "SCOPUS_ID:85162890949",
+      "eid": "2-s2.0-85162890949",
+      "dc:title": "On the Possible Half-Metallic Properties of Fe2RhZ (Z = Al, Si, Ga, Ge, In, Sn) Ferromagnetic Heusler Alloys",
+      "dc:creator": "Erager K.R.",
+      "prism:publicationName": "Journal of Communications Technology and Electronics",
+      "prism:coverDate": "2023-04-01",
+      "prism:doi": "10.1134/S1064226923040010",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85156088111",
+    "scopus_id": "85156088111",
+    "title": "Meta-GGA SCAN Functional in the Prediction of Ground State Properties of Magnetic Materials: Review of the Current State",
+    "creator": "Sokolovskiy V.",
+    "journal_or_source": "Metals",
+    "cover_date": "2023-04-01",
+    "year": "2023",
+    "doi": "10.3390/met13040728",
+    "cited_by_count": 43,
+    "aggregation_type": "Journal",
+    "subtype": "Review",
+    "openaccess": "1",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85156088111",
+      "dc:identifier": "SCOPUS_ID:85156088111",
+      "eid": "2-s2.0-85156088111",
+      "dc:title": "Meta-GGA SCAN Functional in the Prediction of Ground State Properties of Magnetic Materials: Review of the Current State",
+      "dc:creator": "Sokolovskiy V.",
+      "prism:publicationName": "Metals",
+      "prism:coverDate": "2023-04-01",
+      "prism:doi": "10.3390/met13040728",
+      "citedby-count": "43",
+      "prism:aggregationType": "Journal",
+      "subtype": "re",
+      "subtypeDescription": "Review",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85159761781",
+    "scopus_id": "85159761781",
+    "title": "The Influence of Exchange Correlation Effects on the Stabilization of the Half-Metallic Properties of Mn2VAl and Mn2VSi Alloys",
+    "creator": "Buchelnikov V.D.",
+    "journal_or_source": "Physics of Metals and Metallography",
+    "cover_date": "2023-02-01",
+    "year": "2023",
+    "doi": "10.1134/S0031918X22601962",
+    "cited_by_count": 4,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85159761781",
+      "dc:identifier": "SCOPUS_ID:85159761781",
+      "eid": "2-s2.0-85159761781",
+      "dc:title": "The Influence of Exchange Correlation Effects on the Stabilization of the Half-Metallic Properties of Mn2VAl and Mn2VSi Alloys",
+      "dc:creator": "Buchelnikov V.D.",
+      "prism:publicationName": "Physics of Metals and Metallography",
+      "prism:coverDate": "2023-02-01",
+      "prism:doi": "10.1134/S0031918X22601962",
+      "citedby-count": "4",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85134031692",
+    "scopus_id": "85134031692",
+    "title": "Helical spin ordering in room-temperature metallic antiferromagnet Fe3Ga4",
+    "creator": "Wilfong B.",
+    "journal_or_source": "Journal of Alloys and Compounds",
+    "cover_date": "2022-10-05",
+    "year": "2022",
+    "doi": "10.1016/j.jallcom.2022.165532",
+    "cited_by_count": 8,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "1",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85134031692",
+      "dc:identifier": "SCOPUS_ID:85134031692",
+      "eid": "2-s2.0-85134031692",
+      "dc:title": "Helical spin ordering in room-temperature metallic antiferromagnet Fe3Ga4",
+      "dc:creator": "Wilfong B.",
+      "prism:publicationName": "Journal of Alloys and Compounds",
+      "prism:coverDate": "2022-10-05",
+      "prism:doi": "10.1016/j.jallcom.2022.165532",
+      "citedby-count": "8",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfree2read"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Bronze"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85130495279",
+    "scopus_id": "85130495279",
+    "title": "Exchange Correlation Effects in Modulated Martensitic Structures of the Mn2NiGa Alloy",
+    "creator": "Erager K.R.",
+    "journal_or_source": "Physics of Metals and Metallography",
+    "cover_date": "2022-04-01",
+    "year": "2022",
+    "doi": "10.1134/S0031918X22040044",
+    "cited_by_count": 3,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85130495279",
+      "dc:identifier": "SCOPUS_ID:85130495279",
+      "eid": "2-s2.0-85130495279",
+      "dc:title": "Exchange Correlation Effects in Modulated Martensitic Structures of the Mn2NiGa Alloy",
+      "dc:creator": "Erager K.R.",
+      "prism:publicationName": "Physics of Metals and Metallography",
+      "prism:coverDate": "2022-04-01",
+      "prism:doi": "10.1134/S0031918X22040044",
+      "citedby-count": "3",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85119993004",
+    "scopus_id": "85119993004",
+    "title": "Magnetic and structural properties of Co-Ni-Z (Z= Al, Ga, In, Sn) Heusler alloys: Effect of structural motives and chemical disorder",
+    "creator": "Sokolovskiy V.",
+    "journal_or_source": "Journal of Magnetism and Magnetic Materials",
+    "cover_date": "2022-03-15",
+    "year": "2022",
+    "doi": "10.1016/j.jmmm.2021.168728",
+    "cited_by_count": 8,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85119993004",
+      "dc:identifier": "SCOPUS_ID:85119993004",
+      "eid": "2-s2.0-85119993004",
+      "dc:title": "Magnetic and structural properties of Co-Ni-Z (Z= Al, Ga, In, Sn) Heusler alloys: Effect of structural motives and chemical disorder",
+      "dc:creator": "Sokolovskiy V.",
+      "prism:publicationName": "Journal of Magnetism and Magnetic Materials",
+      "prism:coverDate": "2022-03-15",
+      "prism:doi": "10.1016/j.jmmm.2021.168728",
+      "citedby-count": "8",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85111789780",
+    "scopus_id": "85111789780",
+    "title": "Phase transitions in Fe-(23−24)Ga alloys: Experimental results and modeling",
+    "creator": "Pavlukhina O.O.",
+    "journal_or_source": "Journal of Alloys and Compounds",
+    "cover_date": "2021-12-10",
+    "year": "2021",
+    "doi": "10.1016/j.jallcom.2021.160917",
+    "cited_by_count": 4,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85111789780",
+      "dc:identifier": "SCOPUS_ID:85111789780",
+      "eid": "2-s2.0-85111789780",
+      "dc:title": "Phase transitions in Fe-(23−24)Ga alloys: Experimental results and modeling",
+      "dc:creator": "Pavlukhina O.O.",
+      "prism:publicationName": "Journal of Alloys and Compounds",
+      "prism:coverDate": "2021-12-10",
+      "prism:doi": "10.1016/j.jallcom.2021.160917",
+      "citedby-count": "4",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85116313170",
+    "scopus_id": "85116313170",
+    "title": "Design of a Stable Heusler Alloy with Switchable Metal-to-Half-Metal Transition at Finite Temperature",
+    "creator": "Buchelnikov V.D.",
+    "journal_or_source": "Advanced Theory and Simulations",
+    "cover_date": "2021-11-01",
+    "year": "2021",
+    "doi": "10.1002/adts.202100311",
+    "cited_by_count": 6,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "2",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85116313170",
+      "dc:identifier": "SCOPUS_ID:85116313170",
+      "eid": "2-s2.0-85116313170",
+      "dc:title": "Design of a Stable Heusler Alloy with Switchable Metal-to-Half-Metal Transition at Finite Temperature",
+      "dc:creator": "Buchelnikov V.D.",
+      "prism:publicationName": "Advanced Theory and Simulations",
+      "prism:coverDate": "2021-11-01",
+      "prism:doi": "10.1002/adts.202100311",
+      "citedby-count": "6",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85108063661",
+    "scopus_id": "85108063661",
+    "title": "A ternary map of ni–mn–ga heusler alloys from ab initio calculations",
+    "creator": "Sokolovskaya Y.",
+    "journal_or_source": "Metals",
+    "cover_date": "2021-06-01",
+    "year": "2021",
+    "doi": "10.3390/met11060973",
+    "cited_by_count": 9,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "1",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85108063661",
+      "dc:identifier": "SCOPUS_ID:85108063661",
+      "eid": "2-s2.0-85108063661",
+      "dc:title": "A ternary map of ni–mn–ga heusler alloys from ab initio calculations",
+      "dc:creator": "Sokolovskaya Y.",
+      "prism:publicationName": "Metals",
+      "prism:coverDate": "2021-06-01",
+      "prism:doi": "10.3390/met11060973",
+      "citedby-count": "9",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherfullgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85100633796",
+    "scopus_id": "85100633796",
+    "title": "Prediction of a Heusler alloy with switchable metal-to-half-metal behavior",
+    "creator": "Buchelnikov V.D.",
+    "journal_or_source": "Physical Review B",
+    "cover_date": "2021-02-08",
+    "year": "2021",
+    "doi": "10.1103/PhysRevB.103.054414",
+    "cited_by_count": 10,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "2",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85100633796",
+      "dc:identifier": "SCOPUS_ID:85100633796",
+      "eid": "2-s2.0-85100633796",
+      "dc:title": "Prediction of a Heusler alloy with switchable metal-to-half-metal behavior",
+      "dc:creator": "Buchelnikov V.D.",
+      "prism:publicationName": "Physical Review B",
+      "prism:coverDate": "2021-02-08",
+      "prism:doi": "10.1103/PhysRevB.103.054414",
+      "citedby-count": "10",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85090220369",
+    "scopus_id": "85090220369",
+    "title": "Superconducting and antiferromagnetic properties of dual-phase V3Ga",
+    "creator": "Jamer M.E.",
+    "journal_or_source": "Applied Physics Letters",
+    "cover_date": "2020-08-10",
+    "year": "2020",
+    "doi": "10.1063/5.0015535",
+    "cited_by_count": 4,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "2",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85090220369",
+      "dc:identifier": "SCOPUS_ID:85090220369",
+      "eid": "2-s2.0-85090220369",
+      "dc:title": "Superconducting and antiferromagnetic properties of dual-phase V3Ga",
+      "dc:creator": "Jamer M.E.",
+      "prism:publicationName": "Applied Physics Letters",
+      "prism:coverDate": "2020-08-10",
+      "prism:doi": "10.1063/5.0015535",
+      "citedby-count": "4",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85093081262",
+    "scopus_id": "85093081262",
+    "title": "Electronic structure beyond the generalized gradient approximation for Ni2MnGa",
+    "creator": "Baigutlin D.R.",
+    "journal_or_source": "Physical Review B",
+    "cover_date": "2020-07-15",
+    "year": "2020",
+    "doi": "10.1103/PhysRevB.102.045127",
+    "cited_by_count": 18,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "2",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85093081262",
+      "dc:identifier": "SCOPUS_ID:85093081262",
+      "eid": "2-s2.0-85093081262",
+      "dc:title": "Electronic structure beyond the generalized gradient approximation for Ni2MnGa",
+      "dc:creator": "Baigutlin D.R.",
+      "prism:publicationName": "Physical Review B",
+      "prism:coverDate": "2020-07-15",
+      "prism:doi": "10.1103/PhysRevB.102.045127",
+      "citedby-count": "18",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85097334428",
+    "scopus_id": "85097334428",
+    "title": "Exchange-correlation corrections for electronic properties of half-metallic Co2FeSi and nonmagnetic semiconductor CoFeTiAl",
+    "creator": "Miroshkina O.N.",
+    "journal_or_source": "Journal of Applied Physics",
+    "cover_date": "2020-05-07",
+    "year": "2020",
+    "doi": "10.1063/5.0006201",
+    "cited_by_count": 10,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "2",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85097334428",
+      "dc:identifier": "SCOPUS_ID:85097334428",
+      "eid": "2-s2.0-85097334428",
+      "dc:title": "Exchange-correlation corrections for electronic properties of half-metallic Co2FeSi and nonmagnetic semiconductor CoFeTiAl",
+      "dc:creator": "Miroshkina O.N.",
+      "prism:publicationName": "Journal of Applied Physics",
+      "prism:coverDate": "2020-05-07",
+      "prism:doi": "10.1063/5.0006201",
+      "citedby-count": "10",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85083529054",
+    "scopus_id": "85083529054",
+    "title": "Phase Transformations in Ni(Co)–Mn(Cr,C)–(In,Sn) Alloys: An Ab Initio Study",
+    "creator": "Buchelnikov V.D.",
+    "journal_or_source": "Physics of Metals and Metallography",
+    "cover_date": "2020-03-01",
+    "year": "2020",
+    "doi": "10.1134/S0031918X20020039",
+    "cited_by_count": 5,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85083529054",
+      "dc:identifier": "SCOPUS_ID:85083529054",
+      "eid": "2-s2.0-85083529054",
+      "dc:title": "Phase Transformations in Ni(Co)–Mn(Cr,C)–(In,Sn) Alloys: An Ab Initio Study",
+      "dc:creator": "Buchelnikov V.D.",
+      "prism:publicationName": "Physics of Metals and Metallography",
+      "prism:coverDate": "2020-03-01",
+      "prism:doi": "10.1134/S0031918X20020039",
+      "citedby-count": "5",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85079737937",
+    "scopus_id": "85079737937",
+    "title": "Coulomb correlation in noncollinear antiferromagnetic α-Mn",
+    "creator": "Pulkkinen A.",
+    "journal_or_source": "Physical Review B",
+    "cover_date": "2020-02-15",
+    "year": "2020",
+    "doi": "10.1103/PhysRevB.101.075115",
+    "cited_by_count": 32,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "2",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079737937",
+      "dc:identifier": "SCOPUS_ID:85079737937",
+      "eid": "2-s2.0-85079737937",
+      "dc:title": "Coulomb correlation in noncollinear antiferromagnetic α-Mn",
+      "dc:creator": "Pulkkinen A.",
+      "prism:publicationName": "Physical Review B",
+      "prism:coverDate": "2020-02-15",
+      "prism:doi": "10.1103/PhysRevB.101.075115",
+      "citedby-count": "32",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85075915825",
+    "scopus_id": "85075915825",
+    "title": "Statistical model for the martensitic transformation simulation in Heusler alloys",
+    "creator": "Miroshkina O.",
+    "journal_or_source": "Physica B Condensed Matter",
+    "cover_date": "2020-02-01",
+    "year": "2020",
+    "doi": "10.1016/j.physb.2019.411874",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85075915825",
+      "dc:identifier": "SCOPUS_ID:85075915825",
+      "eid": "2-s2.0-85075915825",
+      "dc:title": "Statistical model for the martensitic transformation simulation in Heusler alloys",
+      "dc:creator": "Miroshkina O.",
+      "prism:publicationName": "Physica B Condensed Matter",
+      "prism:coverDate": "2020-02-01",
+      "prism:doi": "10.1016/j.physb.2019.411874",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85088152514",
+    "scopus_id": "85088152514",
+    "title": "Temperature and pressure effects on the Fermi surface nesting in Ni2MnGa",
+    "creator": "Baigutlin D.R.",
+    "journal_or_source": "Chelyabinsk Physical and Mathematical Journal",
+    "cover_date": "2020-01-01",
+    "year": "2020",
+    "doi": "10.24411/2500-0101-2020-15110",
+    "cited_by_count": 0,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85088152514",
+      "dc:identifier": "SCOPUS_ID:85088152514",
+      "eid": "2-s2.0-85088152514",
+      "dc:title": "Temperature and pressure effects on the Fermi surface nesting in Ni2MnGa",
+      "dc:creator": "Baigutlin D.R.",
+      "prism:publicationName": "Chelyabinsk Physical and Mathematical Journal",
+      "prism:coverDate": "2020-01-01",
+      "prism:doi": "10.24411/2500-0101-2020-15110",
+      "citedby-count": "0",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85100293216",
+    "scopus_id": "85100293216",
+    "title": "Kinetics of phase transformations in fe-ga alloys",
+    "creator": "Pavlukhina O.O.",
+    "journal_or_source": "Chelyabinsk Physical and Mathematical Journal",
+    "cover_date": "2020-01-01",
+    "year": "2020",
+    "doi": "10.47475/2500-0101-2020-15407",
+    "cited_by_count": 2,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85100293216",
+      "dc:identifier": "SCOPUS_ID:85100293216",
+      "eid": "2-s2.0-85100293216",
+      "dc:title": "Kinetics of phase transformations in fe-ga alloys",
+      "dc:creator": "Pavlukhina O.O.",
+      "prism:publicationName": "Chelyabinsk Physical and Mathematical Journal",
+      "prism:coverDate": "2020-01-01",
+      "prism:doi": "10.47475/2500-0101-2020-15407",
+      "citedby-count": "2",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  },
+  {
+    "source": "scopus_api",
+    "eid": "2-s2.0-85072529551",
+    "scopus_id": "85072529551",
+    "title": "Segregation tendency of Heusler alloys",
+    "creator": "Sokolovskiy V.V.",
+    "journal_or_source": "Physical Review Materials",
+    "cover_date": "2019-08-19",
+    "year": "2019",
+    "doi": "10.1103/PhysRevMaterials.3.084413",
+    "cited_by_count": 20,
+    "aggregation_type": "Journal",
+    "subtype": "Article",
+    "openaccess": "0",
+    "raw": {
+      "@_fa": "true",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85072529551",
+      "dc:identifier": "SCOPUS_ID:85072529551",
+      "eid": "2-s2.0-85072529551",
+      "dc:title": "Segregation tendency of Heusler alloys",
+      "dc:creator": "Sokolovskiy V.V.",
+      "prism:publicationName": "Physical Review Materials",
+      "prism:coverDate": "2019-08-19",
+      "prism:doi": "10.1103/PhysRevMaterials.3.084413",
+      "citedby-count": "20",
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  }
+]

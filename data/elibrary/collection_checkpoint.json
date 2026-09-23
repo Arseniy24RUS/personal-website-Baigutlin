@@ -1,0 +1,2603 @@
+{
+  "schema": "provider_collection/v1",
+  "report": {
+    "status": "partial",
+    "attempted_at": "2026-09-23T18:11:13+00:00",
+    "last_success_at": null,
+    "origin": "snapshot",
+    "complete": false,
+    "record_count": 58,
+    "reason": "details_pending",
+    "components": {
+      "publications": {
+        "status": "success",
+        "attempted_at": "2026-09-23T18:11:13+00:00",
+        "last_success_at": "2026-09-23T18:11:13+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 58,
+        "reason": null,
+        "observed_count": 58,
+        "last_observation_at": "2026-09-23T18:11:15+00:00"
+      },
+      "metrics": {
+        "status": "success",
+        "attempted_at": "2026-09-23T18:11:13+00:00",
+        "last_success_at": "2026-09-23T18:11:13+00:00",
+        "origin": "live",
+        "complete": true,
+        "record_count": 1,
+        "reason": null
+      },
+      "details": {
+        "status": "partial",
+        "attempted_at": "2026-09-23T18:11:13+00:00",
+        "last_success_at": null,
+        "origin": "snapshot",
+        "complete": false,
+        "record_count": 57,
+        "reason": "details_pending",
+        "fetched": 57,
+        "failed": 1,
+        "pending": 1,
+        "observed_count": 57,
+        "last_observation_at": "2026-09-23T18:16:43+00:00"
+      }
+    },
+    "target_author_id": "1170779",
+    "generated_at": "2026-09-23T18:16:43+00:00",
+    "authentication": "existing_session_verified",
+    "session_checkpoint": {
+      "status": "checkpointed",
+      "validated_at": "2026-09-23T18:11:15+00:00",
+      "cookie_expires_at": "2027-09-23T17:49:37.215191+00:00",
+      "cookie_expiry_extended": false
+    },
+    "session_restore": {
+      "status": "restored",
+      "kind": "confirmed",
+      "validated_at": "2026-09-23T17:49:45+00:00",
+      "cookie_expires_at": "2027-09-23T17:49:37.215191+00:00"
+    }
+  },
+  "payloads": {
+    "metrics": {
+      "source": "elibrary_author_profile",
+      "source_url": "https://www.elibrary.ru/author_profile.asp?id=1170779",
+      "authorid": "1170779",
+      "spin": "6676-3700",
+      "author_name": "Байгутлин Данил Расулович",
+      "snapshot_generated_at": "2026-09-23T18:11:13+00:00",
+      "source_file_sha256": null,
+      "elibrary_updated_at": "25.07.2026",
+      "summary": {
+        "publications_elibrary": 58,
+        "publications_rinc": 58,
+        "publications_core_rinc": 32,
+        "citations_elibrary": 260,
+        "citations_rinc": 253,
+        "citations_core_rinc": 200,
+        "h_index_elibrary": 8,
+        "h_index_rinc": 8,
+        "h_index_core_rinc": 7,
+        "h_index_without_self_citations": 8,
+        "h_index_core_without_self_citations": 7,
+        "h_index_journal_articles": 7,
+        "first_publication_year": 2017,
+        "coauthors_count": 56,
+        "core_rinc_percentile": 15
+      },
+      "general_metrics": {
+        "Число публикаций на elibrary.ru": {
+          "raw": "58",
+          "value": 58
+        },
+        "Число публикаций в РИНЦ": {
+          "raw": "58",
+          "value": 58
+        },
+        "Число публикаций, входящих в ядро РИНЦ": {
+          "raw": "32",
+          "value": 32
+        },
+        "Число цитирований из публикаций на elibrary.ru": {
+          "raw": "260",
+          "value": 260
+        },
+        "Число цитирований из публикаций, входящих в РИНЦ": {
+          "raw": "253",
+          "value": 253
+        },
+        "Число цитирований из публикаций, входящих в ядро РИНЦ": {
+          "raw": "200",
+          "value": 200
+        },
+        "Индекс Хирша по всем публикациям на elibrary.ru": {
+          "raw": "8",
+          "value": 8
+        },
+        "Индекс Хирша по публикациям в РИНЦ": {
+          "raw": "8",
+          "value": 8
+        },
+        "Индекс Хирша по ядру РИНЦ": {
+          "raw": "7",
+          "value": 7
+        },
+        "Число публикаций, процитировавших работы автора": {
+          "raw": "179",
+          "value": 179
+        },
+        "Число ссылок на самую цитируемую публикацию": {
+          "raw": "35",
+          "value": 35
+        },
+        "Число публикаций автора, процитированных хотя бы один раз": {
+          "raw": "31 (53,4%)",
+          "value": 31
+        },
+        "Среднее число цитирований в расчете на одну публикацию": {
+          "raw": "4,07",
+          "value": 4.07
+        },
+        "Индекс Хирша без учета самоцитирований": {
+          "raw": "8",
+          "value": 8
+        },
+        "Индекс Хирша по ядру РИНЦ без учета самоцитирований": {
+          "raw": "7",
+          "value": 7
+        },
+        "Индекс Хирша с учетом только статей в журналах": {
+          "raw": "7",
+          "value": 7
+        },
+        "Год первой публикации": {
+          "raw": "2017",
+          "value": 2017
+        },
+        "Число самоцитирований": {
+          "raw": "33 (13,0%)",
+          "value": 33
+        },
+        "Число цитирований соавторами": {
+          "raw": "129 (51,0%)",
+          "value": 129
+        },
+        "Число соавторов": {
+          "raw": "56",
+          "value": 56
+        },
+        "Число статей в зарубежных журналах": {
+          "raw": "20 (34,5%)",
+          "value": 20
+        },
+        "Число статей в российских журналах": {
+          "raw": "13 (22,4%)",
+          "value": 13
+        },
+        "Число статей в российских журналах из перечня ВАК": {
+          "raw": "11 (19,0%)",
+          "value": 11
+        },
+        "Число статей в российских переводных журналах": {
+          "raw": "5 (8,6%)",
+          "value": 5
+        },
+        "Число статей в журналах с ненулевым импакт-фактором": {
+          "raw": "33 (56,9%)",
+          "value": 33
+        },
+        "Число цитирований из зарубежных журналов на публикации автор": {
+          "raw": "164 (64,8%)",
+          "value": 164
+        },
+        "Число цитирований из российских журналов": {
+          "raw": "37 (14,6%)",
+          "value": 37
+        },
+        "Число цитирований из российских журналов из перечня ВАК": {
+          "raw": "38 (15,0%)",
+          "value": 38
+        },
+        "Число цитирований из российских переводных журналов": {
+          "raw": "25 (9,9%)",
+          "value": 25
+        },
+        "Число цитирований из журналов с ненулевым импакт-фактором": {
+          "raw": "198 (78,3%)",
+          "value": 198
+        },
+        "Средневзвешенный импакт-фактор журналов, в которых были опубликованы статьи": {
+          "raw": "2,311",
+          "value": 2.311
+        },
+        "Средневзвешенный импакт-фактор журналов, в которых были процитированы статьи": {
+          "raw": "3,257 Число публикаций в РИНЦ за последние 5 лет (2021-2025) 44 (75,9%)",
+          "value": 3.257
+        },
+        "Число публикаций в ядре РИНЦ за последние 5 лет": {
+          "raw": "20 (45,5%)",
+          "value": 20
+        },
+        "Число ссылок из РИНЦ на работы, опубликованные за последние 5 лет": {
+          "raw": "120 (47,4%)",
+          "value": 120
+        },
+        "Число ссылок из ядра РИНЦ на работы, опубликованные за последние 5 лет": {
+          "raw": "90 (35,6%)",
+          "value": 90
+        },
+        "Число ссылок на работы автора из всех публикаций за последние 5 лет": {
+          "raw": "207 (81,8%)",
+          "value": 207
+        },
+        "Основная рубрика (ГРНТИ)": {
+          "raw": "290000. Физика",
+          "value": 290000
+        },
+        "Основная рубрика (OECD)": {
+          "raw": "103. Physical sciences and astronomy",
+          "value": 103
+        },
+        "Процентиль по ядру РИНЦ": {
+          "raw": "15",
+          "value": 15
+        },
+        "Участие в публикациях:": {
+          "raw": "66",
+          "value": 66
+        }
+      },
+      "yearly_metrics": {
+        "Число публикаций в РИНЦ": {
+          "2025": 3,
+          "2024": 9,
+          "2023": 12,
+          "2022": 13,
+          "2021": 7,
+          "2020": 8,
+          "2019": 2,
+          "2018": 3,
+          "2017": 1
+        },
+        "Число публикаций в ядре РИНЦ": {
+          "2025": 3,
+          "2024": 3,
+          "2023": 6,
+          "2022": 3,
+          "2021": 5,
+          "2020": 8,
+          "2019": 2,
+          "2018": 1,
+          "2017": 1
+        },
+        "Число цитирований в РИНЦ": {
+          "2025": 43,
+          "2024": 37,
+          "2023": 48,
+          "2022": 42,
+          "2021": 37,
+          "2020": 16,
+          "2019": 7,
+          "2018": 2,
+          "2017": 1
+        },
+        "Число цитирований из ядра РИНЦ": {
+          "2025": 40,
+          "2024": 34,
+          "2023": 43,
+          "2022": 32,
+          "2021": 23,
+          "2020": 9,
+          "2019": 0,
+          "2018": 0,
+          "2017": 0
+        },
+        "Число публикаций в РИНЦ за 5 лет": {
+          "2025": 44,
+          "2024": 49,
+          "2023": 42,
+          "2022": 33,
+          "2021": 21,
+          "2020": 14,
+          "2019": 6,
+          "2018": 4,
+          "2017": 1
+        },
+        "Число публикаций в ядре РИНЦ за 5 лет": {
+          "2025": 20,
+          "2024": 25,
+          "2023": 24,
+          "2022": 19,
+          "2021": 17,
+          "2020": 12,
+          "2019": 4,
+          "2018": 2,
+          "2017": 1
+        },
+        "Число цитирований в РИНЦ за 5 лет": {
+          "2025": 120,
+          "2024": 160,
+          "2023": 147,
+          "2022": 101,
+          "2021": 58,
+          "2020": 23,
+          "2019": 5,
+          "2018": 2,
+          "2017": 1
+        },
+        "Число цитирований из ядра РИНЦ за 5 лет": {
+          "2025": 90,
+          "2024": 123,
+          "2023": 104,
+          "2022": 63,
+          "2021": 31,
+          "2020": 9,
+          "2019": 0,
+          "2018": 0,
+          "2017": 0
+        },
+        "Индекс Хирша в РИНЦ": {
+          "2025": 7,
+          "2024": 7,
+          "2023": 6,
+          "2022": 5,
+          "2021": 4,
+          "2020": 2,
+          "2019": 1,
+          "2018": 0,
+          "2017": 0
+        },
+        "Индекс Хирша по ядру РИНЦ": {
+          "2025": 7,
+          "2024": 6,
+          "2023": 5,
+          "2022": 4,
+          "2021": 3,
+          "2020": 1,
+          "2019": 0,
+          "2018": 0,
+          "2017": 0
+        },
+        "Процентиль по ядру РИНЦ": {
+          "2025": 15,
+          "2024": 12,
+          "2023": 14,
+          "2022": 21,
+          "2021": 33,
+          "2020": 53,
+          "2019": 81,
+          "2018": 83,
+          "2017": 85
+        }
+      },
+      "affiliations": [
+        {
+          "organization": "Челябинский государственный университет (Челябинск)",
+          "period": "2017-2025",
+          "publications": 49
+        },
+        {
+          "organization": "Lappeenranta University of Technology (Лаппеэнранта)",
+          "period": "2020",
+          "publications": 1
+        }
+      ],
+      "metric_observed_at": {
+        "publications_elibrary": "2026-09-23T18:11:13+00:00",
+        "publications_rinc": "2026-09-23T18:11:13+00:00",
+        "publications_core_rinc": "2026-09-23T18:11:13+00:00",
+        "citations_elibrary": "2026-09-23T18:11:13+00:00",
+        "citations_rinc": "2026-09-23T18:11:13+00:00",
+        "citations_core_rinc": "2026-09-23T18:11:13+00:00",
+        "h_index_elibrary": "2026-09-23T18:11:13+00:00",
+        "h_index_rinc": "2026-09-23T18:11:13+00:00",
+        "h_index_core_rinc": "2026-09-23T18:11:13+00:00",
+        "h_index_without_self_citations": "2026-09-23T18:11:13+00:00",
+        "h_index_core_without_self_citations": "2026-09-23T18:11:13+00:00",
+        "h_index_journal_articles": "2026-09-23T18:11:13+00:00",
+        "first_publication_year": "2026-09-23T18:11:13+00:00",
+        "coauthors_count": "2026-09-23T18:11:13+00:00",
+        "core_rinc_percentile": "2026-09-23T18:11:13+00:00"
+      },
+      "retained_metric_fields": [],
+      "last_success_at": "2026-09-23T18:11:13+00:00"
+    },
+    "publications": [
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 1,
+        "elibrary_item_id": "84675898",
+        "url": "https://www.elibrary.ru/item.asp?id=84675898",
+        "title": "INSIGHT INTO HALF-METALLICITY, ELECTRONIC STRUCTURE, AND THERMAL TRANSPORT PROPERTIES OF FERHGA 1 − X AS X HEUSLER ALLOYS",
+        "title_ru": "INSIGHT INTO HALF-METALLICITY, ELECTRONIC STRUCTURE, AND THERMAL TRANSPORT PROPERTIES OF FERHGA 1 − X AS X HEUSLER ALLOYS",
+        "authors_raw": "Pavlukhina O., Sokolovskiy V., Baigutlin D., Buchelnikov V., Zotov I.",
+        "venue": "Journal of Magnetism and Magnetic Materials",
+        "venue_ru": "Journal of Magnetism and Magnetic Materials",
+        "year": 2025,
+        "pages": "173268",
+        "metadata_raw": "Journal of Magnetism and Magnetic Materials . 2025. Т. 629. С. 173268.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "d5a3d2cb57769579",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 2,
+        "elibrary_item_id": "80734559",
+        "url": "https://www.elibrary.ru/item.asp?id=80734559",
+        "title": "SYSTEMATIC STUDY OF D0-D KYZ (Y = SC, TI, V, CR, MN, FE, CO, NI, CU, Z = AL, GA, IN, SI, GE, SN, PB, P, AS, SB, BI, S, SE, TE) HEUSLER ALLOYS",
+        "title_ru": "SYSTEMATIC STUDY OF D0-D KYZ (Y = SC, TI, V, CR, MN, FE, CO, NI, CU, Z = AL, GA, IN, SI, GE, SN, PB, P, AS, SB, BI, S, SE, TE) HEUSLER ALLOYS",
+        "authors_raw": "Matyunina M., Baigutlin D., Sokolovskiy V., Buchelnikov V.",
+        "venue": "Physica B: Condensed Matter",
+        "venue_ru": "Physica B: Condensed Matter",
+        "year": 2025,
+        "pages": "416701",
+        "metadata_raw": "Physica B: Condensed Matter . 2025. Т. 697. С. 416701.",
+        "rinc_citations": 4,
+        "dedupe_fingerprint": "9b59b798921cd94c",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 3,
+        "elibrary_item_id": "82741704",
+        "url": "https://www.elibrary.ru/item.asp?id=82741704",
+        "title": "ПРЕДСКАЗАНИЕ УПРУГИХ СВОЙСТВ КРИСТАЛЛИЧЕСКОЙ СТРУКТУРЫ СПЛАВОВ ГЕЙСЛЕРА В РАМКАХ МАШИННОГО ОБУЧЕНИЯ",
+        "title_ru": "ПРЕДСКАЗАНИЕ УПРУГИХ СВОЙСТВ КРИСТАЛЛИЧЕСКОЙ СТРУКТУРЫ СПЛАВОВ ГЕЙСЛЕРА В РАМКАХ МАШИННОГО ОБУЧЕНИЯ",
+        "authors_raw": "Моисеев Д.М., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "venue": "Челябинский физико-математический журнал",
+        "venue_ru": "Челябинский физико-математический журнал",
+        "year": 2025,
+        "pages": "286-296",
+        "metadata_raw": "Челябинский физико-математический журнал . 2025. Т. 10. № 2 . С. 286-296.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "25405bcb9a33f9f8",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 4,
+        "elibrary_item_id": "74044821",
+        "url": "https://www.elibrary.ru/item.asp?id=74044821",
+        "title": "ОБМЕННО-КОРРЕЛЯЦИОННЫЕ ЭФФЕКТЫ В СИЛЬНО КОРРЕЛИРОВАННЫХ СПЛАВАХ ГЕЙСЛЕРА",
+        "title_ru": "ОБМЕННО-КОРРЕЛЯЦИОННЫЕ ЭФФЕКТЫ В СИЛЬНО КОРРЕЛИРОВАННЫХ СПЛАВАХ ГЕЙСЛЕРА",
+        "authors_raw": "Байгутлин Д.Р.",
+        "year": 2024,
+        "metadata_raw": "диссертация на соискание ученой степени кандидата физико-математических наук / ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \"ЧЕЛЯБИНСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ\". 2024",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "c0731a91ad3dbaee",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 5,
+        "elibrary_item_id": "74520945",
+        "url": "https://www.elibrary.ru/item.asp?id=74520945",
+        "title": "ПРОГНОЗИРОВАНИЕ МЕХАНИЧЕСКИХ ХАРАКТЕРИСТИК СПЛАВОВ ГЕЙСЛЕРА С ПОМОЩЬЮ ТЕХНОЛОГИЙ МАШИННОГО ОБУЧЕНИЯ",
+        "title_ru": "ПРОГНОЗИРОВАНИЕ МЕХАНИЧЕСКИХ ХАРАКТЕРИСТИК СПЛАВОВ ГЕЙСЛЕРА С ПОМОЩЬЮ ТЕХНОЛОГИЙ МАШИННОГО ОБУЧЕНИЯ",
+        "authors_raw": "Моисеев Д.М., Соколовский В.В., Байгутлин Д.Р.",
+        "year": 2024,
+        "pages": "128-129",
+        "metadata_raw": "В сборнике: Дни калорики в Башкортостане: функциональные материалы и их приложения. Сборник тезисов Пятого научного семинара. Челябинск, 2024. С. 128-129.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "ca4962a7d6626bab",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 6,
+        "elibrary_item_id": "74520946",
+        "url": "https://www.elibrary.ru/item.asp?id=74520946",
+        "title": "ТЕРМОЭЛЕКТРИЧЕСКИЕ СВОЙСТВА ДВОЙНОГО ПОЛУСПЛАВА ГЕЙСЛЕРА TI 2 MNNISI 2",
+        "title_ru": "ТЕРМОЭЛЕКТРИЧЕСКИЕ СВОЙСТВА ДВОЙНОГО ПОЛУСПЛАВА ГЕЙСЛЕРА TI 2 MNNISI 2",
+        "authors_raw": "Матюнина М.В., Байгутлин Д.Р., Загребин М.А., Соколовский В.В., Бучельников В.Д.",
+        "year": 2024,
+        "pages": "130-132",
+        "metadata_raw": "В сборнике: Дни калорики в Башкортостане: функциональные материалы и их приложения. Сборник тезисов Пятого научного семинара. Челябинск, 2024. С. 130-132.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "4d204c2fc189add2",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 7,
+        "elibrary_item_id": "72567426",
+        "url": "https://www.elibrary.ru/item.asp?id=72567426",
+        "title": "ПРЕДСКАЗАНИЕ УПРУГИХ СВОЙСТВ СПЛАВОВ ГЕЙСЛЕРА, ПОЛНОСТЬЮ СОСТОЯЩИХ ИЗ ПЕРЕХОДНЫХ МЕТАЛЛОВ, В РАМКАХ МАШИННОГО ОБУЧЕНИЯ",
+        "title_ru": "ПРЕДСКАЗАНИЕ УПРУГИХ СВОЙСТВ СПЛАВОВ ГЕЙСЛЕРА, ПОЛНОСТЬЮ СОСТОЯЩИХ ИЗ ПЕРЕХОДНЫХ МЕТАЛЛОВ, В РАМКАХ МАШИННОГО ОБУЧЕНИЯ",
+        "authors_raw": "Моисеев Д.М., Соколовский В.В., Байгутлин Д.Р.",
+        "year": 2024,
+        "pages": "160-162",
+        "metadata_raw": "В сборнике: Новое в Магнетизме и Магнитных Материалах. Сборник докладов XXV Международной конференции. Москва, 2024. С. 160-162.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "b906142750469095",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 8,
+        "elibrary_item_id": "65441032",
+        "url": "https://www.elibrary.ru/item.asp?id=65441032",
+        "title": "ПЕРВОПРИНЦИПНЫЕ ИССЛЕДОВАНИЯ ЭЛЕКТРОННЫХ СВОЙСТВ ПОЛОВИННЫХ СПЛАВОВ ГЕЙСЛЕРА XYZ",
+        "title_ru": "ПЕРВОПРИНЦИПНЫЕ ИССЛЕДОВАНИЯ ЭЛЕКТРОННЫХ СВОЙСТВ ПОЛОВИННЫХ СПЛАВОВ ГЕЙСЛЕРА XYZ",
+        "authors_raw": "Бутова Ю.Н., Байгутлин Д.Р., Загребин М.А.",
+        "year": 2024,
+        "pages": "45-46",
+        "metadata_raw": "В сборнике: Образование магистров: проблемы и перспективы развития. Тезисы докладов VII Всероссийской конференции. Челябинск, 2024. С. 45-46.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "2e84f508276538c0",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 9,
+        "elibrary_item_id": "68641010",
+        "url": "https://www.elibrary.ru/item.asp?id=68641010",
+        "title": "ТЕРМОЭЛЕКТРИЧЕСКИЕ СВОЙСТВА СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ ЩЕЛОЧНЫХ МЕТАЛЛОВ",
+        "title_ru": "ТЕРМОЭЛЕКТРИЧЕСКИЕ СВОЙСТВА СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ ЩЕЛОЧНЫХ МЕТАЛЛОВ",
+        "authors_raw": "Матюнина М.В., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2024,
+        "pages": "5-6",
+        "metadata_raw": "В сборнике: АтоМ: FROM ATOMISTIC TO MACRO. Сборник тезисов первой всероссийской школы-семинара по компьютерному моделированию. Челябинск, 2024. С. 5-6.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "92780bb06e4dd1b4",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 10,
+        "elibrary_item_id": "80407909",
+        "url": "https://www.elibrary.ru/item.asp?id=80407909",
+        "title": "THERMOELECTRIC PROPERTIES OF DOUBLE HALF-HEUSLER TI 2 MNNISI 2 ALLOY",
+        "title_ru": "THERMOELECTRIC PROPERTIES OF DOUBLE HALF-HEUSLER TI 2 MNNISI 2 ALLOY",
+        "authors_raw": "Matyunina M.V., Baigutlin D.R., Zagrebin M.A., Sokolovskiy V.V., Buchelnikov V.D.",
+        "venue": "Physics of Metals and Metallography",
+        "venue_ru": "Physics of Metals and Metallography",
+        "year": 2024,
+        "pages": "1885-1893",
+        "metadata_raw": "Physics of Metals and Metallography . 2024. Т. 125. № 14 . С. 1885-1893.",
+        "rinc_citations": 2,
+        "dedupe_fingerprint": "5568625066e65af4",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 11,
+        "elibrary_item_id": "78881723",
+        "url": "https://www.elibrary.ru/item.asp?id=78881723",
+        "title": "MACHINE LEARNING ALGORITHMS FOR OPTIMIZATION OF MAGNETOCALORIC EFFECT IN ALL- D -METAL HEUSLER ALLOYS",
+        "title_ru": "MACHINE LEARNING ALGORITHMS FOR OPTIMIZATION OF MAGNETOCALORIC EFFECT IN ALL- D -METAL HEUSLER ALLOYS",
+        "authors_raw": "D",
+        "venue": "Journal of Applied Physics",
+        "venue_ru": "Journal of Applied Physics",
+        "year": 2024,
+        "metadata_raw": "Baigutlin D.R., Sokolovskiy V.V., Buchelnikov V.D., Taskaev S.V. Journal of Applied Physics . 2024. Т. 136. № 18 .",
+        "rinc_citations": 4,
+        "dedupe_fingerprint": "fc8996bcab9dd869",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 12,
+        "elibrary_item_id": "79743680",
+        "url": "https://www.elibrary.ru/item.asp?id=79743680",
+        "title": "THE THEORETICAL APPROACH FOR DESCRIPTION OF MAGNETIC PROPERTIES AND MAGNETOCALORIC EFFECT IN ALL- D -METAL HEUSLER ALLOYS NI2− X CO X MN1.25TI0.75",
+        "title_ru": "THE THEORETICAL APPROACH FOR DESCRIPTION OF MAGNETIC PROPERTIES AND MAGNETOCALORIC EFFECT IN ALL- D -METAL HEUSLER ALLOYS NI2− X CO X MN1.25TI0.75",
+        "authors_raw": "D",
+        "venue": "Journal of Applied Physics",
+        "venue_ru": "Journal of Applied Physics",
+        "year": 2024,
+        "metadata_raw": "Sokolovskiy V.V., Matyunina M.V., Baigutlin D.R., Buchelnikov V.D., Taskaev S.V. Journal of Applied Physics . 2024. Т. 136. № 21 .",
+        "rinc_citations": 3,
+        "dedupe_fingerprint": "acd076012bd42b6e",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 13,
+        "elibrary_item_id": "54314144",
+        "url": "https://www.elibrary.ru/item.asp?id=54314144",
+        "title": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА TI2VZ (Z= AL, GA, IN, SI, GE, SN)",
+        "title_ru": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА TI2VZ (Z= AL, GA, IN, SI, GE, SN)",
+        "authors_raw": "Раев А.А., Саносян А.А., Байгутлин Д.Р., Ерагер К.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2023,
+        "pages": "101-103",
+        "metadata_raw": "В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 101-103.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "205f2dc579a6fdb0",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 14,
+        "elibrary_item_id": "54314104",
+        "url": "https://www.elibrary.ru/item.asp?id=54314104",
+        "title": "СОВРЕМЕННОЕ СОСТОЯНИЕ ИССЛЕДОВАНИЙ СВОЙСТВ МАГНИТНЫХ МАТЕРИАЛОВ В РАМКАХ ТЕОРИИ ФУНКЦИОНАЛА ПЛОТНОСТИ",
+        "title_ru": "СОВРЕМЕННОЕ СОСТОЯНИЕ ИССЛЕДОВАНИЙ СВОЙСТВ МАГНИТНЫХ МАТЕРИАЛОВ В РАМКАХ ТЕОРИИ ФУНКЦИОНАЛА ПЛОТНОСТИ",
+        "authors_raw": "Соколовский В.В., Байгутлин Д.Р., Мирошкина О.Н., Бучельников В.Д.",
+        "year": 2023,
+        "pages": "15-17",
+        "metadata_raw": "В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 15-17.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "85da0d22b84581c8",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 15,
+        "elibrary_item_id": "54254106",
+        "url": "https://www.elibrary.ru/item.asp?id=54254106",
+        "title": "AB INITIO INVETIGATION THE PROPERTIES OF MN2-BASED HEUSLER ALLOYS UNDER EXTERNAL PRESSURE",
+        "title_ru": "AB INITIO INVETIGATION THE PROPERTIES OF MN2-BASED HEUSLER ALLOYS UNDER EXTERNAL PRESSURE",
+        "authors_raw": "Buchelnikov V.D., Sokolovskiy V.V., Zagrebin M.A., Baigutlin D.R.",
+        "year": 2023,
+        "pages": "30",
+        "metadata_raw": "В сборнике: Samarkand International Symposium on Magnetism 2023. Book of Abstracts. Samarkand, 2023. С. 30.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "83b4fc4b8e6a493d",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 16,
+        "elibrary_item_id": "54314112",
+        "url": "https://www.elibrary.ru/item.asp?id=54314112",
+        "title": "ПОЛУМЕТАЛЛИЧЕСКИЕ СВОЙСТВА ТОНКИХ ПЛЕНОК ПОЛУСПЛАВОВ ГЕЙСЛЕРА",
+        "title_ru": "ПОЛУМЕТАЛЛИЧЕСКИЕ СВОЙСТВА ТОНКИХ ПЛЕНОК ПОЛУСПЛАВОВ ГЕЙСЛЕРА",
+        "authors_raw": "Байгутлин Д.Р., Бутова Ю.Н., Бучельников В.Д., Соколовский В.В.",
+        "year": 2023,
+        "pages": "31-33",
+        "metadata_raw": "В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 31-33.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "76ee749d09a14011",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 17,
+        "elibrary_item_id": "54314121",
+        "url": "https://www.elibrary.ru/item.asp?id=54314121",
+        "title": "ВОПРОСЫ ФАЗОВОЙ СТАБИЛЬНОСТИ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ NI-CO-MN-Z (Z = GA, IN, SN, SB)",
+        "title_ru": "ВОПРОСЫ ФАЗОВОЙ СТАБИЛЬНОСТИ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ NI-CO-MN-Z (Z = GA, IN, SN, SB)",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2023,
+        "pages": "51-52",
+        "metadata_raw": "В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 51-52.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "2f9ee7bc120b09f7",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 18,
+        "elibrary_item_id": "54592981",
+        "url": "https://www.elibrary.ru/item.asp?id=54592981",
+        "title": "ИССЛЕДОВАНИЕ СВОЙСТВ ПОЛОВИННЫХ D°-D СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ СИСТЕМ KMNZ (Z = BI, PB, SB, SN)",
+        "title_ru": "ИССЛЕДОВАНИЕ СВОЙСТВ ПОЛОВИННЫХ D°-D СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ СИСТЕМ KMNZ (Z = BI, PB, SB, SN)",
+        "authors_raw": "Матюнина М.В., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2023,
+        "pages": "59-60",
+        "metadata_raw": "В сборнике: Магнитные материалы. Новые технологии. Материалы IX Байкальской Международной конференции. Иркутск, 2023. С. 59-60.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "dbc7c90b630df5ad",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 19,
+        "elibrary_item_id": "62505646",
+        "url": "https://www.elibrary.ru/item.asp?id=62505646",
+        "title": "AB INITIO PREDICTION OF COEXISTENCE OF TWO MAGNETIC STATES IN MN 2 Y SN ( Y = SC, TI, AND V) HEUSLER ALLOYS UNDER APPLIED PRESSURE",
+        "title_ru": "AB INITIO PREDICTION OF COEXISTENCE OF TWO MAGNETIC STATES IN MN 2 Y SN ( Y = SC, TI, AND V) HEUSLER ALLOYS UNDER APPLIED PRESSURE",
+        "authors_raw": "Sokolovskiy V., Zagrebin M., Baigutlin D., Buchelnikov V.",
+        "venue": "Computational Materials Science",
+        "venue_ru": "Computational Materials Science",
+        "year": 2023,
+        "pages": "112365",
+        "metadata_raw": "Computational Materials Science . 2023. Т. 228. С. 112365.",
+        "rinc_citations": 7,
+        "dedupe_fingerprint": "b42bba8fc94c8dfb",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 20,
+        "elibrary_item_id": "50773463",
+        "url": "https://www.elibrary.ru/item.asp?id=50773463",
+        "title": "О ВОЗМОЖНОСТИ ПОЛУМЕТАЛЛИЧЕСКИХ СВОЙСТВ В ФЕРРОМАГНИТНЫХ СПЛАВАХ ГЕЙСЛЕРА FE 2 RHZ (Z = AL, SI, GA, GE, IN, SN)",
+        "title_ru": "О ВОЗМОЖНОСТИ ПОЛУМЕТАЛЛИЧЕСКИХ СВОЙСТВ В ФЕРРОМАГНИТНЫХ СПЛАВАХ ГЕЙСЛЕРА FE 2 RHZ (Z = AL, SI, GA, GE, IN, SN)",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "venue": "Радиотехника и электроника",
+        "venue_ru": "Радиотехника и электроника",
+        "year": 2023,
+        "pages": "326-337",
+        "metadata_raw": "Радиотехника и электроника . 2023. Т. 68. № 4 . С. 326-337.",
+        "rinc_citations": 3,
+        "dedupe_fingerprint": "63893a462bc05521",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 21,
+        "elibrary_item_id": "50403417",
+        "url": "https://www.elibrary.ru/item.asp?id=50403417",
+        "title": "ВЛИЯНИЕ ОБМЕННО-КОРРЕЛЯЦИОННЫХ ЭФФЕКТОВ НА СТАБИЛИЗАЦИЮ ПОЛУМЕТАЛЛИЧЕСКИХ СВОЙСТВ СПЛАВОВ MN 2 VAL И MN 2 VSI",
+        "title_ru": "ВЛИЯНИЕ ОБМЕННО-КОРРЕЛЯЦИОННЫХ ЭФФЕКТОВ НА СТАБИЛИЗАЦИЮ ПОЛУМЕТАЛЛИЧЕСКИХ СВОЙСТВ СПЛАВОВ MN 2 VAL И MN 2 VSI",
+        "authors_raw": "Бучельников В.Д., Байгутлин Д.Р., Соколовский В.В., Мирошкина О.Н.",
+        "venue": "Физика металлов и металловедение",
+        "venue_ru": "Физика металлов и металловедение",
+        "year": 2023,
+        "pages": "126-133",
+        "metadata_raw": "Физика металлов и металловедение . 2023. Т. 124. № 2 . С. 126-133.",
+        "rinc_citations": 6,
+        "dedupe_fingerprint": "c0f906cba916b728",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 22,
+        "elibrary_item_id": "53327663",
+        "url": "https://www.elibrary.ru/item.asp?id=53327663",
+        "title": "ОСОБЕННОСТИ НАНОДВОЙНИКОВЫХ СТРУКТУР В СПЛАВАХ ГЕЙСЛЕРА NI 2 MN 1,5 IN 0,5 И NI 2 MN 1,75 IN 0,25",
+        "title_ru": "ОСОБЕННОСТИ НАНОДВОЙНИКОВЫХ СТРУКТУР В СПЛАВАХ ГЕЙСЛЕРА NI 2 MN 1,5 IN 0,5 И NI 2 MN 1,75 IN 0,25",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "venue": "Вестник Южно-Уральского государственного университета. Серия: Математика. Механика. Физика",
+        "venue_ru": "Вестник Южно-Уральского государственного университета. Серия: Математика. Механика. Физика",
+        "year": 2023,
+        "pages": "48-58",
+        "metadata_raw": "Вестник Южно-Уральского государственного университета. Серия: Математика. Механика. Физика . 2023. Т. 15. № 2 . С. 48-58.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "09e7cb2c8ae0e8d4",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 23,
+        "elibrary_item_id": "61298820",
+        "url": "https://www.elibrary.ru/item.asp?id=61298820",
+        "title": "META-GGA SCAN FUNCTIONAL IN THE PREDICTION OF GROUND STATE PROPERTIES OF MAGNETIC MATERIALS: REVIEW OF THE CURRENT STATE",
+        "title_ru": "META-GGA SCAN FUNCTIONAL IN THE PREDICTION OF GROUND STATE PROPERTIES OF MAGNETIC MATERIALS: REVIEW OF THE CURRENT STATE",
+        "authors_raw": "Sokolovskiy V., Baigutlin D., Miroshkina O., Buchelnikov V.",
+        "venue": "Metals",
+        "venue_ru": "Metals",
+        "year": 2023,
+        "pages": "728",
+        "metadata_raw": "Metals . 2023. Т. 13. № 4 . С. 728.",
+        "rinc_citations": 35,
+        "dedupe_fingerprint": "3679b6ba724f759c",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 24,
+        "elibrary_item_id": "61730931",
+        "url": "https://www.elibrary.ru/item.asp?id=61730931",
+        "title": "INTERPLAY OF ELECTRONIC STRUCTURE AND MAGNETISM IN FE 2 - AND RH 2 -BASED HEUSLER ALLOYS",
+        "title_ru": "INTERPLAY OF ELECTRONIC STRUCTURE AND MAGNETISM IN FE 2 - AND RH 2 -BASED HEUSLER ALLOYS",
+        "authors_raw": "Baigutlin D.R., Sokolovskiy V.V., Buchelnikov V.D.",
+        "venue": "Physical Review B",
+        "venue_ru": "Physical Review B",
+        "year": 2023,
+        "pages": "245130",
+        "metadata_raw": "Physical Review B . 2023. Т. 107. № 24 . С. 245130.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "300e34b98fe95936",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 25,
+        "elibrary_item_id": "49304148",
+        "url": "https://www.elibrary.ru/item.asp?id=49304148",
+        "title": "ФАЗОВЫЕ ПЕРЕХОДЫ В СПЛАВАХ ГЕЙСЛЕРА MN2YZ: РОЛЬ ОБМЕННО-КОРРЕЛЯЦИОННЫХ ВЗАИМОДЕЙСТВИЙ",
+        "title_ru": "ФАЗОВЫЕ ПЕРЕХОДЫ В СПЛАВАХ ГЕЙСЛЕРА MN2YZ: РОЛЬ ОБМЕННО-КОРРЕЛЯЦИОННЫХ ВЗАИМОДЕЙСТВИЙ",
+        "authors_raw": "Бучельников В.Д., Байгутлин Д.Р., Соколовский В.В., Мирошкина О.Н.",
+        "year": 2022,
+        "pages": "11-14",
+        "metadata_raw": "В сборнике: Дни калорики в Королеве: функциональные материалы и их приложения. Сборник тезисов 3-го Международного научного семинара. Челябинск, 2022. С. 11-14.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "85071b452ca52938",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 26,
+        "elibrary_item_id": "49615132",
+        "url": "https://www.elibrary.ru/item.asp?id=49615132",
+        "title": "ФАЗОВАЯ СТАБИЛЬНОСТЬ ДВОЙНИКОВЫХ СТРУКТУР НЕСТЕХИОМЕТРИЧЕСКИХ СПЛАВОВ ГЕЙСЛЕРА NI-MN-IN",
+        "title_ru": "ФАЗОВАЯ СТАБИЛЬНОСТЬ ДВОЙНИКОВЫХ СТРУКТУР НЕСТЕХИОМЕТРИЧЕСКИХ СПЛАВОВ ГЕЙСЛЕРА NI-MN-IN",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2022,
+        "pages": "157",
+        "metadata_raw": "В сборнике: Фундаментальная математика и ее приложения в естествознании: спутник Международной научной конференции \"Уфимская осенняя математическая школа-2022\". Тезисы докладов ХIII Международной школы-конференции студентов, аспирантов и молодых ученых, посвященной 50-летию образования математического и физического факультетов БашГУ. Отв. редактор Л.А. Габдрахманова. Уфа, 2022. С. 157.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "91329a14807ef858",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 27,
+        "elibrary_item_id": "49304233",
+        "url": "https://www.elibrary.ru/item.asp?id=49304233",
+        "title": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ TI",
+        "title_ru": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ TI",
+        "authors_raw": "Раев А.А., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2022,
+        "pages": "29-30",
+        "metadata_raw": "В сборнике: Дни калорики в Королеве: функциональные материалы и их приложения. Сборник тезисов 3-го Международного научного семинара. Челябинск, 2022. С. 29-30.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "a5867eaf4af275eb",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 28,
+        "elibrary_item_id": "49304157",
+        "url": "https://www.elibrary.ru/item.asp?id=49304157",
+        "title": "ПЕРВОПРИНЦИПНЫЕ ИССЛЕДОВАНИЯ СВОЙСТВ СПЛАВОВ ГЕЙСЛЕРА С ВЫСОКОЙ МАГНИТОКРИСТАЛЛИЧЕСКОЙ АНИЗОТРОПИЕЙ",
+        "title_ru": "ПЕРВОПРИНЦИПНЫЕ ИССЛЕДОВАНИЯ СВОЙСТВ СПЛАВОВ ГЕЙСЛЕРА С ВЫСОКОЙ МАГНИТОКРИСТАЛЛИЧЕСКОЙ АНИЗОТРОПИЕЙ",
+        "authors_raw": "Соколовский В.В., Мирошкина О.Н., Байгутлин Д.Р., Саносян А.А., Загребин М.А., Бучельников В.Д.",
+        "year": 2022,
+        "pages": "33-35",
+        "metadata_raw": "В сборнике: Дни калорики в Королеве: функциональные материалы и их приложения. Сборник тезисов 3-го Международного научного семинара. Челябинск, 2022. С. 33-35.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "88d14284ac9cde73",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 29,
+        "elibrary_item_id": "50111880",
+        "url": "https://www.elibrary.ru/item.asp?id=50111880",
+        "title": "ПЕРВОПРИНЦИПНОЕ ИССЛЕДОВАНИЕ ПОЛУМЕТАЛЛИЧЕСКИХ СОЕДИНЕНИЙ НА ОСНОВЕ СЕРИИ СПЛАВОВ ГЕЙСЛЕРА FE2RHZ (Z = AL, SI, GA, GE, IN, SN)",
+        "title_ru": "ПЕРВОПРИНЦИПНОЕ ИССЛЕДОВАНИЕ ПОЛУМЕТАЛЛИЧЕСКИХ СОЕДИНЕНИЙ НА ОСНОВЕ СЕРИИ СПЛАВОВ ГЕЙСЛЕРА FE2RHZ (Z = AL, SI, GA, GE, IN, SN)",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2022,
+        "pages": "34-38",
+        "metadata_raw": "В сборнике: Перспективные технологии и материалы. Материалы Международной научно-практической конференции. Севастополь, 2022. С. 34-38.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "0946717dc97c9877",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 30,
+        "elibrary_item_id": "50077923",
+        "url": "https://www.elibrary.ru/item.asp?id=50077923",
+        "title": "ИССЛЕДОВАНИЕ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ СОЕДИНЕНИЙ НА ОСНОВКЕ СПЛАВОВ ГЕЙСЛЕРА FE2RHZ (Z = AL, SI)",
+        "title_ru": "ИССЛЕДОВАНИЕ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ СОЕДИНЕНИЙ НА ОСНОВКЕ СПЛАВОВ ГЕЙСЛЕРА FE2RHZ (Z = AL, SI)",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2022,
+        "pages": "41-42",
+        "metadata_raw": "В сборнике: СОВРЕМЕННЫЕ ФИЗИКА, МАТЕМАТИКА, ЦИФРОВЫЕ И НАНОТЕХНОЛОГИИ В НАУКЕ И ОБРАЗОВАНИИ. СБОРНИК ТЕЗИСОВ I ВСЕРОССИЙСКОЙ МОЛОДЕЖНОЙ ШКОЛЫ-КОНФЕРЕНЦИИ, ПОСВЯЩЕННОЙ 100-ЛЕТИЮ СО ДНЯ РОЖДЕНИЯ А.Д. САХАРОВА. Уфа, 2022. С. 41-42.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "e76bea9f6207183f",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 31,
+        "elibrary_item_id": "50078080",
+        "url": "https://www.elibrary.ru/item.asp?id=50078080",
+        "title": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ TI",
+        "title_ru": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ TI",
+        "authors_raw": "Раев А.А., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "year": 2022,
+        "pages": "72-73",
+        "metadata_raw": "В сборнике: СОВРЕМЕННЫЕ ФИЗИКА, МАТЕМАТИКА, ЦИФРОВЫЕ И НАНОТЕХНОЛОГИИ В НАУКЕ И ОБРАЗОВАНИИ. СБОРНИК ТЕЗИСОВ I ВСЕРОССИЙСКОЙ МОЛОДЕЖНОЙ ШКОЛЫ-КОНФЕРЕНЦИИ, ПОСВЯЩЕННОЙ 100-ЛЕТИЮ СО ДНЯ РОЖДЕНИЯ А.Д. САХАРОВА. Уфа, 2022. С. 72-73.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "a5867eaf4af275eb",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 32,
+        "elibrary_item_id": "49304146",
+        "url": "https://www.elibrary.ru/item.asp?id=49304146",
+        "title": "МАРТЕНСИТНЫЙ ПЕРЕХОД И МАГНИТОКАЛОРИЧЕСКИЙ ЭФФЕКТ В 4D СПЛАВАХ ГЕЙСЛЕРА RH2FEZ",
+        "title_ru": "МАРТЕНСИТНЫЙ ПЕРЕХОД И МАГНИТОКАЛОРИЧЕСКИЙ ЭФФЕКТ В 4D СПЛАВАХ ГЕЙСЛЕРА RH2FEZ",
+        "authors_raw": "Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д., Мирошкина О.Н.",
+        "year": 2022,
+        "pages": "7-9",
+        "metadata_raw": "В сборнике: Дни калорики в Королеве: функциональные материалы и их приложения. Сборник тезисов 3-го Международного научного семинара. Челябинск, 2022. С. 7-9.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "38ad0b11b855161f",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 33,
+        "elibrary_item_id": "56173251",
+        "url": "https://www.elibrary.ru/item.asp?id=56173251",
+        "title": "HELICAL SPIN ORDERING IN ROOM-TEMPERATURE METALLIC ANTIFERROMAGNET FE3GA4",
+        "title_ru": "HELICAL SPIN ORDERING IN ROOM-TEMPERATURE METALLIC ANTIFERROMAGNET FE3GA4",
+        "authors_raw": "Wilfong B., Fedorko A., Baigutlin D.R., Miroshkina O.N., Zhou X., Stephen G.M., Friedman A.L., Sharma V., Bishop O., Barua R., Bennett S.P., Chung D.Y., Kanatzidis M.G., Buchelnikov V.D., Sokolovskiy V.V., Barbiellini B., Bansil A., Heiman D., Jamer M.E.",
+        "venue": "Journal of Alloys and Compounds",
+        "venue_ru": "Journal of Alloys and Compounds",
+        "year": 2022,
+        "pages": "165532",
+        "metadata_raw": "Journal of Alloys and Compounds . 2022. Т. 917. С. 165532.",
+        "rinc_citations": 8,
+        "dedupe_fingerprint": "57650531210513c2",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 34,
+        "elibrary_item_id": "47534946",
+        "url": "https://www.elibrary.ru/item.asp?id=47534946",
+        "title": "MAGNETIC AND STRUCTURAL PROPERTIES OF CO-NI-Z (Z= AL, GA, IN, SN) HEUSLER ALLOYS: EFFECT OF STRUCTURAL MOTIVES AND CHEMICAL DISORDER",
+        "title_ru": "MAGNETIC AND STRUCTURAL PROPERTIES OF CO-NI-Z (Z= AL, GA, IN, SN) HEUSLER ALLOYS: EFFECT OF STRUCTURAL MOTIVES AND CHEMICAL DISORDER",
+        "authors_raw": "Sokolovskiy V., Miroshkina O.N., Sanosyan A., Baigutlin D., Buchelnikov V., Gruner M.E.",
+        "venue": "Journal of Magnetism and Magnetic Materials",
+        "venue_ru": "Journal of Magnetism and Magnetic Materials",
+        "year": 2022,
+        "pages": "168728",
+        "metadata_raw": "Journal of Magnetism and Magnetic Materials . 2022. Т. 546. С. 168728.",
+        "rinc_citations": 8,
+        "dedupe_fingerprint": "1b3c709b2c84de0c",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 35,
+        "elibrary_item_id": "48103693",
+        "url": "https://www.elibrary.ru/item.asp?id=48103693",
+        "title": "ОБМЕННО-КОРРЕЛЯЦИОННЫЕ ЭФФЕКТЫ В МОДУЛИРОВАННЫХ МАРТЕНСИТНЫХ СТРУКТУРАХ СПЛАВА MN2NIGA",
+        "title_ru": "ОБМЕННО-КОРРЕЛЯЦИОННЫЕ ЭФФЕКТЫ В МОДУЛИРОВАННЫХ МАРТЕНСИТНЫХ СТРУКТУРАХ СПЛАВА MN2NIGA",
+        "authors_raw": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д.",
+        "venue": "Физика металлов и металловедение",
+        "venue_ru": "Физика металлов и металловедение",
+        "year": 2022,
+        "pages": "403-408",
+        "metadata_raw": "Физика металлов и металловедение . 2022. Т. 123. № 4 . С. 403-408.",
+        "rinc_citations": 6,
+        "dedupe_fingerprint": "1d5da6c76709d088",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 36,
+        "elibrary_item_id": "57222846",
+        "url": "https://www.elibrary.ru/item.asp?id=57222846",
+        "title": "THE HALF-METALLIC PROPERTIES OF HEUSLER ALLOYS MN-=SUB=-2-=/SUB=-SCZ (Z=AL, SI, P, GA, GE, AS, IN, SN, SB): AB INITIO STUDY",
+        "title_ru": "THE HALF-METALLIC PROPERTIES OF HEUSLER ALLOYS MN-=SUB=-2-=/SUB=-SCZ (Z=AL, SI, P, GA, GE, AS, IN, SN, SB): AB INITIO STUDY",
+        "authors_raw": "Baigutlin D. R., Sokolovskiy V. V., Miroshkina O. N., Buchelnikov V. D.",
+        "venue": "Physics of the Solid State",
+        "venue_ru": "Physics of the Solid State",
+        "year": 2022,
+        "pages": "1618",
+        "metadata_raw": "Physics of the Solid State . 2022. Т. 63. № 13 . С. 1618.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "f053163b88eda688",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 37,
+        "elibrary_item_id": "59139914",
+        "url": "https://www.elibrary.ru/item.asp?id=59139914",
+        "title": "THE HALF-METALLIC PROPERTIES OF HEUSLER ALLOYS MN-=SUB=-2-=/SUB=-SCZ (Z=AL, SI, P, GA, GE, AS, IN, SN, SB): AB INITIO STUDY",
+        "title_ru": "THE HALF-METALLIC PROPERTIES OF HEUSLER ALLOYS MN-=SUB=-2-=/SUB=-SCZ (Z=AL, SI, P, GA, GE, AS, IN, SN, SB): AB INITIO STUDY",
+        "authors_raw": "Baigutlin D. R., Sokolovskiy V. V., Miroshkina O. N., Buchelnikov V. D.",
+        "venue": "Physics of the Solid State",
+        "venue_ru": "Physics of the Solid State",
+        "year": 2022,
+        "pages": "2082",
+        "metadata_raw": "Physics of the Solid State . 2022. Т. 63. № 13 . С. 2082.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "f053163b88eda688",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 38,
+        "elibrary_item_id": "47299674",
+        "url": "https://www.elibrary.ru/item.asp?id=47299674",
+        "title": "ВЛИЯНИЕ ОБМЕННО-КОРРЕЛЯЦИОННЫХ ЭФФЕКТОВ НА МАГНИТНЫЕ МАГНИТОКАЛОРИЧЕСКИЕ СВОЙСТВА СПЛАВА FE-RH",
+        "title_ru": "ВЛИЯНИЕ ОБМЕННО-КОРРЕЛЯЦИОННЫХ ЭФФЕКТОВ НА МАГНИТНЫЕ МАГНИТОКАЛОРИЧЕСКИЕ СВОЙСТВА СПЛАВА FE-RH",
+        "authors_raw": "Соколовский В.В., Павлухина О.О., Байгутлин Д.Р., Бучельников В.Д.",
+        "year": 2021,
+        "pages": "54-56",
+        "metadata_raw": "В сборнике: Дни калорики в Челябинске: функциональные материалы и их приложения. Сборник тезисов. Челябинск, 2021. С. 54-56.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "240020a516ae161e",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 39,
+        "elibrary_item_id": "47299611",
+        "url": "https://www.elibrary.ru/item.asp?id=47299611",
+        "title": "МАГНИТНЫЕ СВОЙСТВА ПОЛУМЕТАЛЛИЧЕСКОГО СПЛАВА MN2VGE",
+        "title_ru": "МАГНИТНЫЕ СВОЙСТВА ПОЛУМЕТАЛЛИЧЕСКОГО СПЛАВА MN2VGE",
+        "authors_raw": "Байгутлин Д.Р., Соколовский В.В., Мирошкина О.Н., Бучельников В.Д.",
+        "year": 2021,
+        "pages": "7-9",
+        "metadata_raw": "В сборнике: Дни калорики в Челябинске: функциональные материалы и их приложения. Сборник тезисов. Челябинск, 2021. С. 7-9.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "9330c521fc5bbf4e",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 40,
+        "elibrary_item_id": "46955967",
+        "url": "https://www.elibrary.ru/item.asp?id=46955967",
+        "title": "PHASE TRANSITIONS IN FE-(23−24)GA ALLOYS: EXPERIMENTAL RESULTS AND MODELING",
+        "title_ru": "PHASE TRANSITIONS IN FE-(23−24)GA ALLOYS: EXPERIMENTAL RESULTS AND MODELING",
+        "authors_raw": "Pavlukhina O.O., Sokolovskiy V.V., Matyunina M.V., Zagrebin M.A., Miroshkina O.N., Baigutlin D.R., Buchelnikov V.D., Mohamed A.K., Palacheva V.V., Palachev V.A., Balagurov A.M., Golovin I.S.",
+        "venue": "Journal of Alloys and Compounds",
+        "venue_ru": "Journal of Alloys and Compounds",
+        "year": 2021,
+        "pages": "160917",
+        "metadata_raw": "Journal of Alloys and Compounds . 2021. Т. 885. С. 160917.",
+        "rinc_citations": 3,
+        "dedupe_fingerprint": "798c10c78a0c9905",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 41,
+        "elibrary_item_id": "46636883",
+        "url": "https://www.elibrary.ru/item.asp?id=46636883",
+        "title": "ПЕРВОПРИНЦИПНОЕ ИСЛЕДОВАНИЕ ПОЛУМЕТАЛЛИЧЕСКИХ СВОЙСТВ СПЛАВОВ ГЕЙСЛЕРА MN 2 SCZ (Z=AL, SI, P, GA, GE, AS, IN, SN, SB)",
+        "title_ru": "ПЕРВОПРИНЦИПНОЕ ИСЛЕДОВАНИЕ ПОЛУМЕТАЛЛИЧЕСКИХ СВОЙСТВ СПЛАВОВ ГЕЙСЛЕРА MN 2 SCZ (Z=AL, SI, P, GA, GE, AS, IN, SN, SB)",
+        "authors_raw": "Байгутлин Д.Р., Соколовский В.В., Мирошкина О.Н., Бучельников В.Д.",
+        "venue": "Физика твердого тела",
+        "venue_ru": "Физика твердого тела",
+        "year": 2021,
+        "pages": "1751-1757",
+        "metadata_raw": "Физика твердого тела . 2021. Т. 63. № 11 . С. 1751-1757.",
+        "rinc_citations": 4,
+        "dedupe_fingerprint": "d72c98c83142d024",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 42,
+        "elibrary_item_id": "46820682",
+        "url": "https://www.elibrary.ru/item.asp?id=46820682",
+        "title": "A TERNARY MAP OF NI–MN–GA HEUSLER ALLOYS FROM AB INITIO CALCULATIONS",
+        "title_ru": "A TERNARY MAP OF NI–MN–GA HEUSLER ALLOYS FROM AB INITIO CALCULATIONS",
+        "authors_raw": "Sokolovskaya Y., Miroshkina O., Baigutlin D., Sokolovskiy V., Zagrebin M., Buchelnikov V., Zayak A.T.",
+        "venue": "Metals",
+        "venue_ru": "Metals",
+        "year": 2021,
+        "metadata_raw": "Metals . 2021. Т. 11. № 6 .",
+        "rinc_citations": 8,
+        "dedupe_fingerprint": "f21494cb98ce140f",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 43,
+        "elibrary_item_id": "46744881",
+        "url": "https://www.elibrary.ru/item.asp?id=46744881",
+        "title": "PREDICTION OF A HEUSLER ALLOY WITH SWITCHABLE METAL-TO-HALF-METAL BEHAVIOR",
+        "title_ru": "PREDICTION OF A HEUSLER ALLOY WITH SWITCHABLE METAL-TO-HALF-METAL BEHAVIOR",
+        "authors_raw": "Buchelnikov V.D., Sokolovskiy V.V., Miroshkina O.N., Baigutlin D.R., Zagrebin M.A., Barbiellini B., Lähderanta E.",
+        "venue": "Physical Review B",
+        "venue_ru": "Physical Review B",
+        "year": 2021,
+        "pages": "054414",
+        "metadata_raw": "Physical Review B . 2021. Т. 103. № 5 . С. 054414.",
+        "rinc_citations": 14,
+        "dedupe_fingerprint": "7c5895e39c32795e",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 44,
+        "elibrary_item_id": "47508871",
+        "url": "https://www.elibrary.ru/item.asp?id=47508871",
+        "title": "DESIGN OF A STABLE HEUSLER ALLOY WITH SWITCHABLE METAL-TO-HALF-METAL TRANSITION AT FINITE TEMPERATURE",
+        "title_ru": "DESIGN OF A STABLE HEUSLER ALLOY WITH SWITCHABLE METAL-TO-HALF-METAL TRANSITION AT FINITE TEMPERATURE",
+        "authors_raw": "Buchelnikov V.D., Sokolovskiy V.V., Miroshkina O.N., Baigutlin D.R., Zagrebin M.A., Barbiellini B., Lähderanta E., Bansil A., Singh B.",
+        "venue": "Advanced Theory and Simulations",
+        "venue_ru": "Advanced Theory and Simulations",
+        "year": 2021,
+        "pages": "2100311",
+        "metadata_raw": "Advanced Theory and Simulations . 2021. Т. 4. № 11 . С. 2100311.",
+        "rinc_citations": 10,
+        "dedupe_fingerprint": "b41eca5e14a4f791",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 45,
+        "elibrary_item_id": "43215030",
+        "url": "https://www.elibrary.ru/item.asp?id=43215030",
+        "title": "STATISTICAL MODEL FOR THE MARTENSITIC TRANSFORMATION SIMULATION IN HEUSLER ALLOYS",
+        "title_ru": "STATISTICAL MODEL FOR THE MARTENSITIC TRANSFORMATION SIMULATION IN HEUSLER ALLOYS",
+        "authors_raw": "Miroshkina O.N., Sokolovskiy V.V., Baigutlin D.R., Zagrebin M.A., Taskaev S.V., Buchelnikov V.D.",
+        "venue": "Physica B: Condensed Matter",
+        "venue_ru": "Physica B: Condensed Matter",
+        "year": 2020,
+        "pages": "411874",
+        "metadata_raw": "Physica B: Condensed Matter . 2020. Т. 578. С. 411874.",
+        "rinc_citations": 4,
+        "dedupe_fingerprint": "0086bec0c452a30f",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 46,
+        "elibrary_item_id": "42414178",
+        "url": "https://www.elibrary.ru/item.asp?id=42414178",
+        "title": "ФАЗОВЫЕ ПРЕВРАЩЕНИЯ В СПЛАВАХ NI(CO)–MN(CR,C)–(IN,SN): ИССЛЕДОВАНИЕ ИЗ ПЕРВЫХ ПРИНЦИПОВ",
+        "title_ru": "ФАЗОВЫЕ ПРЕВРАЩЕНИЯ В СПЛАВАХ NI(CO)–MN(CR,C)–(IN,SN): ИССЛЕДОВАНИЕ ИЗ ПЕРВЫХ ПРИНЦИПОВ",
+        "authors_raw": "Бучельников В.Д., Соколовский В.В., Мирошкина О.Н., Байгутлин Д.Р., Загребин М.А.",
+        "venue": "Физика металлов и металловедение",
+        "venue_ru": "Физика металлов и металловедение",
+        "year": 2020,
+        "pages": "235-242",
+        "metadata_raw": "Физика металлов и металловедение . 2020. Т. 121. № 3 . С. 235-242.",
+        "rinc_citations": 6,
+        "dedupe_fingerprint": "30e8ecc63880fc86",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 47,
+        "elibrary_item_id": "45315947",
+        "url": "https://www.elibrary.ru/item.asp?id=45315947",
+        "title": "SUPERCONDUCTING AND ANTIFERROMAGNETIC PROPERTIES OF DUAL-PHASE V 3 GA",
+        "title_ru": "SUPERCONDUCTING AND ANTIFERROMAGNETIC PROPERTIES OF DUAL-PHASE V 3 GA",
+        "authors_raw": "Jamer M.E., Wilfong B., Naphy J., Buchelnikov V.D., Sokolovskiy V.V., Miroshkina O.N., Zagrebin M.A., Baigutlin D.R., Pulkkinen A., Barbiellini B., Assaf B.A., Lewis L.H., Bansil A., Heiman D.",
+        "venue": "Applied Physics Letters",
+        "venue_ru": "Applied Physics Letters",
+        "year": 2020,
+        "pages": "062401",
+        "metadata_raw": "Applied Physics Letters . 2020. Т. 117. № 6 . С. 062401.",
+        "rinc_citations": 5,
+        "dedupe_fingerprint": "b656682d0e898e6e",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 48,
+        "elibrary_item_id": "45096288",
+        "url": "https://www.elibrary.ru/item.asp?id=45096288",
+        "title": "EXCHANGE-CORRELATION CORRECTIONS FOR ELECTRONIC PROPERTIES OF HALF-METALLIC CO 2 FESI AND NONMAGNETIC SEMICONDUCTOR COFETIAL",
+        "title_ru": "EXCHANGE-CORRELATION CORRECTIONS FOR ELECTRONIC PROPERTIES OF HALF-METALLIC CO 2 FESI AND NONMAGNETIC SEMICONDUCTOR COFETIAL",
+        "authors_raw": "Miroshkina O.N., Baigutlin D.R., Sokolovskiy V.V., Zagrebin M.A., Buchelnikov V.D., Pulkkinen A., Barbiellini B., Lähderanta E.",
+        "venue": "Journal of Applied Physics",
+        "venue_ru": "Journal of Applied Physics",
+        "year": 2020,
+        "pages": "175108",
+        "metadata_raw": "Journal of Applied Physics . 2020. Т. 127. № 17 . С. 175108.",
+        "rinc_citations": 12,
+        "dedupe_fingerprint": "bf93977700f54e51",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 49,
+        "elibrary_item_id": "42627649",
+        "url": "https://www.elibrary.ru/item.asp?id=42627649",
+        "title": "TEMPERATURE AND PRESSURE EFFECTS ON THE FERMI SURFACE NESTING IN NI2MNGA",
+        "title_ru": "TEMPERATURE AND PRESSURE EFFECTS ON THE FERMI SURFACE NESTING IN NI2MNGA",
+        "authors_raw": "Baigutlin D.R., Sokolovskiy V.V., Miroshkina O.N., Zagrebin M.A., Buchelnikov V.D., Barbiellini B., L¨ahderanta E.",
+        "venue": "Chelyabinsk Physical and Mathematical Journal",
+        "venue_ru": "Chelyabinsk Physical and Mathematical Journal",
+        "year": 2020,
+        "pages": "120-130",
+        "metadata_raw": "Chelyabinsk Physical and Mathematical Journal . 2020. Т. 5. № 1 . С. 120-130.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "ee4f139fdc97cafe",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 50,
+        "elibrary_item_id": "44368971",
+        "url": "https://www.elibrary.ru/item.asp?id=44368971",
+        "title": "КИНЕТИКА ФАЗОВЫХ ПРЕВРАЩЕНИЙ В СПЛАВАХ FE-GA",
+        "title_ru": "КИНЕТИКА ФАЗОВЫХ ПРЕВРАЩЕНИЙ В СПЛАВАХ FE-GA",
+        "authors_raw": "Павлухина О.О., Соколовский В.В., Бучельников В.Д., Загребин М.А., Матюнина М.В., Мирошкина О.Н., Байгутлин Д.Р.",
+        "venue": "Челябинский физико-математический журнал",
+        "venue_ru": "Челябинский физико-математический журнал",
+        "year": 2020,
+        "pages": "471-479",
+        "metadata_raw": "Челябинский физико-математический журнал . 2020. Т. 5. № 4-1 . С. 471-479.",
+        "rinc_citations": 4,
+        "dedupe_fingerprint": "cc240435f2c6bf85",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 51,
+        "elibrary_item_id": "43242809",
+        "url": "https://www.elibrary.ru/item.asp?id=43242809",
+        "title": "COULOMB CORRELATION IN NONCOLLINEAR ANTIFERROMAGNETIC α-MN",
+        "title_ru": "COULOMB CORRELATION IN NONCOLLINEAR ANTIFERROMAGNETIC α-MN",
+        "authors_raw": "Pulkkinen A., Barbiellini B., Nokelainen J., Baigutlin D., Miroshkina O., Pussi K., Lähderanta E., Lane C., Markiewicz R.S., Bansil A., Sokolovskiy V., Zagrebin M., Buchelnikov V., Sun J.",
+        "venue": "Physical Review B",
+        "venue_ru": "Physical Review B",
+        "year": 2020,
+        "pages": "075115",
+        "metadata_raw": "Physical Review B . 2020. Т. 101. № 7 . С. 075115.",
+        "rinc_citations": 34,
+        "dedupe_fingerprint": "5d35de149a6f88d1",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 52,
+        "elibrary_item_id": "45235515",
+        "url": "https://www.elibrary.ru/item.asp?id=45235515",
+        "title": "ELECTRONIC STRUCTURE BEYOND THE GENERALIZED GRADIENT APPROXIMATION FOR NI2MNGA",
+        "title_ru": "ELECTRONIC STRUCTURE BEYOND THE GENERALIZED GRADIENT APPROXIMATION FOR NI2MNGA",
+        "authors_raw": "Baigutlin D.R., Sokolovskiy V.V., Miroshkina O.N., Zagrebin M.A., Buchelnikov V.D., Nokelainen J., Pulkkinen A., Barbiellini B., Pussi K., Lähderanta E., Zayak A.T.",
+        "venue": "Physical Review B",
+        "venue_ru": "Physical Review B",
+        "year": 2020,
+        "pages": "045127",
+        "metadata_raw": "Physical Review B . 2020. Т. 102. № 4 . С. 045127.",
+        "rinc_citations": 19,
+        "dedupe_fingerprint": "095938a41be3ed46",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 53,
+        "elibrary_item_id": "37317635",
+        "url": "https://www.elibrary.ru/item.asp?id=37317635",
+        "title": "AB INITIO CALCULATION OF VACANCY FORMATION ENERGY IN ANTIPEROVSKITE MN 3 GAC",
+        "title_ru": "AB INITIO CALCULATION OF VACANCY FORMATION ENERGY IN ANTIPEROVSKITE MN 3 GAC",
+        "authors_raw": "Baigutlin D.R., Zagrebin M.A., Sokolovskiy V.V., Buchelnikov V.D.",
+        "venue": "Bulletin of the South Ural State University. Series: Mathematics. Mechanics. Physics",
+        "venue_ru": "Bulletin of the South Ural State University. Series: Mathematics. Mechanics. Physics",
+        "year": 2019,
+        "pages": "58-64",
+        "metadata_raw": "Bulletin of the South Ural State University. Series: Mathematics. Mechanics. Physics . 2019. Т. 11. № 2 . С. 58-64.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "67751a5606c65302",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 54,
+        "elibrary_item_id": "41639822",
+        "url": "https://www.elibrary.ru/item.asp?id=41639822",
+        "title": "SEGREGATION TENDENCY OF HEUSLER ALLOYS",
+        "title_ru": "SEGREGATION TENDENCY OF HEUSLER ALLOYS",
+        "authors_raw": "Sokolovskiy V.V., Baigutlin D.R., Buchelnikov V.D., Gruner M.E., Entel P., Acet M., Çaklr A.",
+        "venue": "Physical Review Materials",
+        "venue_ru": "Physical Review Materials",
+        "year": 2019,
+        "pages": "084413",
+        "metadata_raw": "Physical Review Materials . 2019. Т. 3. № 8 . С. 084413.",
+        "rinc_citations": 20,
+        "dedupe_fingerprint": "71cd73cc13e039e6",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 55,
+        "elibrary_item_id": "35377475",
+        "url": "https://www.elibrary.ru/item.asp?id=35377475",
+        "title": "УПРУГИЕ СВОЙСТВА СПЛАВОВ ГЕЙСЛЕРА NI(CO)-MN(CR,C)-IN И NI(CO)-MN(CR,C)-IN",
+        "title_ru": "УПРУГИЕ СВОЙСТВА СПЛАВОВ ГЕЙСЛЕРА NI(CO)-MN(CR,C)-IN И NI(CO)-MN(CR,C)-IN",
+        "authors_raw": "Байгутлин Д.Р., Бучельников В.Д., Соколовский В.В., Загребин М.А.",
+        "year": 2018,
+        "pages": "177",
+        "metadata_raw": "В сборнике: Актуальные проблемы микро- и наноэлектроники. Сборник тезисов докладов V Всероссийской научной молодежной конференции с международным участием. Отв. ред. Р.З Бахтизин. 2018. С. 177.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "6a3da57d7ca9d53f",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 56,
+        "elibrary_item_id": "35347291",
+        "url": "https://www.elibrary.ru/item.asp?id=35347291",
+        "title": "УПРУГИЕ СВОЙСТВА СПЛАВОВ ГЕЙСЛЕРА NI(CO)-MN(CR,C)-IN И NI(CO)-MN(CR,C)-IN",
+        "title_ru": "УПРУГИЕ СВОЙСТВА СПЛАВОВ ГЕЙСЛЕРА NI(CO)-MN(CR,C)-IN И NI(CO)-MN(CR,C)-IN",
+        "authors_raw": "Байгутлин Д.Р., Загребин М.А., Соколовский В.В., Бучельников В.Д.",
+        "year": 2018,
+        "pages": "61",
+        "metadata_raw": "В сборнике: СПЛАВЫ С ЭФФЕКТОМ ПАМЯТИ ФОРМЫ. ТРЕТЬЯ МЕЖДУНАРОДНАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ. Сборник материалов конференции. Отв. за вып. М.А. Загребин, О.Н. Мирошкина. 2018. С. 61.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "403e047be513c618",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 57,
+        "elibrary_item_id": "41774940",
+        "url": "https://www.elibrary.ru/item.asp?id=41774940",
+        "title": "STRUCTURAL, MAGNETIC AND THERMODYNAMIC PROPERTIES OF MN 3 -X-C (X = GA, SN) COMPOUNDS: AB INITIO STUDY",
+        "title_ru": "STRUCTURAL, MAGNETIC AND THERMODYNAMIC PROPERTIES OF MN 3 -X-C (X = GA, SN) COMPOUNDS: AB INITIO STUDY",
+        "authors_raw": "Baygutlin D., Pershukova T., Sokolovskiy V., Zagrebin M., Buchelnikov V.",
+        "venue": "Physica B: Condensed Matter",
+        "venue_ru": "Physica B: Condensed Matter",
+        "year": 2018,
+        "pages": "94-97",
+        "metadata_raw": "Physica B: Condensed Matter . 2018. Т. 549. С. 94-97.",
+        "rinc_citations": 1,
+        "dedupe_fingerprint": "b340d5f7e32c355f",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      },
+      {
+        "source": "elibrary_authenticated_browser",
+        "number": 58,
+        "elibrary_item_id": "31049682",
+        "url": "https://www.elibrary.ru/item.asp?id=31049682",
+        "title": "LARGE CHANGE OF MAGNETIC MOMENT IN NI 13 CO 3 MN 13 SN 3 AND NI 13 CO 3 MN 13 SN 2 AL 1 HEUSLER ALLOYS AT MARTENSITIC TRANSITIONS: INVESTIGATION FROM FIRST PRINCIPLES",
+        "title_ru": "LARGE CHANGE OF MAGNETIC MOMENT IN NI 13 CO 3 MN 13 SN 3 AND NI 13 CO 3 MN 13 SN 2 AL 1 HEUSLER ALLOYS AT MARTENSITIC TRANSITIONS: INVESTIGATION FROM FIRST PRINCIPLES",
+        "authors_raw": "Buchelnikov V., Sokolovskiy V., Zagrebin M.A., Baygutlin D.",
+        "year": 2017,
+        "pages": "8007735",
+        "metadata_raw": "В сборнике: 2017 IEEE International Magnetics Conference, INTERMAG 2017. 2017. С. 8007735.",
+        "rinc_citations": 0,
+        "dedupe_fingerprint": "65a43d85c8b80f23",
+        "sources": [
+          "elibrary"
+        ],
+        "observed_at": "2026-09-23T18:11:15+00:00"
+      }
+    ],
+    "details": {
+      "items": {
+        "84675898": {
+          "fetched_at": "2026-09-23T18:11:16+00:00",
+          "observed_at": "2026-09-23T18:11:16+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=84675898",
+          "parsed": {
+            "doi": "10.1016/j.jmmm.2025.173268",
+            "issn": "0304-8853",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2025",
+            "volume": "629",
+            "issue": "а",
+            "pages": "173268"
+          }
+        },
+        "80734559": {
+          "fetched_at": "2026-09-23T18:11:19+00:00",
+          "observed_at": "2026-09-23T18:11:19+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=80734559",
+          "parsed": {
+            "doi": "10.1016/j.physb.2024.416701",
+            "issn": "0921-4526",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2025",
+            "volume": "697",
+            "issue": "а",
+            "pages": "416701"
+          }
+        },
+        "82741704": {
+          "fetched_at": "2026-09-23T18:11:21+00:00",
+          "observed_at": "2026-09-23T18:11:21+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=82741704",
+          "parsed": {
+            "doi": "10.47475/2500-0101-2025-10-2-286-296",
+            "issn": "2500-0101",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2025",
+            "volume": "10",
+            "issue": "2",
+            "pages": "286-296"
+          }
+        },
+        "74044821": {
+          "fetched_at": "2026-09-23T18:11:24+00:00",
+          "observed_at": "2026-09-23T18:11:24+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "pages",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=74044821",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2024",
+            "volume": ", что полученные результаты могут быть использованы для дальнейшего улучшения предсказательной силы функционала SCAN и для разработки новых функционалов. Кроме того, результаты расчетов могут быть также применены для создания новых функциональных материалов, в частности для устройств спинтроники и магнитных актуаторов. Результаты работы могут служить основой для экспериментального синтеза новых материалов и дальнейших теоретических исследований в области теории функционала плотности. Научная новизна работы заключается в том, что впервые было получено полуметаллическое состояние и оценена ширина запрещенной зоны в рамках полу-локального функционала без использования параметрического подхода DFT+U для полных сплавов Гейслера...",
+            "issue": "государственной регистрации:"
+          }
+        },
+        "74520945": {
+          "fetched_at": "2026-09-23T18:11:26+00:00",
+          "observed_at": "2026-09-23T18:11:26+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=74520945",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2024",
+            "pages": "128-129",
+            "volume": "107",
+            "issue": "24-12-20016)"
+          }
+        },
+        "74520946": {
+          "fetched_at": "2026-09-23T18:11:29+00:00",
+          "observed_at": "2026-09-23T18:11:29+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=74520946",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2024",
+            "volume": "обменно-корреляционных взаимодействий в приближении обобщенного градиента в формулировке PBE [3]...",
+            "pages": "130-132",
+            "issue": "22-1220032"
+          }
+        },
+        "72567426": {
+          "fetched_at": "2026-09-23T18:11:31+00:00",
+          "observed_at": "2026-09-23T18:11:31+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "issue",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=72567426",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "МИРЭА - Российский технологический университет",
+            "year": "2024",
+            "pages": "160-162"
+          }
+        },
+        "65441032": {
+          "fetched_at": "2026-09-23T18:11:34+00:00",
+          "observed_at": "2026-09-23T18:11:34+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=65441032",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2024",
+            "pages": "45-46",
+            "volume": "122",
+            "issue": "12"
+          }
+        },
+        "68641010": {
+          "fetched_at": "2026-09-23T18:11:38+00:00",
+          "observed_at": "2026-09-23T18:11:38+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=68641010",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2024",
+            "volume": "FROM ATOMISTIC TO MACRO",
+            "pages": "5-6",
+            "issue": "22-12-20032"
+          }
+        },
+        "80407909": {
+          "fetched_at": "2026-09-23T18:11:40+00:00",
+          "observed_at": "2026-09-23T18:11:40+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=80407909",
+          "parsed": {
+            "doi": "10.1134/s0031918x24602622",
+            "issn": "0031-918X",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2024",
+            "volume": "125",
+            "issue": "14",
+            "pages": "1885-1893"
+          }
+        },
+        "78881723": {
+          "fetched_at": "2026-09-23T18:11:43+00:00",
+          "observed_at": "2026-09-23T18:11:43+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=78881723",
+          "parsed": {
+            "doi": "10.1063/5.0236335",
+            "issn": "0021-8979",
+            "venue": "Ы",
+            "publisher": "American Institute of Physics",
+            "year": "2024",
+            "volume": "136",
+            "issue": "18",
+            "pages": "2021"
+          }
+        },
+        "79743680": {
+          "fetched_at": "2026-09-23T18:11:45+00:00",
+          "observed_at": "2026-09-23T18:11:45+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "pages",
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=79743680",
+          "parsed": {
+            "doi": "10.1063/5.0236017",
+            "issn": "0021-8979",
+            "venue": "Ы",
+            "publisher": "American Institute of Physics",
+            "year": "2024",
+            "volume": "136",
+            "issue": "21"
+          }
+        },
+        "54314144": {
+          "fetched_at": "2026-09-23T18:11:48+00:00",
+          "observed_at": "2026-09-23T18:11:48+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=54314144",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2023",
+            "pages": "101-103",
+            "issue": "22-12-20032"
+          }
+        },
+        "54314104": {
+          "fetched_at": "2026-09-23T18:11:50+00:00",
+          "observed_at": "2026-09-23T18:11:50+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=54314104",
+          "parsed": {
+            "doi": "10.3390/met13040728",
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2023",
+            "pages": "15-17",
+            "volume": "13",
+            "issue": "075-01493-23-00"
+          }
+        },
+        "54254106": {
+          "fetched_at": "2026-09-23T18:11:52+00:00",
+          "observed_at": "2026-09-23T18:11:52+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=54254106",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "ИП Колмогоров Игорь Александрович",
+            "year": "2023",
+            "pages": "30",
+            "issue": "22-12-20032"
+          }
+        },
+        "54314112": {
+          "fetched_at": "2026-09-23T18:11:55+00:00",
+          "observed_at": "2026-09-23T18:11:55+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=54314112",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2023",
+            "pages": "31-33",
+            "issue": "22-12-20032"
+          }
+        },
+        "54314121": {
+          "fetched_at": "2026-09-23T18:11:57+00:00",
+          "observed_at": "2026-09-23T18:11:57+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=54314121",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2023",
+            "pages": "51-52",
+            "issue": "075-01493-23-00"
+          }
+        },
+        "54592981": {
+          "fetched_at": "2026-09-23T18:12:02+00:00",
+          "observed_at": "2026-09-23T18:12:02+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=54592981",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Иркутский государственный университет",
+            "year": "2023",
+            "volume": "ов переходных металлов (ПМ) X,Y и sp-элемента Z. В работе [3] была предложена идея заменить один из переходных металлов в структуре в половинных сплавах Гейслера (например, Ni, Ti, Fe, Со, Мп) на атом dd щелочного металла (К, Rb, Cs)...",
+            "pages": "59-60",
+            "issue": "22-12-20032"
+          }
+        },
+        "62505646": {
+          "fetched_at": "2026-09-23T18:12:05+00:00",
+          "observed_at": "2026-09-23T18:12:05+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=62505646",
+          "parsed": {
+            "doi": "10.1016/j.commatsci.2023.112365",
+            "issn": "0927-0256",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2023",
+            "volume": "228",
+            "issue": "а",
+            "pages": "112365"
+          }
+        },
+        "50773463": {
+          "fetched_at": "2026-09-23T18:12:09+00:00",
+          "observed_at": "2026-09-23T18:12:09+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=50773463",
+          "parsed": {
+            "doi": "10.31857/s0033849423040010",
+            "issn": "0033-8494",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2023",
+            "volume": "68",
+            "issue": "4",
+            "pages": "326-337"
+          }
+        },
+        "50403417": {
+          "fetched_at": "2026-09-23T18:12:12+00:00",
+          "observed_at": "2026-09-23T18:12:12+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=50403417",
+          "parsed": {
+            "doi": "10.31857/s0015323022601301",
+            "issn": "0015-3230",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2023",
+            "volume": "124",
+            "issue": "2",
+            "pages": "126-133"
+          }
+        },
+        "53327663": {
+          "fetched_at": "2026-09-23T18:12:15+00:00",
+          "observed_at": "2026-09-23T18:12:15+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=53327663",
+          "parsed": {
+            "doi": "10.14529/mmph230207",
+            "issn": "2075-809X",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2023",
+            "volume": "15",
+            "issue": "2",
+            "pages": "48-58"
+          }
+        },
+        "61298820": {
+          "fetched_at": "2026-09-23T18:12:17+00:00",
+          "observed_at": "2026-09-23T18:12:17+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=61298820",
+          "parsed": {
+            "doi": "10.3390/met13040728",
+            "issn": "2075-4701",
+            "venue": "Ы",
+            "publisher": "MDPI AG",
+            "year": "2023",
+            "volume": "13",
+            "issue": "4",
+            "pages": "728"
+          }
+        },
+        "61730931": {
+          "fetched_at": "2026-09-23T18:12:19+00:00",
+          "observed_at": "2026-09-23T18:12:19+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=61730931",
+          "parsed": {
+            "doi": "10.1103/physrevb.107.245130",
+            "issn": "2469-9950",
+            "venue": "Ы",
+            "publisher": "American Physical Society",
+            "year": "2023",
+            "volume": "107",
+            "issue": "24",
+            "pages": "245130"
+          }
+        },
+        "49304148": {
+          "fetched_at": "2026-09-23T18:12:22+00:00",
+          "observed_at": "2026-09-23T18:12:22+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=49304148",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2022",
+            "pages": "11-14",
+            "issue": "22-12-20032"
+          }
+        },
+        "49615132": {
+          "fetched_at": "2026-09-23T18:12:25+00:00",
+          "observed_at": "2026-09-23T18:12:25+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=49615132",
+          "parsed": {
+            "doi": "10.33184/fmpve2022-2022-10-19.117",
+            "venue": "Ы",
+            "publisher": "Башкирский государственный университет",
+            "year": "2022",
+            "volume": "ов Mn рассчитывалось в программном пакете ATAT. По данным проведенных исследований, структуры, сгенерированные с помощью программного пакета АТАТ,...",
+            "pages": "157",
+            "issue": "075-01391-22-00"
+          }
+        },
+        "49304233": {
+          "fetched_at": "2026-09-23T18:12:27+00:00",
+          "observed_at": "2026-09-23T18:12:27+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=49304233",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2022",
+            "pages": "29-30",
+            "issue": "22-12-20032"
+          }
+        },
+        "49304157": {
+          "fetched_at": "2026-09-23T18:12:30+00:00",
+          "observed_at": "2026-09-23T18:12:30+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=49304157",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2022",
+            "volume": "ным упорядочением атомов Fe и Ni в качестве основного состояния...",
+            "pages": "33-35",
+            "issue": "075-01391-22-00"
+          }
+        },
+        "50111880": {
+          "fetched_at": "2026-09-23T18:12:32+00:00",
+          "observed_at": "2026-09-23T18:12:32+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=50111880",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Федеральное государственное автономное образовательное учреждение высшего образования \"Севастопольский государственный университет\"",
+            "year": "2022",
+            "volume": ", достаточно высокой степенью поляризации и энергетической щелью для спин-вверх электронов.",
+            "pages": "34-38",
+            "issue": "22-12-20032"
+          }
+        },
+        "50077923": {
+          "fetched_at": "2026-09-23T18:12:35+00:00",
+          "observed_at": "2026-09-23T18:12:35+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=50077923",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Башкирский государственный педагогический университет им. М. Акмуллы",
+            "year": "2022",
+            "pages": "41-42",
+            "issue": "22-12-20032"
+          }
+        },
+        "50078080": {
+          "fetched_at": "2026-09-23T18:12:37+00:00",
+          "observed_at": "2026-09-23T18:12:37+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=50078080",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Башкирский государственный педагогический университет им. М. Акмуллы",
+            "year": "2022",
+            "pages": "72-73",
+            "issue": "22-12-20032"
+          }
+        },
+        "49304146": {
+          "fetched_at": "2026-09-23T18:12:40+00:00",
+          "observed_at": "2026-09-23T18:12:40+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=49304146",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2022",
+            "volume": "составляет примерно 340 °K, что характерно для сплавов Гейслера на основе Rh2 [6]...",
+            "pages": "7-9",
+            "issue": "22-12-20032"
+          }
+        },
+        "56173251": {
+          "fetched_at": "2026-09-23T18:12:42+00:00",
+          "observed_at": "2026-09-23T18:12:42+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=56173251",
+          "parsed": {
+            "doi": "10.1016/j.jallcom.2022.165532",
+            "issn": "0925-8388",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2022",
+            "volume": "917",
+            "issue": "а",
+            "pages": "165532"
+          }
+        },
+        "47534946": {
+          "fetched_at": "2026-09-23T18:13:14+00:00",
+          "observed_at": "2026-09-23T18:13:14+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=47534946",
+          "parsed": {
+            "doi": "10.1016/j.jmmm.2021.168728",
+            "issn": "0304-8853",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2022",
+            "volume": "546",
+            "issue": "а",
+            "pages": "168728"
+          }
+        },
+        "57222846": {
+          "fetched_at": "2026-09-23T18:15:26+00:00",
+          "observed_at": "2026-09-23T18:15:26+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=57222846",
+          "parsed": {
+            "doi": "10.21883/pss.2022.13.52300.18s",
+            "issn": "1063-7834",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2022",
+            "volume": "63",
+            "issue": "13",
+            "pages": "1618"
+          }
+        },
+        "59139914": {
+          "fetched_at": "2026-09-23T18:15:29+00:00",
+          "observed_at": "2026-09-23T18:15:29+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=59139914",
+          "parsed": {
+            "doi": "10.21883/pss.2022.13.53975.18s",
+            "issn": "1063-7834",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2022",
+            "volume": "63",
+            "issue": "13",
+            "pages": "2082"
+          }
+        },
+        "47299674": {
+          "fetched_at": "2026-09-23T18:15:32+00:00",
+          "observed_at": "2026-09-23T18:15:32+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=47299674",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2021",
+            "pages": "54-56",
+            "issue": "17-72-20022"
+          }
+        },
+        "47299611": {
+          "fetched_at": "2026-09-23T18:15:35+00:00",
+          "observed_at": "2026-09-23T18:15:35+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=47299611",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2021",
+            "pages": "7-9",
+            "issue": "20-42-740006"
+          }
+        },
+        "46955967": {
+          "fetched_at": "2026-09-23T18:15:38+00:00",
+          "observed_at": "2026-09-23T18:15:38+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=46955967",
+          "parsed": {
+            "doi": "10.1016/j.jallcom.2021.160917",
+            "issn": "0925-8388",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2021",
+            "volume": "885",
+            "issue": "а",
+            "pages": "160917"
+          }
+        },
+        "46636883": {
+          "fetched_at": "2026-09-23T18:15:45+00:00",
+          "observed_at": "2026-09-23T18:15:45+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=46636883",
+          "parsed": {
+            "doi": "10.21883/ftt.2021.11.51572.18s",
+            "issn": "0367-3294",
+            "venue": "Ы",
+            "publisher": "Физико-технический институт им. А.Ф. Иоффе Российской академии наук",
+            "year": "2021",
+            "volume": "63",
+            "issue": "11",
+            "pages": "1751-1757"
+          }
+        },
+        "46820682": {
+          "fetched_at": "2026-09-23T18:15:48+00:00",
+          "observed_at": "2026-09-23T18:15:48+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "pages",
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=46820682",
+          "parsed": {
+            "doi": "10.3390/met11060973",
+            "issn": "2075-4701",
+            "venue": "Ы",
+            "publisher": "MDPI AG",
+            "year": "2021",
+            "volume": "11",
+            "issue": "6"
+          }
+        },
+        "46744881": {
+          "fetched_at": "2026-09-23T18:15:50+00:00",
+          "observed_at": "2026-09-23T18:15:50+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=46744881",
+          "parsed": {
+            "doi": "10.1103/physrevb.103.054414",
+            "issn": "2469-9950",
+            "venue": "Ы",
+            "publisher": "American Physical Society",
+            "year": "2021",
+            "volume": "103",
+            "issue": "5",
+            "pages": "054414"
+          }
+        },
+        "47508871": {
+          "fetched_at": "2026-09-23T18:15:52+00:00",
+          "observed_at": "2026-09-23T18:15:52+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=47508871",
+          "parsed": {
+            "doi": "10.1002/adts.202100311",
+            "issn": "2513-0390",
+            "venue": "Ы",
+            "publisher": "WILEY-V C H VERLAG GMBH, POSTFACH 101161, WEINHEIM, GERMANY, 69451",
+            "year": "2021",
+            "volume": "4",
+            "issue": "11",
+            "pages": "2100311"
+          }
+        },
+        "43215030": {
+          "fetched_at": "2026-09-23T18:15:55+00:00",
+          "observed_at": "2026-09-23T18:15:55+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=43215030",
+          "parsed": {
+            "doi": "10.1016/j.physb.2019.411874",
+            "issn": "0921-4526",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2020",
+            "volume": "578",
+            "issue": "а",
+            "pages": "411874"
+          }
+        },
+        "42414178": {
+          "fetched_at": "2026-09-23T18:15:57+00:00",
+          "observed_at": "2026-09-23T18:15:57+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=42414178",
+          "parsed": {
+            "doi": "10.31857/s0015323020020035",
+            "issn": "0015-3230",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2020",
+            "volume": "121",
+            "issue": "3",
+            "pages": "235-242"
+          }
+        },
+        "45315947": {
+          "fetched_at": "2026-09-23T18:16:01+00:00",
+          "observed_at": "2026-09-23T18:16:01+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=45315947",
+          "parsed": {
+            "doi": "10.1063/5.0015535",
+            "issn": "0003-6951",
+            "venue": "Ы",
+            "publisher": "American Institute of Physics",
+            "year": "2020",
+            "volume": "117",
+            "issue": "6",
+            "pages": "062401"
+          }
+        },
+        "45096288": {
+          "fetched_at": "2026-09-23T18:16:07+00:00",
+          "observed_at": "2026-09-23T18:16:07+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=45096288",
+          "parsed": {
+            "doi": "10.1063/5.0006201",
+            "issn": "0021-8979",
+            "venue": "Ы",
+            "publisher": "American Institute of Physics",
+            "year": "2020",
+            "volume": "127",
+            "issue": "17",
+            "pages": "175108"
+          }
+        },
+        "42627649": {
+          "fetched_at": "2026-09-23T18:16:12+00:00",
+          "observed_at": "2026-09-23T18:16:12+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=42627649",
+          "parsed": {
+            "doi": "10.24411/2500-0101-2020-15110",
+            "issn": "2500-0101",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2020",
+            "volume": "5",
+            "issue": "1",
+            "pages": "120-130"
+          }
+        },
+        "44368971": {
+          "fetched_at": "2026-09-23T18:16:16+00:00",
+          "observed_at": "2026-09-23T18:16:16+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=44368971",
+          "parsed": {
+            "doi": "10.47475/2500-0101-2020-15407",
+            "issn": "2500-0101",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2020",
+            "volume": "5",
+            "issue": "4-1",
+            "pages": "471-479"
+          }
+        },
+        "43242809": {
+          "fetched_at": "2026-09-23T18:16:20+00:00",
+          "observed_at": "2026-09-23T18:16:20+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=43242809",
+          "parsed": {
+            "doi": "10.1103/physrevb.101.075115",
+            "issn": "2469-9950",
+            "venue": "Ы",
+            "publisher": "American Physical Society",
+            "year": "2020",
+            "volume": "101",
+            "issue": "7",
+            "pages": "075115"
+          }
+        },
+        "45235515": {
+          "fetched_at": "2026-09-23T18:16:23+00:00",
+          "observed_at": "2026-09-23T18:16:23+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=45235515",
+          "parsed": {
+            "doi": "10.1103/physrevb.102.045127",
+            "issn": "2469-9950",
+            "venue": "Ы",
+            "publisher": "American Physical Society",
+            "year": "2020",
+            "volume": "102",
+            "issue": "4",
+            "pages": "045127"
+          }
+        },
+        "37317635": {
+          "fetched_at": "2026-09-23T18:16:26+00:00",
+          "observed_at": "2026-09-23T18:16:26+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=37317635",
+          "parsed": {
+            "doi": "10.14529/mmph190208",
+            "issn": "2075-809X",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2019",
+            "volume": "11",
+            "issue": "2",
+            "pages": "58-64"
+          }
+        },
+        "41639822": {
+          "fetched_at": "2026-09-23T18:16:30+00:00",
+          "observed_at": "2026-09-23T18:16:30+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=41639822",
+          "parsed": {
+            "doi": "10.1103/physrevmaterials.3.084413",
+            "issn": "2476-0455",
+            "venue": "Ы",
+            "publisher": "ств:",
+            "year": "2019",
+            "volume": "3",
+            "issue": "8",
+            "pages": "084413"
+          }
+        },
+        "35377475": {
+          "fetched_at": "2026-09-23T18:16:34+00:00",
+          "observed_at": "2026-09-23T18:16:34+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=35377475",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Башкирский государственный университет",
+            "year": "2018",
+            "pages": "177",
+            "issue": "17-72-20022"
+          }
+        },
+        "35347291": {
+          "fetched_at": "2026-09-23T18:16:37+00:00",
+          "observed_at": "2026-09-23T18:16:37+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "doi",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=35347291",
+          "parsed": {
+            "venue": "Ы",
+            "publisher": "Челябинский государственный университет",
+            "year": "2018",
+            "volume": "ПАМЯТИ ФОРМЫ. ТРЕТЬЯ МЕЖДУНАРОДНАЯ НАУЧНАЯ КОНФЕРЕНЦИЯ",
+            "pages": "61",
+            "issue": "17-72-20022"
+          }
+        },
+        "41774940": {
+          "fetched_at": "2026-09-23T18:16:39+00:00",
+          "observed_at": "2026-09-23T18:16:39+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "isbn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=41774940",
+          "parsed": {
+            "doi": "10.1016/j.physb.2017.10.066",
+            "issn": "0921-4526",
+            "venue": "Ы",
+            "publisher": "Elsevier Science Publishing Company, Inc.",
+            "year": "2018",
+            "volume": "549",
+            "issue": "а",
+            "pages": "94-97"
+          }
+        },
+        "31049682": {
+          "fetched_at": "2026-09-23T18:16:42+00:00",
+          "observed_at": "2026-09-23T18:16:42+00:00",
+          "status": "success",
+          "observed_absent_fields": [
+            "volume",
+            "issue",
+            "isbn",
+            "issn"
+          ],
+          "url": "https://elibrary.ru/item.asp?id=31049682",
+          "parsed": {
+            "doi": "10.1109/intmag.2017.8007735",
+            "venue": "Ы",
+            "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+            "year": "2017",
+            "pages": "8007735"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "attempted_at": "2026-09-23T18:07:48+00:00",
+  "status": "success",
+  "reason": "argos_ru_en",
+  "mode": "provision",
+  "argos_version": "1.11.0",
+  "package_version": "1.9",
+  "pair": "ru_en",
+  "device": "cpu",
+  "probe_passed": true
+}

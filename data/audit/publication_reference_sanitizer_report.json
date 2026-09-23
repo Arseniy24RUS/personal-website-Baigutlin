@@ -1,0 +1,385 @@
+{
+  "records": 84,
+  "changed_records": 0,
+  "field_changes": 0,
+  "excluded_reference_fields": 66,
+  "bad_references_before": 0,
+  "bad_references_after": 0,
+  "samples": [
+    {
+      "title": "Systematic study of d0-d kyz (y = sc, ti, v, cr, mn, fe, co, ni, cu, z = al, ga, in, si, ge, sn, pb, p, as, sb, bi, s, se, te) heusler alloys",
+      "changes": [
+        {
+          "field": "issue",
+          "old": "а",
+          "reason": "invalid_issue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Matyunina M., Baigutlin D., Sokolovskiy V., Buchelnikov V. Systematic study of d0-d kyz (y = sc, ti, v, cr, mn, fe, co, ni, cu, z = al, ga, in, si, ge, sn, pb, p, as, sb, bi, s, se, te) heusler alloys. // Physica B: Condensed Matter. 2025. Т. 697. С. 416701. URL: https://www.elibrary.ru/item.asp?id=80734559.",
+      "apa_en": "Matyunina M., Baigutlin D., Sokolovskiy V., & Buchelnikov V. (2025). Systematic study of d0-d kyz (y = sc, ti, v, cr, mn, fe, co, ni, cu, z = al, ga, in, si, ge, sn, pb, p, as, sb, bi, s, se, te) heusler alloys. Physica B: Condensed Matter, 697, 416701. https://www.elibrary.ru/item.asp?id=80734559"
+    },
+    {
+      "title": "Insight into half-metallicity, electronic structure, and thermal transport properties of ferhga 1 − x as x heusler alloys",
+      "changes": [
+        {
+          "field": "issue",
+          "old": "а",
+          "reason": "invalid_issue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Pavlukhina O., Sokolovskiy V., Baigutlin D., Buchelnikov V., Zotov I. Insight into half-metallicity, electronic structure, and thermal transport properties of ferhga 1 − x as x heusler alloys. // Journal of Magnetism and Magnetic Materials. 2025. Т. 629. С. 173268. URL: https://www.elibrary.ru/item.asp?id=84675898.",
+      "apa_en": "Pavlukhina O., Sokolovskiy V., Baigutlin D., Buchelnikov V., & Zotov I. (2025). Insight into half-metallicity, electronic structure, and thermal transport properties of ferhga 1 − x as x heusler alloys. Journal of Magnetism and Magnetic Materials, 629, 173268. https://www.elibrary.ru/item.asp?id=84675898"
+    },
+    {
+      "title": "Термоэлектрические свойства сплавов Гейслера на основе щелочных металлов",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Матюнина М.В., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д. Термоэлектрические свойства сплавов Гейслера на основе щелочных металлов. // В сборнике: АтоМ: FROM ATOMISTIC TO MACRO. Сборник тезисов первой всероссийской школы-семинара по компьютерному моделированию. Челябинск, 2024. С. 5-6. URL: https://www.elibrary.ru/item.asp?id=68641010.",
+      "apa_en": "Matyunina, M. V., Baigutlin, D. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2024). Termoelektricheskie svoistva splavov Geislera na osnove shchelochnykh metallov. V sbornike: AtoM: FROM ATOMISTIC TO MACRO. Sbornik tezisov pervoi vserossiiskoi shkoly-seminara po kompyuternomu modelirovaniyu. Chelyabinsk,, 5–6. https://www.elibrary.ru/item.asp?id=68641010"
+    },
+    {
+      "title": "Термоэлектрические свойства двойного полусплава Гейслера ti 2 mnnisi 2",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "volume",
+          "old": "обменно-корреляционных взаимодействий в приближении обобщенного градиента в формулировке PBE [3]...",
+          "reason": "invalid_volume"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Матюнина М.В., Байгутлин Д.Р., Загребин М.А., Соколовский В.В., Бучельников В.Д. Термоэлектрические свойства двойного полусплава Гейслера ti 2 mnnisi 2. // В сборнике: Дни калорики в Башкортостане: функциональные материалы и их приложения. Сборник тезисов Пятого научного семинара. Челябинск, 2024. С. 130-132. URL: https://www.elibrary.ru/item.asp?id=74520946.",
+      "apa_en": "Matyunina, M. V., Baigutlin, D. R., Zagrebin, M. A., Sokolovskii, V. V., & Buchelnikov, V. D. (2024). Termoelektricheskie svoistva dvoinogo polusplava Geislera ti 2 mnnisi 2. V sbornike: Dni kaloriki v Bashkortostane: funktsionalnye materialy i ikh prilozheniya. Sbornik tezisov Pyatogo nauchnogo seminara. Chelyabinsk,, 130–132. https://www.elibrary.ru/item.asp?id=74520946"
+    },
+    {
+      "title": "Прогнозирование механических характеристик сплавов Гейслера с помощью технологий машинного обучения",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Моисеев Д.М., Соколовский В.В., Байгутлин Д.Р. Прогнозирование механических характеристик сплавов Гейслера с помощью технологий машинного обучения. // В сборнике: Дни калорики в Башкортостане: функциональные материалы и их приложения. Сборник тезисов Пятого научного семинара. Челябинск, 2024. С. 128-129. URL: https://www.elibrary.ru/item.asp?id=74520945.",
+      "apa_en": "Moiseev, D. M., Sokolovskii, V. V., & Baigutlin, D. R. (2024). Prognozirovanie mekhanicheskikh kharakteristik splavov Geislera s pomoshchyu tekhnologii mashinnogo obucheniya. V sbornike: Dni kaloriki v Bashkortostane: funktsionalnye materialy i ikh prilozheniya. Sbornik tezisov Pyatogo nauchnogo seminara. Chelyabinsk,, 128–129. https://www.elibrary.ru/item.asp?id=74520945"
+    },
+    {
+      "title": "Предсказание упругих свойств сплавов Гейслера, полностью состоящих из переходных металлов, в рамках машинного обучения",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Моисеев Д.М., Соколовский В.В., Байгутлин Д.Р. Предсказание упругих свойств сплавов Гейслера, полностью состоящих из переходных металлов, в рамках машинного обучения. // В сборнике: Новое в Магнетизме и Магнитных Материалах. Сборник докладов XXV Международной конференции. Москва, 2024. С. 160-162. URL: https://www.elibrary.ru/item.asp?id=72567426.",
+      "apa_en": "Moiseev, D. M., Sokolovskii, V. V., & Baigutlin, D. R. (2024). Predskazanie uprugikh svoistv splavov Geislera, polnostyu sostoyashchikh iz perekhodnykh metallov, v ramkakh mashinnogo obucheniya. V sbornike: Novoe v Magnetizme i Magnitnykh Materialakh. Sbornik dokladov XXV Mezhdunarodnoi konferentsii. Moskva,, 160–162. https://www.elibrary.ru/item.asp?id=72567426"
+    },
+    {
+      "title": "Первопринципные исследования электронных свойств половинных сплавов Гейслера xyz",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Бутова Ю.Н., Байгутлин Д.Р., Загребин М.А. Первопринципные исследования электронных свойств половинных сплавов Гейслера xyz. // В сборнике: Образование магистров: проблемы и перспективы развития. Тезисы докладов VII Всероссийской конференции. Челябинск, 2024. С. 45-46. URL: https://www.elibrary.ru/item.asp?id=65441032.",
+      "apa_en": "Butova Yu.N., Baigutlin, D. R., & Zagrebin, M. A. (2024). Pervoprintsipnye issledovaniya elektronnykh svoistv polovinnykh splavov Geislera xyz. V sbornike: Obrazovanie magistrov: problemy i perspektivy razvitiya. Tezisy dokladov VII Vserossiiskoi konferentsii. Chelyabinsk,, 45–46. https://www.elibrary.ru/item.asp?id=65441032"
+    },
+    {
+      "title": "Обменно-корреляционные эффекты в сильно коррелированных сплавах Гейслера",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "volume",
+          "old": ", что полученные результаты могут быть использованы для дальнейшего улучшения предсказательной силы функционала SCAN и для разработки новых функционалов. Кроме того, результаты расчетов могут быть также применены для создания новых функциональных материалов, в частности для устройств спинтроники и магнитных актуаторов. Результаты работы могут служить основой для экспериментального синтеза новых материалов и дальнейших теоретических исследований в области теории функционала плотности. Научная новизна работы заключается в том, что впервые было получено полуметаллическое состояние и оценена ширина запрещенной зоны в рамках полу-локального функционала без использования параметрического подхода DFT+U для полных сплавов Гейслера...",
+          "reason": "invalid_volume"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Байгутлин Д.Р. Обменно-корреляционные эффекты в сильно коррелированных сплавах Гейслера. // диссертация на соискание ученой степени кандидата физико-математических наук / ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \"ЧЕЛЯБИНСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ\". 2024. URL: https://www.elibrary.ru/item.asp?id=74044821.",
+      "apa_en": "Baigutlin, D. R. (2024). Obmenno-korrelyatsionnye effekty v silno korrelirovannykh splavakh Geislera. dissertatsiya na soiskanie uchenoi stepeni kandidata fiziko-matematicheskikh nauk / FEDERALNOE GOSUDARSTVENNOE BYuDZhETNOE OBRAZOVATELNOE UChREZhDENIE VYSShEGO OBRAZOVANIYa \"ChELYaBINSKII GOSUDARSTVENNYI UNIVERSITET\". https://www.elibrary.ru/item.asp?id=74044821"
+    },
+    {
+      "title": "Современное состояние исследований свойств магнитных материалов в рамках теории функционала плотности",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Соколовский В.В., Байгутлин Д.Р., Мирошкина О.Н., Бучельников В.Д. Современное состояние исследований свойств магнитных материалов в рамках теории функционала плотности. // В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 15-17. URL: https://www.elibrary.ru/item.asp?id=54314104.",
+      "apa_en": "Sokolovskii, V. V., Baigutlin, D. R., Miroshkina, O. N., & Buchelnikov, V. D. (2023). Sovremennoe sostoyanie issledovanii svoistv magnitnykh materialov v ramkakh teorii funktsionala plotnosti. V sbornike: DNI KALORIKI V DAGESTANE: FUNKTsIONALNYE MATERIALY I IKh PRILOZhENIYa. sbornik tezisov. Chelyabinsk,, 15–17. https://www.elibrary.ru/item.asp?id=54314104"
+    },
+    {
+      "title": "Полуметаллические свойства тонких пленок полусплавов Гейслера",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Байгутлин Д.Р., Бутова Ю.Н., Бучельников В.Д., Соколовский В.В. Полуметаллические свойства тонких пленок полусплавов Гейслера. // В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 31-33. URL: https://www.elibrary.ru/item.asp?id=54314112.",
+      "apa_en": "Baigutlin, D. R., Butova Yu.N., Buchelnikov, V. D., & Sokolovskii, V. V. (2023). Polumetallicheskie svoistva tonkikh plenok polusplavov Geislera. V sbornike: DNI KALORIKI V DAGESTANE: FUNKTsIONALNYE MATERIALY I IKh PRILOZhENIYa. sbornik tezisov. Chelyabinsk,, 31–33. https://www.elibrary.ru/item.asp?id=54314112"
+    },
+    {
+      "title": "Исследования из первых принципов полуметаллических ферромагнитных сплавов Гейслера ti2vz (z= al, ga, in, si, ge, sn)",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Раев А.А., Саносян А.А., Байгутлин Д.Р., Ерагер К.Р., Соколовский В.В., Бучельников В.Д. Исследования из первых принципов полуметаллических ферромагнитных сплавов Гейслера ti2vz (z= al, ga, in, si, ge, sn). // В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 101-103. URL: https://www.elibrary.ru/item.asp?id=54314144.",
+      "apa_en": "Raev, A. A., Sanosyan, A. A., Baigutlin, D. R., Erager, K. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2023). Issledovaniya iz pervykh printsipov polumetallicheskikh ferromagnitnykh splavov Geislera ti2vz (z= al, ga, in, si, ge, sn). V sbornike: DNI KALORIKI V DAGESTANE: FUNKTsIONALNYE MATERIALY I IKh PRILOZhENIYa. sbornik tezisov. Chelyabinsk,, 101–103. https://www.elibrary.ru/item.asp?id=54314144"
+    },
+    {
+      "title": "Исследование свойств половинных d°-d сплавов Гейслера на основе систем kmnz (z = bi, pb, sb, sn)",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "volume",
+          "old": "ов переходных металлов (ПМ) X,Y и sp-элемента Z. В работе [3] была предложена идея заменить один из переходных металлов в структуре в половинных сплавах Гейслера (например, Ni, Ti, Fe, Со, Мп) на атом dd щелочного металла (К, Rb, Cs)...",
+          "reason": "invalid_volume"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Матюнина М.В., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д. Исследование свойств половинных d°-d сплавов Гейслера на основе систем kmnz (z = bi, pb, sb, sn). // В сборнике: Магнитные материалы. Новые технологии. Материалы IX Байкальской Международной конференции. Иркутск, 2023. С. 59-60. URL: https://www.elibrary.ru/item.asp?id=54592981.",
+      "apa_en": "Matyunina, M. V., Baigutlin, D. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2023). Issledovanie svoistv polovinnykh d°-d splavov Geislera na osnove sistem kmnz (z = bi, pb, sb, sn). V sbornike: Magnitnye materialy. Novye tekhnologii. Materialy IX Baikalskoi Mezhdunarodnoi konferentsii. Irkutsk,, 59–60. https://www.elibrary.ru/item.asp?id=54592981"
+    },
+    {
+      "title": "Вопросы фазовой стабильности сплавов Гейслера на основе ni-co-mn-z (z = ga, in, sn, sb)",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д. Вопросы фазовой стабильности сплавов Гейслера на основе ni-co-mn-z (z = ga, in, sn, sb). // В сборнике: ДНИ КАЛОРИКИ В ДАГЕСТАНЕ: ФУНКЦИОНАЛЬНЫЕ МАТЕРИАЛЫ И ИХ ПРИЛОЖЕНИЯ. сборник тезисов. Челябинск, 2023. С. 51-52. URL: https://www.elibrary.ru/item.asp?id=54314121.",
+      "apa_en": "Erager, K. R., Baigutlin, D. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2023). Voprosy fazovoi stabilnosti splavov Geislera na osnove ni-co-mn-z (z = ga, in, sn, sb). V sbornike: DNI KALORIKI V DAGESTANE: FUNKTsIONALNYE MATERIALY I IKh PRILOZhENIYa. sbornik tezisov. Chelyabinsk,, 51–52. https://www.elibrary.ru/item.asp?id=54314121"
+    },
+    {
+      "title": "Ab initio prediction of coexistence of two magnetic states in mn 2 y sn ( y = sc, ti, and v) heusler alloys under applied pressure",
+      "changes": [
+        {
+          "field": "issue",
+          "old": "а",
+          "reason": "invalid_issue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Sokolovskiy V., Zagrebin M., Baigutlin D., Buchelnikov V. Ab initio prediction of coexistence of two magnetic states in mn 2 y sn ( y = sc, ti, and v) heusler alloys under applied pressure. // Computational Materials Science. 2023. Т. 228. С. 112365. URL: https://www.elibrary.ru/item.asp?id=62505646.",
+      "apa_en": "Sokolovskiy V., Zagrebin M., Baigutlin D., & Buchelnikov V. (2023). Ab initio prediction of coexistence of two magnetic states in mn 2 y sn ( y = sc, ti, and v) heusler alloys under applied pressure. Computational Materials Science, 228, 112365. https://www.elibrary.ru/item.asp?id=62505646"
+    },
+    {
+      "title": "Ab initio invetigation the properties of mn2-based heusler alloys under external pressure",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Buchelnikov V.D., Sokolovskiy V.V., Zagrebin M.A., Baigutlin D.R. Ab initio invetigation the properties of mn2-based heusler alloys under external pressure. // В сборнике: Samarkand International Symposium on Magnetism 2023. Book of Abstracts. Samarkand, 2023. С. 30. URL: https://www.elibrary.ru/item.asp?id=54254106.",
+      "apa_en": "Buchelnikov, V. D., Sokolovskiy, V. V., Zagrebin, M. A., & Baigutlin, D. R. (2023). Ab initio invetigation the properties of mn2-based heusler alloys under external pressure. V sbornike: Samarkand International Symposium on Magnetism, 30. https://www.elibrary.ru/item.asp?id=54254106"
+    },
+    {
+      "title": "ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ TI",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Раев А.А., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д. ИССЛЕДОВАНИЯ ИЗ ПЕРВЫХ ПРИНЦИПОВ ПОЛУМЕТАЛЛИЧЕСКИХ ФЕРРОМАГНИТНЫХ СПЛАВОВ ГЕЙСЛЕРА НА ОСНОВЕ TI. — Башкирский государственный педагогический университет им. М. Акмуллы. — 2022. — № 22-12-20032. — С. 72–73. — URL: https://www.elibrary.ru/item.asp?id=50078080.",
+      "apa_en": "Raev, A. A., Baigutlin, D. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2022). Researches from the first principles of semi-metallic Ferromagnetic Alloys of Heisler on the basis of TI. Bashkirskii gosudarstvennyi pedagogicheskii universitet im. M. Akmully, (22-12-20032), 72–73. https://www.elibrary.ru/item.asp?id=50078080"
+    },
+    {
+      "title": "Фазовые переходы в сплавах Гейслера mn2yz: роль обменно-корреляционных взаимодействий",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Бучельников В.Д., Байгутлин Д.Р., Соколовский В.В., Мирошкина О.Н. Фазовые переходы в сплавах Гейслера mn2yz: роль обменно-корреляционных взаимодействий. // В сборнике: Дни калорики в Королеве: функциональные материалы и их приложения. Сборник тезисов 3-го Международного научного семинара. Челябинск, 2022. С. 11-14. URL: https://www.elibrary.ru/item.asp?id=49304148.",
+      "apa_en": "Buchelnikov, V. D., Baigutlin, D. R., Sokolovskii, V. V., & Miroshkina, O. N. (2022). Fazovye perekhody v splavakh Geislera mn2yz: rol obmenno-korrelyatsionnykh vzaimodeistvii. V sbornike: Dni kaloriki v Koroleve: funktsionalnye materialy i ikh prilozheniya. Sbornik tezisov 3-go Mezhdunarodnogo nauchnogo seminara. Chelyabinsk,, 11–14. https://www.elibrary.ru/item.asp?id=49304148"
+    },
+    {
+      "title": "Фазовая стабильность двойниковых структур нестехиометрических сплавов Гейслера ni-mn-in",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "volume",
+          "old": "ов Mn рассчитывалось в программном пакете ATAT. По данным проведенных исследований, структуры, сгенерированные с помощью программного пакета АТАТ,...",
+          "reason": "invalid_volume"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д. Фазовая стабильность двойниковых структур нестехиометрических сплавов Гейслера ni-mn-in. // В сборнике: Фундаментальная математика и ее приложения в естествознании: спутник Международной научной конференции \"Уфимская осенняя математическая школа-2022\". Тезисы докладов ХIII Международной школы-конференции студентов, аспирантов и молодых ученых, посвященной 50-летию образования математического и физического факультетов БашГУ. Отв. редактор Л.А. Габдрахманова. Уфа, 2022. С. 157. URL: https://www.elibrary.ru/item.asp?id=49615132.",
+      "apa_en": "Erager, K. R., Baigutlin, D. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2022). Fazovaya stabilnost dvoinikovykh struktur nestekhiometricheskikh splavov Geislera ni-mn-in. V sbornike: Fundamentalnaya matematika i ee prilozheniya v estestvoznanii: sputnik Mezhdunarodnoi nauchnoi konferentsii \"Ufimskaya osennyaya matematicheskaya shkola-, 157. https://www.elibrary.ru/item.asp?id=49615132"
+    },
+    {
+      "title": "Первопринципные исследования свойств сплавов Гейслера с высокой магнитокристаллической анизотропией",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "volume",
+          "old": "ным упорядочением атомов Fe и Ni в качестве основного состояния...",
+          "reason": "invalid_volume"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Соколовский В.В., Мирошкина О.Н., Байгутлин Д.Р., Саносян А.А., Загребин М.А., Бучельников В.Д. Первопринципные исследования свойств сплавов Гейслера с высокой магнитокристаллической анизотропией. // В сборнике: Дни калорики в Королеве: функциональные материалы и их приложения. Сборник тезисов 3-го Международного научного семинара. Челябинск, 2022. С. 33-35. URL: https://www.elibrary.ru/item.asp?id=49304157.",
+      "apa_en": "Sokolovskii, V. V., Miroshkina, O. N., Baigutlin, D. R., Sanosyan, A. A., Zagrebin, M. A., & Buchelnikov, V. D. (2022). Pervoprintsipnye issledovaniya svoistv splavov Geislera s vysokoi magnitokristallicheskoi anizotropiei. V sbornike: Dni kaloriki v Koroleve: funktsionalnye materialy i ikh prilozheniya. Sbornik tezisov 3-go Mezhdunarodnogo nauchnogo seminara. Chelyabinsk,, 33–35. https://www.elibrary.ru/item.asp?id=49304157"
+    },
+    {
+      "title": "Первопринципное исследование полуметаллических соединений на основе серии сплавов Гейслера fe2rhz (z = al, si, ga, ge, in, sn)",
+      "changes": [
+        {
+          "field": "venue",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "venue_ru",
+          "old": "Ы",
+          "reason": "invalid_venue"
+        },
+        {
+          "field": "volume",
+          "old": ", достаточно высокой степенью поляризации и энергетической щелью для спин-вверх электронов.",
+          "reason": "invalid_volume"
+        }
+      ],
+      "published_metadata_preserved": true,
+      "gost_ru": "Ерагер К.Р., Байгутлин Д.Р., Соколовский В.В., Бучельников В.Д. Первопринципное исследование полуметаллических соединений на основе серии сплавов Гейслера fe2rhz (z = al, si, ga, ge, in, sn). // В сборнике: Перспективные технологии и материалы. Материалы Международной научно-практической конференции. Севастополь, 2022. С. 34-38. URL: https://www.elibrary.ru/item.asp?id=50111880.",
+      "apa_en": "Erager, K. R., Baigutlin, D. R., Sokolovskii, V. V., & Buchelnikov, V. D. (2022). Pervoprintsipnoe issledovanie polumetallicheskikh soedinenii na osnove serii splavov Geislera fe2rhz (z = al, si, ga, ge, in, sn). V sbornike: Perspektivnye tekhnologii i materialy. Materialy Mezhdunarodnoi nauchno-prakticheskoi konferentsii. Sevastopol,, 34–38. https://www.elibrary.ru/item.asp?id=50111880"
+    }
+  ]
+}
