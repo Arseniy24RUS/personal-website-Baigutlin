@@ -86,53 +86,102 @@ def needs_details(pub: dict, cached: dict, *, at: datetime | None = None) -> boo
     return age_seconds < 0 or age_seconds >= max_age_days * 86400
 
 
+DETAIL_LABELS = {
+    'Название журнала': 'venue', 'Журнал': 'venue', 'Название сборника': 'venue',
+    'Сборник': 'venue', 'В сборнике': 'venue', 'Книга': 'book_title',
+    'Издательство': 'publisher', 'Издатель': 'publisher', 'Место издания': 'place',
+    'Год издания': 'year', 'Год': 'year', 'Том': 'volume', 'Номер': 'issue',
+    'Выпуск': 'issue', 'Страницы': 'pages', 'DOI': 'doi', 'ISBN': 'isbn', 'ISSN': 'issn',
+}
+LABEL_PATTERN = '|'.join(re.escape(label) for label in sorted(DETAIL_LABELS, key=len, reverse=True))
+NON_BIBLIOGRAPHIC_SECTION = re.compile(
+    r'^(?:АННОТАЦИЯ|ABSTRACT|КЛЮЧЕВЫЕ СЛОВА|KEYWORDS|СПИСОК ЛИТЕРАТУРЫ|'
+    r'ЛИТЕРАТУРА|REFERENCES|БЛАГОДАРНОСТИ|ACKNOWLEDGMENTS?|ФИНАНСИРОВАНИЕ|'
+    r'ИСТОЧНИКИ ФИНАНСИРОВАНИЯ|ГРАНТЫ)(?:\s*:|\s*$)', re.I)
+
+
 def text_after_label(text: str, label: str) -> str:
-    m = re.search(rf'{re.escape(label)}\s*[:\-]?\s*([^\n\r]+)', text, flags=re.I)
-    return clean(m.group(1)) if m else ''
+    """A whole metadata label, never a substring of a menu or abstract word."""
+    lines = [clean(line) for line in text.splitlines() if clean(line)]
+    for index, line in enumerate(lines):
+        match = re.fullmatch(rf'{re.escape(label)}(?:\s*:\s*(.*))?', line, flags=re.I)
+        if not match:
+            continue
+        value = clean(match.group(1))
+        if not value:
+            following = lines[index + 1:]  # Table cells often put the value on its own line.
+            value = next((line for line in following if line != ':'), '')
+        if re.match(rf'^(?:{LABEL_PATTERN})(?:\s*:|\s*$)', value, re.I):
+            return ''
+        return value
+    return ''
+
+
+def sanitize_detail_fields(parsed: dict) -> dict:
+    """Validate shapes at cache/consumer boundaries without inventing metadata.
+
+    Shape validation cannot distinguish a cited DOI from the work's own DOI;
+    parse_detail_html therefore also requires explicit bibliographic labels.
+    """
+    result = {}
+    for key, raw in parsed.items():
+        value = clean(raw)
+        if not value:
+            continue
+        valid = False
+        if key in ('venue', 'book_title', 'publisher', 'place'):
+            valid = len(value) >= 3 and len(re.findall(r'[A-Za-zА-Яа-яЁё]', value)) >= 2 and not value.endswith((':', ';'))
+        elif key == 'doi':
+            value = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', value, flags=re.I).rstrip('.,;').lower()
+            valid = bool(re.fullmatch(r'10\.\d{4,9}/[^\s<>,;"\']+', value, re.I))
+        elif key == 'year':
+            valid = bool(re.fullmatch(r'(?:19|20)\d{2}', value))
+        elif key in ('volume', 'issue'):
+            # One range or supplement is plausible; multi-part grant numbers and
+            # fragments of prose are not publication volume/issue identifiers.
+            valid = bool(re.fullmatch(r'(?:[A-Za-zА-Яа-я]?\d{1,4}[A-Za-zА-Яа-я]?(?:[-/]\d{1,3})?(?:\(\d{1,4}\))?|[IVXLC]{1,8})', value))
+        elif key == 'pages':
+            value = re.sub(r'\s+', '', value).replace('–', '-').replace('—', '-')
+            valid = bool(re.fullmatch(r'[A-Za-zА-Яа-я]?\d{1,12}(?:-[A-Za-zА-Яа-я]?\d{1,12})?', value))
+        elif key == 'isbn':
+            compact = re.sub(r'[\s-]', '', value)
+            valid = bool(re.fullmatch(r'(?:\d{9}[\dXx]|\d{13})', compact))
+        elif key == 'issn':
+            valid = bool(re.fullmatch(r'\d{4}-?\d{3}[\dXx]', value))
+        if valid:
+            result[key] = value
+    return result
 
 
 def parse_detail_html(html: str) -> dict:
     soup = BeautifulSoup(html, 'html.parser')
+    for node in soup.select('script, style, nav, aside'):
+        node.decompose()
     text = soup.get_text('\n', strip=True)
-    flat = clean(text)
+    # Once abstract, funding or references start, bibliographic extraction ends.
+    # Article text can contain DOI links, "Т. 13" and grant "№ 22-12-20032".
+    metadata_lines = []
+    for line in text.splitlines():
+        if NON_BIBLIOGRAPHIC_SECTION.match(clean(line)):
+            break
+        metadata_lines.append(line)
+    text = '\n'.join(metadata_lines)
+    text = re.sub(rf'[^\S\n]+(?=(?:{LABEL_PATTERN})\s*:)', '\n', text, flags=re.I)
     parsed: dict[str, Any] = {}
-
-    doi = re.search(r'10\.\d{4,9}/[^\s<>,;"\']+', flat, flags=re.I)
-    if doi:
-        parsed['doi'] = doi.group(0).rstrip('.,;').lower()
-
-    isbn = re.search(r'ISBN\s*[:\-]?\s*([0-9Xx\- ]{10,20})', flat, flags=re.I)
-    if isbn:
-        parsed['isbn'] = clean(isbn.group(1))
-    issn = re.search(r'ISSN\s*[:\-]?\s*([0-9Xx]{4}\-?[0-9Xx]{4})', flat, flags=re.I)
-    if issn:
-        parsed['issn'] = clean(issn.group(1))
-
-    for label, key in [
-        ('Журнал', 'venue'), ('Название журнала', 'venue'), ('Сборник', 'venue'), ('Книга', 'book_title'),
-        ('Издательство', 'publisher'), ('Издатель', 'publisher'), ('Место издания', 'place'),
-        ('Год издания', 'year'), ('Год', 'year'), ('Том', 'volume'), ('Номер', 'issue'),
-        ('Выпуск', 'issue'), ('Страницы', 'pages'), ('DOI', 'doi')
-    ]:
+    for name, key in {
+        'citation_doi': 'doi', 'citation_journal_title': 'venue', 'citation_conference_title': 'venue',
+        'citation_volume': 'volume', 'citation_issue': 'issue', 'citation_issn': 'issn',
+        'citation_isbn': 'isbn', 'citation_publisher': 'publisher',
+    }.items():
+        node = soup.find('meta', attrs={'name': name})
+        if node and node.get('content'):
+            parsed.setdefault(key, node['content'])
+    for label, key in DETAIL_LABELS.items():
         value = text_after_label(text, label)
         if value and key not in parsed:
             parsed[key] = value
-
-    m = re.search(r'(?:^|[\s.])Т\.\s*([0-9IVXLCА-Яа-яA-Za-z.-]+)', flat)
-    if m:
-        parsed.setdefault('volume', m.group(1).strip(' .'))
-    m = re.search(r'№\s*([0-9A-Za-zА-Яа-я/().-]+)', flat)
-    if m:
-        parsed.setdefault('issue', m.group(1).strip(' .'))
-    m = re.search(r'[СC]\.\s*([0-9]+\s*[-–—]\s*[0-9]+|[0-9]+)', flat)
-    if m:
-        parsed.setdefault('pages', clean(m.group(1).replace('—', '-').replace('–', '-').replace(' ', '')))
-    m = re.search(r'\b((?:19|20)\d{2})\b', flat)
-    if m:
-        parsed.setdefault('year', int(m.group(1)))
-
-    # eLibrary item pages usually contain the bibliographic block as plain text; keep a short raw tail for audits.
-    parsed['raw_text_excerpt'] = flat[:2500]
+    parsed = sanitize_detail_fields(parsed)
+    parsed['raw_text_excerpt'] = clean(text)[:2500]
     return parsed
 
 

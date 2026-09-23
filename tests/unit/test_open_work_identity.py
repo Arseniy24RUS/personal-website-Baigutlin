@@ -106,6 +106,40 @@ class OpenWorkIdentityTests(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertTrue(all('provider_records' not in row for row in second[0]['provider_records'].values()))
 
+    def test_new_elibrary_identity_merges_into_already_published_doi(self):
+        original = {'title': 'Reviewed Mn2ScZ title', 'doi': '10.1000/translation', 'year': 2022,
+                    'authors_raw': 'D. Baigutlin, V. Sokolovskiy', 'gost_ru': 'Reviewed reference', 'sources': ['orcid_public_api']}
+        new_elibrary = {'elibrary_item_id': '59139914', 'title': 'Provider Mn-=SUB=-2-=/SUB=-ScZ title',
+                        'doi': '10.1000/translation', 'year': 2022, 'sources': ['elibrary']}
+        merged = build.merge_publication_sets([original], [new_elibrary])
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(merged[0]['elibrary_item_id'], '59139914')
+        self.assertEqual(merged[0]['title'], original['title'])
+        self.assertEqual(merged[0]['gost_ru'], original['gost_ru'])
+
+    def test_scopus_chemical_title_matches_existing_and_keeps_complete_authors(self):
+        original = {'elibrary_item_id': '123', 'title': 'Thermoelectric Ti 2 MnNiSi 2 alloy', 'year': 2024,
+                    'authors_raw': 'M. Matyunina, D. Baigutlin', 'sources': ['elibrary']}
+        with tempfile.TemporaryDirectory() as directory, patch.object(build, 'DATA', Path(directory)):
+            canon = [copy.deepcopy(original)]
+            added = build.merge_scopus(canon, [{'title': 'Thermoelectric Ti2MnNiSi2 alloy', 'year': '2024',
+                                              'doi': '10.1000/paper', 'eid': 'new-eid', 'creator': 'Matyunina M.'}], fresh=True)
+        self.assertEqual(added, 0)
+        self.assertEqual(canon[0]['authors_raw'], original['authors_raw'])
+        self.assertEqual(canon[0]['scopus']['eid'], 'new-eid')
+
+    def test_scopus_first_author_only_is_pending_but_complete_author_data_is_usable(self):
+        import harvest_scopus
+        first = harvest_scopus.normalize_work({'dc:title': 'New research', 'dc:creator': 'First A.',
+                                               'prism:doi': '10.1000/unknown'})
+        self.assertIsNone(first['authors_raw'])
+        with tempfile.TemporaryDirectory() as directory, patch.object(build, 'DATA', Path(directory)):
+            self.assertEqual(build.merge_scopus([], [first]), 0)
+            pending = json.loads((Path(directory) / 'scopus/pending_publications.json').read_text())
+            self.assertEqual(pending['records'][0]['reason'], 'complete_author_list_unavailable')
+        complete = harvest_scopus.normalize_work({'author': [{'authname': 'First A.'}, {'given-name': 'Danil', 'surname': 'Baigutlin'}]})
+        self.assertEqual(complete['authors_raw'], 'First A., Danil Baigutlin')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -196,12 +196,18 @@ def compute_h_index(citations: List[int]) -> int:
     return h
 
 def normalize_work(entry: Dict[str, Any]) -> Dict[str, Any]:
+    authors = entry.get('author') or []
+    if isinstance(authors, dict):
+        authors = [authors]
+    author_names = [str(author.get('authname') or ' '.join(filter(None, [author.get('given-name'), author.get('surname')]))).strip()
+                    for author in authors if isinstance(author, dict)]
     return {
         "source": "scopus_api",
         "eid": entry.get("eid"),
         "scopus_id": (entry.get("dc:identifier") or "").replace("SCOPUS_ID:", "") or None,
         "title": entry.get("dc:title"),
         "creator": entry.get("dc:creator"),
+        "authors_raw": ', '.join(name for name in author_names if name) or None,
         "journal_or_source": entry.get("prism:publicationName"),
         "cover_date": entry.get("prism:coverDate"),
         "year": (entry.get("prism:coverDate") or "")[:4] or None,

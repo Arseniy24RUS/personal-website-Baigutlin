@@ -12,7 +12,8 @@ from source_health import component_state, is_verified, observation_time, load_c
 from report_safety import clean_url
 from parse_wos_author_profile import normalized_summary as normalized_wos_summary
 from export_profile_env import public_profile_identifiers
-from harvest_open_sources import work_title_key, same_open_work, publication_type
+from harvest_open_sources import work_title_key, same_open_work, publication_type, normalize_title
+from legacy_metric_history import update_annual_history
 
 try:
     import yaml  # type: ignore
@@ -377,17 +378,27 @@ def merge_publication_sets(*datasets):
             if not isinstance(original, dict) or not (original.get('title') or original.get('title_ru') or original.get('title_en') or original.get('elibrary_item_id')):
                 continue
             incoming = copy.deepcopy(original)
+            for field in ('title', 'title_ru', 'title_en'):
+                if incoming.get(field):
+                    incoming[field] = normalize_title(incoming[field])
             for field in ('pages', 'page'):
                 if incoming.get(field) and not usable_source_pages(incoming[field]):
                     incoming.pop(field)
             key = elib_key(incoming)
             targets = by_key.get(key, [])
-            if any(kind == 'wos_uid' for kind, _ in source_identity_aliases(incoming)):
+            has_wos_identity = any(kind == 'wos_uid' for kind, _ in source_identity_aliases(incoming))
+            if has_wos_identity or (not targets and nd(incoming.get('doi'))):
                 position, ambiguous = match_source_aliases(aliases, incoming)
                 if ambiguous:
                     continue
                 if position is not None:
-                    targets = [rows[position]]
+                    matched = rows[position]
+                    # DOI can connect a newly indexed eLibrary record to its
+                    # already published open-source version. Two separately
+                    # reviewed eLibrary IDs remain distinct editorial records.
+                    if has_wos_identity or not (incoming.get('elibrary_item_id') and matched.get('elibrary_item_id')
+                                               and str(incoming['elibrary_item_id']) != str(matched['elibrary_item_id'])):
+                        targets = [matched]
                 else:
                     targets = [target for target in targets if not conflicting_source_identity(target, incoming)]
             if not targets:
@@ -500,7 +511,10 @@ def load_elib(ids):
     processed = read_json(DATA / 'processed/elibrary_publications.json', [])
     if not isinstance(processed, list):
         processed = []
+    curated = read_json(DATA / 'curation/open_elibrary_map.json', {})
+    curated_dois = {str(value.get('elibrary_item_id')): doi for doi, value in curated.items() if not doi.startswith('title:')}
     for p in processed:
+        set_missing(p, 'doi', curated_dois.get(str(p.get('elibrary_item_id'))))
         p.setdefault('sources', ['elibrary'])
         enrich_localized_fields(p)
     tsv = load_elib_tsv()
@@ -532,20 +546,28 @@ def indexes(records):
 
 def merge_scopus(canon, works, fresh=False):
     curated = read_json(DATA / 'curation/scopus_elibrary_map.json', {})
+    open_curated = read_json(DATA / 'curation/open_elibrary_map.json', {})
     by_item, by_title, by_ty, by_doi = indexes(canon)
     added = 0
+    pending = []
     for w in works or []:
         eid = w.get('eid')
         doi = nd(w.get('doi'))
         target = None
         if eid in curated:
             target = by_item.get(str(curated[eid].get('elibrary_item_id')))
+        if target is None and doi in open_curated:
+            target = by_item.get(str(open_curated[doi].get('elibrary_item_id')))
         if target is None and doi:
             target = by_doi.get(doi)
         if target is None:
-            target = by_title.get(nt(w.get('title')))
-        if target is None:
-            target = by_ty.get((nt(w.get('title')), str(w.get('year') or w.get('cover_date') or '')[:4]))
+            candidate = {**w, 'year': str(w.get('year') or w.get('cover_date') or '')[:4]}
+            matches = [row for row in canon if same_open_work(row, candidate)]
+            if len(matches) == 1:
+                target = matches[0]
+            elif len(matches) > 1:
+                pending.append({'reason': 'ambiguous_existing_identity', 'record': w})
+                continue
         if target:
             addsrc(target, 'scopus')
             if citation_is_new(w, target, 'scopus', fresh) or not target.get('scopus'):
@@ -556,15 +578,22 @@ def merge_scopus(canon, works, fresh=False):
             set_lang_field(target, 'title', w.get('title'), 'en')
             set_lang_field(target, 'venue', w.get('journal_or_source') or w.get('source_title'), 'en')
         else:
+            # Scopus Search dc:creator is only the first author. It is not a
+            # complete bibliography author list and must never be displayed as one.
+            authors = w.get('authors_raw')
+            if not authors:
+                pending.append({'reason': 'complete_author_list_unavailable', 'record': w})
+                continue
             rec = {
                 'source': 'scopus_api_auto',
                 'number': None,
                 'elibrary_item_id': None,
                 'year': int(str(w.get('year') or w.get('cover_date') or '')[:4]) if str(w.get('year') or w.get('cover_date') or '')[:4].isdigit() else None,
                 'rinc_citations': None,
-                'title': w.get('title'),
-                'authors_raw': w.get('creator') or '',
+                'title': normalize_title(w.get('title')),
+                'authors_raw': authors,
                 'venue': w.get('journal_or_source') or w.get('source_title'),
+                'publication_type': 'journal-article' if w.get('aggregation_type') == 'Journal' else None,
                 'pages': None,
                 'doi': doi,
                 'url': w.get('url') or (f"https://www.scopus.com/record/display.uri?eid={eid}" if eid else None),
@@ -581,6 +610,9 @@ def merge_scopus(canon, works, fresh=False):
             if title:
                 by_title[title] = rec
                 by_ty[(title, str(rec.get('year') or ''))] = rec
+    pending_path = DATA / 'scopus/pending_publications.json'
+    if pending or pending_path.exists():
+        write_json(pending_path, {'schema': 'scopus-publication-review/v1', 'records': pending})
     return added
 
 
@@ -879,6 +911,7 @@ def update_legacy_metrics(previous, scientometrics, elib_profile, health):
             if value is not None:
                 metrics[key] = value
     if is_fresh(component_state(health.get('elibrary'), 'metrics')):
+        result['annual'] = update_annual_history(result.get('annual', {}), elib_profile.get('yearly_metrics', {}))
         summary = (elib_profile or {}).get('summary') or {}
         for key, field in [('core_publications', 'publications_core_rinc'), ('core_citations', 'citations_core_rinc'), ('core_h_index', 'h_index_core_rinc')]:
             if summary.get(field) is not None:
@@ -899,9 +932,9 @@ def main():
     canon = load_elib(ids)
     scopus_metrics = read_json(DATA / f'scopus/scopus_author_{sid}_metrics.json', None) if sid else None
     scopus_works = read_json(DATA / f'scopus/scopus_author_{sid}_works.json', []) if sid else []
-    scopus_added = merge_scopus(canon, scopus_works, fresh=is_fresh(component_state(health['scopus'], 'publications')))
     open_records = (read_json(DATA / 'open/open_publications.json', {}) or {}).get('records', [])
     open_enriched, open_added = merge_open(canon, open_records)
+    scopus_added = merge_scopus(canon, scopus_works, fresh=is_fresh(component_state(health['scopus'], 'publications')))
     wos_profile = read_json(DATA / 'wos/profile_metrics.json', {})
     wos_records = (wos_profile or {}).get('records', [])
     wos_enriched, wos_added = merge_wos(canon, wos_records, fresh=is_fresh(component_state(health['wos'], 'publications')))

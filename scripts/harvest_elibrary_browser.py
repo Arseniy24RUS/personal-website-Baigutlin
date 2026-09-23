@@ -125,10 +125,13 @@ def collect_details(page, records, previous, *, on_item=None):
             parsed = parse_detail_html(html)
             # Authentication/session sidebars must never appear in published data.
             parsed.pop('raw_text_excerpt', None)
-            old = cached.get(item_id, {}).get('parsed', {})
+            if not parsed:
+                raise AuthFailure('item_metadata_unavailable')
             optional = ('venue', 'publisher', 'volume', 'issue', 'pages', 'doi', 'isbn', 'issn')
             stamp = now()
-            cached[item_id] = {'fetched_at': stamp, 'observed_at': stamp, 'status': 'success', 'observed_absent_fields': [key for key in optional if not parsed.get(key)], 'url': f'https://elibrary.ru/item.asp?id={item_id}', 'parsed': {**old, **{k: v for k, v in parsed.items() if v is not None and v != ''}}}
+            # A successful scoped observation replaces metadata. Otherwise a
+            # DOI previously taken from references would survive every refresh.
+            cached[item_id] = {'fetched_at': stamp, 'observed_at': stamp, 'status': 'success', 'observed_absent_fields': [key for key in optional if not parsed.get(key)], 'url': f'https://elibrary.ru/item.asp?id={item_id}', 'parsed': parsed}
             completed += 1
             if on_item:
                 on_item(payload, completed, max(0, len(todo) - completed))

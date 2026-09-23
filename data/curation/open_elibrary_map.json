@@ -28,5 +28,11 @@
     "reason": "Russian edition, not its separate translated DOI: Physics of Metals and Metallography, 2023, volume 124, issue 2, pages 126-133, same four authors and Mn2VAl/Mn2VSi title.",
     "evidence_url": "https://openalex.org/W4395001890",
     "verified_at": "2026-09-23"
+  },
+  "10.21883/pss.2022.13.53975.18s": {
+    "elibrary_item_id": "59139914",
+    "reason": "English translated edition, 2022, Physics of the Solid State 63(13):2082, four identical authors. Distinct from its Russian edition DOI10.21883/FTT.2021.11.51572.18s.",
+    "evidence_url": "https://journals.ioffe.ru/articles/53975",
+    "verified_at": "2026-09-23"
   }
 }

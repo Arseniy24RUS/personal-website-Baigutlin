@@ -99,7 +99,10 @@
     const badges = document.querySelectorAll('.source-metric[data-source]');
     const table = document.querySelector('[data-metrics-table]');
     if(!badges.length && !table) return;
-    const metrics = await loadJSON(['data/public/metrics.json'], value => value && ['wos', 'scopus', 'risc'].some(key => value[key]));
+    const [metrics, profile] = await Promise.all([
+      loadJSON(['data/public/metrics.json'], value => value && ['wos', 'scopus', 'risc'].some(key => value[key])),
+      table ? loadJSON(['data/public/profile.json'], value => value && typeof value === 'object') : null,
+    ]);
     if(!metrics) return;
     const keys = ['publications', 'citations', 'h_index'];
     const applyValues = (elements, source, core = false) => {
@@ -112,16 +115,48 @@
     if(table){
       table.querySelectorAll('tbody tr').forEach((row, index) => applyValues([...row.querySelectorAll('td')].slice(1), metrics[['wos','scopus','risc','risc'][index]], index === 3));
       table.dataset.loaded = 'true';
+      const freshness = document.querySelector('[data-metric-freshness]');
+      if(freshness){
+        const date = value => {
+          if(!value) return '';
+          const parsed = new Date(value);
+          return Number.isNaN(parsed.getTime()) ? '' : parsed.toLocaleDateString(language === 'en' ? 'en-GB' : 'ru-RU', {timeZone: 'UTC'});
+        };
+        freshness.innerHTML = [['wos', 'Web of Science'], ['scopus', 'Scopus'], ['elibrary', language === 'en' ? 'RSCI / eLibrary' : 'РИНЦ / eLibrary']].map(([key, label]) => {
+          const health = profile?.source_health?.[key] || {};
+          const state = health.components?.metrics || health;
+          const retained = profile?.scientometrics?.sources?.[key === 'elibrary' ? 'rinc' : key]?.retained_metrics || [];
+          const confirmed = state.status === 'success' && state.origin === 'live' && state.complete === true;
+          const checked = date(confirmed ? state.last_success_at : state.attempted_at);
+          let note;
+          if(confirmed && !retained.length){
+            note = language === 'en' ? `Metrics verified${checked ? ' on ' + checked : ''}.` : `Показатели проверены${checked ? ' ' + checked : ''}.`;
+          } else if(confirmed){
+            note = language === 'en' ? `Checked${checked ? ' on ' + checked : ''}; some previously saved values are retained.` : `Проверка${checked ? ' ' + checked : ''}; часть показателей сохранена из предыдущей версии.`;
+          } else if(state.attempted_at){
+            note = language === 'en' ? `Could not update${checked ? ' on ' + checked : ''}; previously saved values are shown.` : `Обновить показатели${checked ? ' ' + checked : ''} не удалось; показаны ранее сохранённые значения.`;
+          } else {
+            note = language === 'en' ? 'Saved values; verification date is unavailable.' : 'Сохранённые значения; дата проверки не указана.';
+          }
+          return `<p class="small muted" data-metric-source="${key}"><strong>${label}:</strong> ${escape(note)}</p>`;
+        }).join('');
+      }
     }
     const chart = document.querySelector('.annual-chart');
     const annual = metrics.annual;
     if(chart && Array.isArray(annual?.years) && Array.isArray(annual.risc_publications)){
       const max = Math.max(1, ...annual.risc_publications.filter(Number.isFinite));
       chart.innerHTML = annual.years.map((year, index) => {
-        const count = Number.isFinite(annual.risc_publications[index]) ? annual.risc_publications[index] : 0;
+        const count = Number.isFinite(annual.risc_publications[index]) ? annual.risc_publications[index] : null;
         const citations = annual.risc_citations?.[index];
-        return `<div class="annual-row"><span>${escape(year)}</span><div class="bar"><span style="width:${Math.max(0, Math.min(100, count/max*100))}%"></span></div><b>${count}</b><em>${Number.isFinite(citations) ? citations + (language === 'en' ? ' cit.' : ' цит.') : ''}</em></div>`;
+        return `<div class="annual-row"><span>${escape(year)}</span><div class="bar"><span style="width:${Math.max(0, Math.min(100, (count ?? 0)/max*100))}%"></span></div><b>${count ?? '—'}</b><em>${Number.isFinite(citations) ? citations + (language === 'en' ? ' cit.' : ' цит.') : ''}</em></div>`;
       }).join('');
+      const range = document.querySelector('[data-annual-range]');
+      const years = annual.years.map(Number).filter(Number.isFinite);
+      if(range && years.length){
+        const period = Math.min(...years) === Math.max(...years) ? String(years[0]) : `${Math.min(...years)}–${Math.max(...years)}`;
+        range.textContent = language === 'en' ? `Annual data: ${period}.` : `Данные по годам: ${period}.`;
+      }
     }
     const updated = document.querySelector('[data-elibrary-updated]');
     if(updated && metrics.metadata?.elibrary_updated) updated.textContent = metrics.metadata.elibrary_updated;

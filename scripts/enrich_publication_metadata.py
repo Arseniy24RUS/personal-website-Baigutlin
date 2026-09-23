@@ -14,6 +14,7 @@ from typing import Any
 
 import requests
 from build_public_data import usable_source_pages
+from harvest_elibrary_item_details import sanitize_detail_fields
 
 DATA = Path('data')
 PUBLIC = DATA / 'public'
@@ -147,6 +148,9 @@ def parse_elibrary_metadata(raw: str) -> dict[str, Any]:
     m = re.search(r'[СC]\.\s*([0-9]+\s*[-–—]\s*[0-9]+|[0-9]+)', raw)
     if m:
         out['pages'] = page_range(m.group(1))
+    article = re.search(r'\bArticle\s+([0-9A-Za-z]+)\b', raw, flags=re.I)
+    if article:
+        out['article_number'] = article.group(1)
     doi = re.search(r'10\.\d{4,9}/[^\s]+', raw, flags=re.I)
     if doi:
         out['doi'] = normalize_doi(doi.group(0))
@@ -167,7 +171,7 @@ def load_elibrary_item_details() -> dict:
 
 def merge_elibrary_item_details(pub: dict, details: dict) -> int:
     item_id = item_id_from_pub(pub)
-    parsed = ((details.get(item_id) or {}).get('parsed') or {}) if item_id else {}
+    parsed = sanitize_detail_fields(((details.get(item_id) or {}).get('parsed') or {})) if item_id else {}
     added = 0
     for src, dst in [
         ('venue', 'venue'), ('publisher', 'publisher'), ('place', 'place'), ('book_title', 'book_title'),

@@ -693,7 +693,7 @@
     "records_total_before_dedupe": 115,
     "records_total_after_dedupe": 46
   },
-  "canonical_publications_count": 84,
+  "canonical_publications_count": 75,
   "scopus_enriched_publications_count": 26,
   "scopus_auto_added_publications_count": 0,
   "open_sources_records_count": 46,

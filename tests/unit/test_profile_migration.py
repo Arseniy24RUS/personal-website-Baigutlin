@@ -49,10 +49,16 @@ class ProfileMigrationTests(unittest.TestCase):
                 if field not in generated and not field.endswith(('_count', '_size')):
                     self.assertEqual(after_profile[field], value, field)
             self.assertEqual(len(after_publications), len(publications))
-            by_id = {row['id']: row for row in after_publications}
+            def identity(row):
+                return ('id', row['id']) if row.get('id') else builder.elib_key(row)
+            def retains(previous, current):
+                if isinstance(previous, dict):
+                    return isinstance(current, dict) and all(
+                        key in current and retains(value, current[key]) for key, value in previous.items())
+                return previous == current
             for publication in publications:
-                for field, value in publication.items():
-                    self.assertEqual(by_id[publication['id']][field], value, (publication['id'], field))
+                candidates = [row for row in after_publications if identity(row) == identity(publication)]
+                self.assertTrue(any(retains(publication, row) for row in candidates), identity(publication))
             for source, legacy in [('rinc', 'risc'), ('scopus', 'scopus'), ('wos', 'wos')]:
                 for field in ('publications', 'citations', 'h_index'):
                     self.assertEqual(after_profile['scientometrics']['sources'][source][field], metrics[legacy][field])
@@ -77,6 +83,18 @@ class ProfileMigrationTests(unittest.TestCase):
         self.assertEqual(result['risc'], {'publications': 60, 'citations': 205, 'h_index': 8, 'core_publications': 34})
         self.assertEqual(result['scopus'], prior['scopus'])
         self.assertEqual(result['annual'], prior['annual'])
+
+    def test_annual_history_requires_verified_metrics_component(self):
+        prior = {'annual': {'years': [2024], 'risc_publications': [9]}}
+        profile = {'yearly_metrics': {'Число публикаций в РИНЦ': {'2025': 3, '2024': 9}}}
+        science = {'sources': {'rinc': {}, 'scopus': {}, 'wos': {}}}
+        blocked = {'elibrary': {'status': 'blocked', 'complete': False}}
+        self.assertEqual(builder.update_legacy_metrics(prior, science, profile, blocked), prior)
+        partial = {'elibrary': {'status': 'partial', 'components': {'metrics': {
+            'status': 'success', 'origin': 'live', 'complete': True,
+            'last_success_at': '2026-09-23T18:11:13+00:00'}}}}
+        fresh = builder.update_legacy_metrics(prior, science, profile, partial)
+        self.assertEqual(fresh['annual'], {'years': [2025, 2024], 'risc_publications': [3, 9]})
 
 
 if __name__ == '__main__':
