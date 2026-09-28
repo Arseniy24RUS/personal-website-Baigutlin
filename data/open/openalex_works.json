@@ -1,7 +1,7 @@
 {
   "meta": {
-    "count": 37,
-    "db_response_time_ms": 27,
+    "count": 40,
+    "db_response_time_ms": 23,
     "page": null,
     "per_page": 200,
     "next_cursor": null,
@@ -402,11 +402,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -1184,6 +1185,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G6349418998",
@@ -1206,8 +1208,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -1870,6 +1872,7 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G6367369057",
@@ -1887,8 +1890,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 40,
@@ -2903,11 +2906,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 28,
@@ -3811,6 +3815,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G6367369057",
@@ -3828,8 +3833,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -4734,6 +4739,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G3985008917",
@@ -4756,8 +4762,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 21,
@@ -5239,6 +5245,7 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G6367369057",
@@ -5256,8 +5263,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4403783022.pdf",
@@ -5766,9 +5773,12 @@
         {
           "author_position": "first",
           "author": {
-            "id": "https://openalex.org/A5028953052",
-            "display_name": "Maria V. Matyunina",
-            "orcid": "https://orcid.org/0000-0002-7307-3919"
+            "id": "https://openalex.org/A5080868736",
+            "display_name": "Mariya V. Matyunina",
+            "orcid": "https://orcid.org/0000-0002-7307-3919",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7307-3919"
+            ]
           },
           "institutions": [
             {
@@ -5805,7 +5815,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -5849,7 +5862,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -5886,7 +5902,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -5930,7 +5949,7 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 1,
       "corresponding_author_ids": [
-        "https://openalex.org/A5028953052"
+        "https://openalex.org/A5080868736"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I137211346"
@@ -6155,11 +6174,12 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -6754,11 +6774,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 49,
@@ -6907,7 +6928,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -6944,7 +6968,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -6998,7 +7025,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -7038,11 +7068,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.1186,
+      "fwci": 0.1178,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.22208756,
+        "value": 0.2200839,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7374,6 +7404,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G2849094437",
@@ -7415,11 +7446,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 98,
+      "referenced_works_count": 99,
       "referenced_works": [
         "https://openalex.org/W246141289",
         "https://openalex.org/W1628106207",
@@ -7511,6 +7542,7 @@
         "https://openalex.org/W3108701052",
         "https://openalex.org/W3136906685",
         "https://openalex.org/W3198117102",
+        "https://openalex.org/W3204207000",
         "https://openalex.org/W3217351971",
         "https://openalex.org/W4200384458",
         "https://openalex.org/W4226365222",
@@ -7991,7 +8023,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8061,7 +8093,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -8082,16 +8117,6 @@
               "type": "education",
               "lineage": [
                 "https://openalex.org/I137211346"
-              ]
-            },
-            {
-              "id": "https://openalex.org/I4210117032",
-              "display_name": "Nanosystem (Russia)",
-              "ror": "https://ror.org/01na16w26",
-              "country_code": "RU",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I4210117032"
               ]
             }
           ],
@@ -8122,8 +8147,7 @@
             {
               "raw_affiliation_string": "Department for Functional Nanosystems and High Temperature Materials, National University of Science and Technology \"MISiS\", 119049 Moscow, Russia",
               "institution_ids": [
-                "https://openalex.org/I12003341",
-                "https://openalex.org/I4210117032"
+                "https://openalex.org/I12003341"
               ]
             }
           ]
@@ -8133,7 +8157,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -8170,7 +8197,10 @@
           "author": {
             "id": "https://openalex.org/A5037614408",
             "display_name": "Olga N. Miroshkina",
-            "orcid": "https://orcid.org/0000-0003-2225-8726"
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
           },
           "institutions": [
             {
@@ -8207,7 +8237,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -8242,15 +8275,14 @@
       ],
       "institutions": [],
       "countries_distinct_count": 2,
-      "institutions_distinct_count": 4,
+      "institutions_distinct_count": 3,
       "corresponding_author_ids": [
         "https://openalex.org/A5031300739",
         "https://openalex.org/A5046178226"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I12003341",
-        "https://openalex.org/I137211346",
-        "https://openalex.org/I4210117032"
+        "https://openalex.org/I137211346"
       ],
       "apc_list": {
         "value": 2000,
@@ -8262,11 +8294,11 @@
         "currency": "CHF",
         "value_usd": 2224
       },
-      "fwci": 2.7264,
+      "fwci": 2.7002,
       "has_fulltext": true,
       "cited_by_count": 46,
       "citation_normalized_percentile": {
-        "value": 0.91822121,
+        "value": 0.91704746,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8629,6 +8661,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G1594967891",
@@ -8653,8 +8686,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4363648284.pdf",
@@ -9275,7 +9308,10 @@
           "author": {
             "id": "https://openalex.org/A5088143619",
             "display_name": "Kseniya R. Erager",
-            "orcid": "https://orcid.org/0009-0009-6058-2667"
+            "orcid": "https://orcid.org/0009-0009-6058-2667",
+            "observed_orcids": [
+              "https://orcid.org/0009-0009-6058-2667"
+            ]
           },
           "institutions": [
             {
@@ -9312,7 +9348,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -9349,7 +9388,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -9386,7 +9428,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -9430,11 +9475,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.1186,
+      "fwci": 0.1178,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.22252828,
+        "value": 0.22052546,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9786,14 +9831,15 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 25,
+      "referenced_works_count": 26,
       "referenced_works": [
         "https://openalex.org/W1145203703",
         "https://openalex.org/W1793248464",
@@ -9819,6 +9865,7 @@
         "https://openalex.org/W2953177571",
         "https://openalex.org/W3198117102",
         "https://openalex.org/W3204171710",
+        "https://openalex.org/W3204207000",
         "https://openalex.org/W4226365222"
       ],
       "related_works": [
@@ -10214,7 +10261,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -10281,7 +10328,10 @@
           "author": {
             "id": "https://openalex.org/A5088143619",
             "display_name": "Kseniya R. Erager",
-            "orcid": "https://orcid.org/0009-0009-6058-2667"
+            "orcid": "https://orcid.org/0009-0009-6058-2667",
+            "observed_orcids": [
+              "https://orcid.org/0009-0009-6058-2667"
+            ]
           },
           "institutions": [
             {
@@ -10318,7 +10368,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -10355,7 +10408,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -10392,7 +10448,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -10438,7 +10497,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.0745556,
+        "value": 0.07447748,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10730,17 +10789,18 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4394951611.pdf",
         "grobid_xml": "https://content.openalex.org/works/W4394951611.grobid-xml"
       },
-      "referenced_works_count": 24,
+      "referenced_works_count": 25,
       "referenced_works": [
         "https://openalex.org/W1145203703",
         "https://openalex.org/W1793248464",
@@ -10765,6 +10825,7 @@
         "https://openalex.org/W2771918478",
         "https://openalex.org/W2953177571",
         "https://openalex.org/W2963657244",
+        "https://openalex.org/W3204207000",
         "https://openalex.org/W4226365222"
       ],
       "related_works": [
@@ -11151,7 +11212,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -11765,11 +11826,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -12478,11 +12540,12 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 28,
@@ -12842,7 +12905,10 @@
           "author": {
             "id": "https://openalex.org/A5088143619",
             "display_name": "Kseniya R. Erager",
-            "orcid": "https://orcid.org/0009-0009-6058-2667"
+            "orcid": "https://orcid.org/0009-0009-6058-2667",
+            "observed_orcids": [
+              "https://orcid.org/0009-0009-6058-2667"
+            ]
           },
           "institutions": [
             {
@@ -12875,7 +12941,9 @@
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -12884,7 +12952,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -12917,7 +12988,9 @@
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -12926,7 +12999,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -12970,7 +13046,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -13003,7 +13082,9 @@
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         }
@@ -13021,7 +13102,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08260942,
+        "value": 0.08251382,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13367,11 +13448,12 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4388793270.pdf",
@@ -13728,6 +13810,7 @@
           "listed_in": [
             "cwts-core",
             "jufo-1",
+            "ki-jl-1",
             "norway-1"
           ],
           "host_organization": "https://openalex.org/P4310320990",
@@ -13764,7 +13847,10 @@
           "author": {
             "id": "https://openalex.org/A5016907908",
             "display_name": "Brandon Wilfong",
-            "orcid": "https://orcid.org/0000-0003-2489-9092"
+            "orcid": "https://orcid.org/0000-0003-2489-9092",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2489-9092"
+            ]
           },
           "institutions": [
             {
@@ -13803,7 +13889,10 @@
           "author": {
             "id": "https://openalex.org/A5053303844",
             "display_name": "A. S. Fedorko",
-            "orcid": "https://orcid.org/0000-0003-3536-1183"
+            "orcid": "https://orcid.org/0000-0003-3536-1183",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3536-1183"
+            ]
           },
           "institutions": [
             {
@@ -13840,7 +13929,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -13895,7 +13987,10 @@
           "author": {
             "id": "https://openalex.org/A5037614408",
             "display_name": "Olga N. Miroshkina",
-            "orcid": "https://orcid.org/0000-0003-2225-8726"
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
           },
           "institutions": [
             {
@@ -13950,7 +14045,10 @@
           "author": {
             "id": "https://openalex.org/A5088179810",
             "display_name": "Xiuquan Zhou",
-            "orcid": "https://orcid.org/0000-0002-1361-3880"
+            "orcid": "https://orcid.org/0000-0002-1361-3880",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1361-3880"
+            ]
           },
           "institutions": [
             {
@@ -13990,23 +14088,13 @@
           "author": {
             "id": "https://openalex.org/A5025746282",
             "display_name": "Gregory M. Stephen",
-            "orcid": "https://orcid.org/0000-0002-8477-4438"
+            "orcid": "https://orcid.org/0000-0002-8477-4438",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8477-4438"
+            ]
           },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I4210113003",
-              "display_name": "Physical Sciences (United States)",
-              "ror": "https://ror.org/021qvjc46",
-              "country_code": "US",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I4210113003"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
+          "institutions": [],
+          "countries": [],
           "is_corresponding": false,
           "raw_author_name": "Gregory M. Stephen",
           "raw_affiliation_strings": [
@@ -14016,9 +14104,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Laboratory for Physical Sciences, College Park, MD 20740, USA",
-              "institution_ids": [
-                "https://openalex.org/I4210113003"
-              ]
+              "institution_ids": []
             }
           ]
         },
@@ -14027,23 +14113,13 @@
           "author": {
             "id": "https://openalex.org/A5064218338",
             "display_name": "Adam L. Friedman",
-            "orcid": "https://orcid.org/0000-0003-0597-5432"
+            "orcid": "https://orcid.org/0000-0003-0597-5432",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0597-5432"
+            ]
           },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I4210113003",
-              "display_name": "Physical Sciences (United States)",
-              "ror": "https://ror.org/021qvjc46",
-              "country_code": "US",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I4210113003"
-              ]
-            }
-          ],
-          "countries": [
-            "US"
-          ],
+          "institutions": [],
+          "countries": [],
           "is_corresponding": false,
           "raw_author_name": "Adam L. Friedman",
           "raw_affiliation_strings": [
@@ -14053,9 +14129,7 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Laboratory for Physical Sciences, College Park, MD 20740, USA",
-              "institution_ids": [
-                "https://openalex.org/I4210113003"
-              ]
+              "institution_ids": []
             }
           ]
         },
@@ -14064,7 +14138,12 @@
           "author": {
             "id": "https://openalex.org/A5063165469",
             "display_name": "Vaibhav Sharma",
-            "orcid": "https://orcid.org/0000-0002-8646-3756"
+            "orcid": "https://orcid.org/0000-0002-8646-3756",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8646-3756",
+              "https://orcid.org/0009-0000-5814-657X",
+              "https://orcid.org/0009-0000-8067-3181"
+            ]
           },
           "institutions": [
             {
@@ -14101,7 +14180,10 @@
           "author": {
             "id": "https://openalex.org/A5010450370",
             "display_name": "Omar Bishop",
-            "orcid": "https://orcid.org/0009-0009-8790-9391"
+            "orcid": "https://orcid.org/0009-0009-8790-9391",
+            "observed_orcids": [
+              "https://orcid.org/0009-0009-8790-9391"
+            ]
           },
           "institutions": [
             {
@@ -14138,7 +14220,10 @@
           "author": {
             "id": "https://openalex.org/A5040067148",
             "display_name": "Radhika Barua",
-            "orcid": "https://orcid.org/0000-0001-9268-198X"
+            "orcid": "https://orcid.org/0000-0001-9268-198X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9268-198X"
+            ]
           },
           "institutions": [
             {
@@ -14175,7 +14260,10 @@
           "author": {
             "id": "https://openalex.org/A5022539697",
             "display_name": "Steven P. Bennett",
-            "orcid": "https://orcid.org/0000-0003-2615-6321"
+            "orcid": "https://orcid.org/0000-0003-2615-6321",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2615-6321"
+            ]
           },
           "institutions": [
             {
@@ -14215,7 +14303,10 @@
           "author": {
             "id": "https://openalex.org/A5008490310",
             "display_name": "Duck Young Chung",
-            "orcid": "https://orcid.org/0000-0002-1315-2631"
+            "orcid": "https://orcid.org/0000-0002-1315-2631",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1315-2631"
+            ]
           },
           "institutions": [
             {
@@ -14255,7 +14346,10 @@
           "author": {
             "id": "https://openalex.org/A5035758112",
             "display_name": "Mercouri G. Kanatzidis",
-            "orcid": "https://orcid.org/0000-0003-2037-4168"
+            "orcid": "https://orcid.org/0000-0003-2037-4168",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2037-4168"
+            ]
           },
           "institutions": [
             {
@@ -14312,7 +14406,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -14349,7 +14446,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -14386,7 +14486,10 @@
           "author": {
             "id": "https://openalex.org/A5009553286",
             "display_name": "B. Barbiellini",
-            "orcid": "https://orcid.org/0000-0002-3309-1362"
+            "orcid": "https://orcid.org/0000-0002-3309-1362",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3309-1362"
+            ]
           },
           "institutions": [
             {
@@ -14441,7 +14544,10 @@
           "author": {
             "id": "https://openalex.org/A5044781426",
             "display_name": "Arun Bansil",
-            "orcid": "https://orcid.org/0000-0002-3864-3461"
+            "orcid": "https://orcid.org/0000-0002-3864-3461",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3864-3461"
+            ]
           },
           "institutions": [
             {
@@ -14478,7 +14584,10 @@
           "author": {
             "id": "https://openalex.org/A5102899487",
             "display_name": "D. Heiman",
-            "orcid": "https://orcid.org/0000-0002-3426-7171"
+            "orcid": "https://orcid.org/0000-0002-3426-7171",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3426-7171"
+            ]
           },
           "institutions": [
             {
@@ -14492,33 +14601,13 @@
               ]
             },
             {
-              "id": "https://openalex.org/I4210125919",
-              "display_name": "Fusion (United States)",
-              "ror": "https://ror.org/02vtgg877",
-              "country_code": "US",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I4210125919"
-              ]
-            },
-            {
-              "id": "https://openalex.org/I4210126244",
-              "display_name": "Plasma Technology (United States)",
-              "ror": "https://ror.org/032pjd111",
-              "country_code": "US",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I4210126244"
-              ]
-            },
-            {
-              "id": "https://openalex.org/I4210149442",
-              "display_name": "Fusion Academy",
-              "ror": "https://ror.org/05rwjyj14",
+              "id": "https://openalex.org/I63966007",
+              "display_name": "Massachusetts Institute of Technology",
+              "ror": "https://ror.org/042nb2s44",
               "country_code": "US",
               "type": "education",
               "lineage": [
-                "https://openalex.org/I4210149442"
+                "https://openalex.org/I63966007"
               ]
             }
           ],
@@ -14542,9 +14631,7 @@
             {
               "raw_affiliation_string": "Plasma Science and Fusion Center, MIT, Cambridge, MA 02139, USA",
               "institution_ids": [
-                "https://openalex.org/I4210125919",
-                "https://openalex.org/I4210126244",
-                "https://openalex.org/I4210149442"
+                "https://openalex.org/I63966007"
               ]
             }
           ]
@@ -14554,7 +14641,10 @@
           "author": {
             "id": "https://openalex.org/A5030799888",
             "display_name": "Michelle E. Jamer",
-            "orcid": "https://orcid.org/0000-0001-5316-8817"
+            "orcid": "https://orcid.org/0000-0001-5316-8817",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5316-8817"
+            ]
           },
           "institutions": [
             {
@@ -14591,7 +14681,7 @@
       ],
       "institutions": [],
       "countries_distinct_count": 4,
-      "institutions_distinct_count": 13,
+      "institutions_distinct_count": 10,
       "corresponding_author_ids": [
         "https://openalex.org/A5030799888"
       ],
@@ -14604,11 +14694,11 @@
         "value_usd": 3410
       },
       "apc_paid": null,
-      "fwci": 1.0209,
+      "fwci": 0.9656,
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.72949595,
+        "value": 0.71468401,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14941,6 +15031,7 @@
             "listed_in": [
               "cwts-core",
               "jufo-1",
+              "ki-jl-1",
               "norway-1"
             ],
             "host_organization": "https://openalex.org/P4310320990",
@@ -15071,6 +15162,7 @@
           "listed_in": [
             "cwts-core",
             "jufo-1",
+            "ki-jl-1",
             "norway-1"
           ],
           "host_organization": "https://openalex.org/P4310320990",
@@ -15093,6 +15185,7 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G1286236842",
@@ -15408,8 +15501,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 41,
@@ -15491,7 +15584,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2022-05-22T00:00:00"
     },
     {
@@ -16077,11 +16170,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -17069,11 +17163,12 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -17978,11 +18073,12 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4320082123.pdf",
@@ -18886,6 +18982,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G3701234358",
@@ -18939,8 +19036,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 42,
@@ -20078,6 +20175,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G1286236842",
@@ -20265,8 +20363,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3204171710.pdf",
@@ -21805,6 +21903,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G2234419272",
@@ -21888,8 +21987,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -22854,6 +22953,7 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [
         {
@@ -22863,8 +22963,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3176847721.pdf",
@@ -24203,6 +24303,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G1720838285",
@@ -24268,8 +24369,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 62,
@@ -24765,10 +24866,26 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "Д.Р. Байгутлин",
           "raw_affiliation_strings": [
@@ -24778,7 +24895,9 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Челябинский государственный университет, Челябинск, Россия",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -24787,10 +24906,34 @@
           "author": {
             "id": "https://openalex.org/A5068745917",
             "display_name": "В.В. Соколовский",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "В.В. Соколовский",
           "raw_affiliation_strings": [
@@ -24801,11 +24944,15 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Национальный исследовательский технологический университет \"МИСиС\", Москва, Россия",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, Челябинск, Россия",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -24814,10 +24961,26 @@
           "author": {
             "id": "https://openalex.org/A5037614408",
             "display_name": "Olga N. Miroshkina",
-            "orcid": "https://orcid.org/0000-0003-2225-8726"
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "О.Н. Мирошкина",
           "raw_affiliation_strings": [
@@ -24832,7 +24995,9 @@
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, Челябинск, Россия",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -24841,10 +25006,36 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "В.Д. Бучельников",
           "raw_affiliation_strings": [
@@ -24855,27 +25046,31 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Национальный исследовательский технологический университет \"МИСиС\", Москва, Россия",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, Челябинск, Россия",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 0,
-      "institutions_distinct_count": 0,
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
       "corresponding_author_ids": [],
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0584,
+      "fwci": 0.0577,
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.20248809,
+        "value": 0.19523049,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25206,11 +25401,12 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3187506155.pdf",
@@ -26447,6 +26643,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G102163711",
@@ -26512,8 +26709,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 43,
@@ -28294,11 +28491,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -28622,7 +28820,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -28677,7 +28878,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -28714,7 +28918,10 @@
           "author": {
             "id": "https://openalex.org/A5037614408",
             "display_name": "Olga N. Miroshkina",
-            "orcid": "https://orcid.org/0000-0003-2225-8726"
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
           },
           "institutions": [
             {
@@ -28769,7 +28976,10 @@
           "author": {
             "id": "https://openalex.org/A5067059027",
             "display_name": "Mikhail A. Zagrebin",
-            "orcid": "https://orcid.org/0000-0001-9935-1182"
+            "orcid": "https://orcid.org/0000-0001-9935-1182",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9935-1182"
+            ]
           },
           "institutions": [
             {
@@ -28847,7 +29057,10 @@
           "author": {
             "id": "https://openalex.org/A5008200238",
             "display_name": "Johannes Nokelainen",
-            "orcid": "https://orcid.org/0000-0003-2885-7850"
+            "orcid": "https://orcid.org/0000-0003-2885-7850",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2885-7850"
+            ]
           },
           "institutions": [
             {
@@ -28884,7 +29097,10 @@
           "author": {
             "id": "https://openalex.org/A5018342242",
             "display_name": "Aki Pulkkinen",
-            "orcid": "https://orcid.org/0000-0002-4339-6928"
+            "orcid": "https://orcid.org/0000-0002-4339-6928",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4339-6928"
+            ]
           },
           "institutions": [
             {
@@ -28939,7 +29155,10 @@
           "author": {
             "id": "https://openalex.org/A5009553286",
             "display_name": "B. Barbiellini",
-            "orcid": "https://orcid.org/0000-0002-3309-1362"
+            "orcid": "https://orcid.org/0000-0002-3309-1362",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3309-1362"
+            ]
           },
           "institutions": [
             {
@@ -28994,7 +29213,10 @@
           "author": {
             "id": "https://openalex.org/A5071863845",
             "display_name": "K. Pussi",
-            "orcid": "https://orcid.org/0000-0003-4635-3269"
+            "orcid": "https://orcid.org/0000-0003-4635-3269",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4635-3269"
+            ]
           },
           "institutions": [
             {
@@ -29031,7 +29253,10 @@
           "author": {
             "id": "https://openalex.org/A5046717258",
             "display_name": "E. Lähderanta",
-            "orcid": "https://orcid.org/0000-0002-1596-2849"
+            "orcid": "https://orcid.org/0000-0002-1596-2849",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1596-2849"
+            ]
           },
           "institutions": [
             {
@@ -29068,7 +29293,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -29129,7 +29357,10 @@
           "author": {
             "id": "https://openalex.org/A5005918864",
             "display_name": "Alexey T. Zayak",
-            "orcid": "https://orcid.org/0000-0002-5741-3864"
+            "orcid": "https://orcid.org/0000-0002-5741-3864",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5741-3864"
+            ]
           },
           "institutions": [
             {
@@ -29169,11 +29400,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.3171,
+      "fwci": 1.3028,
       "has_fulltext": false,
-      "cited_by_count": 19,
+      "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.7879005,
+        "value": 0.78552675,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29525,6 +29756,7 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G2107171531",
@@ -29559,8 +29791,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 68,
@@ -29887,6 +30119,10 @@
       },
       "counts_by_year": [
         {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
           "year": 2025,
           "cited_by_count": 3
         },
@@ -29907,7 +30143,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2020-08-10T00:00:00"
     },
     {
@@ -29980,7 +30216,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -30024,7 +30263,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -30068,7 +30310,10 @@
           "author": {
             "id": "https://openalex.org/A5037614408",
             "display_name": "Olga N. Miroshkina",
-            "orcid": "https://orcid.org/0000-0003-2225-8726"
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
           },
           "institutions": [
             {
@@ -30112,7 +30357,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -30156,7 +30404,10 @@
           "author": {
             "id": "https://openalex.org/A5067059027",
             "display_name": "Mikhail A. Zagrebin",
-            "orcid": "https://orcid.org/0000-0001-9935-1182"
+            "orcid": "https://orcid.org/0000-0001-9935-1182",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9935-1182"
+            ]
           },
           "institutions": [
             {
@@ -30207,11 +30458,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.4053,
+      "fwci": 0.4027,
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.58582309,
+        "value": 0.58319598,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30448,15 +30699,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 36,
+      "referenced_works_count": 37,
       "referenced_works": [
+        "https://openalex.org/W285749399",
         "https://openalex.org/W1796169563",
         "https://openalex.org/W1963746362",
         "https://openalex.org/W1966915201",
@@ -30737,7 +30990,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -31884,6 +32137,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G1294746951",
@@ -31956,8 +32210,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 76,
@@ -32316,6 +32570,687 @@
       "created_date": "2019-05-03T00:00:00"
     },
     {
+      "id": "https://openalex.org/W3113983791",
+      "doi": "https://doi.org/10.47475/2500-0101-2020-15407",
+      "title": "Kinetics of phase transformations in Fe-Ga alloys",
+      "display_name": "Kinetics of phase transformations in Fe-Ga alloys",
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3113983791",
+        "doi": "https://doi.org/10.47475/2500-0101-2020-15407",
+        "mag": "3113983791"
+      },
+      "language": "ru",
+      "primary_location": {
+        "id": "doi:10.47475/2500-0101-2020-15407",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.47475/2500-0101-2020-15407",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210193663",
+          "display_name": "Челябинский физико-математический журнал",
+          "issn_l": "2500-0101",
+          "issn": [
+            "2500-0101",
+            "2619-0117"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Челябинский физико-математический журнал",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5068903819",
+            "display_name": "Oksana O. Pavlukhina",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "O.O. Pavlukhina",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University",
+            "National University of Science and Technology MISIS"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National University of Science and Technology MISIS",
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5031300739",
+            "display_name": "V. V. Sokolovskiy",
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "V.V. Sokolovskiy",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University",
+            "National University of Science and Technology MISIS"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National University of Science and Technology MISIS",
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5046178226",
+            "display_name": "V. D. Buchelnikov",
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "V.D. Buchelnikov",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University",
+            "National University of Science and Technology MISIS"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National University of Science and Technology MISIS",
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5067059027",
+            "display_name": "Mikhail A. Zagrebin",
+            "orcid": "https://orcid.org/0000-0001-9935-1182",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9935-1182"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M.A. Zagrebin",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University",
+            "National University of Science and Technology MISIS"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National University of Science and Technology MISIS",
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5080868736",
+            "display_name": "Mariya V. Matyunina",
+            "orcid": "https://orcid.org/0000-0002-7307-3919",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7307-3919"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M.V. Matyunina",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5037614408",
+            "display_name": "Olga N. Miroshkina",
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "O.N. Miroshkina",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5052917978",
+            "display_name": "Danil R. Baigutlin",
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "D.R. Baygutlin",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0761,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.40006425,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 94
+      },
+      "biblio": {
+        "volume": "5",
+        "issue": "4-1",
+        "first_page": "471",
+        "last_page": "479"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11222",
+        "display_name": "Magnetic Properties and Applications",
+        "score": 0.9937000274658203,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11222",
+          "display_name": "Magnetic Properties and Applications",
+          "score": 0.9937000274658203,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2504",
+            "display_name": "Electronic, Optical and Magnetic Materials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14076",
+          "display_name": "Material Properties and Failure Mechanisms",
+          "score": 0.9898999929428101,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10386",
+          "display_name": "Microstructure and Mechanical Properties of Steels",
+          "score": 0.9846000075340271,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/phase",
+          "display_name": "Phase (matter)",
+          "score": 0.6318904757499695
+        },
+        {
+          "id": "https://openalex.org/keywords/kinetics",
+          "display_name": "Kinetics",
+          "score": 0.6255703568458557
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.5217255353927612
+        },
+        {
+          "id": "https://openalex.org/keywords/metallurgy",
+          "display_name": "Metallurgy",
+          "score": 0.3576069474220276
+        },
+        {
+          "id": "https://openalex.org/keywords/thermodynamics",
+          "display_name": "Thermodynamics",
+          "score": 0.34953469038009644
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.24713864922523499
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.1690637171268463
+        },
+        {
+          "id": "https://openalex.org/keywords/classical-mechanics",
+          "display_name": "Classical mechanics",
+          "score": 0.058040887117385864
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C44280652",
+          "wikidata": "https://www.wikidata.org/wiki/Q104837",
+          "display_name": "Phase (matter)",
+          "level": 2,
+          "score": 0.6318904757499695
+        },
+        {
+          "id": "https://openalex.org/C148898269",
+          "wikidata": "https://www.wikidata.org/wiki/Q1108792",
+          "display_name": "Kinetics",
+          "level": 2,
+          "score": 0.6255703568458557
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.5217255353927612
+        },
+        {
+          "id": "https://openalex.org/C191897082",
+          "wikidata": "https://www.wikidata.org/wiki/Q11467",
+          "display_name": "Metallurgy",
+          "level": 1,
+          "score": 0.3576069474220276
+        },
+        {
+          "id": "https://openalex.org/C97355855",
+          "wikidata": "https://www.wikidata.org/wiki/Q11473",
+          "display_name": "Thermodynamics",
+          "level": 1,
+          "score": 0.34953469038009644
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.24713864922523499
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.1690637171268463
+        },
+        {
+          "id": "https://openalex.org/C74650414",
+          "wikidata": "https://www.wikidata.org/wiki/Q11397",
+          "display_name": "Classical mechanics",
+          "level": 1,
+          "score": 0.058040887117385864
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.47475/2500-0101-2020-15407",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.47475/2500-0101-2020-15407",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210193663",
+            "display_name": "Челябинский физико-математический журнал",
+            "issn_l": "2500-0101",
+            "issn": [
+              "2500-0101",
+              "2619-0117"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Челябинский физико-математический журнал",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "x_sdgs": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4246450666",
+        "https://openalex.org/W2898370298",
+        "https://openalex.org/W4388998267",
+        "https://openalex.org/W2744391499",
+        "https://openalex.org/W3120461830",
+        "https://openalex.org/W4230250635",
+        "https://openalex.org/W3041790586",
+        "https://openalex.org/W2018879842",
+        "https://openalex.org/W3144504424",
+        "https://openalex.org/W2325423348"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-09-22T06:50:58.402377",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
       "id": "https://openalex.org/W3018087480",
       "doi": "https://doi.org/10.31857/s0015323020020035",
       "title": "Фазовые превращения в сплавах Ni(Co)–Mn(Cr,C)–(In,Sn): исследование из первых принципов",
@@ -32650,11 +33585,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -33104,6 +34040,7 @@
       },
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G4054269932",
@@ -33121,8 +34058,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3033137432.pdf",
@@ -33324,6 +34261,340 @@
       },
       "counts_by_year": [],
       "updated_date": "2026-09-22T06:50:58.402377",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3124031154",
+      "doi": null,
+      "title": "КИНЕТИКА ФАЗОВЫХ ПРЕВРАЩЕНИЙ В СПЛАВАХ FE-GA",
+      "display_name": "КИНЕТИКА ФАЗОВЫХ ПРЕВРАЩЕНИЙ В СПЛАВАХ FE-GA",
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3124031154",
+        "mag": "3124031154"
+      },
+      "language": "ru",
+      "primary_location": {
+        "id": "mag:3124031154",
+        "is_oa": false,
+        "landing_page_url": "https://cyberleninka.ru/article/n/kinetika-fazovyh-prevrascheniy-v-splavah-fe-ga",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210193663",
+          "display_name": "Челябинский физико-математический журнал",
+          "issn_l": "2500-0101",
+          "issn": [
+            "2500-0101",
+            "2619-0117"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Челябинский физико-математический журнал",
+        "raw_type": null
+      },
+      "type": "article",
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5005986299",
+            "display_name": "Павлухина Оксана Олеговна",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Павлухина Оксана Олеговна",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5001823446",
+            "display_name": "Соколовский Владимир Владимирович",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Соколовский Владимир Владимирович",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5064137501",
+            "display_name": "Бучельников Василий Дмитриевич",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Бучельников Василий Дмитриевич",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002838432",
+            "display_name": "Загребин Михаил Александрович",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Загребин Михаил Александрович",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5077047402",
+            "display_name": "Матюнина Мария Викторовна",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Матюнина Мария Викторовна",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5037614408",
+            "display_name": "Olga N. Miroshkina",
+            "orcid": "https://orcid.org/0000-0003-2225-8726",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2225-8726"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Мирошкина Ольга Николаевна",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5052917978",
+            "display_name": "Danil R. Baigutlin",
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Байгутлин Данил Расулович",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.36268777,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "5",
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T14423",
+        "display_name": "Military Technology and Strategies",
+        "score": 0.018400000408291817,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T14423",
+          "display_name": "Military Technology and Strategies",
+          "score": 0.018400000408291817,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2202",
+            "display_name": "Aerospace Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13154",
+          "display_name": "Legal and Regulatory Analysis",
+          "score": 0.010499999858438969,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3313",
+            "display_name": "Transportation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14235",
+          "display_name": "Linguistic, Cultural, and Literary Studies",
+          "score": 0.00860000029206276,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.34662318229675293
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.34662318229675293
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:3124031154",
+          "is_oa": false,
+          "landing_page_url": "https://cyberleninka.ru/article/n/kinetika-fazovyh-prevrascheniy-v-splavah-fe-ga",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210193663",
+            "display_name": "Челябинский физико-математический журнал",
+            "issn_l": "2500-0101",
+            "issn": [
+              "2500-0101",
+              "2619-0117"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": "Челябинский физико-математический журнал",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "x_sdgs": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -34022,6 +35293,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G4054269932",
@@ -34039,8 +35311,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 31,
@@ -34135,6 +35407,7 @@
           "listed_in": [
             "cwts-core",
             "jufo-2",
+            "ki-jl-1",
             "norway-1"
           ],
           "host_organization": "https://openalex.org/P4310320261",
@@ -34171,7 +35444,10 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
           "institutions": [
             {
@@ -34232,7 +35508,10 @@
           "author": {
             "id": "https://openalex.org/A5043659159",
             "display_name": "Markus E. Gruner",
-            "orcid": "https://orcid.org/0000-0002-2306-1258"
+            "orcid": "https://orcid.org/0000-0002-2306-1258",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2306-1258"
+            ]
           },
           "institutions": [
             {
@@ -34269,7 +35548,8 @@
           "author": {
             "id": "https://openalex.org/A5069719946",
             "display_name": "P. Entel",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -34306,7 +35586,10 @@
           "author": {
             "id": "https://openalex.org/A5022365845",
             "display_name": "M. Acet",
-            "orcid": "https://orcid.org/0000-0003-3601-1601"
+            "orcid": "https://orcid.org/0000-0003-3601-1601",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3601-1601"
+            ]
           },
           "institutions": [
             {
@@ -34343,7 +35626,10 @@
           "author": {
             "id": "https://openalex.org/A5036849407",
             "display_name": "Aslı Çakır",
-            "orcid": "https://orcid.org/0000-0003-4757-555X"
+            "orcid": "https://orcid.org/0000-0003-4757-555X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4757-555X"
+            ]
           },
           "institutions": [
             {
@@ -34380,7 +35666,10 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
             {
@@ -34417,7 +35706,10 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
           "institutions": [
             {
@@ -34481,16 +35773,16 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.8393,
+      "fwci": 0.8285,
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.68355342,
+        "value": 0.67933692,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 89,
+        "min": 88,
         "max": 98
       },
       "biblio": {
@@ -34751,6 +36043,7 @@
             "listed_in": [
               "cwts-core",
               "jufo-2",
+              "ki-jl-1",
               "norway-1"
             ],
             "host_organization": "https://openalex.org/P4310320261",
@@ -34775,6 +36068,7 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G2431406832",
@@ -34828,11 +36122,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 78,
+      "referenced_works_count": 79,
       "referenced_works": [
         "https://openalex.org/W613069045",
         "https://openalex.org/W832976576",
@@ -34894,6 +36188,7 @@
         "https://openalex.org/W2137291180",
         "https://openalex.org/W2152337107",
         "https://openalex.org/W2159539767",
+        "https://openalex.org/W2274695726",
         "https://openalex.org/W2319413591",
         "https://openalex.org/W2460735765",
         "https://openalex.org/W2461435319",
@@ -35231,7 +36526,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-25T08:18:29.962427",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -35294,9 +36589,22 @@
           "author": {
             "id": "https://openalex.org/A5052917978",
             "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812"
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
           },
           "institutions": [
+            {
+              "id": "https://openalex.org/I107640659",
+              "display_name": "South Ural State University",
+              "ror": "https://ror.org/03sfk2504",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I107640659"
+              ]
+            },
             {
               "id": "https://openalex.org/I137211346",
               "display_name": "Chelyabinsk State University",
@@ -35327,7 +36635,10 @@
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\nЮжно-Уральский государственный университет, г. Челябинск",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I107640659",
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -35336,10 +36647,36 @@
           "author": {
             "id": "https://openalex.org/A5067059027",
             "display_name": "Mikhail A. Zagrebin",
-            "orcid": "https://orcid.org/0000-0001-9935-1182"
+            "orcid": "https://orcid.org/0000-0001-9935-1182",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9935-1182"
+            ]
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I107640659",
+              "display_name": "South Ural State University",
+              "ror": "https://ror.org/03sfk2504",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I107640659"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "M.A. Zagrebin",
           "raw_affiliation_strings": [
@@ -35350,11 +36687,17 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\r\nЮжно-Уральский государственный университет, г. Челябинск",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I107640659",
+                "https://openalex.org/I137211346"
+              ]
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\nЮжно-Уральский государственный университет, г. Челябинск",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I107640659",
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -35363,10 +36706,36 @@
           "author": {
             "id": "https://openalex.org/A5031300739",
             "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016"
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "V.V. Sokolovskiy",
           "raw_affiliation_strings": [
@@ -35377,11 +36746,17 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\r\nНациональный исследовательский технологический университет «МИСиС», г. Москва",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I12003341",
+                "https://openalex.org/I137211346"
+              ]
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\nНациональный исследовательский технологический университет «МИСиС», г. Москва",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I12003341",
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         },
@@ -35390,10 +36765,36 @@
           "author": {
             "id": "https://openalex.org/A5046178226",
             "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X"
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
           },
-          "institutions": [],
-          "countries": [],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
           "is_corresponding": false,
           "raw_author_name": "V.D. Buchelnikov",
           "raw_affiliation_strings": [
@@ -35404,18 +36805,24 @@
           "affiliations": [
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\r\nНациональный исследовательский технологический университет «МИСиС», г. Москва",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I12003341",
+                "https://openalex.org/I137211346"
+              ]
             },
             {
               "raw_affiliation_string": "Челябинский государственный университет, г. Челябинск\nНациональный исследовательский технологический университет «МИСиС», г. Москва",
-              "institution_ids": []
+              "institution_ids": [
+                "https://openalex.org/I12003341",
+                "https://openalex.org/I137211346"
+              ]
             }
           ]
         }
       ],
       "institutions": [],
       "countries_distinct_count": 1,
-      "institutions_distinct_count": 1,
+      "institutions_distinct_count": 3,
       "corresponding_author_ids": [],
       "corresponding_institution_ids": [],
       "apc_list": null,
@@ -35424,7 +36831,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04809484,
+        "value": 0.04766098,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35858,6 +37265,7 @@
         }
       ],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [
         {
           "id": "https://openalex.org/G2211902176",
@@ -35882,8 +37290,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2958652708.pdf",
@@ -36814,11 +38222,12 @@
       "best_oa_location": null,
       "sustainable_development_goals": [],
       "x_sdgs": [],
+      "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -36991,8 +38400,741 @@
       ],
       "updated_date": "2026-09-22T06:50:58.402377",
       "created_date": "2019-01-25T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2766170056",
+      "doi": "https://doi.org/10.1016/j.physb.2017.10.066",
+      "title": "Structural, magnetic and thermodynamic properties of Mn3-X-C (X = Ga, Sn) compounds: ab initio study",
+      "display_name": "Structural, magnetic and thermodynamic properties of Mn3-X-C (X = Ga, Sn) compounds: ab initio study",
+      "publication_year": 2017,
+      "publication_date": "2017-10-23",
+      "ids": {
+        "openalex": "https://openalex.org/W2766170056",
+        "doi": "https://doi.org/10.1016/j.physb.2017.10.066",
+        "mag": "2766170056"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.physb.2017.10.066",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.physb.2017.10.066",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S34296711",
+          "display_name": "Physica B Condensed Matter",
+          "issn_l": "0921-4526",
+          "issn": [
+            "0921-4526",
+            "1873-2135"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physica B: Condensed Matter",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5052917978",
+            "display_name": "Danil R. Baigutlin",
+            "orcid": "https://orcid.org/0000-0002-4130-3812",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4130-3812"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Danil Baygutlin",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University, 454001 Chelyabinsk, Russia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5081747848",
+            "display_name": "Tatiana Pershukova",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Tatiana Pershukova",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University, 454001 Chelyabinsk, Russia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5031300739",
+            "display_name": "V. V. Sokolovskiy",
+            "orcid": "https://orcid.org/0000-0002-5939-2016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5939-2016"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12003341",
+              "display_name": "National University of Science and Technology",
+              "ror": "https://ror.org/019vsm959",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Vladimir Sokolovskiy",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+            "National University of Science and Technology “MIS&S”, 119049 Moscow, Russia",
+            "National University of Science and Technology \"MIS&S\", 119049 Moscow, Russia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National University of Science and Technology “MIS&S”, 119049 Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National University of Science and Technology \"MIS&S\", 119049 Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I12003341"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5067059027",
+            "display_name": "Mikhail A. Zagrebin",
+            "orcid": "https://orcid.org/0000-0001-9935-1182",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9935-1182"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I107640659",
+              "display_name": "South Ural State University",
+              "ror": "https://ror.org/03sfk2504",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I107640659"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mikhail Zagrebin",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+            "National Research South Ural State University, 454080 Chelyabinsk, Russia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            },
+            {
+              "raw_affiliation_string": "National Research South Ural State University, 454080 Chelyabinsk, Russia",
+              "institution_ids": [
+                "https://openalex.org/I107640659"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5046178226",
+            "display_name": "V. D. Buchelnikov",
+            "orcid": "https://orcid.org/0000-0002-5638-255X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5638-255X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I137211346",
+              "display_name": "Chelyabinsk State University",
+              "ror": "https://ror.org/04s36qm86",
+              "country_code": "RU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ],
+          "countries": [
+            "RU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Vasiliy Buchelnikov",
+          "raw_affiliation_strings": [
+            "Chelyabinsk State University, 454001 Chelyabinsk, Russia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Chelyabinsk State University, 454001 Chelyabinsk, Russia",
+              "institution_ids": [
+                "https://openalex.org/I137211346"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5031300739"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I12003341",
+        "https://openalex.org/I137211346"
+      ],
+      "apc_list": {
+        "value": 3250,
+        "currency": "USD",
+        "value_usd": 3250
+      },
+      "apc_paid": null,
+      "fwci": 0.0,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.11932494,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 96
+      },
+      "biblio": {
+        "volume": "549",
+        "issue": null,
+        "first_page": "94",
+        "last_page": "97"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12875",
+        "display_name": "Thermal Expansion and Ionic Conductivity",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12875",
+          "display_name": "Thermal Expansion and Ionic Conductivity",
+          "score": 0.9998999834060669,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12200",
+          "display_name": "Heusler alloys: electronic and magnetic properties",
+          "score": 0.9991000294685364,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2504",
+            "display_name": "Electronic, Optical and Magnetic Materials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11782",
+          "display_name": "Magnetic Properties of Alloys",
+          "score": 0.9980000257492065,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2504",
+            "display_name": "Electronic, Optical and Magnetic Materials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/ferrimagnetism",
+          "display_name": "Ferrimagnetism",
+          "score": 0.7805960178375244
+        },
+        {
+          "id": "https://openalex.org/keywords/magnetic-moment",
+          "display_name": "Magnetic moment",
+          "score": 0.6105353236198425
+        },
+        {
+          "id": "https://openalex.org/keywords/ferromagnetism",
+          "display_name": "Ferromagnetism",
+          "score": 0.6078566312789917
+        },
+        {
+          "id": "https://openalex.org/keywords/condensed-matter-physics",
+          "display_name": "Condensed matter physics",
+          "score": 0.5520534515380859
+        },
+        {
+          "id": "https://openalex.org/keywords/ab-initio",
+          "display_name": "Ab initio",
+          "score": 0.5411848425865173
+        },
+        {
+          "id": "https://openalex.org/keywords/density-functional-theory",
+          "display_name": "Density functional theory",
+          "score": 0.5072662234306335
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.4765620529651642
+        },
+        {
+          "id": "https://openalex.org/keywords/debye-model",
+          "display_name": "Debye model",
+          "score": 0.4761350452899933
+        },
+        {
+          "id": "https://openalex.org/keywords/ab-initio-quantum-chemistry-methods",
+          "display_name": "Ab initio quantum chemistry methods",
+          "score": 0.44251886010169983
+        },
+        {
+          "id": "https://openalex.org/keywords/magnetization",
+          "display_name": "Magnetization",
+          "score": 0.384590208530426
+        },
+        {
+          "id": "https://openalex.org/keywords/thermodynamics",
+          "display_name": "Thermodynamics",
+          "score": 0.34884506464004517
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.2976300120353699
+        },
+        {
+          "id": "https://openalex.org/keywords/magnetic-field",
+          "display_name": "Magnetic field",
+          "score": 0.17884841561317444
+        },
+        {
+          "id": "https://openalex.org/keywords/computational-chemistry",
+          "display_name": "Computational chemistry",
+          "score": 0.17346617579460144
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.1492215096950531
+        },
+        {
+          "id": "https://openalex.org/keywords/molecule",
+          "display_name": "Molecule",
+          "score": 0.06677284836769104
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C779372",
+          "wikidata": "https://www.wikidata.org/wiki/Q217121",
+          "display_name": "Ferrimagnetism",
+          "level": 4,
+          "score": 0.7805960178375244
+        },
+        {
+          "id": "https://openalex.org/C54553102",
+          "wikidata": "https://www.wikidata.org/wiki/Q242657",
+          "display_name": "Magnetic moment",
+          "level": 2,
+          "score": 0.6105353236198425
+        },
+        {
+          "id": "https://openalex.org/C82217956",
+          "wikidata": "https://www.wikidata.org/wiki/Q184207",
+          "display_name": "Ferromagnetism",
+          "level": 2,
+          "score": 0.6078566312789917
+        },
+        {
+          "id": "https://openalex.org/C26873012",
+          "wikidata": "https://www.wikidata.org/wiki/Q214781",
+          "display_name": "Condensed matter physics",
+          "level": 1,
+          "score": 0.5520534515380859
+        },
+        {
+          "id": "https://openalex.org/C2781442258",
+          "wikidata": "https://www.wikidata.org/wiki/Q46310",
+          "display_name": "Ab initio",
+          "level": 2,
+          "score": 0.5411848425865173
+        },
+        {
+          "id": "https://openalex.org/C152365726",
+          "wikidata": "https://www.wikidata.org/wiki/Q1048589",
+          "display_name": "Density functional theory",
+          "level": 2,
+          "score": 0.5072662234306335
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.4765620529651642
+        },
+        {
+          "id": "https://openalex.org/C25376523",
+          "wikidata": "https://www.wikidata.org/wiki/Q1151031",
+          "display_name": "Debye model",
+          "level": 2,
+          "score": 0.4761350452899933
+        },
+        {
+          "id": "https://openalex.org/C183971685",
+          "wikidata": "https://www.wikidata.org/wiki/Q547605",
+          "display_name": "Ab initio quantum chemistry methods",
+          "level": 3,
+          "score": 0.44251886010169983
+        },
+        {
+          "id": "https://openalex.org/C32546565",
+          "wikidata": "https://www.wikidata.org/wiki/Q856711",
+          "display_name": "Magnetization",
+          "level": 3,
+          "score": 0.384590208530426
+        },
+        {
+          "id": "https://openalex.org/C97355855",
+          "wikidata": "https://www.wikidata.org/wiki/Q11473",
+          "display_name": "Thermodynamics",
+          "level": 1,
+          "score": 0.34884506464004517
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.2976300120353699
+        },
+        {
+          "id": "https://openalex.org/C115260700",
+          "wikidata": "https://www.wikidata.org/wiki/Q11408",
+          "display_name": "Magnetic field",
+          "level": 2,
+          "score": 0.17884841561317444
+        },
+        {
+          "id": "https://openalex.org/C147597530",
+          "wikidata": "https://www.wikidata.org/wiki/Q369472",
+          "display_name": "Computational chemistry",
+          "level": 1,
+          "score": 0.17346617579460144
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.1492215096950531
+        },
+        {
+          "id": "https://openalex.org/C32909587",
+          "wikidata": "https://www.wikidata.org/wiki/Q11369",
+          "display_name": "Molecule",
+          "level": 2,
+          "score": 0.06677284836769104
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.physb.2017.10.066",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.physb.2017.10.066",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S34296711",
+            "display_name": "Physica B Condensed Matter",
+            "issn_l": "0921-4526",
+            "issn": [
+              "0921-4526",
+              "1873-2135"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physica B: Condensed Matter",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "x_sdgs": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320310013",
+          "display_name": "North Carolina State University",
+          "ror": "https://ror.org/04tj63d06"
+        },
+        {
+          "id": "https://openalex.org/F4320324099",
+          "display_name": "Russian Science Foundation",
+          "ror": "https://ror.org/03y2gwe85"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 19,
+      "referenced_works": [
+        "https://openalex.org/W19944993",
+        "https://openalex.org/W1644688680",
+        "https://openalex.org/W1975725806",
+        "https://openalex.org/W1979544533",
+        "https://openalex.org/W1981368803",
+        "https://openalex.org/W1995643241",
+        "https://openalex.org/W1996678743",
+        "https://openalex.org/W2011492763",
+        "https://openalex.org/W2023543865",
+        "https://openalex.org/W2036113194",
+        "https://openalex.org/W2044661329",
+        "https://openalex.org/W2045487679",
+        "https://openalex.org/W2068391393",
+        "https://openalex.org/W2074556637",
+        "https://openalex.org/W2082472243",
+        "https://openalex.org/W2083222334",
+        "https://openalex.org/W2088188666",
+        "https://openalex.org/W2134840874",
+        "https://openalex.org/W3103012621"
+      ],
+      "related_works": [
+        "https://openalex.org/W21917283",
+        "https://openalex.org/W4297899548",
+        "https://openalex.org/W2599507327",
+        "https://openalex.org/W2071676860",
+        "https://openalex.org/W2063391978",
+        "https://openalex.org/W800251536",
+        "https://openalex.org/W2595508481",
+        "https://openalex.org/W2065301963",
+        "https://openalex.org/W4287877216",
+        "https://openalex.org/W240981405"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-09-22T06:50:58.402377",
+      "created_date": "2025-10-10T00:00:00"
     }
   ],
   "group_by": [],
-  "last_success_at": "2026-09-23T18:09:51+00:00"
+  "last_success_at": "2026-09-28T12:10:02+00:00"
 }

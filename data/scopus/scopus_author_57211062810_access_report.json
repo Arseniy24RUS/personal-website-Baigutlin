@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "attempted_at": "2026-09-23T18:17:08+00:00",
-  "last_success_at": "2026-09-23T18:17:08+00:00",
+  "attempted_at": "2026-09-28T12:14:25+00:00",
+  "last_success_at": "2026-09-28T12:14:25+00:00",
   "origin": "live",
   "complete": true,
   "record_count": 26,
   "reason": null,
-  "generated_at": "2026-09-23T18:17:08+00:00",
+  "generated_at": "2026-09-28T12:14:25+00:00",
   "author_attempts": {
     "STANDARD": {
       "status": "error",

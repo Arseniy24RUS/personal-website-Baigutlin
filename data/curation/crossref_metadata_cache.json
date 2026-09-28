@@ -1,0 +1,934 @@
+{
+  "generated_at": "2026-09-28T12:15:39+00:00",
+  "items": {
+    "10.1103/bf1b-wyp9": {
+      "fetched_at": "2026-09-28T12:14:38+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1103/bf1b-wyp9",
+        "type": "journal-article",
+        "title": "Physical trends and design principles in aliovalent double half-Heusler thermoelectrics from high-throughput computational screening",
+        "subtitle": null,
+        "container_title": "Physical Review B",
+        "publisher": "American Physical Society (APS)",
+        "volume": "114",
+        "issue": "14",
+        "page": "",
+        "year": 2026,
+        "issn": [
+          "2469-9950",
+          "2469-9969"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1103/bf1b-wyp9"
+      }
+    },
+    "10.47475/2500-0101-2025-10-2-286-296": {
+      "fetched_at": "2026-09-28T12:14:39+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.47475/2500-0101-2025-10-2-286-296",
+        "type": "journal-article",
+        "title": "PREDICTION OF ELASTIC PROPERTIES OF THE CRYSTAL STRUCTURE OF HEUSLER ALLOYS USING MACHINE LEARNING",
+        "subtitle": null,
+        "container_title": "Челябинский физико-математический журнал",
+        "publisher": "Chelyabinsk State University",
+        "volume": "10",
+        "issue": "2",
+        "page": "286–296",
+        "year": 2025,
+        "issn": [
+          "2619-0117",
+          "2500-0101"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.47475/2500-0101-2025-10-2-286-296"
+      }
+    },
+    "10.1016/j.physb.2024.416701": {
+      "fetched_at": "2026-09-28T12:14:40+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.physb.2024.416701",
+        "type": "journal-article",
+        "title": "Systematic study of d0-d KYZ (Y = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Z = al, Ga, In, Si, Ge, Sn, Pb, P, As, Sb, Bi, S, Se, Te) Heusler alloys",
+        "subtitle": null,
+        "container_title": "Physica B: Condensed Matter",
+        "publisher": "Elsevier BV",
+        "volume": "697",
+        "issue": null,
+        "page": "416701",
+        "year": 2025,
+        "issn": [
+          "0921-4526"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.physb.2024.416701"
+      }
+    },
+    "10.1016/j.jmmm.2025.173268": {
+      "fetched_at": "2026-09-28T12:14:42+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.jmmm.2025.173268",
+        "type": "journal-article",
+        "title": "Insight into half-metallicity, electronic structure, and thermal transport properties of FeRhGa\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si122.svg\" display=\"inline\" id=\"d1e1545\">\n                      <mml:msub>\n                        <mml:mrow/>\n                        <mml:mrow>\n                          <mml:mn>1</mml:mn>\n                          <mml:mo>−</mml:mo>\n                          <mml:mi>x</mml:mi>\n                        </mml:mrow>\n                      </mml:msub>\n                    </mml:math>\n                    As\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si123.svg\" display=\"inline\" id=\"d1e1557\">\n                      <mml:msub>\n                        <mml:mrow/>\n                        <mml:mrow>\n                          <mml:mi>x</mml:mi>\n                        </mml:mrow>\n                      </mml:msub>\n                    </mml:math>\n                    Heusler alloys",
+        "subtitle": null,
+        "container_title": "Journal of Magnetism and Magnetic Materials",
+        "publisher": "Elsevier BV",
+        "volume": "629",
+        "issue": null,
+        "page": "173268",
+        "year": 2025,
+        "issn": [
+          "0304-8853"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.jmmm.2025.173268"
+      }
+    },
+    "10.1134/s0031918x24602622": {
+      "fetched_at": "2026-09-28T12:14:43+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1134/s0031918x24602622",
+        "type": "journal-article",
+        "title": "Thermoelectric Properties of Double Half-Heusler Ti2MnNiSi2 Alloy",
+        "subtitle": null,
+        "container_title": "Physics of Metals and Metallography",
+        "publisher": "Pleiades Publishing Ltd",
+        "volume": "125",
+        "issue": "14",
+        "page": "1885–1893",
+        "year": 2024,
+        "issn": [
+          "0031-918X",
+          "1555-6190"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1134/s0031918x24602622"
+      }
+    },
+    "10.1063/5.0236017": {
+      "fetched_at": "2026-09-28T12:14:45+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1063/5.0236017",
+        "type": "journal-article",
+        "title": "The theoretical approach for description of magnetic properties and magnetocaloric effect in all-<i>d</i>-metal Heusler alloys Ni2−<i>x</i>Co<i>x</i>Mn1.25Ti0.75",
+        "subtitle": null,
+        "container_title": "Journal of Applied Physics",
+        "publisher": "AIP Publishing",
+        "volume": "136",
+        "issue": "21",
+        "page": "",
+        "year": 2024,
+        "issn": [
+          "0021-8979",
+          "1089-7550"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1063/5.0236017"
+      }
+    },
+    "10.1063/5.0236335": {
+      "fetched_at": "2026-09-28T12:14:46+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1063/5.0236335",
+        "type": "journal-article",
+        "title": "Machine learning algorithms for optimization of magnetocaloric effect in all-<i>d</i>-metal Heusler alloys",
+        "subtitle": null,
+        "container_title": "Journal of Applied Physics",
+        "publisher": "AIP Publishing",
+        "volume": "136",
+        "issue": "18",
+        "page": "",
+        "year": 2024,
+        "issn": [
+          "0021-8979",
+          "1089-7550"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1063/5.0236335"
+      }
+    },
+    "10.48550/arxiv.2409.14370": {
+      "fetched_at": "2026-09-28T12:14:47+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.2139/ssrn.4927796": {
+      "fetched_at": "2026-09-28T12:14:48+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.2139/ssrn.4927796",
+        "type": "posted-content",
+        "title": "Systematic Study of D0-D Kyz (Y = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Z = Al, Ga, in, Si, Ge, Sn, Pb, P, as, Sb, Bi, S, Se, Te) Heusler Alloys",
+        "subtitle": null,
+        "container_title": null,
+        "publisher": "Elsevier BV",
+        "volume": null,
+        "issue": null,
+        "page": "",
+        "year": 2024,
+        "issn": null,
+        "isbn": null,
+        "url": "https://doi.org/10.2139/ssrn.4927796"
+      }
+    },
+    "10.14529/mmph230207": {
+      "fetched_at": "2026-09-28T12:14:50+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.14529/mmph230207",
+        "type": "journal-article",
+        "title": "PECULIARITIES OF NANOTWIN STRUCTURES IN NI2MN1,5IN0,5 AND NI2MN1,75IN0,25 HEUSLER ALLOYS",
+        "subtitle": null,
+        "container_title": "Bulletin of the South Ural State University series \"Mathematics. Mechanics. Physics\"",
+        "publisher": "FSAEIHE South Ural State University (National Research University)",
+        "volume": "15",
+        "issue": "2",
+        "page": "48–58",
+        "year": 2023,
+        "issn": [
+          "2075-809X",
+          "2409-6547"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.14529/mmph230207"
+      }
+    },
+    "10.31857/s0033849423040010": {
+      "fetched_at": "2026-09-28T12:14:51+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.31857/s0033849423040010",
+        "type": "journal-article",
+        "title": "On the Possible Half-Metallic Properties of Fe2RhZ (Z = Al, Si, Ga, Ge, In, Sn) Ferromagnetic Heusler Alloys",
+        "subtitle": null,
+        "container_title": "Радиотехника и электроника",
+        "publisher": "The Russian Academy of Sciences",
+        "volume": "68",
+        "issue": "4",
+        "page": "326–337",
+        "year": 2023,
+        "issn": [
+          "0033-8494"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.31857/s0033849423040010"
+      }
+    },
+    "10.31857/s0015323022601301": {
+      "fetched_at": "2026-09-28T12:14:53+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.31857/s0015323022601301",
+        "type": "journal-article",
+        "title": "The Influence of Exchange Correlation Effects on the Stabilization\r\nof the Half-Metallic Properties of Mn2VAl and Mn2VSi Alloys",
+        "subtitle": null,
+        "container_title": "Физика металлов и металловедение",
+        "publisher": "The Russian Academy of Sciences",
+        "volume": "124",
+        "issue": "2",
+        "page": "126–133",
+        "year": 2023,
+        "issn": [
+          "0015-3230"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.31857/s0015323022601301"
+      }
+    },
+    "10.1134/s0031918x22601962": {
+      "fetched_at": "2026-09-28T12:14:54+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1134/s0031918x22601962",
+        "type": "journal-article",
+        "title": "The Influence of Exchange Correlation Effects on the Stabilization of the Half-Metallic Properties of Mn2VAl and Mn2VSi Alloys",
+        "subtitle": null,
+        "container_title": "Physics of Metals and Metallography",
+        "publisher": "Pleiades Publishing Ltd",
+        "volume": "124",
+        "issue": "2",
+        "page": "118–125",
+        "year": 2023,
+        "issn": [
+          "0031-918X",
+          "1555-6190"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1134/s0031918x22601962"
+      }
+    },
+    "10.1134/s1064226923040010": {
+      "fetched_at": "2026-09-28T12:14:55+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1134/s1064226923040010",
+        "type": "journal-article",
+        "title": "On the Possible Half-Metallic Properties of Fe2RhZ (Z = Al, Si, Ga, Ge, In, Sn) Ferromagnetic Heusler Alloys",
+        "subtitle": null,
+        "container_title": "Journal of Communications Technology and Electronics",
+        "publisher": "Pleiades Publishing Ltd",
+        "volume": "68",
+        "issue": "4",
+        "page": "389–399",
+        "year": 2023,
+        "issn": [
+          "1064-2269",
+          "1555-6557"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1134/s1064226923040010"
+      }
+    },
+    "10.3390/met13040728": {
+      "fetched_at": "2026-09-28T12:14:57+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.3390/met13040728",
+        "type": "journal-article",
+        "title": "Meta-GGA SCAN Functional in the Prediction of Ground State Properties of Magnetic Materials: Review of the Current State",
+        "subtitle": null,
+        "container_title": "Metals",
+        "publisher": "MDPI AG",
+        "volume": "13",
+        "issue": "4",
+        "page": "728",
+        "year": 2023,
+        "issn": [
+          "2075-4701"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.3390/met13040728"
+      }
+    },
+    "10.1103/physrevb.107.245130": {
+      "fetched_at": "2026-09-28T12:14:58+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1103/physrevb.107.245130",
+        "type": "journal-article",
+        "title": "Interplay of electronic structure and magnetism in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi mathvariant=\"normal\">Fe</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math>\n- and \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi mathvariant=\"normal\">Rh</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math>\n-based Heusler alloys",
+        "subtitle": null,
+        "container_title": "Physical Review B",
+        "publisher": "American Physical Society (APS)",
+        "volume": "107",
+        "issue": "24",
+        "page": "",
+        "year": 2023,
+        "issn": [
+          "2469-9950",
+          "2469-9969"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1103/physrevb.107.245130"
+      }
+    },
+    "10.1016/j.commatsci.2023.112365": {
+      "fetched_at": "2026-09-28T12:15:00+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.commatsci.2023.112365",
+        "type": "journal-article",
+        "title": "Ab initio prediction of coexistence of two magnetic states in Mn<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si67.svg\" display=\"inline\" id=\"d1e1180\"><mml:mrow><mml:msub><mml:mrow/><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi>Y</mml:mi></mml:mrow></mml:math>Sn (<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si260.svg\" display=\"inline\" id=\"d1e1192\"><mml:mrow><mml:mi>Y</mml:mi><mml:mspace class=\"nbsp\" width=\"1em\"/><mml:mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mml:mo><mml:mspace class=\"nbsp\" width=\"1em\"/></mml:mrow></mml:math>Sc, Ti, and V) Heusler alloys under applied pressure",
+        "subtitle": null,
+        "container_title": "Computational Materials Science",
+        "publisher": "Elsevier BV",
+        "volume": "228",
+        "issue": null,
+        "page": "112365",
+        "year": 2023,
+        "issn": [
+          "0927-0256"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.commatsci.2023.112365"
+      }
+    },
+    "10.33184/fmpve2022-2022-10-19.117": {
+      "fetched_at": "2026-09-28T12:15:01+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.33184/fmpve2022-2022-10-19.117",
+        "type": "proceedings-article",
+        "title": "ФАЗОВАЯ СТАБИЛЬНОСТЬ ДВОЙНИКОВЫХ СТРУКТУР НЕСТЕХИОМЕТРИЧЕСКИХ СПЛАВОВ ГЕЙСЛЕРА Ni-Mn-In",
+        "subtitle": null,
+        "container_title": "Фундаментальная математика и ее приложения в естествознании",
+        "publisher": "Baskir State University",
+        "volume": null,
+        "issue": null,
+        "page": "157",
+        "year": 2022,
+        "issn": null,
+        "isbn": null,
+        "url": "https://doi.org/10.33184/fmpve2022-2022-10-19.117"
+      }
+    },
+    "10.21883/pss.2022.13.53975.18s": {
+      "fetched_at": "2026-09-28T12:15:03+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.21883/pss.2022.13.53975.18s",
+        "type": "journal-article",
+        "title": "The half-metallic properties of Heusler alloys Mn-=SUB=-2-=/SUB=-ScZ (Z=Al, Si, P, Ga, Ge, As, In, Sn, Sb): ab initio study",
+        "subtitle": null,
+        "container_title": "Physics of the Solid State",
+        "publisher": "Ioffe Institute Russian Academy of Sciences",
+        "volume": "63",
+        "issue": "13",
+        "page": "2082",
+        "year": 2022,
+        "issn": [
+          "1726-7498"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.21883/pss.2022.13.53975.18s"
+      }
+    },
+    "10.21883/pss.2022.13.52300.18s": {
+      "fetched_at": "2026-09-28T12:15:04+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.21883/pss.2022.13.52300.18s",
+        "type": "journal-article",
+        "title": "The half-metallic properties of Heusler alloys Mn-=SUB=-2-=/SUB=-ScZ (Z=Al, Si, P, Ga, Ge, As, In, Sn, Sb): ab initio study",
+        "subtitle": null,
+        "container_title": "Physics of the Solid State",
+        "publisher": "Ioffe Institute Russian Academy of Sciences",
+        "volume": "63",
+        "issue": "13",
+        "page": "1618",
+        "year": 2022,
+        "issn": [
+          "1726-7498"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.21883/pss.2022.13.52300.18s"
+      }
+    },
+    "10.1016/j.jmmm.2021.168728": {
+      "fetched_at": "2026-09-28T12:15:05+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.jmmm.2021.168728",
+        "type": "journal-article",
+        "title": "Magnetic and structural properties of Co-Ni-Z (Z= Al, Ga, In, Sn) Heusler alloys: Effect of structural motives and chemical disorder",
+        "subtitle": null,
+        "container_title": "Journal of Magnetism and Magnetic Materials",
+        "publisher": "Elsevier BV",
+        "volume": "546",
+        "issue": null,
+        "page": "168728",
+        "year": 2022,
+        "issn": [
+          "0304-8853"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.jmmm.2021.168728"
+      }
+    },
+    "10.1016/j.jallcom.2022.165532": {
+      "fetched_at": "2026-09-28T12:15:07+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.jallcom.2022.165532",
+        "type": "journal-article",
+        "title": "Helical spin ordering in room-temperature metallic antiferromagnet Fe3Ga4",
+        "subtitle": null,
+        "container_title": "Journal of Alloys and Compounds",
+        "publisher": "Elsevier BV",
+        "volume": "917",
+        "issue": null,
+        "page": "165532",
+        "year": 2022,
+        "issn": [
+          "0925-8388"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.jallcom.2022.165532"
+      }
+    },
+    "10.1134/s0031918x22040044": {
+      "fetched_at": "2026-09-28T12:15:08+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1134/s0031918x22040044",
+        "type": "journal-article",
+        "title": "Exchange Correlation Effects in Modulated Martensitic Structures of the Mn2NiGa Alloy",
+        "subtitle": null,
+        "container_title": "Physics of Metals and Metallography",
+        "publisher": "Pleiades Publishing Ltd",
+        "volume": "123",
+        "issue": "4",
+        "page": "375–380",
+        "year": 2022,
+        "issn": [
+          "0031-918X",
+          "1555-6190"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1134/s0031918x22040044"
+      }
+    },
+    "10.21883/ftt.2021.11.51572.18s": {
+      "fetched_at": "2026-09-28T12:15:09+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.21883/ftt.2021.11.51572.18s",
+        "type": "journal-article",
+        "title": "Первопринципное иследование полуметаллических свойств сплавов Гейслера Mn-=SUB=-2-=/SUB=-ScZ (Z=Al, Si, P, Ga, Ge, As, In, Sn, Sb)",
+        "subtitle": null,
+        "container_title": "Физика твердого тела",
+        "publisher": "Ioffe Institute Russian Academy of Sciences",
+        "volume": "63",
+        "issue": "11",
+        "page": "1751",
+        "year": 2021,
+        "issn": [
+          "0367-3294"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.21883/ftt.2021.11.51572.18s"
+      }
+    },
+    "10.1103/physrevb.103.054414": {
+      "fetched_at": "2026-09-28T12:15:11+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1103/physrevb.103.054414",
+        "type": "journal-article",
+        "title": "Prediction of a Heusler alloy with switchable metal-to-half-metal behavior",
+        "subtitle": null,
+        "container_title": "Physical Review B",
+        "publisher": "American Physical Society (APS)",
+        "volume": "103",
+        "issue": "5",
+        "page": "",
+        "year": 2021,
+        "issn": [
+          "2469-9950",
+          "2469-9969"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1103/physrevb.103.054414"
+      }
+    },
+    "10.1016/j.jallcom.2021.160917": {
+      "fetched_at": "2026-09-28T12:15:12+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.jallcom.2021.160917",
+        "type": "journal-article",
+        "title": "Phase transitions in Fe-(23−24)Ga alloys: Experimental results and modeling",
+        "subtitle": null,
+        "container_title": "Journal of Alloys and Compounds",
+        "publisher": "Elsevier BV",
+        "volume": "885",
+        "issue": null,
+        "page": "160917",
+        "year": 2021,
+        "issn": [
+          "0925-8388"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.jallcom.2021.160917"
+      }
+    },
+    "10.1002/adts.202100311": {
+      "fetched_at": "2026-09-28T12:15:13+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1002/adts.202100311",
+        "type": "journal-article",
+        "title": "Design of a Stable Heusler Alloy with Switchable Metal‐to‐Half‐Metal Transition at Finite Temperature",
+        "subtitle": null,
+        "container_title": "Advanced Theory and Simulations",
+        "publisher": "Wiley",
+        "volume": "4",
+        "issue": "11",
+        "page": "",
+        "year": 2021,
+        "issn": [
+          "2513-0390",
+          "2513-0390"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1002/adts.202100311"
+      }
+    },
+    "10.3390/met11060973": {
+      "fetched_at": "2026-09-28T12:15:15+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.3390/met11060973",
+        "type": "journal-article",
+        "title": "A Ternary Map of Ni–Mn–Ga Heusler Alloys from Ab Initio Calculations",
+        "subtitle": null,
+        "container_title": "Metals",
+        "publisher": "MDPI AG",
+        "volume": "11",
+        "issue": "6",
+        "page": "973",
+        "year": 2021,
+        "issn": [
+          "2075-4701"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.3390/met11060973"
+      }
+    },
+    "10.48550/arxiv.2102.07447": {
+      "fetched_at": "2026-09-28T12:15:16+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.31857/s0015323020020035": {
+      "fetched_at": "2026-09-28T12:15:17+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.31857/s0015323020020035",
+        "type": "journal-article",
+        "title": "Фазовые превращения в сплавах Ni(Co)–Mn(Cr,C)–(In,Sn): исследование из первых принципов",
+        "subtitle": null,
+        "container_title": "Физика металлов и металловедение",
+        "publisher": "The Russian Academy of Sciences",
+        "volume": "121",
+        "issue": "3",
+        "page": "235–242",
+        "year": 2020,
+        "issn": [
+          "0015-3230"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.31857/s0015323020020035"
+      }
+    },
+    "10.47475/2500-0101-2020-15407": {
+      "fetched_at": "2026-09-28T12:15:19+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.47475/2500-0101-2020-15407",
+        "type": "journal-article",
+        "title": "Kinetics of phase transformations in Fe-Ga alloys",
+        "subtitle": null,
+        "container_title": "Челябинский физико-математический журнал",
+        "publisher": "Chelyabinsk State University",
+        "volume": "5",
+        "issue": "4-1",
+        "page": "471–479",
+        "year": 2020,
+        "issn": [
+          "2500-0101",
+          "2619-0117"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.47475/2500-0101-2020-15407"
+      }
+    },
+    "10.24411/2500-0101-2020-15110": {
+      "fetched_at": "2026-09-28T12:15:20+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.1063/5.0015535": {
+      "fetched_at": "2026-09-28T12:15:21+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1063/5.0015535",
+        "type": "journal-article",
+        "title": "Superconducting and antiferromagnetic properties of dual-phase V3Ga",
+        "subtitle": null,
+        "container_title": "Applied Physics Letters",
+        "publisher": "AIP Publishing",
+        "volume": "117",
+        "issue": "6",
+        "page": "",
+        "year": 2020,
+        "issn": [
+          "0003-6951",
+          "1077-3118"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1063/5.0015535"
+      }
+    },
+    "10.1016/j.physb.2019.411874": {
+      "fetched_at": "2026-09-28T12:15:22+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.physb.2019.411874",
+        "type": "journal-article",
+        "title": "Statistical model for the martensitic transformation simulation in Heusler alloys",
+        "subtitle": null,
+        "container_title": "Physica B: Condensed Matter",
+        "publisher": "Elsevier BV",
+        "volume": "578",
+        "issue": null,
+        "page": "411874",
+        "year": 2020,
+        "issn": [
+          "0921-4526"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.physb.2019.411874"
+      }
+    },
+    "10.1134/s0031918x20020039": {
+      "fetched_at": "2026-09-28T12:15:24+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1134/s0031918x20020039",
+        "type": "journal-article",
+        "title": "Phase Transformations in Ni(Co)–Mn(Cr,C)–(In,Sn) Alloys: An Ab Initio Study",
+        "subtitle": null,
+        "container_title": "Physics of Metals and Metallography",
+        "publisher": "Pleiades Publishing Ltd",
+        "volume": "121",
+        "issue": "3",
+        "page": "202–209",
+        "year": 2020,
+        "issn": [
+          "0031-918X",
+          "1555-6190"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1134/s0031918x20020039"
+      }
+    },
+    "10.1063/5.0006201": {
+      "fetched_at": "2026-09-28T12:15:25+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1063/5.0006201",
+        "type": "journal-article",
+        "title": "Exchange-correlation corrections for electronic properties of half-metallic Co2FeSi and nonmagnetic semiconductor CoFeTiAl",
+        "subtitle": null,
+        "container_title": "Journal of Applied Physics",
+        "publisher": "AIP Publishing",
+        "volume": "127",
+        "issue": "17",
+        "page": "",
+        "year": 2020,
+        "issn": [
+          "0021-8979",
+          "1089-7550"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1063/5.0006201"
+      }
+    },
+    "10.1103/physrevb.102.045127": {
+      "fetched_at": "2026-09-28T12:15:26+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1103/physrevb.102.045127",
+        "type": "journal-article",
+        "title": "Electronic structure beyond the generalized gradient approximation for \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msub><mml:mi>Ni</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>MnGa</mml:mi></mml:mrow></mml:math>",
+        "subtitle": null,
+        "container_title": "Physical Review B",
+        "publisher": "American Physical Society (APS)",
+        "volume": "102",
+        "issue": "4",
+        "page": "",
+        "year": 2020,
+        "issn": [
+          "2469-9950",
+          "2469-9969"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1103/physrevb.102.045127"
+      }
+    },
+    "10.1103/physrevb.101.075115": {
+      "fetched_at": "2026-09-28T12:15:28+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1103/physrevb.101.075115",
+        "type": "journal-article",
+        "title": "Coulomb correlation in noncollinear antiferromagnetic \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>α</mml:mi></mml:math>\n-Mn",
+        "subtitle": null,
+        "container_title": "Physical Review B",
+        "publisher": "American Physical Society (APS)",
+        "volume": "101",
+        "issue": "7",
+        "page": "",
+        "year": 2020,
+        "issn": [
+          "2469-9950",
+          "2469-9969"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1103/physrevb.101.075115"
+      }
+    },
+    "10.48550/arxiv.2008.02553": {
+      "fetched_at": "2026-09-28T12:15:29+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.48550/arxiv.2005.03383": {
+      "fetched_at": "2026-09-28T12:15:30+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.48550/arxiv.2005.14348": {
+      "fetched_at": "2026-09-28T12:15:31+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.1103/physrevmaterials.3.084413": {
+      "fetched_at": "2026-09-28T12:15:33+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1103/physrevmaterials.3.084413",
+        "type": "journal-article",
+        "title": "Segregation tendency of Heusler alloys",
+        "subtitle": null,
+        "container_title": "Physical Review Materials",
+        "publisher": "American Physical Society (APS)",
+        "volume": "3",
+        "issue": "8",
+        "page": "",
+        "year": 2019,
+        "issn": [
+          "2475-9953"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1103/physrevmaterials.3.084413"
+      }
+    },
+    "10.14529/mmph190208": {
+      "fetched_at": "2026-09-28T12:15:34+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.14529/mmph190208",
+        "type": "journal-article",
+        "title": "Ab Initio Calculation of Vacancy Formation Energy in Antiperovskite Mn3GaC",
+        "subtitle": null,
+        "container_title": "Bulletin of the South Ural State University series \"Mathematics. Mechanics. Physics\"",
+        "publisher": "FSAEIHE South Ural State University (National Research University)",
+        "volume": "11",
+        "issue": "2",
+        "page": "58–64",
+        "year": 2019,
+        "issn": [
+          "2075-809X",
+          "2409-6547"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.14529/mmph190208"
+      }
+    },
+    "10.48550/arxiv.1904.10291": {
+      "fetched_at": "2026-09-28T12:15:35+00:00",
+      "status": 404,
+      "metadata": {}
+    },
+    "10.1016/j.physb.2017.10.066": {
+      "fetched_at": "2026-09-28T12:15:36+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1016/j.physb.2017.10.066",
+        "type": "journal-article",
+        "title": "Structural, magnetic and thermodynamic properties of Mn3-X-C (X = Ga, Sn) compounds: ab initio study",
+        "subtitle": null,
+        "container_title": "Physica B: Condensed Matter",
+        "publisher": "Elsevier BV",
+        "volume": "549",
+        "issue": null,
+        "page": "94–97",
+        "year": 2018,
+        "issn": [
+          "0921-4526"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.1016/j.physb.2017.10.066"
+      }
+    },
+    "10.21741/9781644900017-16": {
+      "fetched_at": "2026-09-28T12:15:38+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.21741/9781644900017-16",
+        "type": "proceedings-article",
+        "title": "Elastic Properties of Heusler Alloys Ni(Co)-Mn(Cr, C)-In and Ni(Co)-Mn(Cr, C)-Sn",
+        "subtitle": null,
+        "container_title": "Materials Research Proceedings",
+        "publisher": "Materials Research Forum LLC",
+        "volume": "9",
+        "issue": null,
+        "page": "83–91",
+        "year": 2018,
+        "issn": [
+          "2474-395X"
+        ],
+        "isbn": null,
+        "url": "https://doi.org/10.21741/9781644900017-16"
+      }
+    },
+    "10.1109/intmag.2017.8007735": {
+      "fetched_at": "2026-09-28T12:15:39+00:00",
+      "status": 200,
+      "metadata": {
+        "source": "crossref_api",
+        "doi": "10.1109/intmag.2017.8007735",
+        "type": "proceedings-article",
+        "title": "Large change of magnetic moment in Ni&lt;inf&gt;13&lt;/inf&gt;Co&lt;inf&gt;3&lt;/inf&gt;Mn&lt;inf&gt;13&lt;/inf&gt;Sn&lt;inf&gt;3&lt;/inf&gt; and Ni&lt;inf&gt;13&lt;/inf&gt;Co&lt;inf&gt;3&lt;/inf&gt;Mn&lt;inf&gt;13&lt;/inf&gt;Sn&lt;inf&gt;2&lt;/inf&gt;Al&lt;inf&gt;1&lt;/inf&gt; Heusler alloys at martensitic transitions: Investigation from first principles",
+        "subtitle": null,
+        "container_title": "2017 IEEE International Magnetics Conference (INTERMAG)",
+        "publisher": "IEEE",
+        "volume": null,
+        "issue": null,
+        "page": "1–1",
+        "year": 2017,
+        "issn": null,
+        "isbn": null,
+        "url": "https://doi.org/10.1109/intmag.2017.8007735"
+      }
+    }
+  },
+  "schema": "crossref_metadata_cache/v1"
+}

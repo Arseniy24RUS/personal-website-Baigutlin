@@ -157,7 +157,9 @@
               "display-index": "0"
             }
           }
-        }
+        },
+        "authors_raw": "Pulkkinen, Aki, Barbiellini, Bernardo, Nokelainen, Johannes, Sokolovskiy, Vladimir, Baygutlin, Danil, Miroshkina, Olga, Zagrebin, Mikhail, Buchelnikov, Vasiliy, Lane, Christopher, Markiewicz, Robert S., Bansil, Arun, Sun, Jianwei, Lähderanta, Erkki",
+        "authors_source": "orcid_public_work_detail"
       },
       "candidate_dois": [
         "10.48550/arxiv.1904.10291"

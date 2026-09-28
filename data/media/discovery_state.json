@@ -44,6 +44,31 @@
       "processed_at": "2026-09-23T18:11:06+00:00",
       "status": "low_confidence",
       "confidence": 0.0
+    },
+    "https://csu.ru/press/news/predstaviteli-chelgu-stali-uchastnikami-mezhdunarodnogo-festivalya-molodyezhi": {
+      "processed_at": "2026-09-28T12:10:56+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/knigi-ob-istorikakh-i-yuristakh-chelgu-vyshli-v-final-natsionalnogo-konkursa": {
+      "processed_at": "2026-09-28T12:10:59+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-i-obrazovatelnyy-tsentr-7-zapustili-klass-pravosudiya-dlya-starsheklassnikov": {
+      "processed_at": "2026-09-28T12:11:01+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/iv-mezhdunarodnyy-immersivnyy-forum-evraziyskie-vorota-proydyet-v-bishkeke-23-oktyabrya": {
+      "processed_at": "2026-09-28T12:11:03+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-proshel-ezhegodnyy-zapusk-federalnoy-programmy-obuchenie-sluzheniem": {
+      "processed_at": "2026-09-28T12:11:04+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
     }
   },
   "pending": {},
@@ -53,8 +78,8 @@
     ]
   },
   "rss_cursor": {
-    "next_index": 1,
-    "attempted_at": "2026-09-23T18:10:41+00:00"
+    "next_index": 2,
+    "attempted_at": "2026-09-28T12:10:48+00:00"
   },
   "initial_cutoff": "2024-04-06"
 }

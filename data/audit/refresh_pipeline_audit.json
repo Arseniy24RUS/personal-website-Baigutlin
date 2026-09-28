@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-23T18:19:11+00:00",
+  "generated_at": "2026-09-28T12:15:51+00:00",
   "status": "partial",
   "checks": {
-    "publications_count": 84,
-    "canonical_publications_count": 84,
+    "publications_count": 75,
+    "canonical_publications_count": 75,
     "source_counts": {
       "elibrary": 66,
       "scopus": 26,
       "wos": 0,
-      "open": 38
+      "open": 34
     },
     "wos_records_count": 0,
     "wos_public_profile_records_count": 0,
@@ -19,69 +19,63 @@
       "citations": 203,
       "h_index": 8
     },
-    "elibrary_browser_status": "partial",
+    "elibrary_browser_status": "blocked",
     "reference_enrichment_stats": {
-      "records": 83,
+      "records": 75,
       "titles_fixed": 0,
-      "title_fields_added": 83,
-      "elibrary_detail_fields_added": 179,
-      "metadata_fields_added": 34,
-      "gost_built": 20,
-      "apa_built": 20,
-      "crossref_cache_hit": 9,
+      "title_fields_added": 0,
+      "elibrary_detail_fields_added": 0,
+      "metadata_fields_added": 3,
+      "gost_built": 0,
+      "apa_built": 0,
+      "crossref_cache_hit": 0,
       "crossref_fetched": 40,
       "crossref_failed": 7
     }
   },
   "source_health": {
     "elibrary": {
-      "status": "partial",
-      "attempted_at": "2026-09-23T18:11:13+00:00",
-      "last_success_at": null,
+      "status": "blocked",
+      "attempted_at": "2026-09-28T12:14:03+00:00",
+      "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 58,
-      "reason": "details_pending",
+      "reason": "profile_not_authenticated_or_changed",
+      "stage": "login",
       "components": {
-        "metrics": {
-          "status": "success",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
-          "last_success_at": "2026-09-23T18:11:13+00:00",
-          "origin": "live",
-          "complete": true,
-          "record_count": 1,
-          "reason": null
-        },
         "details": {
-          "status": "partial",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
-          "record_count": 57,
-          "reason": "details_pending",
-          "last_observation_at": "2026-09-23T18:16:43+00:00",
-          "observed_count": 57,
-          "pending": 1,
-          "fetched": 57,
-          "failed": 1
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
+        },
+        "metrics": {
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
+          "last_success_at": "2026-09-23T18:11:13+00:00",
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         },
         "publications": {
-          "status": "success",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
-          "origin": "live",
-          "complete": true,
-          "record_count": 58,
-          "reason": null,
-          "last_observation_at": "2026-09-23T18:11:15+00:00",
-          "observed_count": 58
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         }
       }
     },
     "wos": {
       "status": "blocked",
-      "attempted_at": "2026-09-23T18:17:01+00:00",
+      "attempted_at": "2026-09-28T12:14:19+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -89,18 +83,18 @@
       "reason": "human_verification_required",
       "stage": "login",
       "components": {
-        "metrics": {
+        "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "attempted_at": "2026-09-28T12:14:19+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
           "reason": "human_verification_required"
         },
-        "publications": {
+        "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "attempted_at": "2026-09-28T12:14:19+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
@@ -111,8 +105,8 @@
     },
     "scopus": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:17:08+00:00",
-      "last_success_at": "2026-09-23T18:17:08+00:00",
+      "attempted_at": "2026-09-28T12:14:25+00:00",
+      "last_success_at": "2026-09-28T12:14:25+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 26,
@@ -120,8 +114,8 @@
     },
     "media": {
       "status": "partial",
-      "attempted_at": "2026-09-23T18:11:06+00:00",
-      "last_success_at": "2026-09-23T18:11:06+00:00",
+      "attempted_at": "2026-09-28T12:11:04+00:00",
+      "last_success_at": "2026-09-28T12:11:04+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,
@@ -130,8 +124,8 @@
     },
     "orcid": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:09:47+00:00",
-      "last_success_at": "2026-09-23T18:09:47+00:00",
+      "attempted_at": "2026-09-28T12:09:59+00:00",
+      "last_success_at": "2026-09-28T12:09:59+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 65,
@@ -139,17 +133,17 @@
     },
     "openalex": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:09:51+00:00",
-      "last_success_at": "2026-09-23T18:09:51+00:00",
+      "attempted_at": "2026-09-28T12:10:02+00:00",
+      "last_success_at": "2026-09-28T12:10:02+00:00",
       "origin": "live",
       "complete": true,
-      "record_count": 37,
+      "record_count": 40,
       "reason": null
     },
     "crossref": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:09:55+00:00",
-      "last_success_at": "2026-09-23T18:09:55+00:00",
+      "attempted_at": "2026-09-28T12:10:07+00:00",
+      "last_success_at": "2026-09-28T12:10:07+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 13,
@@ -162,56 +156,43 @@
       "message": "WoS metrics may exist, but no publication records are currently normalized."
     },
     {
-      "code": "missing_ready_references",
-      "count": 1,
-      "sample": [
-        "The half-metallic properties of Heusler alloys Mn2ScZ (Z=Al, Si, P, Ga, Ge, As, In, Sn, Sb): ab initio study"
-      ]
-    },
-    {
       "code": "source_not_fresh",
       "provider": "elibrary",
-      "status": "partial",
-      "attempted_at": "2026-09-23T18:11:13+00:00",
-      "last_success_at": null,
+      "status": "blocked",
+      "attempted_at": "2026-09-28T12:14:03+00:00",
+      "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 58,
-      "reason": "details_pending",
+      "reason": "profile_not_authenticated_or_changed",
+      "stage": "login",
       "components": {
-        "metrics": {
-          "status": "success",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
-          "last_success_at": "2026-09-23T18:11:13+00:00",
-          "origin": "live",
-          "complete": true,
-          "record_count": 1,
-          "reason": null
-        },
         "details": {
-          "status": "partial",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
-          "record_count": 57,
-          "reason": "details_pending",
-          "last_observation_at": "2026-09-23T18:16:43+00:00",
-          "observed_count": 57,
-          "pending": 1,
-          "fetched": 57,
-          "failed": 1
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
+        },
+        "metrics": {
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
+          "last_success_at": "2026-09-23T18:11:13+00:00",
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         },
         "publications": {
-          "status": "success",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
-          "origin": "live",
-          "complete": true,
-          "record_count": 58,
-          "reason": null,
-          "last_observation_at": "2026-09-23T18:11:15+00:00",
-          "observed_count": 58
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         }
       }
     },
@@ -219,7 +200,7 @@
       "code": "source_not_fresh",
       "provider": "wos",
       "status": "blocked",
-      "attempted_at": "2026-09-23T18:17:01+00:00",
+      "attempted_at": "2026-09-28T12:14:19+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -227,18 +208,18 @@
       "reason": "human_verification_required",
       "stage": "login",
       "components": {
-        "metrics": {
+        "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "attempted_at": "2026-09-28T12:14:19+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
           "reason": "human_verification_required"
         },
-        "publications": {
+        "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "attempted_at": "2026-09-28T12:14:19+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
@@ -251,8 +232,8 @@
       "code": "source_not_fresh",
       "provider": "media",
       "status": "partial",
-      "attempted_at": "2026-09-23T18:11:06+00:00",
-      "last_success_at": "2026-09-23T18:11:06+00:00",
+      "attempted_at": "2026-09-28T12:11:04+00:00",
+      "last_success_at": "2026-09-28T12:11:04+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,

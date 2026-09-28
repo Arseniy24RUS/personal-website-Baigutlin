@@ -168,7 +168,7 @@
     ]
   },
   "scientometrics": {
-    "generated_at": "2026-09-23T18:19:03+00:00",
+    "generated_at": "2026-09-28T12:14:25+00:00",
     "columns": [
       "rinc",
       "scopus",
@@ -199,19 +199,23 @@
         "publications": 58,
         "citations": 253,
         "h_index": 8,
-        "status": "success",
-        "attempted_at": "2026-09-23T18:11:13+00:00",
+        "status": "blocked",
+        "attempted_at": "2026-09-28T12:14:03+00:00",
         "last_success_at": "2026-09-23T18:11:13+00:00",
-        "origin": "live",
-        "complete": true,
-        "record_count": 1,
-        "reason": null,
+        "origin": "snapshot",
+        "complete": false,
+        "record_count": 0,
+        "reason": "profile_not_authenticated_or_changed",
         "metric_observed_at": {
           "publications": "2026-09-23T18:11:13+00:00",
           "citations": "2026-09-23T18:11:13+00:00",
           "h_index": "2026-09-23T18:11:13+00:00"
         },
-        "retained_metrics": [],
+        "retained_metrics": [
+          "publications",
+          "citations",
+          "h_index"
+        ],
         "method": "provider_profile"
       },
       "scopus": {
@@ -222,16 +226,16 @@
         "citations": 208,
         "h_index": 8,
         "status": "success",
-        "attempted_at": "2026-09-23T18:17:08+00:00",
-        "last_success_at": "2026-09-23T18:17:08+00:00",
+        "attempted_at": "2026-09-28T12:14:25+00:00",
+        "last_success_at": "2026-09-28T12:14:25+00:00",
         "origin": "live",
         "complete": true,
         "record_count": 26,
         "reason": null,
         "metric_observed_at": {
-          "publications": "2026-09-23T18:17:08+00:00",
-          "citations": "2026-09-23T18:17:08+00:00",
-          "h_index": "2026-09-23T18:17:08+00:00"
+          "publications": "2026-09-28T12:14:25+00:00",
+          "citations": "2026-09-28T12:14:25+00:00",
+          "h_index": "2026-09-28T12:14:25+00:00"
         },
         "retained_metrics": [],
         "method": {
@@ -248,7 +252,7 @@
         "citations": 203,
         "h_index": 8,
         "status": "blocked",
-        "attempted_at": "2026-09-23T18:17:01+00:00",
+        "attempted_at": "2026-09-28T12:14:19+00:00",
         "last_success_at": null,
         "origin": "snapshot",
         "complete": false,
@@ -268,7 +272,7 @@
       }
     }
   },
-  "generated_at": "2026-09-23T18:19:03+00:00",
+  "generated_at": "2026-09-28T12:14:26+00:00",
   "identifiers": {
     "elibrary_authorid": "1170779",
     "elibrary_spin": "6676-3700",
@@ -627,8 +631,8 @@
   },
   "scopus_metrics": {
     "source": "scopus_api",
-    "generated_at": "2026-09-23T18:17:08+00:00",
-    "last_success_at": "2026-09-23T18:17:08+00:00",
+    "generated_at": "2026-09-28T12:14:25+00:00",
+    "last_success_at": "2026-09-28T12:14:25+00:00",
     "scopus_author_id": "57211062810",
     "author_profile_status": 401,
     "search_status": 200,
@@ -640,12 +644,12 @@
     "note": "Search metrics are calculated from a complete Search response. Missing citation counts remain unknown."
   },
   "open_sources_report": {
-    "generated_at": "2026-09-23T18:09:46+00:00",
+    "generated_at": "2026-09-28T12:09:58+00:00",
     "providers": {
       "orcid": {
         "status": "success",
-        "attempted_at": "2026-09-23T18:09:47+00:00",
-        "last_success_at": "2026-09-23T18:09:47+00:00",
+        "attempted_at": "2026-09-28T12:09:59+00:00",
+        "last_success_at": "2026-09-28T12:09:59+00:00",
         "origin": "live",
         "complete": true,
         "record_count": 65,
@@ -654,8 +658,8 @@
       },
       "openalex_author": {
         "status": "success",
-        "attempted_at": "2026-09-23T18:09:49+00:00",
-        "last_success_at": "2026-09-23T18:09:49+00:00",
+        "attempted_at": "2026-09-28T12:10:00+00:00",
+        "last_success_at": "2026-09-28T12:10:00+00:00",
         "origin": "live",
         "complete": true,
         "record_count": 0,
@@ -664,18 +668,18 @@
       },
       "openalex_works": {
         "status": "success",
-        "attempted_at": "2026-09-23T18:09:51+00:00",
-        "last_success_at": "2026-09-23T18:09:51+00:00",
+        "attempted_at": "2026-09-28T12:10:02+00:00",
+        "last_success_at": "2026-09-28T12:10:02+00:00",
         "origin": "live",
         "complete": true,
-        "record_count": 37,
+        "record_count": 40,
         "reason": null,
         "http_status": null
       },
       "crossref": {
         "status": "success",
-        "attempted_at": "2026-09-23T18:09:55+00:00",
-        "last_success_at": "2026-09-23T18:09:55+00:00",
+        "attempted_at": "2026-09-28T12:10:07+00:00",
+        "last_success_at": "2026-09-28T12:10:07+00:00",
         "origin": "live",
         "complete": true,
         "record_count": 13,
@@ -684,20 +688,20 @@
       }
     },
     "status": "success",
-    "attempted_at": "2026-09-23T18:10:02+00:00",
-    "last_success_at": "2026-09-23T18:10:02+00:00",
+    "attempted_at": "2026-09-28T12:10:12+00:00",
+    "last_success_at": "2026-09-28T12:10:12+00:00",
     "origin": "live",
     "complete": true,
-    "record_count": 46,
+    "record_count": 47,
     "reason": null,
-    "records_total_before_dedupe": 115,
-    "records_total_after_dedupe": 46
+    "records_total_before_dedupe": 118,
+    "records_total_after_dedupe": 47
   },
   "canonical_publications_count": 75,
   "scopus_enriched_publications_count": 26,
   "scopus_auto_added_publications_count": 0,
-  "open_sources_records_count": 46,
-  "open_sources_enriched_publications_count": 45,
+  "open_sources_records_count": 47,
+  "open_sources_enriched_publications_count": 46,
   "open_sources_auto_added_publications_count": 0,
   "wos_records_count": 0,
   "wos_enriched_publications_count": 0,
@@ -705,53 +709,47 @@
   "admin_queue_size": 0,
   "source_health": {
     "elibrary": {
-      "status": "partial",
-      "attempted_at": "2026-09-23T18:11:13+00:00",
-      "last_success_at": null,
+      "status": "blocked",
+      "attempted_at": "2026-09-28T12:14:03+00:00",
+      "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 58,
-      "reason": "details_pending",
+      "reason": "profile_not_authenticated_or_changed",
+      "stage": "login",
       "components": {
         "metrics": {
-          "status": "success",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
-          "origin": "live",
-          "complete": true,
-          "record_count": 1,
-          "reason": null
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         },
         "details": {
-          "status": "partial",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
-          "record_count": 57,
-          "reason": "details_pending",
-          "last_observation_at": "2026-09-23T18:16:43+00:00",
-          "observed_count": 57,
-          "pending": 1,
-          "fetched": 57,
-          "failed": 1
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         },
         "publications": {
-          "status": "success",
-          "attempted_at": "2026-09-23T18:11:13+00:00",
+          "status": "blocked",
+          "attempted_at": "2026-09-28T12:14:03+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
-          "origin": "live",
-          "complete": true,
-          "record_count": 58,
-          "reason": null,
-          "last_observation_at": "2026-09-23T18:11:15+00:00",
-          "observed_count": 58
+          "origin": "snapshot",
+          "complete": false,
+          "record_count": 0,
+          "reason": "profile_not_authenticated_or_changed"
         }
       }
     },
     "wos": {
       "status": "blocked",
-      "attempted_at": "2026-09-23T18:17:01+00:00",
+      "attempted_at": "2026-09-28T12:14:19+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -761,7 +759,7 @@
       "components": {
         "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "attempted_at": "2026-09-28T12:14:19+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
@@ -770,7 +768,7 @@
         },
         "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-23T18:17:01+00:00",
+          "attempted_at": "2026-09-28T12:14:19+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
@@ -781,8 +779,8 @@
     },
     "scopus": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:17:08+00:00",
-      "last_success_at": "2026-09-23T18:17:08+00:00",
+      "attempted_at": "2026-09-28T12:14:25+00:00",
+      "last_success_at": "2026-09-28T12:14:25+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 26,
@@ -790,8 +788,8 @@
     },
     "media": {
       "status": "partial",
-      "attempted_at": "2026-09-23T18:11:06+00:00",
-      "last_success_at": "2026-09-23T18:11:06+00:00",
+      "attempted_at": "2026-09-28T12:11:04+00:00",
+      "last_success_at": "2026-09-28T12:11:04+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,
@@ -800,8 +798,8 @@
     },
     "orcid": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:09:47+00:00",
-      "last_success_at": "2026-09-23T18:09:47+00:00",
+      "attempted_at": "2026-09-28T12:09:59+00:00",
+      "last_success_at": "2026-09-28T12:09:59+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 65,
@@ -809,17 +807,17 @@
     },
     "openalex": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:09:51+00:00",
-      "last_success_at": "2026-09-23T18:09:51+00:00",
+      "attempted_at": "2026-09-28T12:10:02+00:00",
+      "last_success_at": "2026-09-28T12:10:02+00:00",
       "origin": "live",
       "complete": true,
-      "record_count": 37,
+      "record_count": 40,
       "reason": null
     },
     "crossref": {
       "status": "success",
-      "attempted_at": "2026-09-23T18:09:55+00:00",
-      "last_success_at": "2026-09-23T18:09:55+00:00",
+      "attempted_at": "2026-09-28T12:10:07+00:00",
+      "last_success_at": "2026-09-28T12:10:07+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 13,
@@ -827,7 +825,7 @@
     }
   },
   "wos_public_merge_report": {
-    "generated_at": "2026-09-23T18:19:03+00:00",
+    "generated_at": "2026-09-28T12:14:26+00:00",
     "records_seen": 0,
     "enriched": 0,
     "added": 0,

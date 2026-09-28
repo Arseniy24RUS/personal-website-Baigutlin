@@ -15,12 +15,13 @@
     "D.R. Baigutlin",
     "Danil Baigutlin",
     "Danil R. Baigutlin",
+    "Байгутлин Данил Расулович",
     "Д. Р. Байгутлин",
     "Д.Р. Байгутлин"
   ],
   "full_name": "Danil R. Baigutlin",
-  "works_count": 37,
-  "cited_by_count": 225,
+  "works_count": 38,
+  "cited_by_count": 227,
   "summary_stats": {
     "2yr_mean_citedness": 2.25,
     "h_index": 8,
@@ -177,7 +178,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 0.0006705,
+      "value": 0.0006753,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -194,7 +195,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "value": 0.0001582,
+      "value": 0.0001587,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -211,7 +212,7 @@
     {
       "id": "https://openalex.org/T11100",
       "display_name": "Intermetallics and Advanced Alloy Properties",
-      "value": 5.2e-05,
+      "value": 5.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -307,9 +308,9 @@
     },
     {
       "year": 2020,
-      "works_count": 7,
+      "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 64
+      "cited_by_count": 65
     },
     {
       "year": 2021,
@@ -327,7 +328,7 @@
       "year": 2023,
       "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 57
+      "cited_by_count": 58
     },
     {
       "year": 2024,
@@ -352,12 +353,13 @@
     "D.R. Baigutlin",
     "Danil Baigutlin",
     "Danil R. Baigutlin",
+    "Байгутлин Данил Расулович",
     "Д. Р. Байгутлин",
     "Д.Р. Байгутлин"
   ],
   "block_key": "d baigutlin",
   "works_api_url": "https://api.openalex.org/works?filter=author.id:A5052917978",
-  "updated_date": "2026-09-22T04:05:08",
+  "updated_date": "2026-09-25T12:19:18",
   "created_date": "2019-01-25T00:00:00",
-  "last_success_at": "2026-09-23T18:09:49+00:00"
+  "last_success_at": "2026-09-28T12:10:00+00:00"
 }

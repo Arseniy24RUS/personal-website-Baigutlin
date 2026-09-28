@@ -2,25 +2,25 @@
   "schema": "provider_collection/v1",
   "report": {
     "status": "blocked",
-    "attempted_at": "2026-09-23T18:17:01+00:00",
+    "attempted_at": "2026-09-28T12:14:19+00:00",
     "last_success_at": null,
     "origin": "snapshot",
     "complete": false,
     "record_count": 0,
     "reason": "human_verification_required",
     "components": {
-      "publications": {
+      "metrics": {
         "status": "blocked",
-        "attempted_at": "2026-09-23T18:17:01+00:00",
+        "attempted_at": "2026-09-28T12:14:19+00:00",
         "last_success_at": null,
         "origin": "snapshot",
         "complete": false,
         "record_count": 0,
         "reason": "human_verification_required"
       },
-      "metrics": {
+      "publications": {
         "status": "blocked",
-        "attempted_at": "2026-09-23T18:17:01+00:00",
+        "attempted_at": "2026-09-28T12:14:19+00:00",
         "last_success_at": null,
         "origin": "snapshot",
         "complete": false,
@@ -162,7 +162,7 @@
             "type": "",
             "name": "",
             "id": "ot-sdk-btn",
-            "label": "Cookie Settings"
+            "label": "Manage cookie preferences"
           },
           {
             "tag": "a",
@@ -247,46 +247,30 @@
       ]
     },
     "authentication_evidence": {
+      "profile_loaded": false,
       "wos_session_confirmed": false,
-      "signin_clicked": false,
       "initial_profile_requested": true,
-      "initial_profile_retry_attempted": true,
+      "username_format_valid": true,
+      "onboarding_acknowledged": false,
+      "homepage_loaded": false,
       "orcid_consent_clicked": false,
-      "profile_requested": false,
+      "submit_clicked": false,
+      "clarivate_observed": false,
       "initial_profile_loaded": true,
       "wos_return_observed": false,
-      "consent_accepted": false,
-      "clarivate_observed": false,
-      "username_format_valid": true,
-      "orcid_form_observed": false,
-      "profile_loaded": false,
-      "homepage_requested": false,
-      "orcid_page_observed": false,
-      "initial_profile_retry_loaded": true,
-      "orcid_selected": false,
-      "browser_error_page_observed": true,
-      "submit_clicked": false,
-      "homepage_loaded": false,
       "input_matches_configured": false,
+      "orcid_selected": false,
+      "signin_clicked": false,
       "returned_profile_reused": false,
       "username_normalized": false,
-      "onboarding_acknowledged": false,
-      "stage": "initial_profile",
-      "navigation_failures": [
-        {
-          "kind": "request_failed",
-          "provider": "clarivate",
-          "stage": "initial_profile",
-          "network_error_code": "ERR_INVALID_REDIRECT"
-        },
-        {
-          "kind": "browser_error",
-          "provider": "browser",
-          "stage": "initial_profile",
-          "network_error_code": "ERR_INVALID_REDIRECT"
-        }
-      ],
-      "navigation_failure_count": 2
+      "profile_requested": false,
+      "orcid_page_observed": false,
+      "cookie_banner_observed": true,
+      "homepage_requested": false,
+      "orcid_form_observed": false,
+      "cookie_banner_dismissed": true,
+      "consent_accepted": true,
+      "stage": "initial_profile"
     },
     "authentication_mode": "restore",
     "authentication": null

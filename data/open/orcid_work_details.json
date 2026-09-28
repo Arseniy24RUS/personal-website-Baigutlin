@@ -1,0 +1,35 @@
+{
+  "items": {
+    "0000-0002-4130-3812/160971272": {
+      "authors_raw": "Buchelnikov, V.D., Sokolovskiy, V.V., Miroshkina, O.N., Baigutlin, D.R., Zagrebin, M.A., Barbiellini, B., Lähderanta, E.",
+      "observed_at": "2026-09-28T12:10:08+00:00",
+      "status": "success"
+    },
+    "0000-0002-4130-3812/160971269": {
+      "authors_raw": "Baigutlin, D.R., Sokolovskiy, V.V., Miroshkina, O.N., Zagrebin, M.A., Nokelainen, J., Pulkkinen, A., Barbiellini, B., Pussi, K., Lähderanta, E., Buchelnikov, V.D., Zayak, A.T.",
+      "observed_at": "2026-09-28T12:10:08+00:00",
+      "status": "success"
+    },
+    "0000-0002-4130-3812/160971264": {
+      "authors_raw": "Miroshkina, O.N., Baigutlin, D.R., Sokolovskiy, V.V., Zagrebin, M.A., Pulkkinen, A., Barbiellini, B., Lähderanta, E., Buchelnikov, V.D.",
+      "observed_at": "2026-09-28T12:10:09+00:00",
+      "status": "success"
+    },
+    "0000-0002-4130-3812/160971263": {
+      "authors_raw": "Jamer, M.E., Wilfong, B., Buchelnikov, V.D., Sokolovskiy, V.V., Miroshkina, O.N., Zagrebin, M.A., Baigutlin, D.R., Naphy, J., Assaf, B.A., Lewis, L.H., Pulkkinen, A., Barbiellini, B., Bansil, A., Heiman, D.",
+      "observed_at": "2026-09-28T12:10:10+00:00",
+      "status": "success"
+    },
+    "0000-0002-4130-3812/160971275": {
+      "authors_raw": "Pulkkinen, A., Barbiellini, B., Nokelainen, J., Sokolovskiy, V., Baigutlin, D., Miroshkina, O., Zagrebin, M., Buchelnikov, V., Lane, C., Markiewicz, R.S., Bansil, A., Sun, J., Pussi, K., Lähderanta, E.",
+      "observed_at": "2026-09-28T12:10:11+00:00",
+      "status": "success"
+    },
+    "0000-0002-4130-3812/161504521": {
+      "authors_raw": "Pulkkinen, Aki, Barbiellini, Bernardo, Nokelainen, Johannes, Sokolovskiy, Vladimir, Baygutlin, Danil, Miroshkina, Olga, Zagrebin, Mikhail, Buchelnikov, Vasiliy, Lane, Christopher, Markiewicz, Robert S., Bansil, Arun, Sun, Jianwei, Lähderanta, Erkki",
+      "observed_at": "2026-09-28T12:10:12+00:00",
+      "status": "success"
+    }
+  },
+  "schema": "orcid-work-contributors/v1"
+}
