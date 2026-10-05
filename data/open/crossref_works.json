@@ -12,13 +12,13 @@
           "date-parts": [
             [
               2026,
-              9,
-              21
+              10,
+              1
             ]
           ],
-          "date-time": "2026-09-21T17:00:12Z",
-          "timestamp": 1790010012176,
-          "version": "4.0.1"
+          "date-time": "2026-10-01T19:09:59Z",
+          "timestamp": 1790881799540,
+          "version": "4.1.0"
         },
         "reference-count": 84,
         "publisher": "American Physical Society (APS)",
@@ -716,12 +716,12 @@
           "date-parts": [
             [
               2026,
-              9,
-              21
+              10,
+              1
             ]
           ],
-          "date-time": "2026-09-21T16:01:57Z",
-          "timestamp": 1790006517000
+          "date-time": "2026-10-01T18:30:42Z",
+          "timestamp": 1790879442000
         },
         "score": 0.0,
         "resource": {
@@ -4461,12 +4461,12 @@
             [
               2026,
               9,
-              22
+              28
             ]
           ],
-          "date-time": "2026-09-22T04:18:49Z",
-          "timestamp": 1790050729725,
-          "version": "4.0.1"
+          "date-time": "2026-09-28T23:09:31Z",
+          "timestamp": 1790636971231,
+          "version": "4.1.0"
         },
         "reference-count": 181,
         "publisher": "MDPI AG",
@@ -4585,7 +4585,7 @@
         "page": "728",
         "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
         "source": "Crossref",
-        "is-referenced-by-count": 42,
+        "is-referenced-by-count": 43,
         "title": [
           "Meta-GGA SCAN Functional in the Prediction of Ground State Properties of Magnetic Materials: Review of the Current State"
         ],
@@ -10211,5 +10211,5 @@
       "search-terms": null
     }
   },
-  "last_success_at": "2026-09-28T12:10:07+00:00"
+  "last_success_at": "2026-10-05T12:51:13+00:00"
 }

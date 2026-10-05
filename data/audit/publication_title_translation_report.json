@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T12:14:36+00:00",
+  "generated_at": "2026-10-05T12:54:19+00:00",
   "stats": {
     "official": 0,
-    "preserved_existing": 45,
+    "preserved_existing": 75,
     "cached_machine_translation": 0,
-    "new_machine_translation": 30,
+    "new_machine_translation": 0,
     "unresolved": 0,
     "venue_enriched": 0
   },
-  "argos_status": "argos_ru_en",
+  "argos_status": "not_initialized",
   "source_priority": [
     "existing_publication",
     "scopus",

@@ -10,18 +10,21 @@
     "Baigutlin, D. R.",
     "Baigutlin, Danil",
     "Baigutlin, Danil R.",
+    "Baygutlin, Danil",
     "D. R BAIGUTLIN",
     "D. R. Baigutlin",
     "D.R. Baigutlin",
+    "D.R. Baygutlin",
     "Danil Baigutlin",
+    "Danil Baygutlin",
     "Danil R. Baigutlin",
     "Байгутлин Данил Расулович",
     "Д. Р. Байгутлин",
     "Д.Р. Байгутлин"
   ],
   "full_name": "Danil R. Baigutlin",
-  "works_count": 38,
-  "cited_by_count": 227,
+  "works_count": 41,
+  "cited_by_count": 234,
   "summary_stats": {
     "2yr_mean_citedness": 2.25,
     "h_index": 8,
@@ -35,6 +38,21 @@
     ]
   },
   "affiliations": [
+    {
+      "institution": {
+        "id": "https://openalex.org/I107640659",
+        "ror": "https://ror.org/03sfk2504",
+        "display_name": "South Ural State University",
+        "country_code": "RU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I107640659"
+        ]
+      },
+      "years": [
+        2019
+      ]
+    },
     {
       "institution": {
         "id": "https://openalex.org/I137211346",
@@ -54,7 +72,8 @@
         2021,
         2020,
         2019,
-        2018
+        2018,
+        2017
       ]
     },
     {
@@ -91,7 +110,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "count": 28,
+      "count": 29,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -178,7 +197,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 0.0006753,
+      "value": 0.0007015,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -195,7 +214,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "value": 0.0001587,
+      "value": 0.0001595,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -212,7 +231,7 @@
     {
       "id": "https://openalex.org/T11100",
       "display_name": "Intermetallics and Advanced Alloy Properties",
-      "value": 5.21e-05,
+      "value": 5.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -229,7 +248,7 @@
     {
       "id": "https://openalex.org/T12046",
       "display_name": "MXene and MAX Phase Materials",
-      "value": 4.83e-05,
+      "value": 4.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -244,16 +263,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10723",
-      "display_name": "Advanced Welding Techniques Analysis",
-      "value": 4.24e-05,
+      "id": "https://openalex.org/T11782",
+      "display_name": "Magnetic Properties of Alloys",
+      "value": 4.34e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -278,7 +297,7 @@
       "id": "121332964",
       "wikidata": "https://www.wikidata.org/wiki/Q413",
       "display_name": "Physics",
-      "score": 0.576366662979126
+      "score": 0.6007000207901001
     },
     {
       "id": "191897082",
@@ -295,6 +314,12 @@
   ],
   "counts_by_year": [
     {
+      "year": 2017,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 0,
@@ -302,15 +327,15 @@
     },
     {
       "year": 2019,
-      "works_count": 3,
-      "oa_works_count": 1,
+      "works_count": 4,
+      "oa_works_count": 2,
       "cited_by_count": 23
     },
     {
       "year": 2020,
-      "works_count": 8,
+      "works_count": 9,
       "oa_works_count": 3,
-      "cited_by_count": 65
+      "cited_by_count": 69
     },
     {
       "year": 2021,
@@ -328,7 +353,7 @@
       "year": 2023,
       "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 58
+      "cited_by_count": 59
     },
     {
       "year": 2024,
@@ -348,10 +373,13 @@
     "Baigutlin, D. R.",
     "Baigutlin, Danil",
     "Baigutlin, Danil R.",
+    "Baygutlin, Danil",
     "D. R BAIGUTLIN",
     "D. R. Baigutlin",
     "D.R. Baigutlin",
+    "D.R. Baygutlin",
     "Danil Baigutlin",
+    "Danil Baygutlin",
     "Danil R. Baigutlin",
     "Байгутлин Данил Расулович",
     "Д. Р. Байгутлин",
@@ -359,7 +387,7 @@
   ],
   "block_key": "d baigutlin",
   "works_api_url": "https://api.openalex.org/works?filter=author.id:A5052917978",
-  "updated_date": "2026-09-25T12:19:18",
+  "updated_date": "2026-10-01T12:39:15",
   "created_date": "2019-01-25T00:00:00",
-  "last_success_at": "2026-09-28T12:10:00+00:00"
+  "last_success_at": "2026-10-05T12:51:08+00:00"
 }

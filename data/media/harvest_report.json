@@ -1,7 +1,7 @@
 {
   "status": "partial",
-  "attempted_at": "2026-09-28T12:11:04+00:00",
-  "last_success_at": "2026-09-28T12:11:04+00:00",
+  "attempted_at": "2026-10-05T12:52:09+00:00",
+  "last_success_at": "2026-10-05T12:52:09+00:00",
   "origin": "live",
   "complete": false,
   "record_count": 9,
@@ -18,23 +18,16 @@
       "attempts": 1,
       "http_status": 200,
       "final_url": "https://www.csu.ru/press/news/",
-      "bytes": 267317,
+      "bytes": 266769,
       "record_count": 9,
       "collector": "listings",
       "required": true
     },
     {
-      "url": "https://news.google.com/rss/search?q=%22%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%22&hl=en&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/search?q=%22%D0%94%D0%B0%D0%BD%D0%B8%D0%BB+%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD%22&hl=ru&gl=RU&ceid=RU%3Aru",
       "status": "error",
       "attempts": 3,
       "reason": "ReadTimeout",
-      "collector": "rss",
-      "required": false
-    },
-    {
-      "url": "https://news.google.com/rss/search?q=%22%D0%94%D0%B0%D0%BD%D0%B8%D0%BB+%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD%22&hl=ru&gl=RU&ceid=RU%3Aru",
-      "status": "circuit_open",
-      "reason": "repeated_host_failures",
       "collector": "rss",
       "required": false
     },
@@ -137,6 +130,13 @@
       "required": false
     },
     {
+      "url": "https://news.google.com/rss/search?q=%22%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%22&hl=en&gl=US&ceid=US%3Aen",
+      "status": "circuit_open",
+      "reason": "repeated_host_failures",
+      "collector": "rss",
+      "required": false
+    },
+    {
       "url": "https://www.csu.ru/sitemap.xml",
       "status": "http_error",
       "attempts": 1,
@@ -166,52 +166,92 @@
       "required": false
     },
     {
-      "url": "https://www.csu.ru/press/news/predstaviteli-chelgu-stali-uchastnikami-mezhdunarodnogo-festivalya-molodyezhi/",
+      "url": "https://www.csu.ru/press/news/studentov-nelingvisticheskikh-napravleniy-chelgu-priglashayut-na-olimpiadu-flipolimp/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/predstaviteli-chelgu-stali-uchastnikami-mezhdunarodnogo-festivalya-molodyezhi/",
-      "bytes": 278034,
+      "final_url": "https://www.csu.ru/press/news/studentov-nelingvisticheskikh-napravleniy-chelgu-priglashayut-na-olimpiadu-flipolimp/",
+      "bytes": 270250,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/knigi-ob-istorikakh-i-yuristakh-chelgu-vyshli-v-final-natsionalnogo-konkursa/",
+      "url": "https://www.csu.ru/press/news/v-chelgu-proshla-vserossiyskaya-shkola-seminar-atom/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/knigi-ob-istorikakh-i-yuristakh-chelgu-vyshli-v-final-natsionalnogo-konkursa/",
-      "bytes": 276879,
+      "final_url": "https://www.csu.ru/press/news/v-chelgu-proshla-vserossiyskaya-shkola-seminar-atom/",
+      "bytes": 277858,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/chelgu-i-obrazovatelnyy-tsentr-7-zapustili-klass-pravosudiya-dlya-starsheklassnikov/",
+      "url": "https://www.csu.ru/press/news/chelyabinskomu-gosudarstvennomu-universitetu-50-let/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/chelgu-i-obrazovatelnyy-tsentr-7-zapustili-klass-pravosudiya-dlya-starsheklassnikov/",
-      "bytes": 275889,
+      "final_url": "https://www.csu.ru/press/news/chelyabinskomu-gosudarstvennomu-universitetu-50-let/",
+      "bytes": 277054,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/iv-mezhdunarodnyy-immersivnyy-forum-evraziyskie-vorota-proydyet-v-bishkeke-23-oktyabrya/",
+      "url": "https://www.csu.ru/press/news/dotsent-chelgu-zashchitila-doktorskuyu-dissertatsiyu-o-grazhdanine-kak-subekte-chastnogo-prava/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/iv-mezhdunarodnyy-immersivnyy-forum-evraziyskie-vorota-proydyet-v-bishkeke-23-oktyabrya/",
-      "bytes": 279087,
+      "final_url": "https://www.csu.ru/press/news/dotsent-chelgu-zashchitila-doktorskuyu-dissertatsiyu-o-grazhdanine-kak-subekte-chastnogo-prava/",
+      "bytes": 275181,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/v-chelgu-proshel-ezhegodnyy-zapusk-federalnoy-programmy-obuchenie-sluzheniem/",
+      "url": "https://www.csu.ru/press/news/spetsialnyy-vypusk-universitetskoy-naberezhnoy-/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/v-chelgu-proshel-ezhegodnyy-zapusk-federalnoy-programmy-obuchenie-sluzheniem/",
-      "bytes": 286389,
+      "final_url": "https://www.csu.ru/press/news/spetsialnyy-vypusk-universitetskoy-naberezhnoy-/",
+      "bytes": 272006,
+      "collector": "institutional_news_listing",
+      "required": true
+    },
+    {
+      "url": "https://www.csu.ru/press/news/chelyabinsk-sovsem-ne-surovyy-v-chelgu-vstretili-blog-tur-studturizm/",
+      "status": "ok",
+      "attempts": 1,
+      "http_status": 200,
+      "final_url": "https://www.csu.ru/press/news/chelyabinsk-sovsem-ne-surovyy-v-chelgu-vstretili-blog-tur-studturizm/",
+      "bytes": 281445,
+      "collector": "institutional_news_listing",
+      "required": true
+    },
+    {
+      "url": "https://www.csu.ru/press/news/v-miasskom-filiale-chelgu-proshla-vserossiyskaya-konferentsiya-traditsiya-v-dvizhenii/",
+      "status": "ok",
+      "attempts": 1,
+      "http_status": 200,
+      "final_url": "https://www.csu.ru/press/news/v-miasskom-filiale-chelgu-proshla-vserossiyskaya-konferentsiya-traditsiya-v-dvizhenii/",
+      "bytes": 271251,
+      "collector": "institutional_news_listing",
+      "required": true
+    },
+    {
+      "url": "https://www.csu.ru/press/news/zhurfak-chelgu-priglashaet-redaktorov-v-laboratoriyu-mediapedagogiki/",
+      "status": "ok",
+      "attempts": 1,
+      "http_status": 200,
+      "final_url": "https://www.csu.ru/press/news/zhurfak-chelgu-priglashaet-redaktorov-v-laboratoriyu-mediapedagogiki/",
+      "bytes": 270352,
+      "collector": "institutional_news_listing",
+      "required": true
+    },
+    {
+      "url": "https://www.csu.ru/press/news/mezhdunarodnyy-den-perevodchika/",
+      "status": "ok",
+      "attempts": 1,
+      "http_status": 200,
+      "final_url": "https://www.csu.ru/press/news/mezhdunarodnyy-den-perevodchika/",
+      "bytes": 272909,
       "collector": "institutional_news_listing",
       "required": true
     }
@@ -220,26 +260,26 @@
     {
       "collector": "listings",
       "budget_seconds": 60.0,
-      "elapsed_seconds": 1.97
+      "elapsed_seconds": 1.63
     },
     {
       "collector": "rss",
-      "budget_seconds": 44.51,
-      "elapsed_seconds": 33.88
+      "budget_seconds": 44.59,
+      "elapsed_seconds": 33.75
     },
     {
       "collector": "sitemaps",
-      "budget_seconds": 48.05,
-      "elapsed_seconds": 2.26
+      "budget_seconds": 48.21,
+      "elapsed_seconds": 1.38
     },
     {
       "collector": "sites",
-      "budget_seconds": 70.95,
-      "elapsed_seconds": 3.61
+      "budget_seconds": 71.63,
+      "elapsed_seconds": 2.9
     },
     {
       "collector": "telegram",
-      "budget_seconds": 138.28,
+      "budget_seconds": 140.36,
       "elapsed_seconds": 0.0
     }
   ],

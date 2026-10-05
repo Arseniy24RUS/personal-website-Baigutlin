@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:15:51+00:00",
+  "generated_at": "2026-10-05T12:54:28+00:00",
   "status": "partial",
   "checks": {
     "publications_count": 75,
@@ -25,18 +25,18 @@
       "titles_fixed": 0,
       "title_fields_added": 0,
       "elibrary_detail_fields_added": 0,
-      "metadata_fields_added": 3,
+      "metadata_fields_added": 0,
       "gost_built": 0,
       "apa_built": 0,
-      "crossref_cache_hit": 0,
-      "crossref_fetched": 40,
-      "crossref_failed": 7
+      "crossref_cache_hit": 47,
+      "crossref_fetched": 0,
+      "crossref_failed": 0
     }
   },
   "source_health": {
     "elibrary": {
       "status": "blocked",
-      "attempted_at": "2026-09-28T12:14:03+00:00",
+      "attempted_at": "2026-10-05T12:53:57+00:00",
       "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
@@ -44,19 +44,19 @@
       "reason": "profile_not_authenticated_or_changed",
       "stage": "login",
       "components": {
-        "details": {
+        "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:03+00:00",
-          "last_success_at": null,
+          "attempted_at": "2026-10-05T12:53:57+00:00",
+          "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
           "reason": "profile_not_authenticated_or_changed"
         },
-        "metrics": {
+        "details": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:03+00:00",
-          "last_success_at": "2026-09-23T18:11:13+00:00",
+          "attempted_at": "2026-10-05T12:53:57+00:00",
+          "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
@@ -64,7 +64,7 @@
         },
         "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:03+00:00",
+          "attempted_at": "2026-10-05T12:53:57+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
@@ -75,7 +75,7 @@
     },
     "wos": {
       "status": "blocked",
-      "attempted_at": "2026-09-28T12:14:19+00:00",
+      "attempted_at": "2026-10-05T12:54:12+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -83,18 +83,18 @@
       "reason": "human_verification_required",
       "stage": "login",
       "components": {
-        "publications": {
+        "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:19+00:00",
+          "attempted_at": "2026-10-05T12:54:12+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
           "reason": "human_verification_required"
         },
-        "metrics": {
+        "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:19+00:00",
+          "attempted_at": "2026-10-05T12:54:12+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
@@ -105,8 +105,8 @@
     },
     "scopus": {
       "status": "success",
-      "attempted_at": "2026-09-28T12:14:25+00:00",
-      "last_success_at": "2026-09-28T12:14:25+00:00",
+      "attempted_at": "2026-10-05T12:54:18+00:00",
+      "last_success_at": "2026-10-05T12:54:18+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 26,
@@ -114,8 +114,8 @@
     },
     "media": {
       "status": "partial",
-      "attempted_at": "2026-09-28T12:11:04+00:00",
-      "last_success_at": "2026-09-28T12:11:04+00:00",
+      "attempted_at": "2026-10-05T12:52:09+00:00",
+      "last_success_at": "2026-10-05T12:52:09+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,
@@ -124,8 +124,8 @@
     },
     "orcid": {
       "status": "success",
-      "attempted_at": "2026-09-28T12:09:59+00:00",
-      "last_success_at": "2026-09-28T12:09:59+00:00",
+      "attempted_at": "2026-10-05T12:50:22+00:00",
+      "last_success_at": "2026-10-05T12:50:22+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 65,
@@ -133,8 +133,8 @@
     },
     "openalex": {
       "status": "success",
-      "attempted_at": "2026-09-28T12:10:02+00:00",
-      "last_success_at": "2026-09-28T12:10:02+00:00",
+      "attempted_at": "2026-10-05T12:51:10+00:00",
+      "last_success_at": "2026-10-05T12:51:10+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 40,
@@ -142,8 +142,8 @@
     },
     "crossref": {
       "status": "success",
-      "attempted_at": "2026-09-28T12:10:07+00:00",
-      "last_success_at": "2026-09-28T12:10:07+00:00",
+      "attempted_at": "2026-10-05T12:51:13+00:00",
+      "last_success_at": "2026-10-05T12:51:13+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 13,
@@ -159,7 +159,7 @@
       "code": "source_not_fresh",
       "provider": "elibrary",
       "status": "blocked",
-      "attempted_at": "2026-09-28T12:14:03+00:00",
+      "attempted_at": "2026-10-05T12:53:57+00:00",
       "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
@@ -167,19 +167,19 @@
       "reason": "profile_not_authenticated_or_changed",
       "stage": "login",
       "components": {
-        "details": {
+        "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:03+00:00",
-          "last_success_at": null,
+          "attempted_at": "2026-10-05T12:53:57+00:00",
+          "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
           "reason": "profile_not_authenticated_or_changed"
         },
-        "metrics": {
+        "details": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:03+00:00",
-          "last_success_at": "2026-09-23T18:11:13+00:00",
+          "attempted_at": "2026-10-05T12:53:57+00:00",
+          "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
@@ -187,7 +187,7 @@
         },
         "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:03+00:00",
+          "attempted_at": "2026-10-05T12:53:57+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
@@ -200,7 +200,7 @@
       "code": "source_not_fresh",
       "provider": "wos",
       "status": "blocked",
-      "attempted_at": "2026-09-28T12:14:19+00:00",
+      "attempted_at": "2026-10-05T12:54:12+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -208,18 +208,18 @@
       "reason": "human_verification_required",
       "stage": "login",
       "components": {
-        "publications": {
+        "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:19+00:00",
+          "attempted_at": "2026-10-05T12:54:12+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
           "reason": "human_verification_required"
         },
-        "metrics": {
+        "publications": {
           "status": "blocked",
-          "attempted_at": "2026-09-28T12:14:19+00:00",
+          "attempted_at": "2026-10-05T12:54:12+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
@@ -232,8 +232,8 @@
       "code": "source_not_fresh",
       "provider": "media",
       "status": "partial",
-      "attempted_at": "2026-09-28T12:11:04+00:00",
-      "last_success_at": "2026-09-28T12:11:04+00:00",
+      "attempted_at": "2026-10-05T12:52:09+00:00",
+      "last_success_at": "2026-10-05T12:52:09+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,
