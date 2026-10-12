@@ -1,6 +1,6 @@
 {
   "status": "blocked",
-  "attempted_at": "2026-10-05T12:54:12+00:00",
+  "attempted_at": "2026-10-12T13:45:54+00:00",
   "last_success_at": null,
   "origin": "snapshot",
   "complete": false,
@@ -9,7 +9,7 @@
   "components": {
     "metrics": {
       "status": "blocked",
-      "attempted_at": "2026-10-05T12:54:12+00:00",
+      "attempted_at": "2026-10-12T13:45:54+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -18,7 +18,7 @@
     },
     "publications": {
       "status": "blocked",
-      "attempted_at": "2026-10-05T12:54:12+00:00",
+      "attempted_at": "2026-10-12T13:45:54+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
@@ -96,7 +96,7 @@
           "tag": "button",
           "type": "",
           "name": "",
-          "id": "",
+          "id": "homeMenu",
           "label": "MENU"
         },
         {
@@ -160,7 +160,7 @@
           "type": "",
           "name": "",
           "id": "ot-sdk-btn",
-          "label": "Cookie Settings"
+          "label": "Manage cookie preferences"
         },
         {
           "tag": "a",
@@ -220,11 +220,11 @@
       "verify_you_are_human",
       "unusual_activity"
     ],
-    "elapsed_seconds": 0.002,
+    "elapsed_seconds": 0.003,
     "observation_budget_seconds": 10.0,
     "observation_timeline": [
       {
-        "elapsed_seconds": 0.002,
+        "elapsed_seconds": 0.003,
         "category": "marker",
         "ready_state": "unavailable",
         "frame_text_length": null,
@@ -245,27 +245,29 @@
     ]
   },
   "authentication_evidence": {
-    "orcid_selected": false,
-    "orcid_form_observed": false,
-    "wos_return_observed": false,
-    "profile_requested": false,
-    "orcid_consent_clicked": false,
+    "cookie_banner_dismissed": true,
     "profile_loaded": false,
-    "onboarding_acknowledged": false,
-    "input_matches_configured": false,
-    "initial_profile_loaded": true,
-    "consent_accepted": false,
-    "username_format_valid": true,
-    "returned_profile_reused": false,
-    "username_normalized": false,
-    "wos_session_confirmed": false,
-    "homepage_requested": false,
-    "initial_profile_requested": true,
+    "orcid_selected": false,
     "clarivate_observed": false,
-    "signin_clicked": false,
-    "submit_clicked": false,
+    "wos_session_confirmed": false,
+    "initial_profile_requested": true,
+    "profile_requested": false,
+    "username_normalized": false,
+    "orcid_form_observed": false,
+    "onboarding_acknowledged": false,
+    "username_format_valid": true,
+    "initial_profile_loaded": true,
+    "cookie_banner_observed": true,
+    "orcid_consent_clicked": false,
+    "returned_profile_reused": false,
     "orcid_page_observed": false,
+    "homepage_requested": false,
+    "submit_clicked": false,
     "homepage_loaded": false,
+    "wos_return_observed": false,
+    "consent_accepted": true,
+    "input_matches_configured": false,
+    "signin_clicked": false,
     "stage": "initial_profile"
   },
   "authentication_mode": "restore",

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-05T12:54:19+00:00",
+  "generated_at": "2026-10-12T13:46:03+00:00",
   "stats": {
-    "records": 75,
+    "records": 76,
     "titles_fixed": 0,
-    "title_fields_added": 0,
+    "title_fields_added": 1,
     "elibrary_detail_fields_added": 0,
     "metadata_fields_added": 0,
-    "gost_built": 0,
-    "apa_built": 0,
+    "gost_built": 1,
+    "apa_built": 1,
     "crossref_cache_hit": 47,
     "crossref_fetched": 0,
     "crossref_failed": 0

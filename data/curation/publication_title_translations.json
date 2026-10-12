@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:54:19+00:00",
+  "generated_at": "2026-10-12T13:46:03+00:00",
   "items": {
     "elibrary:68641010": {
       "title_ru": "Термоэлектрические свойства сплавов Гейслера на основе щелочных металлов",
@@ -239,6 +239,14 @@
       "title_en_source": "argos_translate_ru_en",
       "created_at": "2026-09-28T12:14:36+00:00",
       "updated_at": "2026-09-28T12:14:36+00:00",
+      "review_status": "machine"
+    },
+    "sha256:d20e4bb19860f5dd": {
+      "title_ru": "ПРЕДСКАЗАНИЕ УПРУГИХ СВОЙСТВ КРИСТАЛЛИЧЕСКОЙ СТРУКТУРЫ СПЛАВОВ ГЕЙСЛЕРА В РАМКАХ МАШИННОГО ОБУЧЕНИЯ",
+      "title_en": "Proposition of Elastic Properties of the Crystalline Structure of Heisler Alloys in Machine Learning Frameworks",
+      "title_en_source": "argos_translate_ru_en",
+      "created_at": "2026-10-12T13:46:03+00:00",
+      "updated_at": "2026-10-12T13:46:03+00:00",
       "review_status": "machine"
     }
   },

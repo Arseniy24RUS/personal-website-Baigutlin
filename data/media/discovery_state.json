@@ -114,6 +114,51 @@
       "processed_at": "2026-10-05T12:52:09+00:00",
       "status": "low_confidence",
       "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-zavershilsya-studencheskiy-festival-inklyuzivnykh-praktik-bez-barerov": {
+      "processed_at": "2026-10-12T13:42:38+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/gazeta-chelgu-v-short-liste-konkursa-medialider-2026": {
+      "processed_at": "2026-10-12T13:42:39+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/127-studentov-proshli-v-final-iii-vserossiyskogo-festivalya-inklyuzivnoy-kultury-i-tvorchestva": {
+      "processed_at": "2026-10-12T13:42:41+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/istoriko-filologicheskomu-fakultetu-chelgu-50-let": {
+      "processed_at": "2026-10-12T13:42:43+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/sberbank-otmetil-studentku-chelgu-za-vklad-v-uluchshenie-ipotechnogo-servisa": {
+      "processed_at": "2026-10-12T13:42:45+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/voskresnyy-universitet-chelgu-raskroet-tayny-napisaniya-nauchnogo-proekta": {
+      "processed_at": "2026-10-12T13:42:47+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-obyavlyaet-nabor-na-programmy-professionalnoy-perepodgotovki-v-sfere-fizicheskoy-kultury-i-sp": {
+      "processed_at": "2026-10-12T13:42:48+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-opredelili-pobediteley-festivalya-pervye-shagi": {
+      "processed_at": "2026-10-12T13:42:51+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/uchyenye-chelgu-predstavili-doklad-na-mezhdunarodnoy-konferentsii-v-serbii": {
+      "processed_at": "2026-10-12T13:42:52+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
     }
   },
   "pending": {},
@@ -123,8 +168,8 @@
     ]
   },
   "rss_cursor": {
-    "next_index": 3,
-    "attempted_at": "2026-10-05T12:51:48+00:00"
+    "next_index": 4,
+    "attempted_at": "2026-10-12T13:42:30+00:00"
   },
   "initial_cutoff": "2024-04-06"
 }

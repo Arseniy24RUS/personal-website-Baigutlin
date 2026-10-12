@@ -110,7 +110,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "count": 29,
+      "count": 34,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -127,7 +127,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "count": 10,
+      "count": 22,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -142,26 +142,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11100",
-      "display_name": "Intermetallics and Advanced Alloy Properties",
-      "count": 9,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12046",
-      "display_name": "MXene and MAX Phase Materials",
-      "count": 7,
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "count": 17,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -176,16 +159,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T10607",
-      "display_name": "Magnetic and transport properties of perovskites and related materials",
-      "count": 6,
+      "id": "https://openalex.org/T10002",
+      "display_name": "Advanced Chemical Physics Studies",
+      "count": 12,
       "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10037",
+      "display_name": "Physics of Superconductivity and Magnetism",
+      "count": 8,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -197,7 +197,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 0.0007015,
+      "value": 0.0012697,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -214,7 +214,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "value": 0.0001595,
+      "value": 0.0002413,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -229,9 +229,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11100",
-      "display_name": "Intermetallics and Advanced Alloy Properties",
-      "value": 5.26e-05,
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "value": 7.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11143",
+      "display_name": "High Entropy Alloys Studies",
+      "value": 6.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -246,29 +263,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12046",
-      "display_name": "MXene and MAX Phase Materials",
-      "value": 4.85e-05,
+      "id": "https://openalex.org/T10440",
+      "display_name": "Advanced Thermoelectric Materials and Devices",
+      "value": 2.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11782",
-      "display_name": "Magnetic Properties of Alloys",
-      "value": 4.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/25",
@@ -387,7 +387,7 @@
   ],
   "block_key": "d baigutlin",
   "works_api_url": "https://api.openalex.org/works?filter=author.id:A5052917978",
-  "updated_date": "2026-10-01T12:39:15",
+  "updated_date": "2026-10-10T12:59:14",
   "created_date": "2019-01-25T00:00:00",
-  "last_success_at": "2026-10-05T12:51:08+00:00"
+  "last_success_at": "2026-10-12T13:41:49+00:00"
 }
