@@ -1,13 +1,15 @@
 {
   "meta": {
-    "count": 43,
-    "db_response_time_ms": 16,
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. The mailto parameter doesn't raise this limit. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=[REDACTED] to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 42,
+    "db_response_time_ms": 22,
     "page": null,
     "per_page": 200,
     "next_cursor": null,
     "groups_count": null,
     "x_query": {
       "oql": "get works where author is (A5052917978)",
+      "x_new_oql": "get (A5052917978)'s works, newest first",
       "oqo": {
         "get_rows": "works",
         "filter_rows": [
@@ -15,9 +17,15 @@
             "column_id": "authorships.author.id",
             "value": "A5052917978"
           }
+        ],
+        "sort_by": [
+          {
+            "column_id": "publication_date",
+            "direction": "desc"
+          }
         ]
       },
-      "url": "/works?filter=authorships.author.id:A5052917978&per_page=200&cursor=%2A"
+      "url": "/works?filter=authorships.author.id:A5052917978&sort=publication_date:desc&per_page=200&cursor=%2A"
     },
     "cost_usd": 0.0001
   },
@@ -51,7 +59,10 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "poland-20",
+            "russia-white-list-3"
+          ],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -248,7 +259,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09649409,
+        "value": 0.09556737,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -438,7 +449,10 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "poland-20",
+              "russia-white-list-3"
+            ],
             "host_organization": null,
             "host_organization_name": null,
             "host_organization_lineage": [],
@@ -461,8 +475,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -775,9 +789,14 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-b",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320990",
           "host_organization_name": "Elsevier BV",
@@ -1021,11 +1040,11 @@
         "value_usd": 3210
       },
       "apc_paid": null,
-      "fwci": 0.163,
+      "fwci": 0.1606,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.28664897,
+        "value": 0.27977592,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1258,9 +1277,14 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
+              "dongbi-b",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
@@ -1307,8 +1331,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 33,
@@ -1400,9 +1424,14 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-d",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320257",
           "host_organization_name": "American Institute of Physics",
@@ -1687,11 +1716,11 @@
         "currency": "USD",
         "value_usd": 3500
       },
-      "fwci": 0.3839,
+      "fwci": 0.38,
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.4849105,
+        "value": 0.47912844,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1934,9 +1963,14 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
+              "dongbi-d",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320257",
             "host_organization_name": "American Institute of Physics",
@@ -1976,9 +2010,14 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-d",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320257",
           "host_organization_name": "American Institute of Physics",
@@ -2018,8 +2057,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 40,
@@ -2577,8 +2616,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -2824,11 +2866,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.192,
+      "fwci": 0.19,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.36779022,
+        "value": 0.36029078,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3025,8 +3067,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-40",
+              "russia-white-list-2"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -3056,8 +3101,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 28,
@@ -3404,9 +3449,14 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-d",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320257",
           "host_organization_name": "American Institute of Physics",
@@ -3644,11 +3694,11 @@
         "currency": "USD",
         "value_usd": 3500
       },
-      "fwci": 0.6719,
+      "fwci": 0.665,
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.6217246,
+        "value": 0.61777239,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3880,9 +3930,14 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
+              "dongbi-d",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320257",
             "host_organization_name": "American Institute of Physics",
@@ -3922,9 +3977,14 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-d",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320257",
           "host_organization_name": "American Institute of Physics",
@@ -3947,9 +4007,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life on land",
-          "score": 0.6200000047683716,
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.6200000047683716
         }
       ],
       "study_designs": [],
@@ -3970,8 +4030,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 35,
@@ -4704,11 +4764,11 @@
         "value_usd": 3160
       },
       "apc_paid": null,
-      "fwci": 0.31,
+      "fwci": 0.3091,
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.39694096,
+        "value": 0.39610281,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5000,8 +5060,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 21,
@@ -5603,8 +5663,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4403783022.pdf",
@@ -6056,516 +6116,6 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
-      "id": "https://openalex.org/W4401702922",
-      "doi": "https://doi.org/10.2139/ssrn.4927796",
-      "title": "Systematic Study of D0-D Kyz (Y = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Z = Al, Ga, in, Si, Ge, Sn, Pb, P, as, Sb, Bi, S, Se, Te) Heusler Alloys",
-      "display_name": "Systematic Study of D0-D Kyz (Y = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Z = Al, Ga, in, Si, Ge, Sn, Pb, P, as, Sb, Bi, S, Se, Te) Heusler Alloys",
-      "publication_year": 2024,
-      "publication_date": "2024-01-01",
-      "ids": {
-        "openalex": "https://openalex.org/W4401702922",
-        "doi": "https://doi.org/10.2139/ssrn.4927796"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.2139/ssrn.4927796",
-        "doi": "https://doi.org/10.2139/ssrn.4927796",
-        "is_oa": true,
-        "landing_page_url": "http://dx.doi.org/10.2139/ssrn.4927796",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4210172589",
-          "display_name": "SSRN Electronic Journal",
-          "issn_l": "1556-5068",
-          "issn": [
-            "1556-5068"
-          ],
-          "is_oa": true,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/I1318003438",
-          "host_organization_name": "RELX Group (Netherlands)",
-          "host_organization_lineage": [
-            "https://openalex.org/I1318003438"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "acceptedVersion",
-        "is_accepted": true,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "posted-content"
-      },
-      "volume": null,
-      "type": "preprint",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": true,
-        "oa_status": "green",
-        "oa_url": "http://dx.doi.org/10.2139/ssrn.4927796",
-        "any_repository_has_fulltext": true
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5080868736",
-            "display_name": "Mariya V. Matyunina",
-            "orcid": "https://orcid.org/0000-0002-7307-3919",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-7307-3919"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I137211346",
-              "display_name": "Chelyabinsk State University",
-              "ror": "https://ror.org/04s36qm86",
-              "country_code": "RU",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ],
-          "countries": [
-            "RU"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Maria  V. Matyunina",
-          "raw_affiliation_strings": [
-            "Chelyabinsk State University"
-          ],
-          "raw_orcid": "https://orcid.org/0000-0002-7307-3919",
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Chelyabinsk State University",
-              "institution_ids": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5052917978",
-            "display_name": "Danil R. Baigutlin",
-            "orcid": "https://orcid.org/0000-0002-4130-3812",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-4130-3812"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I137211346",
-              "display_name": "Chelyabinsk State University",
-              "ror": "https://ror.org/04s36qm86",
-              "country_code": "RU",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ],
-          "countries": [
-            "RU"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Danil Baigutlin",
-          "raw_affiliation_strings": [
-            "Chelyabinsk State University",
-            "Chelyabinsk State University, 129 Br. K​ashirinykh str., Chelyabinsk, 454001, Russia"
-          ],
-          "raw_orcid": "https://orcid.org/0000-0002-4130-3812",
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Chelyabinsk State University",
-              "institution_ids": [
-                "https://openalex.org/I137211346"
-              ]
-            },
-            {
-              "raw_affiliation_string": "Chelyabinsk State University, 129 Br. K​ashirinykh str., Chelyabinsk, 454001, Russia",
-              "institution_ids": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5031300739",
-            "display_name": "V. V. Sokolovskiy",
-            "orcid": "https://orcid.org/0000-0002-5939-2016",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-5939-2016"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I137211346",
-              "display_name": "Chelyabinsk State University",
-              "ror": "https://ror.org/04s36qm86",
-              "country_code": "RU",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ],
-          "countries": [
-            "RU"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Vladimir Sokolovskiy",
-          "raw_affiliation_strings": [
-            "Chelyabinsk State University"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Chelyabinsk State University",
-              "institution_ids": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5046178226",
-            "display_name": "V. D. Buchelnikov",
-            "orcid": "https://orcid.org/0000-0002-5638-255X",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-5638-255X"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I137211346",
-              "display_name": "Chelyabinsk State University",
-              "ror": "https://ror.org/04s36qm86",
-              "country_code": "RU",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ],
-          "countries": [
-            "RU"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Vasiliy Buchelnikov",
-          "raw_affiliation_strings": [
-            "Chelyabinsk State University",
-            "Chelyabinsk State University, 129 Br. K​ashirinykh str., Chelyabinsk, 454001, Russia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Chelyabinsk State University",
-              "institution_ids": [
-                "https://openalex.org/I137211346"
-              ]
-            },
-            {
-              "raw_affiliation_string": "Chelyabinsk State University, 129 Br. K​ashirinykh str., Chelyabinsk, 454001, Russia",
-              "institution_ids": [
-                "https://openalex.org/I137211346"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 1,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5080868736"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I137211346"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": null,
-      "has_fulltext": false,
-      "cited_by_count": 0,
-      "citation_normalized_percentile": null,
-      "cited_by_percentile_year": null,
-      "biblio": {
-        "volume": null,
-        "issue": null,
-        "first_page": null,
-        "last_page": null
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T12200",
-        "display_name": "Heusler alloys: electronic and magnetic properties",
-        "score": 0.9937000274658203,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2504",
-          "display_name": "Electronic, Optical and Magnetic Materials"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/25",
-          "display_name": "Materials Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T12200",
-          "display_name": "Heusler alloys: electronic and magnetic properties",
-          "score": 0.9937000274658203,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2504",
-            "display_name": "Electronic, Optical and Magnetic Materials"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10440",
-          "display_name": "Advanced Thermoelectric Materials and Devices",
-          "score": 0.0052999998442828655,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2505",
-            "display_name": "Materials Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11948",
-          "display_name": "Machine Learning in Materials Science",
-          "score": 0.0003000000142492354,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2505",
-            "display_name": "Materials Chemistry"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/half-heusler-compounds",
-          "display_name": "half-Heusler compounds",
-          "score": 0.9660000205039978
-        },
-        {
-          "id": "https://openalex.org/keywords/phase-stability",
-          "display_name": "phase stability",
-          "score": 0.5550000071525574
-        },
-        {
-          "id": "https://openalex.org/keywords/mechanical-stability",
-          "display_name": "mechanical stability",
-          "score": 0.6579999923706055
-        },
-        {
-          "id": "https://openalex.org/keywords/band-gap",
-          "display_name": "band gap",
-          "score": 0.6439999938011169
-        },
-        {
-          "id": "https://openalex.org/keywords/half-metallicity",
-          "display_name": "half-metallicity",
-          "score": 0.824999988079071
-        },
-        {
-          "id": "https://openalex.org/keywords/semiconducting-behavior",
-          "display_name": "semiconducting behavior",
-          "score": 0.6129999756813049
-        },
-        {
-          "id": "https://openalex.org/keywords/thermal-conductivity",
-          "display_name": "thermal conductivity",
-          "score": 0.8600000143051147
-        },
-        {
-          "id": "https://openalex.org/keywords/thermoelectric-materials",
-          "display_name": "thermoelectric materials",
-          "score": 0.9390000104904175
-        },
-        {
-          "id": "https://openalex.org/keywords/cubic-symmetry",
-          "display_name": "cubic symmetry",
-          "score": 0.32600000500679016
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.4715554714202881
-        },
-        {
-          "id": "https://openalex.org/C528890316",
-          "wikidata": "https://www.wikidata.org/wiki/Q731",
-          "display_name": "Manganese",
-          "level": 2,
-          "score": 0.43780896067619324
-        },
-        {
-          "id": "https://openalex.org/C8010536",
-          "wikidata": "https://www.wikidata.org/wiki/Q160398",
-          "display_name": "Crystallography",
-          "level": 1,
-          "score": 0.3572703003883362
-        },
-        {
-          "id": "https://openalex.org/C191897082",
-          "wikidata": "https://www.wikidata.org/wiki/Q11467",
-          "display_name": "Metallurgy",
-          "level": 1,
-          "score": 0.3027680516242981
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.2837657332420349
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.2139/ssrn.4927796",
-          "doi": "https://doi.org/10.2139/ssrn.4927796",
-          "is_oa": true,
-          "landing_page_url": "http://dx.doi.org/10.2139/ssrn.4927796",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4210172589",
-            "display_name": "SSRN Electronic Journal",
-            "issn_l": "1556-5068",
-            "issn": [
-              "1556-5068"
-            ],
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/I1318003438",
-            "host_organization_name": "RELX Group (Netherlands)",
-            "host_organization_lineage": [
-              "https://openalex.org/I1318003438"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "acceptedVersion",
-          "is_accepted": true,
-          "is_published": false,
-          "raw_source_name": null,
-          "raw_type": "posted-content"
-        }
-      ],
-      "best_oa_location": {
-        "id": "doi:10.2139/ssrn.4927796",
-        "doi": "https://doi.org/10.2139/ssrn.4927796",
-        "is_oa": true,
-        "landing_page_url": "http://dx.doi.org/10.2139/ssrn.4927796",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4210172589",
-          "display_name": "SSRN Electronic Journal",
-          "issn_l": "1556-5068",
-          "issn": [
-            "1556-5068"
-          ],
-          "is_oa": true,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/I1318003438",
-          "host_organization_name": "RELX Group (Netherlands)",
-          "host_organization_lineage": [
-            "https://openalex.org/I1318003438"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "acceptedVersion",
-        "is_accepted": true,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "posted-content"
-      },
-      "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
-      "study_designs": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 0,
-      "referenced_works": [],
-      "related_works": [
-        "https://openalex.org/W2326439437",
-        "https://openalex.org/W1970320922",
-        "https://openalex.org/W2349657250",
-        "https://openalex.org/W4210628558",
-        "https://openalex.org/W2380273243",
-        "https://openalex.org/W4205814902",
-        "https://openalex.org/W2009359832",
-        "https://openalex.org/W2144148716",
-        "https://openalex.org/W3140870586",
-        "https://openalex.org/W2470603845"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [],
-      "updated_date": "2026-09-29T14:09:16.559479",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W4384377168",
       "doi": "https://doi.org/10.1016/j.commatsci.2023.112365",
       "title": "Ab initio prediction of coexistence of two magnetic states in Mn 2Y Sn ( Y= Sc, Ti, and V) Heusler alloys under applied pressure",
@@ -6856,7 +6406,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.27424963,
+        "value": 0.27030607,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7140,16 +6690,17 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 50,
+      "referenced_works_count": 47,
       "referenced_works": [
         "https://openalex.org/W1639832780",
         "https://openalex.org/W1979544533",
         "https://openalex.org/W1981368803",
         "https://openalex.org/W1982418083",
+        "https://openalex.org/W1984166704",
         "https://openalex.org/W2000331965",
         "https://openalex.org/W2002203091",
         "https://openalex.org/W2002962614",
@@ -7185,17 +6736,13 @@
         "https://openalex.org/W3035825315",
         "https://openalex.org/W3083354262",
         "https://openalex.org/W3084259464",
-        "https://openalex.org/W3100306369",
         "https://openalex.org/W3102157866",
-        "https://openalex.org/W3103064328",
         "https://openalex.org/W3111370805",
         "https://openalex.org/W3128700816",
         "https://openalex.org/W3204171710",
         "https://openalex.org/W4285382686",
         "https://openalex.org/W4288723758",
-        "https://openalex.org/W6756129003",
-        "https://openalex.org/W6785600121",
-        "https://openalex.org/W6948050317"
+        "https://openalex.org/W6785600121"
       ],
       "related_works": [
         "https://openalex.org/W1532779639",
@@ -7220,7 +6767,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-10-10T09:11:00.788812",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -7255,8 +6802,12 @@
           "is_core": true,
           "listed_in": [
             "cwts-core",
+            "dongbi-a",
             "jufo-2",
-            "norway-2"
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320261",
           "host_organization_name": "American Physical Society",
@@ -7433,11 +6984,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.1185,
+      "fwci": 0.1184,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.21884973,
+        "value": 0.21406837,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7730,8 +7281,12 @@
             "is_core": true,
             "listed_in": [
               "cwts-core",
+              "dongbi-a",
               "jufo-2",
-              "norway-2"
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320261",
             "host_organization_name": "American Physical Society",
@@ -7797,11 +7352,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 99,
+      "referenced_works_count": 95,
       "referenced_works": [
         "https://openalex.org/W246141289",
         "https://openalex.org/W1628106207",
@@ -7887,16 +7442,12 @@
         "https://openalex.org/W3047063735",
         "https://openalex.org/W3080228374",
         "https://openalex.org/W3083354262",
-        "https://openalex.org/W3098225899",
-        "https://openalex.org/W3101271388",
-        "https://openalex.org/W3101959569",
         "https://openalex.org/W3108701052",
         "https://openalex.org/W3136906685",
         "https://openalex.org/W3198117102",
         "https://openalex.org/W3204207000",
         "https://openalex.org/W3217351971",
         "https://openalex.org/W4200384458",
-        "https://openalex.org/W4226365222",
         "https://openalex.org/W4281937313",
         "https://openalex.org/W4288723758",
         "https://openalex.org/W4289778531",
@@ -8374,7 +7925,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-03T13:16:28.481748",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8408,7 +7959,9 @@
           "listed_in": [
             "cwts-core",
             "doaj",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310310987",
           "host_organization_name": "Multidisciplinary Digital Publishing Institute",
@@ -8647,11 +8200,11 @@
         "currency": "CHF",
         "value_usd": 2224
       },
-      "fwci": 5.4873,
+      "fwci": 5.3933,
       "has_fulltext": true,
       "cited_by_count": 47,
       "citation_normalized_percentile": {
-        "value": 0.97372799,
+        "value": 0.97318646,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8905,7 +8458,9 @@
             "listed_in": [
               "cwts-core",
               "doaj",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310310987",
             "host_organization_name": "Multidisciplinary Digital Publishing Institute",
@@ -8974,7 +8529,9 @@
           "listed_in": [
             "cwts-core",
             "doaj",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310310987",
           "host_organization_name": "Multidisciplinary Digital Publishing Institute",
@@ -8997,9 +8554,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "display_name": "Sustainable cities and communities",
-          "score": 0.6800000071525574,
-          "id": "https://metadata.un.org/sdg/11"
+          "score": 0.6800000071525574
         }
       ],
       "study_designs": [],
@@ -9027,14 +8584,14 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4363648284.pdf",
         "grobid_xml": "https://content.openalex.org/works/W4363648284.grobid-xml"
       },
-      "referenced_works_count": 187,
+      "referenced_works_count": 176,
       "referenced_works": [
         "https://openalex.org/W347524330",
         "https://openalex.org/W580682709",
@@ -9152,6 +8709,7 @@
         "https://openalex.org/W2803592916",
         "https://openalex.org/W2806438117",
         "https://openalex.org/W2809492588",
+        "https://openalex.org/W2810671973",
         "https://openalex.org/W2885360963",
         "https://openalex.org/W2889263644",
         "https://openalex.org/W2890698325",
@@ -9164,7 +8722,6 @@
         "https://openalex.org/W2941758208",
         "https://openalex.org/W2949926816",
         "https://openalex.org/W2953849960",
-        "https://openalex.org/W2955658889",
         "https://openalex.org/W2962514774",
         "https://openalex.org/W2963334543",
         "https://openalex.org/W2963453338",
@@ -9187,20 +8744,11 @@
         "https://openalex.org/W3047063735",
         "https://openalex.org/W3048253452",
         "https://openalex.org/W3086681614",
-        "https://openalex.org/W3098042376",
-        "https://openalex.org/W3098225899",
-        "https://openalex.org/W3099219242",
         "https://openalex.org/W3099980916",
-        "https://openalex.org/W3100975421",
-        "https://openalex.org/W3101271388",
         "https://openalex.org/W3101434993",
-        "https://openalex.org/W3102958582",
         "https://openalex.org/W3114661266",
-        "https://openalex.org/W3121928649",
-        "https://openalex.org/W3122498196",
         "https://openalex.org/W3128700816",
         "https://openalex.org/W3135895189",
-        "https://openalex.org/W3170821794",
         "https://openalex.org/W3174408776",
         "https://openalex.org/W3174748952",
         "https://openalex.org/W3181248505",
@@ -9220,8 +8768,6 @@
         "https://openalex.org/W4310241364",
         "https://openalex.org/W4311625406",
         "https://openalex.org/W6722951332",
-        "https://openalex.org/W6739793525",
-        "https://openalex.org/W6785364790",
         "https://openalex.org/W7008852256"
       ],
       "related_works": [
@@ -9578,7 +9124,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2026-09-29T14:09:16.559479",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2023-04-11T00:00:00"
     },
     {
@@ -9611,8 +9157,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-40",
+            "russia-white-list-3"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -9650,7 +9199,7 @@
           "author_position": "first",
           "author": {
             "id": "https://openalex.org/A5088143619",
-            "display_name": "Kseniya R. Erager",
+            "display_name": "Ерагер Ксения Романовна",
             "orcid": "https://orcid.org/0009-0009-6058-2667",
             "observed_orcids": [
               "https://orcid.org/0009-0009-6058-2667"
@@ -9818,11 +9367,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.1185,
+      "fwci": 0.1186,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.21920431,
+        "value": 0.21456693,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10112,8 +9661,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-40",
+              "russia-white-list-3"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -10140,20 +9692,20 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.7799999713897705,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.7799999713897705
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 26,
+      "referenced_works_count": 25,
       "referenced_works": [
         "https://openalex.org/W1145203703",
         "https://openalex.org/W1793248464",
@@ -10179,8 +9731,7 @@
         "https://openalex.org/W2953177571",
         "https://openalex.org/W3198117102",
         "https://openalex.org/W3204171710",
-        "https://openalex.org/W3204207000",
-        "https://openalex.org/W4226365222"
+        "https://openalex.org/W3204207000"
       ],
       "related_works": [
         "https://openalex.org/W2564016594",
@@ -10575,7 +10126,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-25T08:18:29.962427",
+      "updated_date": "2026-10-14T16:39:01.820549",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -10606,7 +10157,9 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319820",
           "host_organization_name": "MAIK Nauka/Interperiodica",
           "host_organization_lineage": [
@@ -10643,7 +10196,7 @@
           "author_position": "first",
           "author": {
             "id": "https://openalex.org/A5088143619",
-            "display_name": "Kseniya R. Erager",
+            "display_name": "Ерагер Ксения Романовна",
             "orcid": "https://orcid.org/0009-0009-6058-2667",
             "observed_orcids": [
               "https://orcid.org/0009-0009-6058-2667"
@@ -10813,7 +10366,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.0834338,
+        "value": 0.08321403,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11025,7 +10578,9 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "russia-white-list-1"
+            ],
             "host_organization": "https://openalex.org/P4310319820",
             "host_organization_name": "MAIK Nauka/Interperiodica",
             "host_organization_lineage": [
@@ -11063,7 +10618,9 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319820",
           "host_organization_name": "MAIK Nauka/Interperiodica",
           "host_organization_lineage": [
@@ -11087,23 +10644,23 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.7599999904632568,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.7599999904632568
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4394951611.pdf",
         "grobid_xml": "https://content.openalex.org/works/W4394951611.grobid-xml"
       },
-      "referenced_works_count": 25,
+      "referenced_works_count": 24,
       "referenced_works": [
         "https://openalex.org/W1145203703",
         "https://openalex.org/W1793248464",
@@ -11128,8 +10685,7 @@
         "https://openalex.org/W2771918478",
         "https://openalex.org/W2953177571",
         "https://openalex.org/W2963657244",
-        "https://openalex.org/W3204207000",
-        "https://openalex.org/W4226365222"
+        "https://openalex.org/W3204207000"
       ],
       "related_works": [
         "https://openalex.org/W2392011998",
@@ -11515,7 +11071,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-09-25T08:18:29.962427",
+      "updated_date": "2026-10-14T16:39:01.820549",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -11549,8 +11105,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -11756,11 +11315,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.2371,
+      "fwci": 0.2373,
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.31529679,
+        "value": 0.31177523,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12067,8 +11626,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-40",
+              "russia-white-list-2"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -12098,8 +11660,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -12437,7 +11999,8 @@
           "is_core": false,
           "listed_in": [
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -12643,7 +12206,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.19562442,
+        "value": 0.19098067,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12821,7 +12384,8 @@
             "is_core": false,
             "listed_in": [
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -12848,17 +12412,17 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.8299999833106995,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.8299999833106995
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 28,
@@ -13188,7 +12752,9 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "russia-white-list-3"
+          ],
           "host_organization": "https://openalex.org/I107640659",
           "host_organization_name": "South Ural State University",
           "host_organization_lineage": [
@@ -13221,7 +12787,7 @@
           "author_position": "first",
           "author": {
             "id": "https://openalex.org/A5088143619",
-            "display_name": "Kseniya R. Erager",
+            "display_name": "Ерагер Ксения Романовна",
             "orcid": "https://orcid.org/0009-0009-6058-2667",
             "observed_orcids": [
               "https://orcid.org/0009-0009-6058-2667"
@@ -13419,7 +12985,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06584639,
+        "value": 0.06543762,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13667,7 +13233,9 @@
             "is_oa": true,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "russia-white-list-3"
+            ],
             "host_organization": "https://openalex.org/I107640659",
             "host_organization_name": "South Ural State University",
             "host_organization_lineage": [
@@ -13701,7 +13269,9 @@
             "is_oa": true,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "russia-white-list-3"
+            ],
             "host_organization": "https://openalex.org/I107640659",
             "host_organization_name": "South Ural State University",
             "host_organization_lineage": [
@@ -13767,7 +13337,9 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "russia-white-list-3"
+          ],
           "host_organization": "https://openalex.org/I107640659",
           "host_organization_name": "South Ural State University",
           "host_organization_lineage": [
@@ -13790,14 +13362,14 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4388793270.pdf",
         "grobid_xml": "https://content.openalex.org/works/W4388793270.grobid-xml"
       },
-      "referenced_works_count": 36,
+      "referenced_works_count": 35,
       "referenced_works": [
         "https://openalex.org/W1474919217",
         "https://openalex.org/W1543891172",
@@ -13833,8 +13405,7 @@
         "https://openalex.org/W2460735765",
         "https://openalex.org/W2556787665",
         "https://openalex.org/W2963947097",
-        "https://openalex.org/W2964071564",
-        "https://openalex.org/W3099148382"
+        "https://openalex.org/W2964071564"
       ],
       "related_works": [
         "https://openalex.org/W227972379",
@@ -14114,7 +13685,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-07T09:51:55.459714",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2023-11-19T00:00:00"
     },
     {
@@ -15039,11 +14610,11 @@
         "value_usd": 3410
       },
       "apc_paid": null,
-      "fwci": 0.7318,
+      "fwci": 0.7275,
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.63604872,
+        "value": 0.63403342,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15821,11 +15392,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 42,
+      "referenced_works_count": 39,
       "referenced_works": [
         "https://openalex.org/W609029753",
         "https://openalex.org/W1966820902",
@@ -15844,6 +15415,7 @@
         "https://openalex.org/W2036113194",
         "https://openalex.org/W2036274665",
         "https://openalex.org/W2038046440",
+        "https://openalex.org/W2060162132",
         "https://openalex.org/W2083222334",
         "https://openalex.org/W2089686075",
         "https://openalex.org/W2090453060",
@@ -15862,13 +15434,9 @@
         "https://openalex.org/W3037962468",
         "https://openalex.org/W3038018551",
         "https://openalex.org/W3039102278",
-        "https://openalex.org/W3112366820",
         "https://openalex.org/W3161050755",
         "https://openalex.org/W3205340533",
-        "https://openalex.org/W6665921768",
-        "https://openalex.org/W6745992780",
-        "https://openalex.org/W6802459601",
-        "https://openalex.org/W6891901112"
+        "https://openalex.org/W6802459601"
       ],
       "related_works": [
         "https://openalex.org/W1978106388",
@@ -15905,7 +15473,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-10T09:11:00.788812",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2022-05-22T00:00:00"
     },
     {
@@ -15981,7 +15549,7 @@
           "author_position": "first",
           "author": {
             "id": "https://openalex.org/A5088143619",
-            "display_name": "Kseniya R. Erager",
+            "display_name": "Ерагер Ксения Романовна",
             "orcid": "https://orcid.org/0009-0009-6058-2667",
             "observed_orcids": [
               "https://orcid.org/0009-0009-6058-2667"
@@ -16149,11 +15717,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.268,
+      "fwci": 0.2685,
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.36346423,
+        "value": 0.36368913,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16471,15 +16039,14 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 31,
+      "referenced_works_count": 30,
       "referenced_works": [
         "https://openalex.org/W1500035880",
         "https://openalex.org/W1543891172",
-        "https://openalex.org/W1728484630",
         "https://openalex.org/W1969328920",
         "https://openalex.org/W1979544533",
         "https://openalex.org/W1981368803",
@@ -16843,7 +16410,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2026-10-12T09:40:04.860316",
+      "updated_date": "2026-10-14T16:39:01.820549",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -16903,7 +16470,7 @@
           "author_position": "first",
           "author": {
             "id": "https://openalex.org/A5088143619",
-            "display_name": "Kseniya R. Erager",
+            "display_name": "Ерагер Ксения Романовна",
             "orcid": "https://orcid.org/0009-0009-6058-2667",
             "observed_orcids": [
               "https://orcid.org/0009-0009-6058-2667"
@@ -16979,7 +16546,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.2404645,
+        "value": 0.24060434,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17174,8 +16741,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4312343136.pdf",
@@ -17197,7 +16764,7 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2026-10-12T09:40:04.860316",
+      "updated_date": "2026-10-14T16:39:01.820549",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -17232,8 +16799,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -17491,7 +17061,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06107068,
+        "value": 0.0609122,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17756,8 +17326,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -17800,8 +17373,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -17829,8 +17405,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -18126,8 +17702,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -18385,7 +17964,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06938338,
+        "value": 0.06934334,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18671,8 +18250,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -18715,8 +18297,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -18744,8 +18329,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4320082123.pdf",
@@ -19043,9 +18628,14 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-b",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320990",
           "host_organization_name": "Elsevier BV",
@@ -19368,11 +18958,11 @@
         "value_usd": 2830
       },
       "apc_paid": null,
-      "fwci": 0.2968,
+      "fwci": 0.2988,
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.42072949,
+        "value": 0.41801479,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19627,9 +19217,14 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
+              "dongbi-b",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
@@ -19707,11 +19302,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 42,
+      "referenced_works_count": 36,
       "referenced_works": [
         "https://openalex.org/W1971541700",
         "https://openalex.org/W1977896337",
@@ -19748,13 +19343,7 @@
         "https://openalex.org/W3105121068",
         "https://openalex.org/W3113778554",
         "https://openalex.org/W3125382113",
-        "https://openalex.org/W3185532166",
-        "https://openalex.org/W4287072246",
-        "https://openalex.org/W6643129211",
-        "https://openalex.org/W6649717105",
-        "https://openalex.org/W6679385003",
-        "https://openalex.org/W6740469179",
-        "https://openalex.org/W6744403255"
+        "https://openalex.org/W3185532166"
       ],
       "related_works": [
         "https://openalex.org/W2108157117",
@@ -19787,7 +19376,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -20398,11 +19987,11 @@
         "value_usd": 3800
       },
       "apc_paid": null,
-      "fwci": 0.3574,
+      "fwci": 0.3586,
       "has_fulltext": true,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.45314557,
+        "value": 0.45315131,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20832,9 +20421,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.8700000047683716,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.8700000047683716
         }
       ],
       "study_designs": [],
@@ -21025,14 +20614,14 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3204171710.pdf",
         "grobid_xml": "https://content.openalex.org/works/W3204171710.grobid-xml"
       },
-      "referenced_works_count": 65,
+      "referenced_works_count": 63,
       "referenced_works": [
         "https://openalex.org/W1932140108",
         "https://openalex.org/W1979544533",
@@ -21092,8 +20681,6 @@
         "https://openalex.org/W3021590278",
         "https://openalex.org/W3021720715",
         "https://openalex.org/W3067010295",
-        "https://openalex.org/W3098616675",
-        "https://openalex.org/W3099219242",
         "https://openalex.org/W3103585643",
         "https://openalex.org/W3104817669",
         "https://openalex.org/W3128700816",
@@ -21430,7 +21017,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-10-12T09:40:04.860316",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -21464,10 +21051,15 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
+            "dongbi-b",
             "jufo-1",
             "ki-jl-1",
-            "norway-1"
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320990",
           "host_organization_name": "Elsevier BV",
@@ -22050,7 +21642,7 @@
           "author_position": "middle",
           "author": {
             "id": "https://openalex.org/A5070991114",
-            "display_name": "Anatoly M. Balagurov",
+            "display_name": "Анатолий Михайлович Балагуров",
             "orcid": "https://orcid.org/0000-0002-5498-6405",
             "observed_orcids": [
               "https://orcid.org/0000-0002-5498-6405"
@@ -22208,11 +21800,11 @@
         "value_usd": 3050
       },
       "apc_paid": null,
-      "fwci": 0.7693,
+      "fwci": 0.7894,
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.7474645,
+        "value": 0.7484787,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22528,10 +22120,15 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
+              "dongbi-b",
               "jufo-1",
               "ki-jl-1",
-              "norway-1"
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
@@ -22639,8 +22236,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -22703,7 +22300,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-10-14T16:39:01.820549",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -22738,7 +22335,9 @@
           "listed_in": [
             "cwts-core",
             "doaj",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310310987",
           "host_organization_name": "Multidisciplinary Digital Publishing Institute",
@@ -23196,11 +22795,11 @@
         "currency": "CHF",
         "value_usd": 1944
       },
-      "fwci": 0.6502,
+      "fwci": 0.652,
       "has_fulltext": true,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.60602664,
+        "value": 0.60529785,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23508,7 +23107,9 @@
             "listed_in": [
               "cwts-core",
               "doaj",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310310987",
             "host_organization_name": "Multidisciplinary Digital Publishing Institute",
@@ -23577,7 +23178,9 @@
           "listed_in": [
             "cwts-core",
             "doaj",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310310987",
           "host_organization_name": "Multidisciplinary Digital Publishing Institute",
@@ -23609,14 +23212,14 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3176847721.pdf",
         "grobid_xml": "https://content.openalex.org/works/W3176847721.grobid-xml"
       },
-      "referenced_works_count": 48,
+      "referenced_works_count": 47,
       "referenced_works": [
         "https://openalex.org/W10616855",
         "https://openalex.org/W1500035880",
@@ -23660,12 +23263,11 @@
         "https://openalex.org/W2602407008",
         "https://openalex.org/W2752549046",
         "https://openalex.org/W2770138667",
+        "https://openalex.org/W2790105002",
         "https://openalex.org/W2810409370",
         "https://openalex.org/W2969220718",
         "https://openalex.org/W3013766240",
-        "https://openalex.org/W3022371977",
-        "https://openalex.org/W3104771979",
-        "https://openalex.org/W6785285691"
+        "https://openalex.org/W3022371977"
       ],
       "related_works": [
         "https://openalex.org/W2296380465",
@@ -24191,7 +23793,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T17:25:34.749102",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -24227,8 +23829,12 @@
           "is_core": true,
           "listed_in": [
             "cwts-core",
+            "dongbi-a",
             "jufo-2",
-            "norway-2"
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320261",
           "host_organization_name": "American Physical Society",
@@ -24690,11 +24296,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.5937,
+      "fwci": 0.5976,
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.56590133,
+        "value": 0.56529537,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24885,8 +24491,12 @@
             "is_core": true,
             "listed_in": [
               "cwts-core",
+              "dongbi-a",
               "jufo-2",
-              "norway-2"
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320261",
             "host_organization_name": "American Physical Society",
@@ -25009,9 +24619,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.8100000023841858,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.8100000023841858
         }
       ],
       "study_designs": [],
@@ -25080,11 +24690,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 62,
+      "referenced_works_count": 60,
       "referenced_works": [
         "https://openalex.org/W347524330",
         "https://openalex.org/W613069045",
@@ -25144,8 +24754,6 @@
         "https://openalex.org/W3042125336",
         "https://openalex.org/W3067010295",
         "https://openalex.org/W3098551093",
-        "https://openalex.org/W3098813444",
-        "https://openalex.org/W3099219242",
         "https://openalex.org/W3104846605",
         "https://openalex.org/W4240048085"
       ],
@@ -25503,7 +25111,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2026-09-29T14:09:16.559479",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -25539,8 +25147,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -25779,11 +25390,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0594,
+      "fwci": 0.0598,
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.21332558,
+        "value": 0.20785448,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26036,8 +25647,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -26080,8 +25694,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -26109,8 +25726,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3187506155.pdf",
@@ -27138,11 +26755,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.2021,
+      "fwci": 1.1848,
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.817756,
+        "value": 0.81604927,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27407,9 +27024,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.5600000023841858,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.5600000023841858
         }
       ],
       "study_designs": [],
@@ -27478,13 +27095,14 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 43,
+      "referenced_works_count": 41,
       "referenced_works": [
         "https://openalex.org/W166833027",
+        "https://openalex.org/W1491643689",
         "https://openalex.org/W1595663740",
         "https://openalex.org/W1965112986",
         "https://openalex.org/W1979544533",
@@ -27516,17 +27134,14 @@
         "https://openalex.org/W2538301695",
         "https://openalex.org/W2725678245",
         "https://openalex.org/W2784103179",
+        "https://openalex.org/W2797589585",
         "https://openalex.org/W2884770561",
         "https://openalex.org/W2889263644",
         "https://openalex.org/W2911731012",
+        "https://openalex.org/W2923022110",
         "https://openalex.org/W2963453338",
         "https://openalex.org/W2963657244",
-        "https://openalex.org/W2974701125",
-        "https://openalex.org/W3098958972",
-        "https://openalex.org/W3101271388",
-        "https://openalex.org/W3103671011",
-        "https://openalex.org/W3104415683",
-        "https://openalex.org/W3124953568"
+        "https://openalex.org/W2974701125"
       ],
       "related_works": [
         "https://openalex.org/W2068637468",
@@ -28533,7 +28148,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -29122,7 +28737,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05689411,
+        "value": 0.05723797,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29330,8 +28945,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -29618,8 +29233,12 @@
           "is_core": true,
           "listed_in": [
             "cwts-core",
+            "dongbi-a",
             "jufo-2",
-            "norway-2"
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320261",
           "host_organization_name": "American Physical Society",
@@ -30238,11 +29857,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.2109,
+      "fwci": 1.2118,
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.76875087,
+        "value": 0.76873575,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30502,8 +30121,12 @@
             "is_core": true,
             "listed_in": [
               "cwts-core",
+              "dongbi-a",
               "jufo-2",
-              "norway-2"
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320261",
             "host_organization_name": "American Physical Society",
@@ -30660,11 +30283,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 68,
+      "referenced_works_count": 65,
       "referenced_works": [
         "https://openalex.org/W1127109543",
         "https://openalex.org/W1543891172",
@@ -30730,10 +30353,7 @@
         "https://openalex.org/W2995245597",
         "https://openalex.org/W3003163199",
         "https://openalex.org/W3005535229",
-        "https://openalex.org/W3022371977",
-        "https://openalex.org/W3101271388",
-        "https://openalex.org/W3103466831",
-        "https://openalex.org/W3121928649"
+        "https://openalex.org/W3022371977"
       ],
       "related_works": [
         "https://openalex.org/W1985516731",
@@ -31012,7 +30632,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-29T14:09:16.559479",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2020-08-10T00:00:00"
     },
     {
@@ -31047,8 +30667,11 @@
           "is_in_doaj": false,
           "is_core": false,
           "listed_in": [
+            "dongbi-c",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -31329,11 +30952,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.3726,
+      "fwci": 0.3729,
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.54132201,
+        "value": 0.53907412,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31569,8 +31192,11 @@
             "is_in_doaj": false,
             "is_core": false,
             "listed_in": [
+              "dongbi-c",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-40",
+              "russia-white-list-2"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -31600,11 +31226,11 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 37,
+      "referenced_works_count": 34,
       "referenced_works": [
         "https://openalex.org/W285749399",
         "https://openalex.org/W1796169563",
@@ -31617,7 +31243,6 @@
         "https://openalex.org/W1981368803",
         "https://openalex.org/W1985479456",
         "https://openalex.org/W2008654751",
-        "https://openalex.org/W2030976617",
         "https://openalex.org/W2032719166",
         "https://openalex.org/W2036113194",
         "https://openalex.org/W2038672301",
@@ -31640,8 +31265,6 @@
         "https://openalex.org/W2763758618",
         "https://openalex.org/W2766412737",
         "https://openalex.org/W2963657244",
-        "https://openalex.org/W3101157637",
-        "https://openalex.org/W3101164622",
         "https://openalex.org/W4256654830"
       ],
       "related_works": [
@@ -31887,7 +31510,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-09-25T08:18:29.962427",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -31923,8 +31546,12 @@
           "is_core": true,
           "listed_in": [
             "cwts-core",
+            "dongbi-a",
             "jufo-2",
-            "norway-2"
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
           ],
           "host_organization": "https://openalex.org/P4310320261",
           "host_organization_name": "American Physical Society",
@@ -31948,7 +31575,8 @@
       "type": "article",
       "indexed_in": [
         "arxiv",
-        "crossref"
+        "crossref",
+        "datacite"
       ],
       "open_access": {
         "is_oa": true,
@@ -32399,12 +32027,10 @@
         {
           "author_position": "middle",
           "author": {
-            "id": "https://openalex.org/A5086403480",
+            "id": null,
             "display_name": "Christopher Lane",
-            "orcid": "https://orcid.org/0000-0003-2945-9352",
-            "observed_orcids": [
-              "https://orcid.org/0000-0003-2945-9352"
-            ]
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -32439,8 +32065,8 @@
         {
           "author_position": "middle",
           "author": {
-            "id": "https://openalex.org/A5076069300",
-            "display_name": "R. S. Markiewicz",
+            "id": "https://openalex.org/A5009509778",
+            "display_name": "R.S. Markiewicz",
             "orcid": "https://orcid.org/0000-0002-0747-0713",
             "observed_orcids": [
               "https://orcid.org/0000-0002-0747-0713"
@@ -32644,11 +32270,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 6.4913,
+      "fwci": 6.3977,
       "has_fulltext": false,
       "cited_by_count": 35,
       "citation_normalized_percentile": {
-        "value": 0.96391551,
+        "value": 0.96348069,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -32888,7 +32514,7 @@
         }
       ],
       "mesh": [],
-      "locations_count": 4,
+      "locations_count": 5,
       "locations": [
         {
           "id": "doi:10.1103/physrevb.101.075115",
@@ -32910,8 +32536,12 @@
             "is_core": true,
             "listed_in": [
               "cwts-core",
+              "dongbi-a",
               "jufo-2",
-              "norway-2"
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
             ],
             "host_organization": "https://openalex.org/P4310320261",
             "host_organization_name": "American Physical Society",
@@ -33025,6 +32655,39 @@
           "is_published": false,
           "raw_source_name": null,
           "raw_type": null
+        },
+        {
+          "id": "doi:10.48550/arxiv.1904.10291",
+          "doi": "https://doi.org/10.48550/arxiv.1904.10291",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.1904.10291",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
         }
       ],
       "best_oa_location": {
@@ -33063,9 +32726,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/16",
           "display_name": "Peace, justice, and strong institutions",
-          "score": 0.800000011920929,
-          "id": "https://metadata.un.org/sdg/16"
+          "score": 0.800000011920929
         }
       ],
       "study_designs": [],
@@ -33141,11 +32804,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 76,
+      "referenced_works_count": 74,
       "referenced_works": [
         "https://openalex.org/W1493273996",
         "https://openalex.org/W1531048833",
@@ -33220,8 +32883,6 @@
         "https://openalex.org/W2983766120",
         "https://openalex.org/W2995245597",
         "https://openalex.org/W3098076414",
-        "https://openalex.org/W3101271388",
-        "https://openalex.org/W3103466831",
         "https://openalex.org/W4243285687"
       ],
       "related_works": [
@@ -33497,7 +33158,7 @@
           "cited_by_count": 6
         }
       ],
-      "updated_date": "2026-10-01T08:54:57.152042",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2019-05-03T00:00:00"
     },
     {
@@ -33530,7 +33191,10 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "poland-20",
+            "russia-white-list-3"
+          ],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -33911,11 +33575,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.3033,
+      "fwci": 0.3083,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.64186047,
+        "value": 0.64071295,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34109,7 +33773,10 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "poland-20",
+              "russia-white-list-3"
+            ],
             "host_organization": null,
             "host_organization_name": null,
             "host_organization_lineage": [],
@@ -34132,8 +33799,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -34195,7 +33862,8 @@
           "is_core": false,
           "listed_in": [
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320267",
           "host_organization_name": "Pleiades Publishing",
@@ -34325,11 +33993,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0931,
+      "fwci": 0.0934,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.41100663,
+        "value": 0.40762953,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34484,7 +34152,8 @@
             "is_core": false,
             "listed_in": [
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310320267",
             "host_organization_name": "Pleiades Publishing",
@@ -34514,8 +34183,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -34734,7 +34403,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03526779,
+        "value": 0.03551249,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35040,8 +34709,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3033137432.pdf",
@@ -35274,7 +34943,10 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "poland-20",
+            "russia-white-list-3"
+          ],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -35427,7 +35099,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.28186047,
+        "value": 0.28424015,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35562,7 +35234,10 @@
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "poland-20",
+              "russia-white-list-3"
+            ],
             "host_organization": null,
             "host_organization_name": null,
             "host_organization_lineage": [],
@@ -35585,8 +35260,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -35628,9 +35303,12 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2"
           ],
           "host_organization": "https://openalex.org/P4310320990",
           "host_organization_name": "Elsevier BV",
@@ -35918,11 +35596,11 @@
         "value_usd": 2200
       },
       "apc_paid": null,
-      "fwci": 0.0869,
+      "fwci": 0.0868,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.36452962,
+        "value": 0.36179017,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -36238,9 +35916,12 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-2"
             ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
@@ -36282,11 +35963,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 31,
+      "referenced_works_count": 30,
       "referenced_works": [
         "https://openalex.org/W1557759757",
         "https://openalex.org/W1659844983",
@@ -36317,8 +35998,7 @@
         "https://openalex.org/W2528289894",
         "https://openalex.org/W2910212716",
         "https://openalex.org/W2950969796",
-        "https://openalex.org/W3022371977",
-        "https://openalex.org/W3101753621"
+        "https://openalex.org/W3022371977"
       ],
       "related_works": [
         "https://openalex.org/W4362589567",
@@ -36343,7 +36023,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -36378,9 +36058,12 @@
           "is_core": true,
           "listed_in": [
             "cwts-core",
+            "dongbi-b",
             "jufo-2",
             "ki-jl-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1"
           ],
           "host_organization": "https://openalex.org/P4310320261",
           "host_organization_name": "American Physical Society",
@@ -36746,11 +36429,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.8687,
+      "fwci": 0.8679,
       "has_fulltext": false,
-      "cited_by_count": 21,
+      "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.69261212,
+        "value": 0.69189735,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37011,9 +36694,12 @@
             "is_core": true,
             "listed_in": [
               "cwts-core",
+              "dongbi-b",
               "jufo-2",
               "ki-jl-1",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1"
             ],
             "host_organization": "https://openalex.org/P4310320261",
             "host_organization_name": "American Physical Society",
@@ -37091,11 +36777,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 79,
+      "referenced_works_count": 78,
       "referenced_works": [
         "https://openalex.org/W613069045",
         "https://openalex.org/W832976576",
@@ -37174,8 +36860,7 @@
         "https://openalex.org/W2963947097",
         "https://openalex.org/W3013766240",
         "https://openalex.org/W3022371977",
-        "https://openalex.org/W3103030867",
-        "https://openalex.org/W4214619359"
+        "https://openalex.org/W3103030867"
       ],
       "related_works": [
         "https://openalex.org/W2108157117",
@@ -37476,7 +37161,7 @@
         },
         {
           "year": 2024,
-          "cited_by_count": 3
+          "cited_by_count": 4
         },
         {
           "year": 2023,
@@ -37495,7 +37180,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-29T14:09:16.559479",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -37528,7 +37213,9 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "russia-white-list-3"
+          ],
           "host_organization": "https://openalex.org/I107640659",
           "host_organization_name": "South Ural State University",
           "host_organization_lineage": [
@@ -37797,7 +37484,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05631318,
+        "value": 0.05659137,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -38112,7 +37799,9 @@
             "is_oa": true,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "russia-white-list-3"
+            ],
             "host_organization": "https://openalex.org/I107640659",
             "host_organization_name": "South Ural State University",
             "host_organization_lineage": [
@@ -38146,7 +37835,9 @@
             "is_oa": true,
             "is_in_doaj": false,
             "is_core": false,
-            "listed_in": [],
+            "listed_in": [
+              "russia-white-list-3"
+            ],
             "host_organization": "https://openalex.org/I107640659",
             "host_organization_name": "South Ural State University",
             "host_organization_lineage": [
@@ -38212,7 +37903,9 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
-          "listed_in": [],
+          "listed_in": [
+            "russia-white-list-3"
+          ],
           "host_organization": "https://openalex.org/I107640659",
           "host_organization_name": "South Ural State University",
           "host_organization_lineage": [
@@ -38232,9 +37925,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "score": 0.8399999737739563,
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.8399999737739563
         }
       ],
       "study_designs": [],
@@ -38262,8 +37955,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 15,
@@ -38775,7 +38468,8 @@
           "is_core": true,
           "listed_in": [
             "cwts-core",
-            "norway-1"
+            "norway-1",
+            "poland-20"
           ],
           "host_organization": null,
           "host_organization_name": null,
@@ -38973,11 +38667,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.0639,
+      "fwci": 1.0683,
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.79508756,
+        "value": 0.7952381,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -39171,7 +38865,8 @@
             "is_core": true,
             "listed_in": [
               "cwts-core",
-              "norway-1"
+              "norway-1",
+              "poland-20"
             ],
             "host_organization": null,
             "host_organization_name": null,
@@ -39195,8 +38890,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -39401,9 +39096,12 @@
           "is_in_doaj": false,
           "is_core": true,
           "listed_in": [
+            "anvur-scientific",
             "cwts-core",
             "jufo-1",
-            "norway-1"
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2"
           ],
           "host_organization": "https://openalex.org/P4310320990",
           "host_organization_name": "Elsevier BV",
@@ -39695,12 +39393,12 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.17286804,
+        "value": 0.17418797,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 89,
+        "min": 88,
         "max": 96
       },
       "biblio": {
@@ -39983,9 +39681,12 @@
             "is_in_doaj": false,
             "is_core": true,
             "listed_in": [
+              "anvur-scientific",
               "cwts-core",
               "jufo-1",
-              "norway-1"
+              "norway-1",
+              "poland-70",
+              "russia-white-list-2"
             ],
             "host_organization": "https://openalex.org/P4310320990",
             "host_organization_name": "Elsevier BV",
@@ -40024,11 +39725,11 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
-      "referenced_works_count": 19,
+      "referenced_works_count": 18,
       "referenced_works": [
         "https://openalex.org/W19944993",
         "https://openalex.org/W1644688680",
@@ -40047,8 +39748,7 @@
         "https://openalex.org/W2082472243",
         "https://openalex.org/W2083222334",
         "https://openalex.org/W2088188666",
-        "https://openalex.org/W2134840874",
-        "https://openalex.org/W3103012621"
+        "https://openalex.org/W2134840874"
       ],
       "related_works": [
         "https://openalex.org/W21917283",
@@ -40073,7 +39773,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-29T14:09:16.559479",
+      "updated_date": "2026-10-16T09:59:22.235173",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -40304,7 +40004,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.14052747,
+        "value": 0.14035088,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40558,8 +40258,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 4,
@@ -41051,8 +40751,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -41065,5 +40765,5 @@
     }
   ],
   "group_by": [],
-  "last_success_at": "2026-10-12T13:41:51+00:00"
+  "last_success_at": "2026-10-19T11:33:18+00:00"
 }

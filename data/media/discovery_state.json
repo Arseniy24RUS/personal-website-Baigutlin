@@ -159,6 +159,51 @@
       "processed_at": "2026-10-12T13:42:52+00:00",
       "status": "low_confidence",
       "confidence": 0.0
+    },
+    "https://csu.ru/press/news/studentov-chelgu-priglashayut-na-organizatsionnoe-sobranie-po-obucheniyu-v-voennom-uchebnom-tsentre": {
+      "processed_at": "2026-10-19T11:34:06+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/kak-govoryat-sotsseti-studentka-chelgu-issledovala-messendzher-max": {
+      "processed_at": "2026-10-19T11:34:07+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/shkolnikov-priglashayut-provesti-kanikuly-s-chelgu": {
+      "processed_at": "2026-10-19T11:34:09+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-otkroetsya-vystavka-khudozhestvennaya-letopis-prirody-yuzhnogo-urala": {
+      "processed_at": "2026-10-19T11:34:11+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/matematik-chelgu-dokazala-teoremy-dlya-novogo-klassa-uravneniy": {
+      "processed_at": "2026-10-19T11:34:13+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/dve-diplomnye-raboty-studentov-chelgu-priznany-luchshimi-na-vserossiyskom-konkurse": {
+      "processed_at": "2026-10-19T11:34:16+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-nauchat-kak-prepodavat-russkiy-yazyk-inostrantsam2026": {
+      "processed_at": "2026-10-19T11:34:18+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/prepodavatel-chelgu-mikhail-lepchinskiy-udostoen-premii-prezidenta-rf": {
+      "processed_at": "2026-10-19T11:34:19+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-proydyet-vserossiyskiy-ekonomicheskiy-diktant2026": {
+      "processed_at": "2026-10-19T11:34:21+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
     }
   },
   "pending": {},
@@ -168,8 +213,8 @@
     ]
   },
   "rss_cursor": {
-    "next_index": 4,
-    "attempted_at": "2026-10-12T13:42:30+00:00"
+    "next_index": 5,
+    "attempted_at": "2026-10-19T11:33:59+00:00"
   },
   "initial_cutoff": "2024-04-06"
 }

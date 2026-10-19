@@ -1,7 +1,7 @@
 {
   "status": "partial",
-  "attempted_at": "2026-10-12T13:42:52+00:00",
-  "last_success_at": "2026-10-12T13:42:52+00:00",
+  "attempted_at": "2026-10-19T11:34:21+00:00",
+  "last_success_at": "2026-10-19T11:34:21+00:00",
   "origin": "live",
   "complete": false,
   "record_count": 9,
@@ -18,23 +18,16 @@
       "attempts": 1,
       "http_status": 200,
       "final_url": "https://www.csu.ru/press/news/",
-      "bytes": 267107,
+      "bytes": 266909,
       "record_count": 9,
       "collector": "listings",
       "required": true
     },
     {
-      "url": "https://news.google.com/rss/search?q=%22%D0%94%D0%B0%D0%BD%D0%B8%D0%BB+%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD%22&hl=en&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/search?q=%22%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB+%D0%A0%D0%B0%D1%81%D1%83%D0%BB%D0%BE%D0%B2%D0%B8%D1%87%22&hl=ru&gl=RU&ceid=RU%3Aru",
       "status": "error",
       "attempts": 3,
       "reason": "ReadTimeout",
-      "collector": "rss",
-      "required": false
-    },
-    {
-      "url": "https://news.google.com/rss/search?q=%22%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB+%D0%A0%D0%B0%D1%81%D1%83%D0%BB%D0%BE%D0%B2%D0%B8%D1%87%22&hl=ru&gl=RU&ceid=RU%3Aru",
-      "status": "circuit_open",
-      "reason": "repeated_host_failures",
       "collector": "rss",
       "required": false
     },
@@ -137,6 +130,13 @@
       "required": false
     },
     {
+      "url": "https://news.google.com/rss/search?q=%22%D0%94%D0%B0%D0%BD%D0%B8%D0%BB+%D0%91%D0%B0%D0%B9%D0%B3%D1%83%D1%82%D0%BB%D0%B8%D0%BD%22&hl=en&gl=US&ceid=US%3Aen",
+      "status": "circuit_open",
+      "reason": "repeated_host_failures",
+      "collector": "rss",
+      "required": false
+    },
+    {
       "url": "https://www.csu.ru/sitemap.xml",
       "status": "http_error",
       "attempts": 1,
@@ -166,92 +166,92 @@
       "required": false
     },
     {
-      "url": "https://www.csu.ru/press/news/v-chelgu-zavershilsya-studencheskiy-festival-inklyuzivnykh-praktik-bez-barerov/",
+      "url": "https://www.csu.ru/press/news/studentov-chelgu-priglashayut-na-organizatsionnoe-sobranie-po-obucheniyu-v-voennom-uchebnom-tsentre/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/v-chelgu-zavershilsya-studencheskiy-festival-inklyuzivnykh-praktik-bez-barerov/",
-      "bytes": 283144,
+      "final_url": "https://www.csu.ru/press/news/studentov-chelgu-priglashayut-na-organizatsionnoe-sobranie-po-obucheniyu-v-voennom-uchebnom-tsentre/",
+      "bytes": 270910,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/gazeta-chelgu-v-short-liste-konkursa-medialider-2026/",
+      "url": "https://www.csu.ru/press/news/kak-govoryat-sotsseti-studentka-chelgu-issledovala-messendzher-max/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/gazeta-chelgu-v-short-liste-konkursa-medialider-2026/",
-      "bytes": 271455,
+      "final_url": "https://www.csu.ru/press/news/kak-govoryat-sotsseti-studentka-chelgu-issledovala-messendzher-max/",
+      "bytes": 271084,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/127-studentov-proshli-v-final-iii-vserossiyskogo-festivalya-inklyuzivnoy-kultury-i-tvorchestva/",
+      "url": "https://www.csu.ru/press/news/shkolnikov-priglashayut-provesti-kanikuly-s-chelgu/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/127-studentov-proshli-v-final-iii-vserossiyskogo-festivalya-inklyuzivnoy-kultury-i-tvorchestva/",
-      "bytes": 271071,
+      "final_url": "https://www.csu.ru/press/news/shkolnikov-priglashayut-provesti-kanikuly-s-chelgu/",
+      "bytes": 273300,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/istoriko-filologicheskomu-fakultetu-chelgu-50-let/",
+      "url": "https://www.csu.ru/press/news/v-chelgu-otkroetsya-vystavka-khudozhestvennaya-letopis-prirody-yuzhnogo-urala/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/istoriko-filologicheskomu-fakultetu-chelgu-50-let/",
-      "bytes": 280635,
+      "final_url": "https://www.csu.ru/press/news/v-chelgu-otkroetsya-vystavka-khudozhestvennaya-letopis-prirody-yuzhnogo-urala/",
+      "bytes": 276170,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/sberbank-otmetil-studentku-chelgu-za-vklad-v-uluchshenie-ipotechnogo-servisa/",
+      "url": "https://www.csu.ru/press/news/matematik-chelgu-dokazala-teoremy-dlya-novogo-klassa-uravneniy/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/sberbank-otmetil-studentku-chelgu-za-vklad-v-uluchshenie-ipotechnogo-servisa/",
-      "bytes": 273263,
+      "final_url": "https://www.csu.ru/press/news/matematik-chelgu-dokazala-teoremy-dlya-novogo-klassa-uravneniy/",
+      "bytes": 274057,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/voskresnyy-universitet-chelgu-raskroet-tayny-napisaniya-nauchnogo-proekta/",
+      "url": "https://www.csu.ru/press/news/dve-diplomnye-raboty-studentov-chelgu-priznany-luchshimi-na-vserossiyskom-konkurse/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/voskresnyy-universitet-chelgu-raskroet-tayny-napisaniya-nauchnogo-proekta/",
-      "bytes": 272037,
+      "final_url": "https://www.csu.ru/press/news/dve-diplomnye-raboty-studentov-chelgu-priznany-luchshimi-na-vserossiyskom-konkurse/",
+      "bytes": 276767,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/chelgu-obyavlyaet-nabor-na-programmy-professionalnoy-perepodgotovki-v-sfere-fizicheskoy-kultury-i-sp/",
+      "url": "https://www.csu.ru/press/news/v-chelgu-nauchat-kak-prepodavat-russkiy-yazyk-inostrantsam2026/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/chelgu-obyavlyaet-nabor-na-programmy-professionalnoy-perepodgotovki-v-sfere-fizicheskoy-kultury-i-sp/",
-      "bytes": 274271,
+      "final_url": "https://www.csu.ru/press/news/v-chelgu-nauchat-kak-prepodavat-russkiy-yazyk-inostrantsam2026/",
+      "bytes": 275346,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/v-chelgu-opredelili-pobediteley-festivalya-pervye-shagi/",
+      "url": "https://www.csu.ru/press/news/prepodavatel-chelgu-mikhail-lepchinskiy-udostoen-premii-prezidenta-rf/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/v-chelgu-opredelili-pobediteley-festivalya-pervye-shagi/",
-      "bytes": 284487,
+      "final_url": "https://www.csu.ru/press/news/prepodavatel-chelgu-mikhail-lepchinskiy-udostoen-premii-prezidenta-rf/",
+      "bytes": 276099,
       "collector": "institutional_news_listing",
       "required": true
     },
     {
-      "url": "https://www.csu.ru/press/news/uchyenye-chelgu-predstavili-doklad-na-mezhdunarodnoy-konferentsii-v-serbii/",
+      "url": "https://www.csu.ru/press/news/v-chelgu-proydyet-vserossiyskiy-ekonomicheskiy-diktant2026/",
       "status": "ok",
       "attempts": 1,
       "http_status": 200,
-      "final_url": "https://www.csu.ru/press/news/uchyenye-chelgu-predstavili-doklad-na-mezhdunarodnoy-konferentsii-v-serbii/",
-      "bytes": 273598,
+      "final_url": "https://www.csu.ru/press/news/v-chelgu-proydyet-vserossiyskiy-ekonomicheskiy-diktant2026/",
+      "bytes": 273107,
       "collector": "institutional_news_listing",
       "required": true
     }
@@ -260,26 +260,26 @@
     {
       "collector": "listings",
       "budget_seconds": 60.0,
-      "elapsed_seconds": 2.52
+      "elapsed_seconds": 2.64
     },
     {
       "collector": "rss",
-      "budget_seconds": 44.37,
-      "elapsed_seconds": 33.77
+      "budget_seconds": 44.34,
+      "elapsed_seconds": 33.83
     },
     {
       "collector": "sitemaps",
-      "budget_seconds": 47.9,
-      "elapsed_seconds": 1.91
+      "budget_seconds": 47.84,
+      "elapsed_seconds": 1.54
     },
     {
       "collector": "sites",
-      "budget_seconds": 70.9,
-      "elapsed_seconds": 2.99
+      "budget_seconds": 71.0,
+      "elapsed_seconds": 3.53
     },
     {
       "collector": "telegram",
-      "budget_seconds": 138.81,
+      "budget_seconds": 138.46,
       "elapsed_seconds": 0.0
     }
   ],

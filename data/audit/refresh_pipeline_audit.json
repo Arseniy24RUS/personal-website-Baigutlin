@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T13:46:14+00:00",
+  "generated_at": "2026-10-19T11:50:21+00:00",
   "status": "partial",
   "checks": {
     "publications_count": 76,
     "canonical_publications_count": 76,
     "source_counts": {
       "elibrary": 66,
-      "scopus": 26,
+      "scopus": 27,
       "wos": 0,
       "open": 34
     },
@@ -19,15 +19,15 @@
       "citations": 203,
       "h_index": 8
     },
-    "elibrary_browser_status": "blocked",
+    "elibrary_browser_status": "error",
     "reference_enrichment_stats": {
       "records": 76,
       "titles_fixed": 0,
-      "title_fields_added": 1,
+      "title_fields_added": 0,
       "elibrary_detail_fields_added": 0,
       "metadata_fields_added": 0,
-      "gost_built": 1,
-      "apa_built": 1,
+      "gost_built": 0,
+      "apa_built": 0,
       "crossref_cache_hit": 47,
       "crossref_fetched": 0,
       "crossref_failed": 0
@@ -35,87 +35,87 @@
   },
   "source_health": {
     "elibrary": {
-      "status": "blocked",
-      "attempted_at": "2026-10-12T13:45:40+00:00",
+      "status": "error",
+      "attempted_at": "2026-10-19T11:34:21+00:00",
       "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 58,
-      "reason": "profile_not_authenticated_or_changed",
+      "reason": "timeout",
       "stage": "login",
       "components": {
         "details": {
-          "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:40+00:00",
+          "status": "error",
+          "attempted_at": "2026-10-19T11:34:21+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "profile_not_authenticated_or_changed"
+          "reason": "missing_atomic_checkpoint"
         },
         "metrics": {
-          "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:40+00:00",
+          "status": "error",
+          "attempted_at": "2026-10-19T11:34:21+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "profile_not_authenticated_or_changed"
+          "reason": "missing_atomic_checkpoint"
         },
         "publications": {
-          "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:40+00:00",
+          "status": "error",
+          "attempted_at": "2026-10-19T11:34:21+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "profile_not_authenticated_or_changed"
+          "reason": "missing_atomic_checkpoint"
         }
       }
     },
     "wos": {
       "status": "blocked",
-      "attempted_at": "2026-10-12T13:45:54+00:00",
+      "attempted_at": "2026-10-19T11:50:03+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
       "record_count": 0,
-      "reason": "human_verification_required",
+      "reason": "wrong_author_profile",
       "stage": "login",
       "components": {
         "publications": {
           "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:54+00:00",
+          "attempted_at": "2026-10-19T11:50:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "human_verification_required"
+          "reason": "wrong_author_profile"
         },
         "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:54+00:00",
+          "attempted_at": "2026-10-19T11:50:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "human_verification_required"
+          "reason": "wrong_author_profile"
         }
       }
     },
     "scopus": {
       "status": "success",
-      "attempted_at": "2026-10-12T13:45:59+00:00",
-      "last_success_at": "2026-10-12T13:45:59+00:00",
+      "attempted_at": "2026-10-19T11:50:09+00:00",
+      "last_success_at": "2026-10-19T11:50:09+00:00",
       "origin": "live",
       "complete": true,
-      "record_count": 26,
+      "record_count": 27,
       "reason": null
     },
     "media": {
       "status": "partial",
-      "attempted_at": "2026-10-12T13:42:52+00:00",
-      "last_success_at": "2026-10-12T13:42:52+00:00",
+      "attempted_at": "2026-10-19T11:34:21+00:00",
+      "last_success_at": "2026-10-19T11:34:21+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,
@@ -124,8 +124,8 @@
     },
     "orcid": {
       "status": "success",
-      "attempted_at": "2026-10-12T13:41:48+00:00",
-      "last_success_at": "2026-10-12T13:41:48+00:00",
+      "attempted_at": "2026-10-19T11:33:15+00:00",
+      "last_success_at": "2026-10-19T11:33:15+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 65,
@@ -133,17 +133,17 @@
     },
     "openalex": {
       "status": "success",
-      "attempted_at": "2026-10-12T13:41:51+00:00",
-      "last_success_at": "2026-10-12T13:41:51+00:00",
+      "attempted_at": "2026-10-19T11:33:18+00:00",
+      "last_success_at": "2026-10-19T11:33:18+00:00",
       "origin": "live",
       "complete": true,
-      "record_count": 43,
+      "record_count": 42,
       "reason": null
     },
     "crossref": {
       "status": "success",
-      "attempted_at": "2026-10-12T13:41:54+00:00",
-      "last_success_at": "2026-10-12T13:41:54+00:00",
+      "attempted_at": "2026-10-19T11:33:21+00:00",
+      "last_success_at": "2026-10-19T11:33:21+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 13,
@@ -158,41 +158,41 @@
     {
       "code": "source_not_fresh",
       "provider": "elibrary",
-      "status": "blocked",
-      "attempted_at": "2026-10-12T13:45:40+00:00",
+      "status": "error",
+      "attempted_at": "2026-10-19T11:34:21+00:00",
       "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 58,
-      "reason": "profile_not_authenticated_or_changed",
+      "reason": "timeout",
       "stage": "login",
       "components": {
         "details": {
-          "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:40+00:00",
+          "status": "error",
+          "attempted_at": "2026-10-19T11:34:21+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "profile_not_authenticated_or_changed"
+          "reason": "missing_atomic_checkpoint"
         },
         "metrics": {
-          "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:40+00:00",
+          "status": "error",
+          "attempted_at": "2026-10-19T11:34:21+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "profile_not_authenticated_or_changed"
+          "reason": "missing_atomic_checkpoint"
         },
         "publications": {
-          "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:40+00:00",
+          "status": "error",
+          "attempted_at": "2026-10-19T11:34:21+00:00",
           "last_success_at": "2026-09-23T18:11:13+00:00",
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "profile_not_authenticated_or_changed"
+          "reason": "missing_atomic_checkpoint"
         }
       }
     },
@@ -200,31 +200,31 @@
       "code": "source_not_fresh",
       "provider": "wos",
       "status": "blocked",
-      "attempted_at": "2026-10-12T13:45:54+00:00",
+      "attempted_at": "2026-10-19T11:50:03+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
       "record_count": 0,
-      "reason": "human_verification_required",
+      "reason": "wrong_author_profile",
       "stage": "login",
       "components": {
         "publications": {
           "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:54+00:00",
+          "attempted_at": "2026-10-19T11:50:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "human_verification_required"
+          "reason": "wrong_author_profile"
         },
         "metrics": {
           "status": "blocked",
-          "attempted_at": "2026-10-12T13:45:54+00:00",
+          "attempted_at": "2026-10-19T11:50:03+00:00",
           "last_success_at": null,
           "origin": "snapshot",
           "complete": false,
           "record_count": 0,
-          "reason": "human_verification_required"
+          "reason": "wrong_author_profile"
         }
       }
     },
@@ -232,8 +232,8 @@
       "code": "source_not_fresh",
       "provider": "media",
       "status": "partial",
-      "attempted_at": "2026-10-12T13:42:52+00:00",
-      "last_success_at": "2026-10-12T13:42:52+00:00",
+      "attempted_at": "2026-10-19T11:34:21+00:00",
+      "last_success_at": "2026-10-19T11:34:21+00:00",
       "origin": "live",
       "complete": false,
       "record_count": 9,

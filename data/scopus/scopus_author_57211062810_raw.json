@@ -2,7 +2,7 @@
   "author_payload": {},
   "search_first_payload": {
     "search-results": {
-      "opensearch:totalResults": "26",
+      "opensearch:totalResults": "27",
       "opensearch:startIndex": "0",
       "opensearch:itemsPerPage": "25",
       "opensearch:Query": {
@@ -32,11 +32,28 @@
         {
           "@_fa": "true",
           "@ref": "last",
-          "@href": "https://api.elsevier.com/content/search/scopus?start=1&count=25&query=AU-ID%2857211062810%29&view=STANDARD&field=dc%3Atitle%2Cdc%3Acreator%2Cprism%3ApublicationName%2Cprism%3AcoverDate%2Cprism%3Adoi%2Ccitedby-count%2Ceid%2Cdc%3Aidentifier%2Cprism%3AaggregationType%2CsubtypeDescription%2Copenaccess",
+          "@href": "https://api.elsevier.com/content/search/scopus?start=2&count=25&query=AU-ID%2857211062810%29&view=STANDARD&field=dc%3Atitle%2Cdc%3Acreator%2Cprism%3ApublicationName%2Cprism%3AcoverDate%2Cprism%3Adoi%2Ccitedby-count%2Ceid%2Cdc%3Aidentifier%2Cprism%3AaggregationType%2CsubtypeDescription%2Copenaccess",
           "@type": "application/json"
         }
       ],
       "entry": [
+        {
+          "@_fa": "true",
+          "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105052779947",
+          "dc:identifier": "SCOPUS_ID:105052779947",
+          "eid": "2-s2.0-105052779947",
+          "dc:title": "Physical trends and design principles in aliovalent double half-Heusler thermoelectrics from high-throughput computational screening",
+          "dc:creator": "Baigutlin D.R.",
+          "prism:publicationName": "Physical Review B",
+          "prism:coverDate": "2026-09-21",
+          "prism:doi": "10.1103/bf1b-wyp9",
+          "citedby-count": "0",
+          "prism:aggregationType": "Journal",
+          "subtype": "ar",
+          "subtypeDescription": "Article",
+          "openaccess": "0",
+          "openaccessFlag": false
+        },
         {
           "@_fa": "true",
           "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105008686251",
@@ -203,7 +220,7 @@
           "prism:publicationName": "Metals",
           "prism:coverDate": "2023-04-01",
           "prism:doi": "10.3390/met13040728",
-          "citedby-count": "44",
+          "citedby-count": "45",
           "prism:aggregationType": "Journal",
           "subtype": "re",
           "subtypeDescription": "Review",
@@ -529,7 +546,7 @@
           "prism:publicationName": "Physical Review B",
           "prism:coverDate": "2020-07-15",
           "prism:doi": "10.1103/PhysRevB.102.045127",
-          "citedby-count": "19",
+          "citedby-count": "20",
           "prism:aggregationType": "Journal",
           "subtype": "ar",
           "subtypeDescription": "Article",
@@ -684,23 +701,6 @@
           "prism:coverDate": "2020-01-01",
           "prism:doi": "10.24411/2500-0101-2020-15110",
           "citedby-count": "0",
-          "prism:aggregationType": "Journal",
-          "subtype": "ar",
-          "subtypeDescription": "Article",
-          "openaccess": "0",
-          "openaccessFlag": false
-        },
-        {
-          "@_fa": "true",
-          "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85100293216",
-          "dc:identifier": "SCOPUS_ID:85100293216",
-          "eid": "2-s2.0-85100293216",
-          "dc:title": "Kinetics of phase transformations in fe-ga alloys",
-          "dc:creator": "Pavlukhina O.O.",
-          "prism:publicationName": "Chelyabinsk Physical and Mathematical Journal",
-          "prism:coverDate": "2020-01-01",
-          "prism:doi": "10.47475/2500-0101-2020-15407",
-          "citedby-count": "2",
           "prism:aggregationType": "Journal",
           "subtype": "ar",
           "subtypeDescription": "Article",

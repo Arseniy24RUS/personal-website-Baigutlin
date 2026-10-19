@@ -6,11 +6,12 @@
   ],
   "display_name": "Danil R. Baigutlin",
   "raw_author_names": [
+    "BAIGUTLIN D.",
     "Baigutlin D. R.",
     "Baigutlin, D. R.",
     "Baigutlin, Danil",
     "Baigutlin, Danil R.",
-    "Baygutlin, Danil",
+    "D. Baygutlin",
     "D. R BAIGUTLIN",
     "D. R. Baigutlin",
     "D.R. Baigutlin",
@@ -18,15 +19,17 @@
     "Danil Baigutlin",
     "Danil Baygutlin",
     "Danil R. Baigutlin",
+    "Байгутлин Даниил Расулович",
     "Байгутлин Данил Расулович",
+    "Д. Байгутлин",
     "Д. Р. Байгутлин",
     "Д.Р. Байгутлин"
   ],
   "full_name": "Danil R. Baigutlin",
-  "works_count": 41,
+  "works_count": 48,
   "cited_by_count": 234,
   "summary_stats": {
-    "2yr_mean_citedness": 2.25,
+    "2yr_mean_citedness": 1.5,
     "h_index": 8,
     "i10_index": 7
   },
@@ -110,7 +113,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "count": 34,
+      "count": 37,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -127,7 +130,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "count": 22,
+      "count": 29,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -144,7 +147,7 @@
     {
       "id": "https://openalex.org/T11948",
       "display_name": "Machine Learning in Materials Science",
-      "count": 17,
+      "count": 20,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -161,7 +164,7 @@
     {
       "id": "https://openalex.org/T10002",
       "display_name": "Advanced Chemical Physics Studies",
-      "count": 12,
+      "count": 11,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -178,7 +181,7 @@
     {
       "id": "https://openalex.org/T10037",
       "display_name": "Physics of Superconductivity and Magnetism",
-      "count": 8,
+      "count": 7,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -197,7 +200,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 0.0012697,
+      "value": 0.0013151,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -214,7 +217,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "value": 0.0002413,
+      "value": 0.0003021,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -231,7 +234,7 @@
     {
       "id": "https://openalex.org/T11948",
       "display_name": "Machine Learning in Materials Science",
-      "value": 7.98e-05,
+      "value": 7.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -248,7 +251,7 @@
     {
       "id": "https://openalex.org/T11143",
       "display_name": "High Entropy Alloys Studies",
-      "value": 6.2e-05,
+      "value": 7.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -265,7 +268,7 @@
     {
       "id": "https://openalex.org/T10440",
       "display_name": "Advanced Thermoelectric Materials and Devices",
-      "value": 2.75e-05,
+      "value": 1.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -297,7 +300,7 @@
       "id": "121332964",
       "wikidata": "https://www.wikidata.org/wiki/Q413",
       "display_name": "Physics",
-      "score": 0.6007000207901001
+      "score": 0.576366662979126
     },
     {
       "id": "191897082",
@@ -315,7 +318,7 @@
   "counts_by_year": [
     {
       "year": 2017,
-      "works_count": 1,
+      "works_count": 2,
       "oa_works_count": 0,
       "cited_by_count": 2
     },
@@ -327,9 +330,9 @@
     },
     {
       "year": 2019,
-      "works_count": 4,
-      "oa_works_count": 2,
-      "cited_by_count": 23
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 24
     },
     {
       "year": 2020,
@@ -341,12 +344,12 @@
       "year": 2021,
       "works_count": 6,
       "oa_works_count": 4,
-      "cited_by_count": 46
+      "cited_by_count": 45
     },
     {
       "year": 2022,
-      "works_count": 4,
-      "oa_works_count": 3,
+      "works_count": 5,
+      "oa_works_count": 4,
       "cited_by_count": 14
     },
     {
@@ -357,8 +360,8 @@
     },
     {
       "year": 2024,
-      "works_count": 6,
-      "oa_works_count": 4,
+      "works_count": 10,
+      "oa_works_count": 9,
       "cited_by_count": 17
     },
     {
@@ -369,11 +372,12 @@
     }
   ],
   "display_name_alternatives": [
+    "BAIGUTLIN D.",
     "Baigutlin D. R.",
     "Baigutlin, D. R.",
     "Baigutlin, Danil",
     "Baigutlin, Danil R.",
-    "Baygutlin, Danil",
+    "D. Baygutlin",
     "D. R BAIGUTLIN",
     "D. R. Baigutlin",
     "D.R. Baigutlin",
@@ -381,13 +385,15 @@
     "Danil Baigutlin",
     "Danil Baygutlin",
     "Danil R. Baigutlin",
+    "Байгутлин Даниил Расулович",
     "Байгутлин Данил Расулович",
+    "Д. Байгутлин",
     "Д. Р. Байгутлин",
     "Д.Р. Байгутлин"
   ],
   "block_key": "d baigutlin",
   "works_api_url": "https://api.openalex.org/works?filter=author.id:A5052917978",
-  "updated_date": "2026-10-10T12:59:14",
+  "updated_date": "2026-10-16T12:29:29",
   "created_date": "2019-01-25T00:00:00",
-  "last_success_at": "2026-10-12T13:41:49+00:00"
+  "last_success_at": "2026-10-19T11:33:16+00:00"
 }
