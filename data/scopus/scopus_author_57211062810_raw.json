@@ -85,8 +85,31 @@
           "prism:aggregationType": "Journal",
           "subtype": "ar",
           "subtypeDescription": "Article",
-          "openaccess": "0",
-          "openaccessFlag": false
+          "openaccess": "2",
+          "openaccessFlag": false,
+          "freetoread": {
+            "value": [
+              {
+                "$": "all"
+              },
+              {
+                "$": "repository"
+              },
+              {
+                "$": "repositoryam"
+              }
+            ]
+          },
+          "freetoreadLabel": {
+            "value": [
+              {
+                "$": "All Open Access"
+              },
+              {
+                "$": "Green"
+              }
+            ]
+          }
         },
         {
           "@_fa": "true",
@@ -220,7 +243,7 @@
           "prism:publicationName": "Metals",
           "prism:coverDate": "2023-04-01",
           "prism:doi": "10.3390/met13040728",
-          "citedby-count": "45",
+          "citedby-count": "46",
           "prism:aggregationType": "Journal",
           "subtype": "re",
           "subtypeDescription": "Review",

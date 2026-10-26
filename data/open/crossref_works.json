@@ -2097,13 +2097,13 @@
           "date-parts": [
             [
               2026,
-              9,
-              1
+              10,
+              22
             ]
           ],
-          "date-time": "2026-09-01T00:44:57Z",
-          "timestamp": 1788223497787,
-          "version": "build-2803163510"
+          "date-time": "2026-10-22T16:44:32Z",
+          "timestamp": 1792687472280,
+          "version": "4.5.0"
         },
         "reference-count": 37,
         "publisher": "AIP Publishing",
@@ -2197,7 +2197,7 @@
         },
         "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
         "source": "Crossref",
-        "is-referenced-by-count": 7,
+        "is-referenced-by-count": 8,
         "title": [
           "Machine learning algorithms for optimization of magnetocaloric effect in all-<i>d</i>-metal Heusler alloys"
         ],
@@ -4460,13 +4460,13 @@
           "date-parts": [
             [
               2026,
-              9,
-              28
+              10,
+              23
             ]
           ],
-          "date-time": "2026-09-28T23:09:31Z",
-          "timestamp": 1790636971231,
-          "version": "4.1.0"
+          "date-time": "2026-10-23T21:10:11Z",
+          "timestamp": 1792789811596,
+          "version": "4.5.0"
         },
         "reference-count": 181,
         "publisher": "MDPI AG",
@@ -4585,7 +4585,7 @@
         "page": "728",
         "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
         "source": "Crossref",
-        "is-referenced-by-count": 43,
+        "is-referenced-by-count": 45,
         "title": [
           "Meta-GGA SCAN Functional in the Prediction of Ground State Properties of Magnetic Materials: Review of the Current State"
         ],
@@ -10211,5 +10211,5 @@
       "search-terms": null
     }
   },
-  "last_success_at": "2026-10-19T11:33:21+00:00"
+  "last_success_at": "2026-10-26T11:42:58+00:00"
 }

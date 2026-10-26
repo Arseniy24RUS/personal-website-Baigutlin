@@ -1,38 +1,38 @@
 {
-  "status": "error",
-  "attempted_at": "2026-10-19T11:34:21+00:00",
+  "status": "blocked",
+  "attempted_at": "2026-10-26T11:45:31+00:00",
   "last_success_at": "2026-09-23T18:11:13+00:00",
   "origin": "snapshot",
   "complete": false,
   "record_count": 58,
-  "reason": "timeout",
+  "reason": "profile_not_authenticated_or_changed",
   "components": {
     "metrics": {
-      "status": "error",
-      "attempted_at": "2026-10-19T11:34:21+00:00",
+      "status": "blocked",
+      "attempted_at": "2026-10-26T11:45:31+00:00",
       "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 0,
-      "reason": "missing_atomic_checkpoint"
+      "reason": "profile_not_authenticated_or_changed"
     },
     "publications": {
-      "status": "error",
-      "attempted_at": "2026-10-19T11:34:21+00:00",
+      "status": "blocked",
+      "attempted_at": "2026-10-26T11:45:31+00:00",
       "last_success_at": "2026-09-23T18:11:13+00:00",
       "origin": "snapshot",
       "complete": false,
       "record_count": 0,
-      "reason": "missing_atomic_checkpoint"
+      "reason": "profile_not_authenticated_or_changed"
     },
     "details": {
-      "status": "error",
-      "attempted_at": "2026-10-19T11:34:21+00:00",
+      "status": "blocked",
+      "attempted_at": "2026-10-26T11:45:31+00:00",
       "last_success_at": null,
       "origin": "snapshot",
       "complete": false,
       "record_count": 0,
-      "reason": "missing_atomic_checkpoint"
+      "reason": "profile_not_authenticated_or_changed"
     }
   },
   "stage": "login",

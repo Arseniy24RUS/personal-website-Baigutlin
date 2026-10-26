@@ -44,7 +44,7 @@
     "cited_by_count": 4,
     "aggregation_type": "Journal",
     "subtype": "Article",
-    "openaccess": "0",
+    "openaccess": "2",
     "raw": {
       "@_fa": "true",
       "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85208073780",
@@ -59,8 +59,31 @@
       "prism:aggregationType": "Journal",
       "subtype": "ar",
       "subtypeDescription": "Article",
-      "openaccess": "0",
-      "openaccessFlag": false
+      "openaccess": "2",
+      "openaccessFlag": false,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
     }
   },
   {
@@ -285,7 +308,7 @@
     "cover_date": "2023-04-01",
     "year": "2023",
     "doi": "10.3390/met13040728",
-    "cited_by_count": 45,
+    "cited_by_count": 46,
     "aggregation_type": "Journal",
     "subtype": "Review",
     "openaccess": "1",
@@ -299,7 +322,7 @@
       "prism:publicationName": "Metals",
       "prism:coverDate": "2023-04-01",
       "prism:doi": "10.3390/met13040728",
-      "citedby-count": "45",
+      "citedby-count": "46",
       "prism:aggregationType": "Journal",
       "subtype": "re",
       "subtypeDescription": "Review",

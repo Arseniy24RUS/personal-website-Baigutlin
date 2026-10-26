@@ -204,6 +204,51 @@
       "processed_at": "2026-10-19T11:34:21+00:00",
       "status": "low_confidence",
       "confidence": 0.0
+    },
+    "https://csu.ru/press/news/voskresnyy-universitet-chelgu-priglashaet-v-redaktsiyu-studencheskogo-zhurnala": {
+      "processed_at": "2026-10-26T11:43:42+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/iii-vserossiyskiy-festival-inklyuzivnoy-kultury-i-tvorchestva-zavershilsya-v-chelyabinske": {
+      "processed_at": "2026-10-26T11:43:44+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-provedyet-den-otkrytykh-dverey-8-noyabrya": {
+      "processed_at": "2026-10-26T11:43:45+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/khimicheskomu-fakultetu-35": {
+      "processed_at": "2026-10-26T11:43:47+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/kulturnyy-obmen-druzhba-russkikh-i-kitayskikh-studentov-": {
+      "processed_at": "2026-10-26T11:43:49+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/korotkometrazhnyy-film-studenta-chelgu-pobeditel-mezhdunarodnogo-kinofestivalya": {
+      "processed_at": "2026-10-26T11:43:51+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-soberyet-nastavnikov-v-sfere-media-na-vserossiyskom-forume": {
+      "processed_at": "2026-10-26T11:43:53+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-otmetil-50-letniy-yubiley": {
+      "processed_at": "2026-10-26T11:43:55+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-vrachi-i-yuristy-obsudili-kak-snizit-pravovye-riski-v-meditsine": {
+      "processed_at": "2026-10-26T11:43:57+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
     }
   },
   "pending": {},
@@ -213,8 +258,8 @@
     ]
   },
   "rss_cursor": {
-    "next_index": 5,
-    "attempted_at": "2026-10-19T11:33:59+00:00"
+    "next_index": 6,
+    "attempted_at": "2026-10-26T11:43:35+00:00"
   },
   "initial_cutoff": "2024-04-06"
 }

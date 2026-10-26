@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:33:22+00:00",
+  "generated_at": "2026-10-26T11:42:59+00:00",
   "records": [
     {
       "source": "orcid_public_api",
@@ -1714,8 +1714,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 21,
@@ -3233,8 +3233,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 40,
@@ -4661,7 +4661,7 @@
           "landing_page_url": "https://doi.org/10.1063/5.0236335",
           "pdf_url": null,
           "venue": "Journal of Applied Physics",
-          "cited_by_count": 7,
+          "cited_by_count": 8,
           "is_oa": true,
           "oa_status": "hybrid",
           "raw": {
@@ -4940,11 +4940,11 @@
               "currency": "USD",
               "value_usd": 3500
             },
-            "fwci": 0.665,
+            "fwci": 0.7526,
             "has_fulltext": false,
-            "cited_by_count": 7,
+            "cited_by_count": 8,
             "citation_normalized_percentile": {
-              "value": 0.61777239,
+              "value": 0.65119307,
               "is_in_top_1_percent": false,
               "is_in_top_10_percent": false
             },
@@ -5253,8 +5253,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/15",
                 "display_name": "Life on land",
+                "id": "https://metadata.un.org/sdg/15",
                 "score": 0.6200000047683716
               }
             ],
@@ -5276,8 +5276,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 35,
@@ -5757,14 +5757,14 @@
             "counts_by_year": [
               {
                 "year": 2026,
-                "cited_by_count": 4
+                "cited_by_count": 5
               },
               {
                 "year": 2025,
                 "cited_by_count": 3
               }
             ],
-            "updated_date": "2026-09-22T06:50:58.402377",
+            "updated_date": "2026-10-22T18:32:59.640997",
             "created_date": "2025-10-10T00:00:00"
           }
         },
@@ -5782,19 +5782,19 @@
           "issue": "18",
           "pages": null,
           "publisher": "AIP Publishing",
-          "is_referenced_by_count": 7,
+          "is_referenced_by_count": 8,
           "raw": {
             "indexed": {
               "date-parts": [
                 [
                   2026,
-                  9,
-                  1
+                  10,
+                  22
                 ]
               ],
-              "date-time": "2026-09-01T00:44:57Z",
-              "timestamp": 1788223497787,
-              "version": "build-2803163510"
+              "date-time": "2026-10-22T16:44:32Z",
+              "timestamp": 1792687472280,
+              "version": "4.5.0"
             },
             "reference-count": 37,
             "publisher": "AIP Publishing",
@@ -5888,7 +5888,7 @@
             },
             "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
             "source": "Crossref",
-            "is-referenced-by-count": 7,
+            "is-referenced-by-count": 8,
             "title": [
               "Machine learning algorithms for optimization of magnetocaloric effect in all-<i>d</i>-metal Heusler alloys"
             ],
@@ -6423,11 +6423,11 @@
       "volume": "136",
       "issue": "18",
       "landing_page_url": "https://doi.org/10.1063/5.0236335",
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "is_oa": true,
       "oa_status": "hybrid",
       "publisher": "AIP Publishing",
-      "is_referenced_by_count": 7
+      "is_referenced_by_count": 8
     },
     {
       "source": "orcid_public_api",
@@ -7184,8 +7184,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 47,
@@ -8883,8 +8883,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 95,
@@ -10420,7 +10420,7 @@
           "landing_page_url": "https://doi.org/10.3390/met13040728",
           "pdf_url": "https://www.mdpi.com/2075-4701/13/4/728/pdf?version=1681090835",
           "venue": "Metals",
-          "cited_by_count": 47,
+          "cited_by_count": 48,
           "is_oa": true,
           "oa_status": "gold",
           "raw": {
@@ -10695,11 +10695,11 @@
               "currency": "CHF",
               "value_usd": 2224
             },
-            "fwci": 5.3933,
+            "fwci": 5.4751,
             "has_fulltext": true,
-            "cited_by_count": 47,
+            "cited_by_count": 48,
             "citation_normalized_percentile": {
-              "value": 0.97318646,
+              "value": 0.97405565,
               "is_in_top_1_percent": false,
               "is_in_top_10_percent": true
             },
@@ -11049,8 +11049,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/11",
                 "display_name": "Sustainable cities and communities",
+                "id": "https://metadata.un.org/sdg/11",
                 "score": 0.6800000071525574
               }
             ],
@@ -11079,8 +11079,8 @@
               }
             ],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W4363648284.pdf",
@@ -11604,7 +11604,7 @@
             "counts_by_year": [
               {
                 "year": 2026,
-                "cited_by_count": 13
+                "cited_by_count": 14
               },
               {
                 "year": 2025,
@@ -11619,7 +11619,7 @@
                 "cited_by_count": 4
               }
             ],
-            "updated_date": "2026-10-16T09:59:22.235173",
+            "updated_date": "2026-10-23T09:35:12.469056",
             "created_date": "2023-04-11T00:00:00"
           }
         },
@@ -11637,19 +11637,19 @@
           "issue": "4",
           "pages": "728",
           "publisher": "MDPI AG",
-          "is_referenced_by_count": 43,
+          "is_referenced_by_count": 45,
           "raw": {
             "indexed": {
               "date-parts": [
                 [
                   2026,
-                  9,
-                  28
+                  10,
+                  23
                 ]
               ],
-              "date-time": "2026-09-28T23:09:31Z",
-              "timestamp": 1790636971231,
-              "version": "4.1.0"
+              "date-time": "2026-10-23T21:10:11Z",
+              "timestamp": 1792789811596,
+              "version": "4.5.0"
             },
             "reference-count": 181,
             "publisher": "MDPI AG",
@@ -11768,7 +11768,7 @@
             "page": "728",
             "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
             "source": "Crossref",
-            "is-referenced-by-count": 43,
+            "is-referenced-by-count": 45,
             "title": [
               "Meta-GGA SCAN Functional in the Prediction of Ground State Properties of Magnetic Materials: Review of the Current State"
             ],
@@ -13863,11 +13863,11 @@
       "pages": "728-728",
       "landing_page_url": "https://doi.org/10.3390/met13040728",
       "pdf_url": "https://www.mdpi.com/2075-4701/13/4/728/pdf?version=1681090835",
-      "cited_by_count": 47,
+      "cited_by_count": 48,
       "is_oa": true,
       "oa_status": "gold",
       "publisher": "MDPI AG",
-      "is_referenced_by_count": 43
+      "is_referenced_by_count": 45
     },
     {
       "source": "orcid_public_api",
@@ -14661,8 +14661,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/7",
                 "display_name": "Affordable and clean energy",
+                "id": "https://metadata.un.org/sdg/7",
                 "score": 0.7799999713897705
               }
             ],
@@ -14670,8 +14670,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 25,
@@ -15925,8 +15925,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W4388793270.pdf",
@@ -17517,8 +17517,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 30,
@@ -18628,8 +18628,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 30,
@@ -20945,8 +20945,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 39,
@@ -21972,8 +21972,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 36,
@@ -23153,8 +23153,8 @@
               }
             ],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W3176847721.pdf",
@@ -25581,8 +25581,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/7",
                 "display_name": "Affordable and clean energy",
+                "id": "https://metadata.un.org/sdg/7",
                 "score": 0.8100000023841858
               }
             ],
@@ -25652,8 +25652,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 60,
@@ -28036,8 +28036,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/7",
                 "display_name": "Affordable and clean energy",
+                "id": "https://metadata.un.org/sdg/7",
                 "score": 0.8700000047683716
               }
             ],
@@ -28229,8 +28229,8 @@
               }
             ],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W3204171710.pdf",
@@ -30089,8 +30089,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 30,
@@ -35752,8 +35752,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/16",
                 "display_name": "Peace, justice, and strong institutions",
+                "id": "https://metadata.un.org/sdg/16",
                 "score": 0.800000011920929
               }
             ],
@@ -35830,8 +35830,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 74,
@@ -37508,8 +37508,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 65,
@@ -38737,8 +38737,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -39599,8 +39599,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 34,
@@ -40122,7 +40122,7 @@
           "landing_page_url": "https://doi.org/10.1016/j.physb.2019.411874",
           "pdf_url": null,
           "venue": "Physica B Condensed Matter",
-          "cited_by_count": 2,
+          "cited_by_count": 3,
           "is_oa": false,
           "oa_status": "closed",
           "raw": {
@@ -40451,15 +40451,15 @@
             "apc_paid": null,
             "fwci": 0.0868,
             "has_fulltext": false,
-            "cited_by_count": 2,
+            "cited_by_count": 3,
             "citation_normalized_percentile": {
-              "value": 0.36179017,
+              "value": 0.36172758,
               "is_in_top_1_percent": false,
               "is_in_top_10_percent": false
             },
             "cited_by_percentile_year": {
               "min": 88,
-              "max": 93
+              "max": 96
             },
             "biblio": {
               "volume": "578",
@@ -40816,8 +40816,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 30,
@@ -40868,6 +40868,10 @@
             "abstract_inverted_index": null,
             "counts_by_year": [
               {
+                "year": 2026,
+                "cited_by_count": 1
+              },
+              {
                 "year": 2023,
                 "cited_by_count": 1
               },
@@ -40876,7 +40880,7 @@
                 "cited_by_count": 1
               }
             ],
-            "updated_date": "2026-10-16T09:59:22.235173",
+            "updated_date": "2026-10-22T09:42:04.148104",
             "created_date": "2025-10-10T00:00:00"
           }
         }
@@ -40886,7 +40890,7 @@
       "volume": "578",
       "pages": "411874-411874",
       "landing_page_url": "https://doi.org/10.1016/j.physb.2019.411874",
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "is_oa": false,
       "oa_status": "closed"
     },
@@ -41615,8 +41619,8 @@
               }
             ],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W3033137432.pdf",
@@ -42792,8 +42796,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 78,
@@ -44074,8 +44078,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 18,
@@ -44791,8 +44795,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -45440,8 +45444,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -46192,8 +46196,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -47068,8 +47072,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 33,
@@ -47725,8 +47729,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 33,
@@ -48324,8 +48328,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 28,
@@ -49180,8 +49184,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 28,
@@ -50034,8 +50038,8 @@
         "sustainable_development_goals": [],
         "sustainable_development_goals_aurora": [
           {
-            "id": "https://metadata.un.org/sdg/7",
             "display_name": "Affordable and clean energy",
+            "id": "https://metadata.un.org/sdg/7",
             "score": 0.7599999904632568
           }
         ],
@@ -50043,8 +50047,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4394951611.pdf",
@@ -51002,8 +51006,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/7",
                 "display_name": "Affordable and clean energy",
+                "id": "https://metadata.un.org/sdg/7",
                 "score": 0.7599999904632568
               }
             ],
@@ -51011,8 +51015,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W4394951611.pdf",
@@ -51896,8 +51900,8 @@
         "sustainable_development_goals": [],
         "sustainable_development_goals_aurora": [
           {
-            "id": "https://metadata.un.org/sdg/7",
             "display_name": "Affordable and clean energy",
+            "id": "https://metadata.un.org/sdg/7",
             "score": 0.8299999833106995
           }
         ],
@@ -51905,8 +51909,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 28,
@@ -52673,8 +52677,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/7",
                 "display_name": "Affordable and clean energy",
+                "id": "https://metadata.un.org/sdg/7",
                 "score": 0.8299999833106995
               }
             ],
@@ -52682,8 +52686,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 28,
@@ -53332,8 +53336,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312343136.pdf",
@@ -53709,8 +53713,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W4312343136.pdf",
@@ -54394,8 +54398,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -55320,8 +55324,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -56266,8 +56270,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4320082123.pdf",
@@ -57216,8 +57220,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W4320082123.pdf",
@@ -58118,8 +58122,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W3187506155.pdf",
@@ -59013,8 +59017,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W3187506155.pdf",
@@ -59646,8 +59650,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -60049,8 +60053,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -60840,8 +60844,8 @@
         "sustainable_development_goals": [],
         "sustainable_development_goals_aurora": [
           {
-            "id": "https://metadata.un.org/sdg/7",
             "display_name": "Affordable and clean energy",
+            "id": "https://metadata.un.org/sdg/7",
             "score": 0.8399999737739563
           }
         ],
@@ -60870,8 +60874,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
@@ -62116,8 +62120,8 @@
             "sustainable_development_goals": [],
             "sustainable_development_goals_aurora": [
               {
-                "id": "https://metadata.un.org/sdg/7",
                 "display_name": "Affordable and clean energy",
+                "id": "https://metadata.un.org/sdg/7",
                 "score": 0.8399999737739563
               }
             ],
@@ -62146,8 +62150,8 @@
               }
             ],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 15,
@@ -63130,8 +63134,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 4,
@@ -63786,8 +63790,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 4,
@@ -64301,8 +64305,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -64682,8 +64686,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -65052,8 +65056,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -65429,8 +65433,8 @@
             "awards": [],
             "funders": [],
             "has_content": {
-              "pdf": false,
-              "grobid_xml": false
+              "grobid_xml": false,
+              "pdf": false
             },
             "content_urls": null,
             "referenced_works_count": 0,
@@ -67928,8 +67932,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4403783022.pdf",
@@ -68952,8 +68956,8 @@
               }
             ],
             "has_content": {
-              "pdf": true,
-              "grobid_xml": true
+              "grobid_xml": true,
+              "pdf": true
             },
             "content_urls": {
               "pdf": "https://content.openalex.org/works/W4403783022.pdf",

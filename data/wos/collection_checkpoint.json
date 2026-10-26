@@ -2,30 +2,30 @@
   "schema": "provider_collection/v1",
   "report": {
     "status": "blocked",
-    "attempted_at": "2026-10-19T11:50:03+00:00",
+    "attempted_at": "2026-10-26T11:45:47+00:00",
     "last_success_at": null,
     "origin": "snapshot",
     "complete": false,
     "record_count": 0,
-    "reason": "wrong_author_profile",
+    "reason": "human_verification_required",
     "components": {
       "metrics": {
         "status": "blocked",
-        "attempted_at": "2026-10-19T11:50:03+00:00",
+        "attempted_at": "2026-10-26T11:45:47+00:00",
         "last_success_at": null,
         "origin": "snapshot",
         "complete": false,
         "record_count": 0,
-        "reason": "wrong_author_profile"
+        "reason": "human_verification_required"
       },
       "publications": {
         "status": "blocked",
-        "attempted_at": "2026-10-19T11:50:03+00:00",
+        "attempted_at": "2026-10-26T11:45:47+00:00",
         "last_success_at": null,
         "origin": "snapshot",
         "complete": false,
         "record_count": 0,
-        "reason": "wrong_author_profile"
+        "reason": "human_verification_required"
       }
     },
     "stage": "login",
@@ -36,7 +36,7 @@
     "diagnostics": [
       {
         "host": "www.webofscience.com",
-        "path": "/wos/error/authorNotFound",
+        "path": "/wos/",
         "controls": [
           {
             "tag": "div",
@@ -50,21 +50,21 @@
             "type": "",
             "name": "",
             "id": "skip-nav",
-            "label": "expand_more\nПропустить меню навигации\nskipToNav"
+            "label": "expand_more\nSkip navigation menu\nskipToNav"
           },
           {
             "tag": "button",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Русский"
+            "label": "English"
           },
           {
             "tag": "button",
             "type": "",
             "name": "",
             "id": "",
-            "label": "apps\nПродукты"
+            "label": "apps\nProducts"
           },
           {
             "tag": "a",
@@ -74,88 +74,88 @@
             "label": "Web of Science™"
           },
           {
-            "tag": "a",
+            "tag": "button",
             "type": "",
             "name": "",
-            "id": "snHeaderLinkNavigation",
-            "label": "Поиск"
+            "id": "",
+            "label": "Sign In"
           },
           {
             "tag": "button",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Arseniy Sitkovskiy"
+            "label": "Register"
+          },
+          {
+            "tag": "a",
+            "type": "",
+            "name": "",
+            "id": "",
+            "label": "Learn More"
           },
           {
             "tag": "button",
             "type": "",
             "name": "",
             "id": "homeMenu",
-            "label": "МЕНЮ"
+            "label": "MENU"
           },
           {
             "tag": "button",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Профиль исследователя"
+            "label": "Researcher Profile"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "results"
+            "label": "Legal Center"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Юридический центр"
+            "label": "Privacy Statement"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Заявление о конфиденциальности"
+            "label": "Copyright Notice"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Уведомление об авторских правах"
+            "label": "Training Portal"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Обучающий портал"
+            "label": "Product Support"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Поддержка продукта"
+            "label": "Newsletter"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Информационный бюллетень"
-          },
-          {
-            "tag": "a",
-            "type": "",
-            "name": "",
-            "id": "",
-            "label": "Политика в отношении файлов Cookie"
+            "label": "Cookie Policy"
           },
           {
             "tag": "a",
@@ -169,128 +169,167 @@
             "type": "",
             "name": "",
             "id": "",
-            "label": "Исправление данных"
+            "label": "Data Correction"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Доступность"
+            "label": "Accessibility"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Справка"
+            "label": "Help"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Условия использования"
+            "label": "Terms of Use"
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Нажмите, чтобы посетить Web of Science в Twitter."
+            "label": "Click to visit Web of Science on Twitter."
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Нажмите, чтобы посетить страницу Web of Science на Facebook."
+            "label": "Click to visit Web of Science on Facebook."
           },
           {
             "tag": "a",
             "type": "",
             "name": "",
             "id": "",
-            "label": "Мой профиль"
-          },
-          {
-            "tag": "a",
-            "type": "",
-            "name": "",
-            "id": "",
-            "label": "Настройки"
-          },
-          {
-            "tag": "a",
-            "type": "",
-            "name": "",
-            "id": "",
-            "label": "Завершить сеанс"
-          },
-          {
-            "tag": "a",
-            "type": "",
-            "name": "",
-            "id": "",
-            "label": "Завершить сеанс и выйти"
+            "label": "Contact Customer Support"
           }
         ]
       }
     ],
-    "authentication_evidence": {
-      "profile_requested": true,
-      "initial_profile_loaded": true,
-      "username_normalized": false,
-      "submit_clicked": true,
-      "cookie_banner_observed": true,
-      "homepage_requested": false,
-      "response_observed": true,
-      "input_matches_configured": true,
-      "clarivate_observed": true,
-      "cookie_banner_dismissed": true,
-      "homepage_loaded": false,
-      "onboarding_acknowledged": false,
-      "consent_accepted": true,
-      "orcid_consent_clicked": false,
-      "initial_profile_requested": true,
-      "success": true,
-      "signin_clicked": true,
-      "wos_return_observed": true,
-      "orcid_selected": true,
-      "returned_profile_reused": false,
-      "orcid_page_observed": true,
-      "profile_loaded": true,
-      "orcid_form_observed": true,
-      "username_format_valid": true,
-      "wos_session_confirmed": true,
-      "stage": "complete",
-      "http_status": 200
-    },
-    "profile_diagnostics": {
-      "parsed_record_count": 0,
-      "summary": {
-        "publications": null,
-        "citations": null,
-        "h_index": null,
-        "total_documents": null,
-        "indexed_publications": null,
-        "core_collection_publications": null
+    "verification_evidence": {
+      "trigger": "iframe_title",
+      "frame": {
+        "frame_dom_observed": true,
+        "checkbox_present": false,
+        "checkbox_visible": false,
+        "checkbox_checked": null,
+        "active_challenge_controls": true,
+        "provider_host": "newassets.hcaptcha.com",
+        "provider_path": "other",
+        "title_challenge": true,
+        "src_recaptcha": true,
+        "size_normal": false,
+        "in_visible_viewport": true,
+        "rect": {
+          "x": 520,
+          "y": 251,
+          "width": 400,
+          "height": 600
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 1100
+        },
+        "effective_opacity": 1,
+        "visibility_hidden": false,
+        "display_none": false,
+        "css_clip_present": false,
+        "ancestor_modal": true,
+        "viewport_intersects": true,
+        "center_hit_iframe": true,
+        "frame_host_matches_provider": true,
+        "observation_incomplete": true,
+        "marker_ids": [],
+        "ready_state": "complete",
+        "frame_text_length": 59,
+        "frame_tag_count": 718,
+        "frame_button_count": 1,
+        "frame_role_button_count": 15,
+        "frame_input_count": 0,
+        "frame_canvas_count": 0
       },
-      "schema_fields": [
-        "core_collection_metrics",
-        "generated_at",
-        "page_title",
-        "records",
-        "records_count_on_page",
-        "researcher_id",
-        "source",
-        "source_url",
-        "summary",
-        "summary_metrics"
+      "frame_counts": {
+        "hcaptcha_frame_count": 1,
+        "recaptcha_frame_count": 0,
+        "other_frame_count": 0
+      },
+      "elapsed_seconds": 0.078,
+      "observation_budget_seconds": 10.0,
+      "observation_timeline": [
+        {
+          "elapsed_seconds": 0.078,
+          "category": "interactive",
+          "ready_state": "complete",
+          "frame_text_length": 59,
+          "frame_tag_count": 718,
+          "frame_button_count": 1,
+          "frame_role_button_count": 15,
+          "frame_input_count": 0,
+          "frame_canvas_count": 0,
+          "frame_dom_observed": 1,
+          "checkbox_present": 0,
+          "checkbox_visible": 0,
+          "active_challenge_controls": 1,
+          "observation_incomplete": 1,
+          "hcaptcha_frame_count": 1,
+          "recaptcha_frame_count": 0,
+          "other_frame_count": 0
+        }
+      ]
+    },
+    "authentication_evidence": {
+      "profile_loaded": false,
+      "clarivate_observed": false,
+      "cookie_banner_observed": true,
+      "onboarding_acknowledged": false,
+      "orcid_form_observed": false,
+      "consent_accepted": true,
+      "username_normalized": false,
+      "initial_profile_retry_loaded": true,
+      "submit_clicked": false,
+      "wos_session_confirmed": false,
+      "cookie_banner_dismissed": true,
+      "initial_profile_loaded": true,
+      "orcid_selected": false,
+      "initial_profile_retry_attempted": true,
+      "browser_error_page_observed": true,
+      "homepage_requested": false,
+      "wos_return_observed": false,
+      "profile_requested": false,
+      "initial_profile_requested": true,
+      "signin_clicked": false,
+      "input_matches_configured": false,
+      "returned_profile_reused": false,
+      "orcid_page_observed": false,
+      "homepage_loaded": false,
+      "orcid_consent_clicked": false,
+      "username_format_valid": true,
+      "stage": "initial_profile",
+      "navigation_failures": [
+        {
+          "kind": "request_failed",
+          "provider": "clarivate",
+          "stage": "initial_profile",
+          "network_error_code": "ERR_INVALID_REDIRECT"
+        },
+        {
+          "kind": "browser_error",
+          "provider": "browser",
+          "stage": "initial_profile",
+          "network_error_code": "ERR_INVALID_REDIRECT"
+        }
       ],
-      "record_fields": [],
-      "summary_metric_count": 0,
-      "core_metric_count": 0
+      "navigation_failure_count": 2
     },
     "authentication_mode": "restore",
     "authentication": null

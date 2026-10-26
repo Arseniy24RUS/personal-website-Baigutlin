@@ -27,9 +27,9 @@
   ],
   "full_name": "Danil R. Baigutlin",
   "works_count": 48,
-  "cited_by_count": 234,
+  "cited_by_count": 237,
   "summary_stats": {
-    "2yr_mean_citedness": 1.5,
+    "2yr_mean_citedness": 1.5833333333333333,
     "h_index": 8,
     "i10_index": 7
   },
@@ -200,7 +200,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 0.0013151,
+      "value": 0.001321,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -217,7 +217,7 @@
     {
       "id": "https://openalex.org/T10865",
       "display_name": "Shape Memory Alloy Transformations",
-      "value": 0.0003021,
+      "value": 0.0003019,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -234,7 +234,7 @@
     {
       "id": "https://openalex.org/T11948",
       "display_name": "Machine Learning in Materials Science",
-      "value": 7.82e-05,
+      "value": 8.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -251,7 +251,7 @@
     {
       "id": "https://openalex.org/T11143",
       "display_name": "High Entropy Alloys Studies",
-      "value": 7.55e-05,
+      "value": 7.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -332,7 +332,7 @@
       "year": 2019,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 24
+      "cited_by_count": 25
     },
     {
       "year": 2020,
@@ -356,13 +356,13 @@
       "year": 2023,
       "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 59
+      "cited_by_count": 60
     },
     {
       "year": 2024,
       "works_count": 10,
       "oa_works_count": 9,
-      "cited_by_count": 17
+      "cited_by_count": 18
     },
     {
       "year": 2025,
@@ -393,7 +393,7 @@
   ],
   "block_key": "d baigutlin",
   "works_api_url": "https://api.openalex.org/works?filter=author.id:A5052917978",
-  "updated_date": "2026-10-16T12:29:29",
+  "updated_date": "2026-10-23T12:28:23",
   "created_date": "2019-01-25T00:00:00",
-  "last_success_at": "2026-10-19T11:33:16+00:00"
+  "last_success_at": "2026-10-26T11:42:53+00:00"
 }
