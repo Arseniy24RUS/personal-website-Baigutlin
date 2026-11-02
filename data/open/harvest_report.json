@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T11:42:51+00:00",
+  "generated_at": "2026-11-02T14:00:47+00:00",
   "providers": {
     "orcid": {
       "status": "success",
-      "attempted_at": "2026-10-26T11:42:52+00:00",
-      "last_success_at": "2026-10-26T11:42:52+00:00",
+      "attempted_at": "2026-11-02T14:00:48+00:00",
+      "last_success_at": "2026-11-02T14:00:48+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 65,
@@ -13,8 +13,8 @@
     },
     "openalex_author": {
       "status": "success",
-      "attempted_at": "2026-10-26T11:42:53+00:00",
-      "last_success_at": "2026-10-26T11:42:53+00:00",
+      "attempted_at": "2026-11-02T14:00:50+00:00",
+      "last_success_at": "2026-11-02T14:00:50+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 0,
@@ -23,18 +23,18 @@
     },
     "openalex_works": {
       "status": "success",
-      "attempted_at": "2026-10-26T11:42:55+00:00",
-      "last_success_at": "2026-10-26T11:42:55+00:00",
+      "attempted_at": "2026-11-02T14:00:51+00:00",
+      "last_success_at": "2026-11-02T14:00:51+00:00",
       "origin": "live",
       "complete": true,
-      "record_count": 42,
+      "record_count": 44,
       "reason": null,
       "http_status": null
     },
     "crossref": {
       "status": "success",
-      "attempted_at": "2026-10-26T11:42:58+00:00",
-      "last_success_at": "2026-10-26T11:42:58+00:00",
+      "attempted_at": "2026-11-02T14:00:55+00:00",
+      "last_success_at": "2026-11-02T14:00:55+00:00",
       "origin": "live",
       "complete": true,
       "record_count": 13,
@@ -43,12 +43,12 @@
     }
   },
   "status": "success",
-  "attempted_at": "2026-10-26T11:42:59+00:00",
-  "last_success_at": "2026-10-26T11:42:59+00:00",
+  "attempted_at": "2026-11-02T14:00:56+00:00",
+  "last_success_at": "2026-11-02T14:00:56+00:00",
   "origin": "live",
   "complete": true,
   "record_count": 50,
   "reason": null,
-  "records_total_before_dedupe": 120,
+  "records_total_before_dedupe": 122,
   "records_total_after_dedupe": 50
 }

@@ -249,6 +249,51 @@
       "processed_at": "2026-10-26T11:43:57+00:00",
       "status": "low_confidence",
       "confidence": 0.0
+    },
+    "https://csu.ru/press/news/blagotvoritelnyy-fond-danko-peredal-v-dar-chelgu-avtomaticheskiy-naruzhnyy-defibrillyator": {
+      "processed_at": "2026-11-02T14:01:37+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/studentka-chelgu-proshla-stazhirovku-v-shankhae-po-genetike-slozhnykh-zabolevaniy": {
+      "processed_at": "2026-11-02T14:01:40+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/skonchalsya-viktor-zonov": {
+      "processed_at": "2026-11-02T14:01:41+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/prepodavatel-chelgu-v-sostave-rabochey-gruppy-po-formirovaniyu-sistemy-grazhdanskogo-mirovozzreniya-": {
+      "processed_at": "2026-11-02T14:01:43+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/chelgu-obyavil-konkurs-risunkov-moi-pervye-shagi-v-nauku-dlya-shkolnikov": {
+      "processed_at": "2026-11-02T14:01:45+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-chelgu-podderzhat-nauchnye-zhurnaly-i-nauchnye-meropriyatiya": {
+      "processed_at": "2026-11-02T14:01:47+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/forum-evraziyskie-vorota-v-bishkeke-dal-start-novym-proektam": {
+      "processed_at": "2026-11-02T14:01:48+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/detskiy-universitet-chelgu-zovyet-mladshikh-shkolnikov-v-kosmicheskuyu-krugosvetku": {
+      "processed_at": "2026-11-02T14:01:50+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/studentka-chelgu-prizyer-turnira-po-artisticheskomu-tantsu": {
+      "processed_at": "2026-11-02T14:01:51+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
     }
   },
   "pending": {},
@@ -258,8 +303,8 @@
     ]
   },
   "rss_cursor": {
-    "next_index": 6,
-    "attempted_at": "2026-10-26T11:43:35+00:00"
+    "next_index": 7,
+    "attempted_at": "2026-11-02T14:01:32+00:00"
   },
   "initial_cutoff": "2024-04-06"
 }
