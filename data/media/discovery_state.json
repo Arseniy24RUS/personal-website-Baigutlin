@@ -294,6 +294,51 @@
       "processed_at": "2026-11-02T14:01:51+00:00",
       "status": "low_confidence",
       "confidence": 0.0
+    },
+    "https://csu.ru/press/news/psikhologi-chelgu-vernulis-iz-nauchnoy-komandirovki-v-sankt-peterburge": {
+      "processed_at": "2026-11-09T14:33:08+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/istoriki-chelgu-posvyatili-konferentsiyu-migratsii-i-rossiyskomu-pogranichyu": {
+      "processed_at": "2026-11-09T14:33:10+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/voskresnyy-universitet-chelgu-pomozhet-razobratsya-v-mirovoy-ekonomike": {
+      "processed_at": "2026-11-09T14:33:12+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/v-maloy-universiade-chelgu-vpervye-vystupyat-ucheniki-nachalnykh-klassov": {
+      "processed_at": "2026-11-09T14:33:14+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/studentka-chelgu-vernulas-iz-moskvy-s-pobedoy-v-konkurse-profmasterstva": {
+      "processed_at": "2026-11-09T14:33:16+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/yubiley-otmechaet-natalya-zyulyarkina": {
+      "processed_at": "2026-11-09T14:33:18+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/pervenstvo-chelgu-v-basketbole": {
+      "processed_at": "2026-11-09T14:33:20+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/voskresnyy-universitet-chelgu-rasskazhet-o-mekhanizmakh-vzrosleniya-": {
+      "processed_at": "2026-11-09T14:33:22+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
+    },
+    "https://csu.ru/press/news/pozdravlenie-rektora-sergeya-taskaeva-s-dnyem-narodnogo-edinstva": {
+      "processed_at": "2026-11-09T14:33:24+00:00",
+      "status": "low_confidence",
+      "confidence": 0.0
     }
   },
   "pending": {},
@@ -303,8 +348,8 @@
     ]
   },
   "rss_cursor": {
-    "next_index": 7,
-    "attempted_at": "2026-11-02T14:01:32+00:00"
+    "next_index": 8,
+    "attempted_at": "2026-11-09T14:33:00+00:00"
   },
   "initial_cutoff": "2024-04-06"
 }

@@ -2,7 +2,7 @@
   "author_payload": {},
   "search_first_payload": {
     "search-results": {
-      "opensearch:totalResults": "27",
+      "opensearch:totalResults": "28",
       "opensearch:startIndex": "0",
       "opensearch:itemsPerPage": "25",
       "opensearch:Query": {
@@ -32,7 +32,7 @@
         {
           "@_fa": "true",
           "@ref": "last",
-          "@href": "https://api.elsevier.com/content/search/scopus?start=2&count=25&query=AU-ID%2857211062810%29&view=STANDARD&field=dc%3Atitle%2Cdc%3Acreator%2Cprism%3ApublicationName%2Cprism%3AcoverDate%2Cprism%3Adoi%2Ccitedby-count%2Ceid%2Cdc%3Aidentifier%2Cprism%3AaggregationType%2CsubtypeDescription%2Copenaccess",
+          "@href": "https://api.elsevier.com/content/search/scopus?start=3&count=25&query=AU-ID%2857211062810%29&view=STANDARD&field=dc%3Atitle%2Cdc%3Acreator%2Cprism%3ApublicationName%2Cprism%3AcoverDate%2Cprism%3Adoi%2Ccitedby-count%2Ceid%2Cdc%3Aidentifier%2Cprism%3AaggregationType%2CsubtypeDescription%2Copenaccess",
           "@type": "application/json"
         }
       ],
@@ -130,6 +130,43 @@
         },
         {
           "@_fa": "true",
+          "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105048373837",
+          "dc:identifier": "SCOPUS_ID:105048373837",
+          "eid": "2-s2.0-105048373837",
+          "dc:title": "The theoretical approach for description of magnetic properties and magnetocaloric effect in all-d-metal Heusler alloys Ni2−xCoxMn1.25Ti0.75",
+          "dc:creator": "Sokolovskiy V.V.",
+          "prism:publicationName": "Journal of Applied Physics",
+          "prism:coverDate": "2024-12-07",
+          "prism:doi": "10.1063/5.0236017",
+          "citedby-count": "0",
+          "prism:aggregationType": "Journal",
+          "subtype": "ar",
+          "subtypeDescription": "Article",
+          "openaccess": "1",
+          "openaccessFlag": true,
+          "freetoread": {
+            "value": [
+              {
+                "$": "all"
+              },
+              {
+                "$": "publisherhybridgold"
+              }
+            ]
+          },
+          "freetoreadLabel": {
+            "value": [
+              {
+                "$": "All Open Access"
+              },
+              {
+                "$": "Hybrid Gold"
+              }
+            ]
+          }
+        },
+        {
+          "@_fa": "true",
           "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85219755503",
           "dc:identifier": "SCOPUS_ID:85219755503",
           "eid": "2-s2.0-85219755503",
@@ -168,6 +205,12 @@
               },
               {
                 "$": "publisherhybridgold"
+              },
+              {
+                "$": "repository"
+              },
+              {
+                "$": "repositoryam"
               }
             ]
           },
@@ -178,6 +221,9 @@
               },
               {
                 "$": "Hybrid Gold"
+              },
+              {
+                "$": "Green"
               }
             ]
           }
@@ -707,23 +753,6 @@
           "prism:coverDate": "2020-02-01",
           "prism:doi": "10.1016/j.physb.2019.411874",
           "citedby-count": "3",
-          "prism:aggregationType": "Journal",
-          "subtype": "ar",
-          "subtypeDescription": "Article",
-          "openaccess": "0",
-          "openaccessFlag": false
-        },
-        {
-          "@_fa": "true",
-          "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85088152514",
-          "dc:identifier": "SCOPUS_ID:85088152514",
-          "eid": "2-s2.0-85088152514",
-          "dc:title": "Temperature and pressure effects on the Fermi surface nesting in Ni2MnGa",
-          "dc:creator": "Baigutlin D.R.",
-          "prism:publicationName": "Chelyabinsk Physical and Mathematical Journal",
-          "prism:coverDate": "2020-01-01",
-          "prism:doi": "10.24411/2500-0101-2020-15110",
-          "citedby-count": "0",
           "prism:aggregationType": "Journal",
           "subtype": "ar",
           "subtypeDescription": "Article",

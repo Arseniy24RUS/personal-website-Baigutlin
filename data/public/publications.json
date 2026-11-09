@@ -1356,7 +1356,7 @@
           "has_fulltext": false,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.09465072,
+            "value": 0.08549215,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -1571,8 +1571,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 0,
@@ -1856,7 +1856,8 @@
           "created_date": "2025-10-10T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -1930,6 +1931,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -2110,7 +2112,7 @@
               "has_fulltext": false,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.09465072,
+                "value": 0.08549215,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -2321,13 +2323,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 0,
@@ -2958,6 +2959,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -3144,17 +3146,17 @@
                 "value_usd": 3160
               },
               "apc_paid": null,
-              "fwci": 0.3132,
+              "fwci": 0.3115,
               "has_fulltext": false,
               "cited_by_count": 4,
               "citation_normalized_percentile": {
-                "value": 0.39563937,
+                "value": 0.38972691,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 94,
-                "max": 97
+                "min": 93,
+                "max": 96
               },
               "biblio": {
                 "volume": "697",
@@ -3375,8 +3377,8 @@
                   },
                   "license": null,
                   "license_id": null,
-                  "version": "acceptedVersion",
-                  "is_accepted": true,
+                  "version": "submittedVersion",
+                  "is_accepted": false,
                   "is_published": false,
                   "raw_source_name": null,
                   "raw_type": "posted-content"
@@ -3409,14 +3411,13 @@
                 },
                 "license": null,
                 "license_id": null,
-                "version": "acceptedVersion",
-                "is_accepted": true,
+                "version": "submittedVersion",
+                "is_accepted": false,
                 "is_published": false,
                 "raw_source_name": null,
                 "raw_type": "posted-content"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -3440,8 +3441,8 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 21,
@@ -3491,7 +3492,7 @@
                   "cited_by_count": 2
                 }
               ],
-              "updated_date": "2026-10-12T09:40:04.860316",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2024-11-05T00:00:00"
             }
           },
@@ -4265,7 +4266,7 @@
             "openalex": "https://openalex.org/W4411402255",
             "doi": "https://doi.org/10.1016/j.jmmm.2025.173268"
           },
-          "language": "lv",
+          "language": "en",
           "primary_location": {
             "id": "doi:10.1016/j.jmmm.2025.173268",
             "doi": "https://doi.org/10.1016/j.jmmm.2025.173268",
@@ -4534,17 +4535,17 @@
             "value_usd": 3210
           },
           "apc_paid": null,
-          "fwci": 0.1602,
+          "fwci": 0.1561,
           "has_fulltext": false,
           "cited_by_count": 1,
           "citation_normalized_percentile": {
-            "value": 0.27545334,
+            "value": 0.2627917,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
           "cited_by_percentile_year": {
-            "min": 93,
-            "max": 96
+            "min": 91,
+            "max": 95
           },
           "biblio": {
             "volume": "629",
@@ -4824,8 +4825,8 @@
             }
           ],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 33,
@@ -4883,11 +4884,12 @@
               "cited_by_count": 1
             }
           ],
-          "updated_date": "2026-09-22T06:50:58.402377",
+          "updated_date": "2026-11-09T13:22:03.289127",
           "created_date": "2025-10-10T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -4923,7 +4925,7 @@
                 "openalex": "https://openalex.org/W4411402255",
                 "doi": "https://doi.org/10.1016/j.jmmm.2025.173268"
               },
-              "language": "lv",
+              "language": "en",
               "primary_location": {
                 "id": "doi:10.1016/j.jmmm.2025.173268",
                 "doi": "https://doi.org/10.1016/j.jmmm.2025.173268",
@@ -4971,6 +4973,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -5193,17 +5196,17 @@
                 "value_usd": 3210
               },
               "apc_paid": null,
-              "fwci": 0.1602,
+              "fwci": 0.1561,
               "has_fulltext": false,
               "cited_by_count": 1,
               "citation_normalized_percentile": {
-                "value": 0.27545334,
+                "value": 0.2627917,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 93,
-                "max": 96
+                "min": 91,
+                "max": 95
               },
               "biblio": {
                 "volume": "629",
@@ -5460,7 +5463,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -5484,8 +5486,8 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 33,
@@ -5543,7 +5545,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-09-22T06:50:58.402377",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2025-10-10T00:00:00"
             }
           }
@@ -6174,17 +6176,17 @@
           ],
           "apc_list": null,
           "apc_paid": null,
-          "fwci": 0.1957,
+          "fwci": 0.1788,
           "has_fulltext": false,
           "cited_by_count": 2,
           "citation_normalized_percentile": {
-            "value": 0.36184211,
+            "value": 0.3263809,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
           "cited_by_percentile_year": {
-            "min": 89,
-            "max": 96
+            "min": 88,
+            "max": 95
           },
           "biblio": {
             "volume": "125",
@@ -6408,8 +6410,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 28,
@@ -6726,7 +6728,8 @@
           "created_date": "2025-03-03T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -6810,6 +6813,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -7032,17 +7036,17 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.1957,
+              "fwci": 0.1788,
               "has_fulltext": false,
               "cited_by_count": 2,
               "citation_normalized_percentile": {
-                "value": 0.36184211,
+                "value": 0.3263809,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 96
+                "min": 88,
+                "max": 95
               },
               "biblio": {
                 "volume": "125",
@@ -7262,13 +7266,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 28,
@@ -7688,7 +7691,8 @@
       "crossref_api",
       "openalex_api",
       "orcid_public_api",
-      "elibrary"
+      "elibrary",
+      "scopus"
     ],
     "authors_raw": "Sokolovskiy V.V., Matyunina M.V., Baigutlin D.R., Buchelnikov V.D., Taskaev S.V.",
     "rinc_citations": 3,
@@ -7940,6 +7944,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -8205,16 +8210,16 @@
                 "currency": "USD",
                 "value_usd": 3500
               },
-              "fwci": 0.3915,
+              "fwci": 0.3575,
               "has_fulltext": false,
               "cited_by_count": 4,
               "citation_normalized_percentile": {
-                "value": 0.48131941,
+                "value": 0.4463809,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 93,
+                "min": 91,
                 "max": 97
               },
               "biblio": {
@@ -8527,7 +8532,6 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -8546,8 +8550,8 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 40,
@@ -9835,7 +9839,59 @@
       "url": "https://doi.org/10.1063/5.0236017"
     },
     "title_en_source": "existing_publication",
-    "venue_en_source": "existing_publication"
+    "venue_en_source": "existing_publication",
+    "scopus": {
+      "source": "scopus_api",
+      "eid": "2-s2.0-105048373837",
+      "scopus_id": "105048373837",
+      "title": "The theoretical approach for description of magnetic properties and magnetocaloric effect in all-d-metal Heusler alloys Ni2−xCoxMn1.25Ti0.75",
+      "creator": "Sokolovskiy V.V.",
+      "journal_or_source": "Journal of Applied Physics",
+      "cover_date": "2024-12-07",
+      "year": "2024",
+      "doi": "10.1063/5.0236017",
+      "cited_by_count": 0,
+      "aggregation_type": "Journal",
+      "subtype": "Article",
+      "openaccess": "1",
+      "raw": {
+        "@_fa": "true",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105048373837",
+        "dc:identifier": "SCOPUS_ID:105048373837",
+        "eid": "2-s2.0-105048373837",
+        "dc:title": "The theoretical approach for description of magnetic properties and magnetocaloric effect in all-d-metal Heusler alloys Ni2−xCoxMn1.25Ti0.75",
+        "dc:creator": "Sokolovskiy V.V.",
+        "prism:publicationName": "Journal of Applied Physics",
+        "prism:coverDate": "2024-12-07",
+        "prism:doi": "10.1063/5.0236017",
+        "citedby-count": "0",
+        "prism:aggregationType": "Journal",
+        "subtype": "ar",
+        "subtypeDescription": "Article",
+        "openaccess": "1",
+        "openaccessFlag": true,
+        "freetoread": {
+          "value": [
+            {
+              "$": "all"
+            },
+            {
+              "$": "publisherhybridgold"
+            }
+          ]
+        },
+        "freetoreadLabel": {
+          "value": [
+            {
+              "$": "All Open Access"
+            },
+            {
+              "$": "Hybrid Gold"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "78881723",
@@ -10112,14 +10168,17 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
-                "crossref"
+                "arxiv",
+                "crossref",
+                "datacite"
               ],
               "open_access": {
                 "is_oa": true,
                 "oa_status": "hybrid",
                 "oa_url": "https://doi.org/10.1063/5.0236335",
-                "any_repository_has_fulltext": false
+                "any_repository_has_fulltext": true
               },
               "authorships": [
                 {
@@ -10330,17 +10389,17 @@
                 "currency": "USD",
                 "value_usd": 3500
               },
-              "fwci": 0.7829,
-              "has_fulltext": false,
+              "fwci": 0.7151,
+              "has_fulltext": true,
               "cited_by_count": 8,
               "citation_normalized_percentile": {
-                "value": 0.65753259,
+                "value": 0.6287032,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 96,
-                "max": 99
+                "min": 95,
+                "max": 98
               },
               "biblio": {
                 "volume": "136",
@@ -10545,7 +10604,7 @@
                 }
               ],
               "mesh": [],
-              "locations_count": 1,
+              "locations_count": 3,
               "locations": [
                 {
                   "id": "doi:10.1063/5.0236335",
@@ -10592,6 +10651,72 @@
                   "is_published": true,
                   "raw_source_name": "Journal of Applied Physics",
                   "raw_type": "journal-article"
+                },
+                {
+                  "id": "pmh:oai:arXiv.org:2409.14370",
+                  "doi": null,
+                  "is_oa": true,
+                  "landing_page_url": "http://arxiv.org/abs/2409.14370",
+                  "pdf_url": "https://arxiv.org/pdf/2409.14370",
+                  "source": {
+                    "id": "https://openalex.org/S4306400194",
+                    "display_name": "arXiv (Cornell University)",
+                    "issn_l": "2331-8422",
+                    "issn": [
+                      "2331-8422"
+                    ],
+                    "is_oa": true,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [],
+                    "host_organization": "https://openalex.org/I205783295",
+                    "host_organization_name": "Cornell University",
+                    "host_organization_lineage": [
+                      "https://openalex.org/I205783295"
+                    ],
+                    "host_organization_lineage_names": [],
+                    "type": "repository"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": "submittedVersion",
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": null,
+                  "raw_type": "text"
+                },
+                {
+                  "id": "doi:10.48550/arxiv.2409.14370",
+                  "doi": "https://doi.org/10.48550/arxiv.2409.14370",
+                  "is_oa": true,
+                  "landing_page_url": "https://doi.org/10.48550/arxiv.2409.14370",
+                  "pdf_url": null,
+                  "source": {
+                    "id": "https://openalex.org/S4306400194",
+                    "display_name": "arXiv (Cornell University)",
+                    "issn_l": "2331-8422",
+                    "issn": [
+                      "2331-8422"
+                    ],
+                    "is_oa": true,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [],
+                    "host_organization": "https://openalex.org/I205783295",
+                    "host_organization_name": "Cornell University",
+                    "host_organization_lineage": [
+                      "https://openalex.org/I205783295"
+                    ],
+                    "host_organization_lineage_names": [],
+                    "type": "repository"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": null,
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": null,
+                  "raw_type": "Preprint"
                 }
               ],
               "best_oa_location": {
@@ -10641,13 +10766,6 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Life on land",
-                  "score": 0.6200000047683716,
-                  "id": "https://metadata.un.org/sdg/15"
-                }
-              ],
               "study_designs": [],
               "awards": [
                 {
@@ -10666,10 +10784,13 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W4404225274.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W4404225274.grobid-xml"
+              },
               "referenced_works_count": 35,
               "referenced_works": [
                 "https://openalex.org/W1547782642",
@@ -11154,7 +11275,7 @@
                   "cited_by_count": 3
                 }
               ],
-              "updated_date": "2026-10-27T15:51:10.671819",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2024-11-11T00:00:00"
             }
           },
@@ -11868,6 +11989,12 @@
             },
             {
               "$": "publisherhybridgold"
+            },
+            {
+              "$": "repository"
+            },
+            {
+              "$": "repositoryam"
             }
           ]
         },
@@ -11878,6 +12005,9 @@
             },
             {
               "$": "Hybrid Gold"
+            },
+            {
+              "$": "Green"
             }
           ]
         }
@@ -15300,6 +15430,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -15505,7 +15636,7 @@
               "has_fulltext": true,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.06529946,
+                "value": 0.06977042,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -15877,13 +16008,12 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W4388793270.pdf",
@@ -16987,7 +17117,7 @@
           "has_fulltext": true,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.08325473,
+            "value": 0.08805354,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -17267,8 +17397,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": true,
-            "grobid_xml": true
+            "grobid_xml": true,
+            "pdf": true
           },
           "content_urls": {
             "pdf": "https://content.openalex.org/works/W4394951611.pdf",
@@ -17695,7 +17825,8 @@
               "id": "https://metadata.un.org/sdg/7"
             }
           ],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -17773,6 +17904,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -17957,7 +18089,7 @@
               "has_fulltext": true,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.08325473,
+                "value": 0.08805354,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -18233,19 +18365,12 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Affordable and clean energy",
-                  "score": 0.7599999904632568,
-                  "id": "https://metadata.un.org/sdg/7"
-                }
-              ],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W4394951611.pdf",
@@ -19152,17 +19277,17 @@
           "corresponding_institution_ids": [],
           "apc_list": null,
           "apc_paid": null,
-          "fwci": 0.0605,
+          "fwci": 0.0609,
           "has_fulltext": false,
           "cited_by_count": 1,
           "citation_normalized_percentile": {
-            "value": 0.19146775,
+            "value": 0.18977939,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
           "cited_by_percentile_year": {
-            "min": 93,
-            "max": 96
+            "min": 91,
+            "max": 95
           },
           "biblio": {
             "volume": "124",
@@ -19364,8 +19489,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 28,
@@ -19673,7 +19798,8 @@
               "id": "https://metadata.un.org/sdg/7"
             }
           ],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -19753,6 +19879,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -19931,17 +20058,17 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.0605,
+              "fwci": 0.0609,
               "has_fulltext": false,
               "cited_by_count": 1,
               "citation_normalized_percentile": {
-                "value": 0.19146775,
+                "value": 0.18977939,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 93,
-                "max": 96
+                "min": 91,
+                "max": 95
               },
               "biblio": {
                 "volume": "124",
@@ -20139,19 +20266,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Affordable and clean energy",
-                  "score": 0.8299999833106995,
-                  "id": "https://metadata.un.org/sdg/7"
-                }
-              ],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 28,
@@ -20812,6 +20932,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -20994,17 +21115,17 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.242,
+              "fwci": 0.2439,
               "has_fulltext": false,
               "cited_by_count": 4,
               "citation_normalized_percentile": {
-                "value": 0.31234129,
+                "value": 0.31344861,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 97
+                "min": 88,
+                "max": 96
               },
               "biblio": {
                 "volume": "124",
@@ -21334,13 +21455,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 30,
@@ -22041,6 +22161,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -22223,17 +22344,17 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.121,
+              "fwci": 0.1219,
               "has_fulltext": false,
               "cited_by_count": 2,
               "citation_normalized_percentile": {
-                "value": 0.21512008,
+                "value": 0.21392206,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 94
+                "min": 88,
+                "max": 93
               },
               "biblio": {
                 "volume": "68",
@@ -22546,19 +22667,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Affordable and clean energy",
-                  "score": 0.7799999713897705,
-                  "id": "https://metadata.un.org/sdg/7"
-                }
-              ],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 25,
@@ -23330,6 +23444,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref",
                 "doaj"
@@ -23540,16 +23655,16 @@
                 "currency": "CHF",
                 "value_usd": 2224
               },
-              "fwci": 5.572,
+              "fwci": 5.0666,
               "has_fulltext": true,
               "cited_by_count": 48,
               "citation_normalized_percentile": {
-                "value": 0.97512762,
+                "value": 0.97043524,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": true
               },
               "cited_by_percentile_year": {
-                "min": 97,
+                "min": 96,
                 "max": 100
               },
               "biblio": {
@@ -23892,13 +24007,6 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Sustainable cities and communities",
-                  "score": 0.6800000071525574,
-                  "id": "https://metadata.un.org/sdg/11"
-                }
-              ],
               "study_designs": [],
               "awards": [
                 {
@@ -23924,14 +24032,14 @@
                 }
               ],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W4363648284.pdf",
                 "grobid_xml": "https://content.openalex.org/works/W4363648284.grobid-xml"
               },
-              "referenced_works_count": 176,
+              "referenced_works_count": 175,
               "referenced_works": [
                 "https://openalex.org/W347524330",
                 "https://openalex.org/W580682709",
@@ -24084,7 +24192,6 @@
                 "https://openalex.org/W3047063735",
                 "https://openalex.org/W3048253452",
                 "https://openalex.org/W3086681614",
-                "https://openalex.org/W3099980916",
                 "https://openalex.org/W3101434993",
                 "https://openalex.org/W3114661266",
                 "https://openalex.org/W3128700816",
@@ -24449,11 +24556,11 @@
               "counts_by_year": [
                 {
                   "year": 2026,
-                  "cited_by_count": 14
+                  "cited_by_count": 13
                 },
                 {
                   "year": 2025,
-                  "cited_by_count": 20
+                  "cited_by_count": 21
                 },
                 {
                   "year": 2024,
@@ -24464,7 +24571,7 @@
                   "cited_by_count": 4
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-07T11:25:07.637180",
               "created_date": "2023-04-11T00:00:00"
             }
           },
@@ -27045,7 +27152,7 @@
                 "openalex": "https://openalex.org/W4381490011",
                 "doi": "https://doi.org/10.1103/physrevb.107.245130"
               },
-              "language": "lv",
+              "language": "en",
               "primary_location": {
                 "id": "doi:10.1103/physrevb.107.245130",
                 "doi": "https://doi.org/10.1103/physrevb.107.245130",
@@ -27093,6 +27200,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -27248,17 +27356,17 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.121,
+              "fwci": 0.1219,
               "has_fulltext": false,
               "cited_by_count": 2,
               "citation_normalized_percentile": {
-                "value": 0.21475731,
+                "value": 0.21359503,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 96
+                "min": 88,
+                "max": 95
               },
               "biblio": {
                 "volume": "107",
@@ -27573,7 +27681,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -27616,8 +27723,8 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 95,
@@ -28189,7 +28296,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-16T09:59:22.235173",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2023-06-22T00:00:00"
             }
           },
@@ -29271,7 +29378,7 @@
                 "openalex": "https://openalex.org/W4384377168",
                 "doi": "https://doi.org/10.1016/j.commatsci.2023.112365"
               },
-              "language": "lv",
+              "language": "en",
               "primary_location": {
                 "id": "doi:10.1016/j.commatsci.2023.112365",
                 "doi": "https://doi.org/10.1016/j.commatsci.2023.112365",
@@ -29318,6 +29425,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -29540,16 +29648,16 @@
                 "value_usd": 3190
               },
               "apc_paid": null,
-              "fwci": 0.1813,
+              "fwci": 0.1828,
               "has_fulltext": false,
               "cited_by_count": 3,
               "citation_normalized_percentile": {
-                "value": 0.27059891,
+                "value": 0.27110015,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 95
               },
               "biblio": {
@@ -29823,13 +29931,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 47,
@@ -29868,13 +29975,13 @@
                 "https://openalex.org/W2916889496",
                 "https://openalex.org/W2920042105",
                 "https://openalex.org/W2941758208",
+                "https://openalex.org/W2982683571",
                 "https://openalex.org/W3006895978",
                 "https://openalex.org/W3010394536",
                 "https://openalex.org/W3021590278",
                 "https://openalex.org/W3035825315",
                 "https://openalex.org/W3083354262",
                 "https://openalex.org/W3084259464",
-                "https://openalex.org/W3102157866",
                 "https://openalex.org/W3111370805",
                 "https://openalex.org/W3128700816",
                 "https://openalex.org/W3204171710",
@@ -29905,7 +30012,7 @@
                   "cited_by_count": 2
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2023-07-15T00:00:00"
             }
           },
@@ -31162,7 +31269,7 @@
           "has_fulltext": false,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.23564841,
+            "value": 0.22053324,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -31357,8 +31464,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": true,
-            "grobid_xml": true
+            "grobid_xml": true,
+            "pdf": true
           },
           "content_urls": {
             "pdf": "https://content.openalex.org/works/W4312343136.pdf",
@@ -31381,7 +31488,8 @@
           "abstract_inverted_index": null,
           "counts_by_year": [],
           "updated_date": "2026-10-14T16:39:01.820549",
-          "created_date": "2023-01-04T00:00:00"
+          "created_date": "2023-01-04T00:00:00",
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -31449,6 +31557,7 @@
               },
               "volume": null,
               "type": "conference-paper",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -31539,7 +31648,7 @@
               "has_fulltext": false,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.23564841,
+                "value": 0.22053324,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -31729,13 +31838,12 @@
                 "raw_type": "proceedings-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W4312343136.pdf",
@@ -32209,7 +32317,7 @@
           "has_fulltext": true,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.06960286,
+            "value": 0.07255103,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -32573,8 +32681,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": true,
-            "grobid_xml": true
+            "grobid_xml": true,
+            "pdf": true
           },
           "content_urls": {
             "pdf": "https://content.openalex.org/works/W4320082123.pdf",
@@ -32842,7 +32950,8 @@
           "created_date": "2023-02-12T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -32927,6 +33036,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -33161,7 +33271,7 @@
               "has_fulltext": true,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.06960286,
+                "value": 0.07255103,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -33521,13 +33631,12 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W4320082123.pdf",
@@ -34297,7 +34406,7 @@
           "has_fulltext": false,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.06109543,
+            "value": 0.06295696,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -34640,8 +34749,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 0,
@@ -34906,7 +35015,8 @@
           "created_date": "2023-01-04T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -34991,6 +35101,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -35225,7 +35336,7 @@
               "has_fulltext": false,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.06109543,
+                "value": 0.06295696,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -35564,13 +35675,12 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 0,
@@ -36196,6 +36306,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -36497,16 +36608,16 @@
                 "value_usd": 2830
               },
               "apc_paid": null,
-              "fwci": 0.3048,
+              "fwci": 0.3147,
               "has_fulltext": false,
               "cited_by_count": 8,
               "citation_normalized_percentile": {
-                "value": 0.42032529,
+                "value": 0.42013708,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 98
               },
               "biblio": {
@@ -36786,7 +36897,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -36841,11 +36951,11 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
-              "referenced_works_count": 36,
+              "referenced_works_count": 34,
               "referenced_works": [
                 "https://openalex.org/W1971541700",
                 "https://openalex.org/W1977896337",
@@ -36878,11 +36988,9 @@
                 "https://openalex.org/W2913928398",
                 "https://openalex.org/W2942362952",
                 "https://openalex.org/W3022371977",
-                "https://openalex.org/W3102084780",
-                "https://openalex.org/W3105121068",
                 "https://openalex.org/W3113778554",
                 "https://openalex.org/W3125382113",
-                "https://openalex.org/W3185532166"
+                "https://openalex.org/W3204207000"
               ],
               "related_works": [
                 "https://openalex.org/W4401980460",
@@ -36915,7 +37023,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-16T09:59:22.235173",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2021-11-22T00:00:00"
             }
           }
@@ -37257,7 +37365,7 @@
             "landing_page_url": "https://doi.org/10.1016/j.jallcom.2022.165532",
             "pdf_url": null,
             "venue": "Journal of Alloys and Compounds",
-            "cited_by_count": 10,
+            "cited_by_count": 9,
             "is_oa": true,
             "oa_status": "bronze",
             "raw": {
@@ -37320,6 +37428,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -38182,17 +38291,17 @@
                 "value_usd": 3410
               },
               "apc_paid": null,
-              "fwci": 0.7474,
+              "fwci": 0.5958,
               "has_fulltext": true,
-              "cited_by_count": 10,
+              "cited_by_count": 9,
               "citation_normalized_percentile": {
-                "value": 0.6375631,
+                "value": 0.56557783,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 98
+                "min": 88,
+                "max": 97
               },
               "biblio": {
                 "volume": "917",
@@ -38243,8 +38352,8 @@
                   "display_name": "Magnetic properties of thin films",
                   "score": 0.12189999967813492,
                   "subfield": {
-                    "id": "https://openalex.org/subfields/3107",
-                    "display_name": "Atomic and Molecular Physics, and Optics"
+                    "id": "https://openalex.org/subfields/3104",
+                    "display_name": "Condensed Matter Physics"
                   },
                   "field": {
                     "id": "https://openalex.org/fields/31",
@@ -38647,7 +38756,6 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -38964,10 +39072,13 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W4280529344.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W4280529344.grobid-xml"
+              },
               "referenced_works_count": 39,
               "referenced_works": [
                 "https://openalex.org/W609029753",
@@ -39030,7 +39141,7 @@
                 },
                 {
                   "year": 2025,
-                  "cited_by_count": 5
+                  "cited_by_count": 4
                 },
                 {
                   "year": 2024,
@@ -39045,7 +39156,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-16T09:59:22.235173",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2022-05-22T00:00:00"
             }
           }
@@ -39055,7 +39166,7 @@
         "volume": "917",
         "pages": "165532-165532",
         "landing_page_url": "https://doi.org/10.1016/j.jallcom.2022.165532",
-        "cited_by_count": 10,
+        "cited_by_count": 9,
         "is_oa": true,
         "oa_status": "bronze"
       }
@@ -39480,6 +39591,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -39662,11 +39774,11 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.2813,
+              "fwci": 0.2643,
               "has_fulltext": false,
               "cited_by_count": 4,
               "citation_normalized_percentile": {
-                "value": 0.36780621,
+                "value": 0.33717688,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -39979,13 +40091,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 30,
@@ -40004,6 +40115,7 @@
                 "https://openalex.org/W2046461740",
                 "https://openalex.org/W2051513342",
                 "https://openalex.org/W2061641877",
+                "https://openalex.org/W2063542065",
                 "https://openalex.org/W2064293046",
                 "https://openalex.org/W2066001813",
                 "https://openalex.org/W2068515368",
@@ -40018,8 +40130,7 @@
                 "https://openalex.org/W2963657244",
                 "https://openalex.org/W2963947097",
                 "https://openalex.org/W3022371977",
-                "https://openalex.org/W3026384542",
-                "https://openalex.org/W6999500051"
+                "https://openalex.org/W3026384542"
               ],
               "related_works": [
                 "https://openalex.org/W2602407008",
@@ -40355,7 +40466,7 @@
                   "cited_by_count": 4
                 }
               ],
-              "updated_date": "2026-10-14T16:39:01.820549",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2022-05-23T00:00:00"
             }
           }
@@ -40792,16 +40903,16 @@
           "corresponding_institution_ids": [],
           "apc_list": null,
           "apc_paid": null,
-          "fwci": 0.061,
+          "fwci": 0.0629,
           "has_fulltext": true,
           "cited_by_count": 1,
           "citation_normalized_percentile": {
-            "value": 0.20792116,
+            "value": 0.20156658,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
           "cited_by_percentile_year": {
-            "min": 89,
+            "min": 88,
             "max": 93
           },
           "biblio": {
@@ -41127,8 +41238,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": true,
-            "grobid_xml": true
+            "grobid_xml": true,
+            "pdf": true
           },
           "content_urls": {
             "pdf": "https://content.openalex.org/works/W3187506155.pdf",
@@ -41388,7 +41499,8 @@
           "created_date": "2021-08-16T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -41474,6 +41586,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -41689,16 +41802,16 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.061,
+              "fwci": 0.0629,
               "has_fulltext": true,
               "cited_by_count": 1,
               "citation_normalized_percentile": {
-                "value": 0.20792116,
+                "value": 0.20156658,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 93
               },
               "biblio": {
@@ -42020,13 +42133,12 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W3187506155.pdf",
@@ -42645,6 +42757,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "arxiv",
                 "crossref",
@@ -43085,16 +43198,16 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.6097,
-              "has_fulltext": false,
+              "fwci": 0.6295,
+              "has_fulltext": true,
               "cited_by_count": 13,
               "citation_normalized_percentile": {
-                "value": 0.56870809,
+                "value": 0.57581593,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 94,
+                "min": 93,
                 "max": 97
               },
               "biblio": {
@@ -43406,13 +43519,6 @@
                 "raw_type": "text"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Affordable and clean energy",
-                  "score": 0.8100000023841858,
-                  "id": "https://metadata.un.org/sdg/7"
-                }
-              ],
               "study_designs": [],
               "awards": [
                 {
@@ -43479,11 +43585,14 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
-              "referenced_works_count": 60,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W3128700816.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W3128700816.grobid-xml"
+              },
+              "referenced_works_count": 58,
               "referenced_works": [
                 "https://openalex.org/W347524330",
                 "https://openalex.org/W613069045",
@@ -43542,8 +43651,6 @@
                 "https://openalex.org/W3033158275",
                 "https://openalex.org/W3042125336",
                 "https://openalex.org/W3067010295",
-                "https://openalex.org/W3098551093",
-                "https://openalex.org/W3104846605",
                 "https://openalex.org/W4240048085"
               ],
               "related_works": [
@@ -43900,7 +44007,7 @@
                   "cited_by_count": 4
                 }
               ],
-              "updated_date": "2026-10-16T09:59:22.235173",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2021-02-15T00:00:00"
             }
           },
@@ -45012,6 +45119,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -45668,16 +45776,16 @@
                 "value_usd": 3050
               },
               "apc_paid": null,
-              "fwci": 0.7741,
+              "fwci": 0.7484,
               "has_fulltext": false,
               "cited_by_count": 4,
               "citation_normalized_percentile": {
-                "value": 0.74377593,
+                "value": 0.74137931,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 95
               },
               "biblio": {
@@ -46019,7 +46127,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -46104,14 +46211,13 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
-              "referenced_works_count": 30,
+              "referenced_works_count": 29,
               "referenced_works": [
                 "https://openalex.org/W274992721",
-                "https://openalex.org/W592496656",
                 "https://openalex.org/W1969151946",
                 "https://openalex.org/W1979544533",
                 "https://openalex.org/W1981368803",
@@ -46168,7 +46274,7 @@
                   "cited_by_count": 2
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2021-07-05T00:00:00"
             }
           }
@@ -46571,6 +46677,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -47030,17 +47137,17 @@
                 "value_usd": 3800
               },
               "apc_paid": null,
-              "fwci": 0.3658,
+              "fwci": 0.3777,
               "has_fulltext": true,
               "cited_by_count": 6,
               "citation_normalized_percentile": {
-                "value": 0.455866,
+                "value": 0.45796345,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
                 "min": 89,
-                "max": 97
+                "max": 96
               },
               "biblio": {
                 "volume": "4",
@@ -47462,13 +47569,6 @@
                 "raw_type": "article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Affordable and clean energy",
-                  "score": 0.8700000047683716,
-                  "id": "https://metadata.un.org/sdg/7"
-                }
-              ],
               "study_designs": [],
               "awards": [
                 {
@@ -47657,8 +47757,8 @@
                 }
               ],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W3204171710.pdf",
@@ -47712,6 +47812,7 @@
                 "https://openalex.org/W2806438117",
                 "https://openalex.org/W2809492588",
                 "https://openalex.org/W2885360963",
+                "https://openalex.org/W2890337453",
                 "https://openalex.org/W2894173424",
                 "https://openalex.org/W2903092225",
                 "https://openalex.org/W2911731012",
@@ -47725,7 +47826,6 @@
                 "https://openalex.org/W3021720715",
                 "https://openalex.org/W3067010295",
                 "https://openalex.org/W3103585643",
-                "https://openalex.org/W3104817669",
                 "https://openalex.org/W3128700816",
                 "https://openalex.org/W4238885544",
                 "https://openalex.org/W4240048085"
@@ -48060,7 +48160,7 @@
                   "cited_by_count": 2
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2021-10-11T00:00:00"
             }
           }
@@ -48445,8 +48545,11 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
+                "arxiv",
                 "crossref",
+                "datacite",
                 "doaj"
               ],
               "open_access": {
@@ -48860,16 +48963,16 @@
                 "currency": "CHF",
                 "value_usd": 1944
               },
-              "fwci": 0.6834,
+              "fwci": 0.6468,
               "has_fulltext": true,
               "cited_by_count": 13,
               "citation_normalized_percentile": {
-                "value": 0.61107351,
+                "value": 0.59050934,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 97
               },
               "biblio": {
@@ -49151,7 +49254,7 @@
                 }
               ],
               "mesh": [],
-              "locations_count": 2,
+              "locations_count": 4,
               "locations": [
                 {
                   "id": "doi:10.3390/met11060973",
@@ -49195,6 +49298,39 @@
                   "raw_type": "journal-article"
                 },
                 {
+                  "id": "pmh:oai:arXiv.org:2003.09128",
+                  "doi": null,
+                  "is_oa": true,
+                  "landing_page_url": "http://arxiv.org/abs/2003.09128",
+                  "pdf_url": "https://arxiv.org/pdf/2003.09128",
+                  "source": {
+                    "id": "https://openalex.org/S4306400194",
+                    "display_name": "arXiv (Cornell University)",
+                    "issn_l": "2331-8422",
+                    "issn": [
+                      "2331-8422"
+                    ],
+                    "is_oa": true,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [],
+                    "host_organization": "https://openalex.org/I205783295",
+                    "host_organization_name": "Cornell University",
+                    "host_organization_lineage": [
+                      "https://openalex.org/I205783295"
+                    ],
+                    "host_organization_lineage_names": [],
+                    "type": "repository"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": "submittedVersion",
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": null,
+                  "raw_type": "text"
+                },
+                {
                   "id": "pmh:oai:doaj.org/article:9c39c6a51c3849b5ac000c57efb0117c",
                   "doi": null,
                   "is_oa": true,
@@ -49222,6 +49358,39 @@
                   "is_published": false,
                   "raw_source_name": "Metals, Vol 11, Iss 6, p 973 (2021)",
                   "raw_type": "article"
+                },
+                {
+                  "id": "doi:10.48550/arxiv.2003.09128",
+                  "doi": "https://doi.org/10.48550/arxiv.2003.09128",
+                  "is_oa": true,
+                  "landing_page_url": "https://doi.org/10.48550/arxiv.2003.09128",
+                  "pdf_url": null,
+                  "source": {
+                    "id": "https://openalex.org/S4306400194",
+                    "display_name": "arXiv (Cornell University)",
+                    "issn_l": "2331-8422",
+                    "issn": [
+                      "2331-8422"
+                    ],
+                    "is_oa": true,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [],
+                    "host_organization": "https://openalex.org/I205783295",
+                    "host_organization_name": "Cornell University",
+                    "host_organization_lineage": [
+                      "https://openalex.org/I205783295"
+                    ],
+                    "host_organization_lineage_names": [],
+                    "type": "repository"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": null,
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": null,
+                  "raw_type": "Preprint"
                 }
               ],
               "best_oa_location": {
@@ -49266,10 +49435,22 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
-              "awards": [],
+              "awards": [
+                {
+                  "id": "https://openalex.org/G2776956747",
+                  "display_name": null,
+                  "funder_award_id": "18-32-",
+                  "funder_id": "https://openalex.org/F4320321079",
+                  "funder_display_name": "Russian Foundation for Basic Research"
+                }
+              ],
               "funders": [
+                {
+                  "id": "https://openalex.org/F4320321079",
+                  "display_name": "Russian Foundation for Basic Research",
+                  "ror": "https://ror.org/02mh1ke95"
+                },
                 {
                   "id": "https://openalex.org/F4320327494",
                   "display_name": "Ministry of Science and Higher Education of the Russian Federation",
@@ -49277,8 +49458,8 @@
                 }
               ],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W3176847721.pdf",
@@ -49858,7 +50039,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-05T12:25:35.769452",
               "created_date": "2021-07-05T00:00:00"
             }
           },
@@ -51254,16 +51435,16 @@
           "corresponding_institution_ids": [],
           "apc_list": null,
           "apc_paid": null,
-          "fwci": 0.0973,
+          "fwci": 0.0941,
           "has_fulltext": false,
           "cited_by_count": 1,
           "citation_normalized_percentile": {
-            "value": 0.40938459,
+            "value": 0.39859547,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
           "cited_by_percentile_year": {
-            "min": 89,
+            "min": 88,
             "max": 93
           },
           "biblio": {
@@ -51443,8 +51624,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 0,
@@ -51472,7 +51653,8 @@
           "created_date": "2020-05-01T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -51553,6 +51735,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -51659,16 +51842,16 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.0973,
+              "fwci": 0.0941,
               "has_fulltext": false,
               "cited_by_count": 1,
               "citation_normalized_percentile": {
-                "value": 0.40938459,
+                "value": 0.39859547,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 93
               },
               "biblio": {
@@ -51844,13 +52027,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 0,
@@ -52227,6 +52409,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -52591,17 +52774,17 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.3042,
+              "fwci": 0.2763,
               "has_fulltext": false,
               "cited_by_count": 2,
               "citation_normalized_percentile": {
-                "value": 0.63045587,
+                "value": 0.65461847,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 88,
-                "max": 94
+                "min": 87,
+                "max": 93
               },
               "biblio": {
                 "volume": "5",
@@ -52770,7 +52953,7 @@
                 }
               ],
               "mesh": [],
-              "locations_count": 1,
+              "locations_count": 2,
               "locations": [
                 {
                   "id": "doi:10.47475/2500-0101-2020-15407",
@@ -52806,17 +52989,51 @@
                   "is_published": true,
                   "raw_source_name": "Челябинский физико-математический журнал",
                   "raw_type": "journal-article"
+                },
+                {
+                  "id": "mag:3124031154",
+                  "doi": null,
+                  "is_oa": false,
+                  "landing_page_url": "https://cyberleninka.ru/article/n/kinetika-fazovyh-prevrascheniy-v-splavah-fe-ga",
+                  "pdf_url": null,
+                  "source": {
+                    "id": "https://openalex.org/S4210193663",
+                    "display_name": "Челябинский физико-математический журнал",
+                    "issn_l": "2500-0101",
+                    "issn": [
+                      "2500-0101",
+                      "2619-0117"
+                    ],
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [
+                      "poland-20",
+                      "russia-white-list-3"
+                    ],
+                    "host_organization": null,
+                    "host_organization_name": null,
+                    "host_organization_lineage": [],
+                    "host_organization_lineage_names": [],
+                    "type": "journal"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": null,
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": "Челябинский физико-математический журнал",
+                  "raw_type": null
                 }
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 0,
@@ -52844,7 +53061,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-09-29T14:09:16.559479",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2021-01-05T00:00:00"
             }
           }
@@ -54018,6 +54235,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "datacite"
               ],
@@ -54166,7 +54384,7 @@
               "has_fulltext": true,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.03543041,
+                "value": 0.03391081,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -54453,7 +54671,6 @@
                 "raw_type": "text"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -54472,8 +54689,8 @@
                 }
               ],
               "has_content": {
-                "pdf": true,
-                "grobid_xml": true
+                "grobid_xml": true,
+                "pdf": true
               },
               "content_urls": {
                 "pdf": "https://content.openalex.org/works/W3033137432.pdf",
@@ -55964,7 +56181,7 @@
             "landing_page_url": "https://doi.org/10.1063/5.0015535",
             "pdf_url": null,
             "venue": "Applied Physics Letters",
-            "cited_by_count": 5,
+            "cited_by_count": 6,
             "is_oa": true,
             "oa_status": "green",
             "raw": {
@@ -56029,6 +56246,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "arxiv",
                 "crossref",
@@ -56126,8 +56344,8 @@
                 {
                   "author_position": "middle",
                   "author": {
-                    "id": null,
-                    "display_name": "Vasiliy D. Buchelnikov",
+                    "id": "https://openalex.org/A5046178226",
+                    "display_name": "V. D. Buchelnikov",
                     "orcid": "https://orcid.org/0000-0002-5638-255X",
                     "observed_orcids": [
                       "https://orcid.org/0000-0002-5638-255X"
@@ -56610,8 +56828,8 @@
                 {
                   "author_position": "middle",
                   "author": {
-                    "id": null,
-                    "display_name": "Bernardo Barbiellini",
+                    "id": "https://openalex.org/A5009553286",
+                    "display_name": "B. Barbiellini",
                     "orcid": "https://orcid.org/0000-0002-3309-1362",
                     "observed_orcids": [
                       "https://orcid.org/0000-0002-3309-1362"
@@ -56757,16 +56975,16 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 1.2268,
+              "fwci": 0.7799,
               "has_fulltext": true,
-              "cited_by_count": 5,
+              "cited_by_count": 6,
               "citation_normalized_percentile": {
-                "value": 0.80848916,
+                "value": 0.72564127,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 96
               },
               "biblio": {
@@ -56991,7 +57209,7 @@
                 }
               ],
               "mesh": [],
-              "locations_count": 5,
+              "locations_count": 6,
               "locations": [
                 {
                   "id": "doi:10.1063/5.0015535",
@@ -57072,6 +57290,35 @@
                   "is_published": false,
                   "raw_source_name": null,
                   "raw_type": "text"
+                },
+                {
+                  "id": "pmh:oai:doc.rero.ch:20201014084921-LE",
+                  "doi": null,
+                  "is_oa": false,
+                  "landing_page_url": "http://doc.rero.ch/record/329492/files/pul_sap.pdf",
+                  "pdf_url": "http://doc.rero.ch/record/329492/files/pul_sap.pdf",
+                  "source": {
+                    "id": "https://openalex.org/S4306402253",
+                    "display_name": "RERO DOC (Universität Bern)",
+                    "issn_l": null,
+                    "issn": null,
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [],
+                    "host_organization": null,
+                    "host_organization_name": null,
+                    "host_organization_lineage": [],
+                    "host_organization_lineage_names": [],
+                    "type": "repository"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": "submittedVersion",
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": "",
+                  "raw_type": null
                 },
                 {
                   "id": "pmh:oai:osti.gov:1647119",
@@ -57203,7 +57450,6 @@
                 "raw_type": "text"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -57214,11 +57460,53 @@
                   "funder_display_name": "U.S. Department of Energy"
                 },
                 {
+                  "id": "https://openalex.org/G107546177",
+                  "display_name": null,
+                  "funder_award_id": "DE- AC02-06-CH11357",
+                  "funder_id": "https://openalex.org/F4320338284",
+                  "funder_display_name": "Argonne National Laboratory"
+                },
+                {
+                  "id": "https://openalex.org/G1286236842",
+                  "display_name": null,
+                  "funder_award_id": "-AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320306084",
+                  "funder_display_name": "U.S. Department of Energy"
+                },
+                {
+                  "id": "https://openalex.org/G1286251239",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G1313983767",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02",
+                  "funder_id": "https://openalex.org/F4320338284",
+                  "funder_display_name": "Argonne National Laboratory"
+                },
+                {
+                  "id": "https://openalex.org/G1664757510",
+                  "display_name": null,
+                  "funder_award_id": "AC02–06CH11357",
+                  "funder_id": "https://openalex.org/F4320338284",
+                  "funder_display_name": "Argonne National Laboratory"
+                },
+                {
                   "id": "https://openalex.org/G1720838285",
                   "display_name": null,
                   "funder_award_id": "K2-2020-018",
                   "funder_id": "https://openalex.org/F4320327756",
                   "funder_display_name": "National University of Science and Technology"
+                },
+                {
+                  "id": "https://openalex.org/G1863003419",
+                  "display_name": null,
+                  "funder_award_id": "DEAC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320306076",
+                  "funder_display_name": "National Science Foundation"
                 },
                 {
                   "id": "https://openalex.org/G2211902176",
@@ -57228,11 +57516,123 @@
                   "funder_display_name": "Russian Science Foundation"
                 },
                 {
+                  "id": "https://openalex.org/G2287611682",
+                  "display_name": null,
+                  "funder_award_id": "AC02‐06CH11357",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G2618837358",
+                  "display_name": null,
+                  "funder_award_id": "05CH11231",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G262962599",
+                  "display_name": null,
+                  "funder_award_id": "AC02‐06CH11357",
+                  "funder_id": "https://openalex.org/F4320306084",
+                  "funder_display_name": "U.S. Department of Energy"
+                },
+                {
+                  "id": "https://openalex.org/G2638771445",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320338284",
+                  "funder_display_name": "Argonne National Laboratory"
+                },
+                {
+                  "id": "https://openalex.org/G30714459",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02-05CH11231.",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G3075337988",
+                  "display_name": null,
+                  "funder_award_id": "06CH11357",
+                  "funder_id": "https://openalex.org/F4320338284",
+                  "funder_display_name": "Argonne National Laboratory"
+                },
+                {
+                  "id": "https://openalex.org/G3589692066",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02-06CH11357",
+                  "funder_id": "https://openalex.org/F4320337367",
+                  "funder_display_name": "Division of Materials Research"
+                },
+                {
+                  "id": "https://openalex.org/G3967535168",
+                  "display_name": null,
+                  "funder_award_id": "DE‐AC02‐05CH11231",
+                  "funder_id": "https://openalex.org/F4320337367",
+                  "funder_display_name": "Division of Materials Research"
+                },
+                {
+                  "id": "https://openalex.org/G4054269932",
+                  "display_name": null,
+                  "funder_award_id": "17‐72‐20022",
+                  "funder_id": "https://openalex.org/F4320324099",
+                  "funder_display_name": "Russian Science Foundation"
+                },
+                {
+                  "id": "https://openalex.org/G419881185",
+                  "display_name": null,
+                  "funder_award_id": "DEAC02–05CH11231",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G426311843",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC- 02-06CH11357",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
                   "id": "https://openalex.org/G42916606",
                   "display_name": null,
                   "funder_award_id": "DE AC02 05CH11231",
                   "funder_id": "https://openalex.org/F4320306084",
                   "funder_display_name": "U.S. Department of Energy"
+                },
+                {
+                  "id": "https://openalex.org/G4501827968",
+                  "display_name": null,
+                  "funder_award_id": "AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G498139845",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G513797252",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02–06CH11357",
+                  "funder_id": "https://openalex.org/F4320306076",
+                  "funder_display_name": "National Science Foundation"
+                },
+                {
+                  "id": "https://openalex.org/G5387317844",
+                  "display_name": null,
+                  "funder_award_id": "AC02‐06CH11357",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G650090426",
+                  "display_name": null,
+                  "funder_award_id": "AC02–05CH11231",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
                 },
                 {
                   "id": "https://openalex.org/G6554708109",
@@ -57242,11 +57642,39 @@
                   "funder_display_name": "U.S. Department of Energy"
                 },
                 {
+                  "id": "https://openalex.org/G6652958823",
+                  "display_name": null,
+                  "funder_award_id": "05CH11231",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G6918803902",
+                  "display_name": null,
+                  "funder_award_id": "06CH11357",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
                   "id": "https://openalex.org/G7321818630",
                   "display_name": null,
                   "funder_award_id": "075-00250-20-03",
                   "funder_id": "https://openalex.org/F4320327494",
                   "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation"
+                },
+                {
+                  "id": "https://openalex.org/G7583137537",
+                  "display_name": null,
+                  "funder_award_id": "06CH11357",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G7828713229",
+                  "display_name": null,
+                  "funder_award_id": "DMR-1905662",
+                  "funder_id": "https://openalex.org/F4320337367",
+                  "funder_display_name": "Division of Materials Research"
                 },
                 {
                   "id": "https://openalex.org/G8801010327",
@@ -57261,6 +57689,13 @@
                   "funder_award_id": "1905662",
                   "funder_id": "https://openalex.org/F4320306076",
                   "funder_display_name": "National Science Foundation"
+                },
+                {
+                  "id": "https://openalex.org/G993149817",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02-06CH11357 ",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
                 }
               ],
               "funders": [
@@ -57288,14 +57723,37 @@
                   "id": "https://openalex.org/F4320327756",
                   "display_name": "National University of Science and Technology",
                   "ror": "https://ror.org/019vsm959"
+                },
+                {
+                  "id": "https://openalex.org/F4320332359",
+                  "display_name": "Office of Science",
+                  "ror": "https://ror.org/00mmn6b08"
+                },
+                {
+                  "id": "https://openalex.org/F4320337367",
+                  "display_name": "Division of Materials Research",
+                  "ror": "https://ror.org/01pc7k308"
+                },
+                {
+                  "id": "https://openalex.org/F4320337480",
+                  "display_name": "Basic Energy Sciences",
+                  "ror": "https://ror.org/05mg91w61"
+                },
+                {
+                  "id": "https://openalex.org/F4320338284",
+                  "display_name": "Argonne National Laboratory",
+                  "ror": "https://ror.org/05gvnxz63"
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
-              "referenced_works_count": 40,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W3029616183.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W3029616183.grobid-xml"
+              },
+              "referenced_works_count": 41,
               "referenced_works": [
                 "https://openalex.org/W166833027",
                 "https://openalex.org/W1491643689",
@@ -57310,6 +57768,7 @@
                 "https://openalex.org/W2001935586",
                 "https://openalex.org/W2007695974",
                 "https://openalex.org/W2011846953",
+                "https://openalex.org/W2028431293",
                 "https://openalex.org/W2032719166",
                 "https://openalex.org/W2040740586",
                 "https://openalex.org/W2052637367",
@@ -57566,6 +58025,10 @@
               },
               "counts_by_year": [
                 {
+                  "year": 2026,
+                  "cited_by_count": 1
+                },
+                {
                   "year": 2023,
                   "cited_by_count": 1
                 },
@@ -57578,7 +58041,7 @@
                   "cited_by_count": 3
                 }
               ],
-              "updated_date": "2026-10-27T15:51:10.671819",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2020-06-05T00:00:00"
             }
           }
@@ -57591,7 +58054,7 @@
         "openalex_id": "https://openalex.org/W3029616183",
         "landing_page_url": "https://doi.org/10.1063/5.0015535",
         "pdf_url": "http://doc.rero.ch/record/329492/files/pul_sap.pdf",
-        "cited_by_count": 5,
+        "cited_by_count": 6,
         "is_oa": true,
         "oa_status": "green"
       }
@@ -58010,6 +58473,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -58276,17 +58740,17 @@
                 "value_usd": 2200
               },
               "apc_paid": null,
-              "fwci": 0.0903,
+              "fwci": 0.0855,
               "has_fulltext": false,
               "cited_by_count": 3,
               "citation_normalized_percentile": {
-                "value": 0.36258459,
+                "value": 0.3376243,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 96
+                "min": 88,
+                "max": 95
               },
               "biblio": {
                 "volume": "578",
@@ -58624,7 +59088,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -58643,8 +59106,8 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 30,
@@ -59114,6 +59577,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -59371,11 +59835,11 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.3892,
+              "fwci": 0.3765,
               "has_fulltext": false,
               "cited_by_count": 5,
               "citation_normalized_percentile": {
-                "value": 0.54216293,
+                "value": 0.5293748,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -59640,13 +60104,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 34,
@@ -60941,6 +61404,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "arxiv",
                 "crossref",
@@ -61209,8 +61673,8 @@
                 {
                   "author_position": "middle",
                   "author": {
-                    "id": null,
-                    "display_name": "Bernardo Barbiellini",
+                    "id": "https://openalex.org/A5009553286",
+                    "display_name": "B. Barbiellini",
                     "orcid": "https://orcid.org/0000-0002-3309-1362",
                     "observed_orcids": [
                       "https://orcid.org/0000-0002-3309-1362"
@@ -61307,8 +61771,8 @@
                 {
                   "author_position": "last",
                   "author": {
-                    "id": null,
-                    "display_name": "Vasiliy D. Buchelnikov",
+                    "id": "https://openalex.org/A5046178226",
+                    "display_name": "V. D. Buchelnikov",
                     "orcid": "https://orcid.org/0000-0002-5638-255X",
                     "observed_orcids": [
                       "https://orcid.org/0000-0002-5638-255X"
@@ -61373,17 +61837,17 @@
                 "value_usd": 3500
               },
               "apc_paid": null,
-              "fwci": 1.5502,
-              "has_fulltext": false,
+              "fwci": 1.4786,
+              "has_fulltext": true,
               "cited_by_count": 10,
               "citation_normalized_percentile": {
-                "value": 0.83522137,
+                "value": 0.82305593,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 97
+                "min": 88,
+                "max": 96
               },
               "biblio": {
                 "volume": "127",
@@ -61801,7 +62265,6 @@
                 "raw_type": "text"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -61832,13 +62295,17 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
-              "referenced_works_count": 26,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W3021720715.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W3021720715.grobid-xml"
+              },
+              "referenced_works_count": 27,
               "referenced_works": [
                 "https://openalex.org/W347524330",
+                "https://openalex.org/W606523708",
                 "https://openalex.org/W1965675955",
                 "https://openalex.org/W1972012980",
                 "https://openalex.org/W1976515283",
@@ -62116,7 +62583,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-27T15:51:10.671819",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2020-05-13T00:00:00"
             }
           }
@@ -62501,7 +62968,7 @@
                 "doi": "https://doi.org/10.1103/physrevb.102.045127",
                 "mag": "3047063735"
               },
-              "language": "lv",
+              "language": "en",
               "primary_location": {
                 "id": "doi:10.1103/physrevb.102.045127",
                 "doi": "https://doi.org/10.1103/physrevb.102.045127",
@@ -62549,6 +63016,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "arxiv",
                 "crossref",
@@ -63132,16 +63600,16 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 1.2651,
-              "has_fulltext": false,
+              "fwci": 1.1208,
+              "has_fulltext": true,
               "cited_by_count": 21,
               "citation_normalized_percentile": {
-                "value": 0.77343521,
+                "value": 0.74721383,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 88,
+                "min": 87,
                 "max": 98
               },
               "biblio": {
@@ -63374,7 +63842,7 @@
                 }
               ],
               "mesh": [],
-              "locations_count": 3,
+              "locations_count": 4,
               "locations": [
                 {
                   "id": "doi:10.1103/physrevb.102.045127",
@@ -63455,6 +63923,37 @@
                   "raw_type": "text"
                 },
                 {
+                  "id": "pmh:oai:doc.rero.ch:20200813090041-XB",
+                  "doi": null,
+                  "is_oa": false,
+                  "landing_page_url": "http://doc.rero.ch/record/328872/files/puk_esb.pdf",
+                  "pdf_url": "http://doc.rero.ch/record/328872/files/puk_esb.pdf",
+                  "source": {
+                    "id": "https://openalex.org/S4306400148",
+                    "display_name": "reroDoc Digital Library",
+                    "issn_l": null,
+                    "issn": null,
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": false,
+                    "listed_in": [],
+                    "host_organization": "https://openalex.org/I67311998",
+                    "host_organization_name": "European Organization for Nuclear Research",
+                    "host_organization_lineage": [
+                      "https://openalex.org/I67311998"
+                    ],
+                    "host_organization_lineage_names": [],
+                    "type": "repository"
+                  },
+                  "license": null,
+                  "license_id": null,
+                  "version": "submittedVersion",
+                  "is_accepted": false,
+                  "is_published": false,
+                  "raw_source_name": "",
+                  "raw_type": null
+                },
+                {
                   "id": "doi:10.48550/arxiv.2008.02553",
                   "doi": "https://doi.org/10.48550/arxiv.2008.02553",
                   "is_oa": true,
@@ -63522,7 +64021,6 @@
                 "raw_type": "text"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -63558,10 +64056,13 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W3047063735.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W3047063735.grobid-xml"
+              },
               "referenced_works_count": 65,
               "referenced_works": [
                 "https://openalex.org/W1127109543",
@@ -63884,7 +64385,7 @@
               "counts_by_year": [
                 {
                   "year": 2026,
-                  "cited_by_count": 2
+                  "cited_by_count": 3
                 },
                 {
                   "year": 2025,
@@ -63900,14 +64401,14 @@
                 },
                 {
                   "year": 2022,
-                  "cited_by_count": 6
+                  "cited_by_count": 5
                 },
                 {
                   "year": 2021,
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2020-08-10T00:00:00"
             }
           }
@@ -64276,7 +64777,7 @@
             "landing_page_url": "https://doi.org/10.1103/physrevb.101.075115",
             "pdf_url": null,
             "venue": "Physical review. B./Physical review. B",
-            "cited_by_count": 35,
+            "cited_by_count": 36,
             "is_oa": true,
             "oa_status": "green",
             "raw": {
@@ -64291,7 +64792,7 @@
                 "doi": "https://doi.org/10.1103/physrevb.101.075115",
                 "mag": "2941758208"
               },
-              "language": "lv",
+              "language": "en",
               "primary_location": {
                 "id": "doi:10.1103/physrevb.101.075115",
                 "doi": "https://doi.org/10.1103/physrevb.101.075115",
@@ -64339,6 +64840,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "arxiv",
                 "crossref",
@@ -65022,16 +65524,16 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 6.6209,
-              "has_fulltext": false,
-              "cited_by_count": 35,
+              "fwci": 4.0554,
+              "has_fulltext": true,
+              "cited_by_count": 36,
               "citation_normalized_percentile": {
-                "value": 0.96447548,
+                "value": 0.93899616,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": true
               },
               "cited_by_percentile_year": {
-                "min": 94,
+                "min": 95,
                 "max": 99
               },
               "biblio": {
@@ -65476,15 +65978,29 @@
                 "raw_type": "text"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Peace, justice, and strong institutions",
-                  "score": 0.800000011920929,
-                  "id": "https://metadata.un.org/sdg/16"
-                }
-              ],
               "study_designs": [],
               "awards": [
+                {
+                  "id": "https://openalex.org/G122673668",
+                  "display_name": null,
+                  "funder_award_id": "DE–AC02–05CH11231",
+                  "funder_id": "https://openalex.org/F4320317220",
+                  "funder_display_name": "National Energy Research Scientific Computing Center"
+                },
+                {
+                  "id": "https://openalex.org/G1286236842",
+                  "display_name": null,
+                  "funder_award_id": "-AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320306084",
+                  "funder_display_name": "U.S. Department of Energy"
+                },
+                {
+                  "id": "https://openalex.org/G1286251239",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
                 {
                   "id": "https://openalex.org/G1294746951",
                   "display_name": "ELECTRONIC STRUCTURE, SPECTROSCOPY, AND CORRELATION EFFECTS IN NOVEL MATERIALS",
@@ -65500,11 +66016,39 @@
                   "funder_display_name": "U.S. Department of Energy"
                 },
                 {
+                  "id": "https://openalex.org/G1677143136",
+                  "display_name": null,
+                  "funder_award_id": "05CH11231",
+                  "funder_id": "https://openalex.org/F4320317220",
+                  "funder_display_name": "National Energy Research Scientific Computing Center"
+                },
+                {
                   "id": "https://openalex.org/G2107171531",
                   "display_name": null,
                   "funder_award_id": "CA 16218",
                   "funder_id": "https://openalex.org/F4320320366",
                   "funder_display_name": "European Cooperation in Science and Technology"
+                },
+                {
+                  "id": "https://openalex.org/G2618837358",
+                  "display_name": null,
+                  "funder_award_id": "05CH11231",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G2684293934",
+                  "display_name": null,
+                  "funder_award_id": "DE-FG-02-07ER46352",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G30714459",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02-05CH11231.",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
                 },
                 {
                   "id": "https://openalex.org/G4054269932",
@@ -65514,6 +66058,13 @@
                   "funder_display_name": "Russian Science Foundation"
                 },
                 {
+                  "id": "https://openalex.org/G419881185",
+                  "display_name": null,
+                  "funder_award_id": "DEAC02–05CH11231",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
                   "id": "https://openalex.org/G42916606",
                   "display_name": null,
                   "funder_award_id": "DE AC02 05CH11231",
@@ -65521,11 +66072,74 @@
                   "funder_display_name": "U.S. Department of Energy"
                 },
                 {
+                  "id": "https://openalex.org/G4501827968",
+                  "display_name": null,
+                  "funder_award_id": "AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G498139845",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
+                  "id": "https://openalex.org/G5076365615",
+                  "display_name": null,
+                  "funder_award_id": "AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320317220",
+                  "funder_display_name": "National Energy Research Scientific Computing Center"
+                },
+                {
+                  "id": "https://openalex.org/G526056898",
+                  "display_name": "ELECTRONIC STRUCTURE, SPECTROSCOPY AND CORRELATION EFFECTS IN NOVEL MATERIALS",
+                  "funder_award_id": "FG02-07ER46352",
+                  "funder_id": "https://openalex.org/F4320306084",
+                  "funder_display_name": "U.S. Department of Energy"
+                },
+                {
+                  "id": "https://openalex.org/G5648016710",
+                  "display_name": null,
+                  "funder_award_id": "DE-FG02",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G6337622905",
+                  "display_name": null,
+                  "funder_award_id": "DE-AC02-05CH11231",
+                  "funder_id": "https://openalex.org/F4320322725",
+                  "funder_display_name": "China Scholarship Council"
+                },
+                {
+                  "id": "https://openalex.org/G650090426",
+                  "display_name": null,
+                  "funder_award_id": "AC02–05CH11231",
+                  "funder_id": "https://openalex.org/F4320337480",
+                  "funder_display_name": "Basic Energy Sciences"
+                },
+                {
+                  "id": "https://openalex.org/G6652958823",
+                  "display_name": null,
+                  "funder_award_id": "05CH11231",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
+                },
+                {
                   "id": "https://openalex.org/G6728717043",
                   "display_name": "CENTER FOR THE COMPUTATIONAL DESIGN OF FUNCTIONAL LAYERED MATERIALS",
                   "funder_award_id": "DESC0012575",
                   "funder_id": "https://openalex.org/F4320306084",
                   "funder_display_name": "U.S. Department of Energy"
+                },
+                {
+                  "id": "https://openalex.org/G7424372115",
+                  "display_name": "ELECTRONIC STRUCTURE, SPECTROSCOPY AND CORRELATION EFFECTS IN NOVEL MATERIALS",
+                  "funder_award_id": "FG02-07ER46352",
+                  "funder_id": "https://openalex.org/F4320332359",
+                  "funder_display_name": "Office of Science"
                 }
               ],
               "funders": [
@@ -65535,9 +66149,24 @@
                   "ror": "https://ror.org/01bj3aw27"
                 },
                 {
+                  "id": "https://openalex.org/F4320310142",
+                  "display_name": "Tulane University",
+                  "ror": "https://ror.org/04vmvtb21"
+                },
+                {
+                  "id": "https://openalex.org/F4320317220",
+                  "display_name": "National Energy Research Scientific Computing Center",
+                  "ror": "https://ror.org/05v3mvq14"
+                },
+                {
                   "id": "https://openalex.org/F4320320366",
                   "display_name": "European Cooperation in Science and Technology",
                   "ror": "https://ror.org/01bstzn19"
+                },
+                {
+                  "id": "https://openalex.org/F4320322725",
+                  "display_name": "China Scholarship Council",
+                  "ror": "https://ror.org/04atp4p48"
                 },
                 {
                   "id": "https://openalex.org/F4320324099",
@@ -65556,11 +66185,14 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
-              "referenced_works_count": 74,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W2941758208.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W2941758208.grobid-xml"
+              },
+              "referenced_works_count": 73,
               "referenced_works": [
                 "https://openalex.org/W1493273996",
                 "https://openalex.org/W1531048833",
@@ -65634,7 +66266,6 @@
                 "https://openalex.org/W2963657244",
                 "https://openalex.org/W2983766120",
                 "https://openalex.org/W2995245597",
-                "https://openalex.org/W3098076414",
                 "https://openalex.org/W4243285687"
               ],
               "related_works": [
@@ -65883,7 +66514,7 @@
               "counts_by_year": [
                 {
                   "year": 2026,
-                  "cited_by_count": 2
+                  "cited_by_count": 3
                 },
                 {
                   "year": 2025,
@@ -65891,7 +66522,7 @@
                 },
                 {
                   "year": 2024,
-                  "cited_by_count": 2
+                  "cited_by_count": 3
                 },
                 {
                   "year": 2023,
@@ -65899,7 +66530,7 @@
                 },
                 {
                   "year": 2022,
-                  "cited_by_count": 8
+                  "cited_by_count": 7
                 },
                 {
                   "year": 2021,
@@ -65910,7 +66541,7 @@
                   "cited_by_count": 6
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-09T13:22:03.289127",
               "created_date": "2019-05-03T00:00:00"
             }
           }
@@ -65920,7 +66551,7 @@
         "volume": "101",
         "issue": "7",
         "landing_page_url": "https://doi.org/10.1103/physrevb.101.075115",
-        "cited_by_count": 35,
+        "cited_by_count": 36,
         "is_oa": true,
         "oa_status": "green"
       }
@@ -67060,6 +67691,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -67390,16 +68022,16 @@
               "corresponding_institution_ids": [],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 0.9026,
+              "fwci": 0.8493,
               "has_fulltext": false,
               "cited_by_count": 22,
               "citation_normalized_percentile": {
-                "value": 0.69483988,
+                "value": 0.67615882,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 98
               },
               "biblio": {
@@ -67490,47 +68122,52 @@
                 {
                   "id": "https://openalex.org/keywords/segregation",
                   "display_name": "segregation",
-                  "score": 0.6700000166893005
+                  "score": 0.7160000205039978
                 },
                 {
                   "id": "https://openalex.org/keywords/ni2mnga",
                   "display_name": "Ni2MnGa",
-                  "score": 0.7749999761581421
+                  "score": 0.7429999709129333
                 },
                 {
                   "id": "https://openalex.org/keywords/ni2mnin",
                   "display_name": "Ni2MnIn",
-                  "score": 0.8360000252723694
+                  "score": 0.8420000076293945
                 },
                 {
                   "id": "https://openalex.org/keywords/ni2mnsn",
                   "display_name": "Ni2MnSn",
-                  "score": 0.9629999995231628
-                },
-                {
-                  "id": "https://openalex.org/keywords/phase-decomposition",
-                  "display_name": "phase decomposition",
-                  "score": 0.5989999771118164
-                },
-                {
-                  "id": "https://openalex.org/keywords/martensitic-transformation",
-                  "display_name": "martensitic transformation",
-                  "score": 0.9409999847412109
-                },
-                {
-                  "id": "https://openalex.org/keywords/ferromagnetic-order",
-                  "display_name": "ferromagnetic ordering",
-                  "score": 0.7760000228881836
-                },
-                {
-                  "id": "https://openalex.org/keywords/antiferromagnetic-order",
-                  "display_name": "antiferromagnetic ordering",
-                  "score": 0.9610000252723694
+                  "score": 0.9660000205039978
                 },
                 {
                   "id": "https://openalex.org/keywords/phase-stability",
                   "display_name": "phase stability",
-                  "score": 0.4009999930858612
+                  "score": 0.5929999947547913
+                },
+                {
+                  "id": "https://openalex.org/keywords/martensitic-transformation",
+                  "display_name": "martensitic transformation",
+                  "score": 0.9179999828338623
+                },
+                {
+                  "id": "https://openalex.org/keywords/ferromagnetic-order",
+                  "display_name": "ferromagnetic ordering",
+                  "score": 0.652999997138977
+                },
+                {
+                  "id": "https://openalex.org/keywords/antiferromagnetic-order",
+                  "display_name": "antiferromagnetic ordering",
+                  "score": 0.9679999947547913
+                },
+                {
+                  "id": "https://openalex.org/keywords/alloy-decomposition",
+                  "display_name": "alloy decomposition",
+                  "score": 0.3930000066757202
+                },
+                {
+                  "id": "https://openalex.org/keywords/first-principles-calculations",
+                  "display_name": "first-principles calculations",
+                  "score": 0.6240000128746033
                 }
               ],
               "concepts": [
@@ -67683,7 +68320,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [
                 {
@@ -67738,11 +68374,11 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
-              "referenced_works_count": 78,
+              "referenced_works_count": 77,
               "referenced_works": [
                 "https://openalex.org/W613069045",
                 "https://openalex.org/W832976576",
@@ -67820,8 +68456,7 @@
                 "https://openalex.org/W2808000724",
                 "https://openalex.org/W2963947097",
                 "https://openalex.org/W3013766240",
-                "https://openalex.org/W3022371977",
-                "https://openalex.org/W3103030867"
+                "https://openalex.org/W3022371977"
               ],
               "related_works": [
                 "https://openalex.org/W4320082133",
@@ -68141,7 +68776,7 @@
                   "cited_by_count": 1
                 }
               ],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-08T12:12:28.789561",
               "created_date": "2019-08-29T00:00:00"
             }
           }
@@ -68553,7 +69188,7 @@
           "has_fulltext": true,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.05671372,
+            "value": 0.05707458,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -69017,10 +69652,13 @@
             }
           ],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": true,
+            "pdf": true
           },
-          "content_urls": null,
+          "content_urls": {
+            "pdf": "https://content.openalex.org/works/W2958652708.pdf",
+            "grobid_xml": "https://content.openalex.org/works/W2958652708.grobid-xml"
+          },
           "referenced_works_count": 15,
           "referenced_works": [
             "https://openalex.org/W1644688680",
@@ -69495,7 +70133,7 @@
             ]
           },
           "counts_by_year": [],
-          "updated_date": "2026-10-30T12:39:25.321706",
+          "updated_date": "2026-11-04T10:54:05.112534",
           "created_date": "2019-07-23T00:00:00",
           "study_designs": [],
           "sustainable_development_goals_aurora": [
@@ -69505,7 +70143,8 @@
               "id": "https://metadata.un.org/sdg/7"
             }
           ],
-          "volume": null
+          "volume": null,
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -69581,6 +70220,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -69807,7 +70447,7 @@
               "has_fulltext": true,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.05671372,
+                "value": 0.05707458,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -70246,13 +70886,6 @@
                 "raw_type": "journal-article"
               },
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [
-                {
-                  "display_name": "Affordable and clean energy",
-                  "score": 0.8399999737739563,
-                  "id": "https://metadata.un.org/sdg/7"
-                }
-              ],
               "study_designs": [],
               "awards": [
                 {
@@ -70278,10 +70911,13 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": true,
+                "pdf": true
               },
-              "content_urls": null,
+              "content_urls": {
+                "pdf": "https://content.openalex.org/works/W2958652708.pdf",
+                "grobid_xml": "https://content.openalex.org/works/W2958652708.grobid-xml"
+              },
               "referenced_works_count": 15,
               "referenced_works": [
                 "https://openalex.org/W1644688680",
@@ -70756,7 +71392,7 @@
                 ]
               },
               "counts_by_year": [],
-              "updated_date": "2026-10-30T12:39:25.321706",
+              "updated_date": "2026-11-04T10:54:05.112534",
               "created_date": "2019-07-23T00:00:00"
             }
           }
@@ -71420,6 +72056,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -71683,13 +72320,13 @@
               "has_fulltext": false,
               "cited_by_count": 2,
               "citation_normalized_percentile": {
-                "value": 0.1748987,
+                "value": 0.18515541,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
-                "max": 96
+                "min": 88,
+                "max": 95
               },
               "biblio": {
                 "volume": "549",
@@ -71999,7 +72636,6 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [
@@ -72015,8 +72651,8 @@
                 }
               ],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 18,
@@ -72394,6 +73030,7 @@
               },
               "volume": null,
               "type": "conference-paper",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -72574,16 +73211,16 @@
               ],
               "apc_list": null,
               "apc_paid": null,
-              "fwci": 1.0952,
+              "fwci": 1.0863,
               "has_fulltext": false,
               "cited_by_count": 3,
               "citation_normalized_percentile": {
-                "value": 0.80156829,
+                "value": 0.79791442,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
               "cited_by_percentile_year": {
-                "min": 89,
+                "min": 88,
                 "max": 94
               },
               "biblio": {
@@ -72792,13 +73429,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 0,
@@ -73323,7 +73959,7 @@
           "has_fulltext": false,
           "cited_by_count": 0,
           "citation_normalized_percentile": {
-            "value": 0.13971389,
+            "value": 0.14314381,
             "is_in_top_1_percent": false,
             "is_in_top_10_percent": false
           },
@@ -73577,8 +74213,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 4,
@@ -73726,7 +74362,8 @@
           },
           "counts_by_year": [],
           "updated_date": "2026-10-12T09:40:04.860316",
-          "created_date": "2017-08-17T00:00:00"
+          "created_date": "2017-08-17T00:00:00",
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -73795,6 +74432,7 @@
               },
               "volume": null,
               "type": "conference-paper",
+              "is_traditional": true,
               "indexed_in": [
                 "crossref"
               ],
@@ -73979,7 +74617,7 @@
               "has_fulltext": false,
               "cited_by_count": 0,
               "citation_normalized_percentile": {
-                "value": 0.13971389,
+                "value": 0.14314381,
                 "is_in_top_1_percent": false,
                 "is_in_top_10_percent": false
               },
@@ -74228,13 +74866,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 4,
@@ -74602,8 +75239,8 @@
               "display_name": "Microstructure and mechanical properties",
               "score": 0.0008999999845400453,
               "subfield": {
-                "id": "https://openalex.org/subfields/2505",
-                "display_name": "Materials Chemistry"
+                "id": "https://openalex.org/subfields/2506",
+                "display_name": "Metals and Alloys"
               },
               "field": {
                 "id": "https://openalex.org/fields/25",
@@ -74766,8 +75403,8 @@
           "awards": [],
           "funders": [],
           "has_content": {
-            "pdf": false,
-            "grobid_xml": false
+            "grobid_xml": false,
+            "pdf": false
           },
           "content_urls": null,
           "referenced_works_count": 0,
@@ -74787,7 +75424,8 @@
           "abstract_inverted_index": null,
           "counts_by_year": [],
           "updated_date": "2026-10-28T10:33:24.094632",
-          "created_date": "2026-01-08T00:00:00"
+          "created_date": "2026-01-08T00:00:00",
+          "is_traditional": true
         },
         "sources": [
           "openalex_api"
@@ -74854,6 +75492,7 @@
               },
               "volume": null,
               "type": "article",
+              "is_traditional": true,
               "indexed_in": [],
               "open_access": {
                 "is_oa": false,
@@ -74990,8 +75629,8 @@
                   "display_name": "Microstructure and mechanical properties",
                   "score": 0.0008999999845400453,
                   "subfield": {
-                    "id": "https://openalex.org/subfields/2505",
-                    "display_name": "Materials Chemistry"
+                    "id": "https://openalex.org/subfields/2506",
+                    "display_name": "Metals and Alloys"
                   },
                   "field": {
                     "id": "https://openalex.org/fields/25",
@@ -75149,13 +75788,12 @@
               ],
               "best_oa_location": null,
               "sustainable_development_goals": [],
-              "sustainable_development_goals_aurora": [],
               "study_designs": [],
               "awards": [],
               "funders": [],
               "has_content": {
-                "pdf": false,
-                "grobid_xml": false
+                "grobid_xml": false,
+                "pdf": false
               },
               "content_urls": null,
               "referenced_works_count": 0,
